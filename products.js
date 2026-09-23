@@ -13,6 +13,18 @@ document.addEventListener('DOMContentLoaded',()=>{
   const mobileCount=document.getElementById('mobile-basket-count');
   const navToggle=document.getElementById('nav-toggle');
   const esc=(v='')=>String(v).replace(/[&<>'\"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[ch]));
+  const smartImages={
+    'smart-home-packages':'https://images.pexels.com/photos/28549934/pexels-photo-28549934.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'connectivity-networking':'https://images.pexels.com/photos/34241691/pexels-photo-34241691.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'smart-security':'https://images.pexels.com/photos/28117882/pexels-photo-28117882.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'smart-lighting-power':'https://images.pexels.com/photos/28549934/pexels-photo-28549934.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'smart-entertainment':'https://images.pexels.com/photos/29606737/pexels-photo-29606737.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'smart-appliances':'https://images.pexels.com/photos/6856831/pexels-photo-6856831.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'ai-automation':'https://images.pexels.com/photos/34241691/pexels-photo-34241691.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'smart-energy':'https://images.pexels.com/photos/9875680/pexels-photo-9875680.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'smart-vehicle':'https://images.pexels.com/photos/34647485/pexels-photo-34647485.jpeg?auto=compress&cs=tinysrgb&w=700',
+    'ai-high-tech':'https://images.pexels.com/photos/34241691/pexels-photo-34241691.jpeg?auto=compress&cs=tinysrgb&w=700'
+  };
   let active='all';
   let basket=[];
   try{basket=JSON.parse(localStorage.getItem('mmgcEnquiryBasket')||'[]');if(!Array.isArray(basket))basket=[];}catch{basket=[];}
@@ -22,15 +34,12 @@ document.addEventListener('DOMContentLoaded',()=>{
   const singleMessage=(p,qty)=>encodeURIComponent(['Hello MMGC General Trading,','','Please provide a price / quotation for:',`Product: ${p.name}`,`Quantity: ${qty}`,`Unit: ${p.unit}`,p.price?`Listed package price / guide: ${p.price}`:'','','Please confirm exact specification, brand/model where applicable, availability, installation requirements, VAT and delivery.'].filter(Boolean).join('\n'));
   function renderFilters(){if(!filters)return;filters.innerHTML=categories.map(([key,label])=>`<button type="button" class="catalog-filter ${key===active?'active':''}" data-category="${esc(key)}">${esc(label)}</button>`).join('');}
   function categoryLabel(key){return (categories.find(c=>c[0]===key)||['',key])[1];}
-  function icon(key){return ({
-    'smart-home-packages':'HOME','connectivity-networking':'NET','smart-security':'SEC','smart-lighting-power':'PWR','smart-entertainment':'TV','smart-appliances':'APP','ai-automation':'AI','smart-energy':'SOL','smart-vehicle':'CAR','ai-high-tech':'TECH',
-    stationery:'✎',cartridges:'INK','computer-accessories':'USB','printers-office':'PRN',cleaning:'CLN',electrical:'⚡',furniture:'OFF',ppe:'PPE','general-supplies':'GEN'
-  }[key]||'GEN');}
+  function icon(key){return ({'smart-home-packages':'HOME','connectivity-networking':'NET','smart-security':'SEC','smart-lighting-power':'PWR','smart-entertainment':'TV','smart-appliances':'APP','ai-automation':'AI','smart-energy':'SOL','smart-vehicle':'CAR','ai-high-tech':'TECH',stationery:'✎',cartridges:'INK','computer-accessories':'USB','printers-office':'PRN',cleaning:'CLN',electrical:'⚡',furniture:'OFF',ppe:'PPE','general-supplies':'GEN'}[key]||'GEN');}
   function renderProducts(){
     if(!grid)return;
     const q=(search?.value||'').trim().toLowerCase();
     const rows=products.filter(p=>(active==='all'||p.category===active)&&(!q||[p.name,p.description,p.category,p.price||'',...(p.tags||[])].join(' ').toLowerCase().includes(q)));
-    grid.innerHTML=rows.map(p=>`<article class="product-card ${p.category==='smart-home-packages'?'package-card':''}" data-product="${esc(p.id)}"><div class="product-card-top"><span class="product-category">${esc(categoryLabel(p.category))}</span><span class="product-icon">${esc(icon(p.category))}</span></div><h3>${esc(p.name)}</h3>${p.price?`<div class="product-price">${esc(p.price)}</div>`:''}<p>${esc(p.description)}</p><label class="product-qty">Quantity <input type="number" min="1" step="1" value="1" data-qty="${esc(p.id)}"></label><div class="product-actions"><a class="request-price" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">Request Price</a><button type="button" class="add-enquiry" data-add="${esc(p.id)}">Add to Enquiry</button><a class="wa-order" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">WhatsApp Enquiry</a></div></article>`).join('');
+    grid.innerHTML=rows.map(p=>{const image=smartImages[p.category];return `<article class="product-card ${p.category==='smart-home-packages'?'package-card':''}" data-product="${esc(p.id)}">${image?`<img class="product-card-image" src="${image}" alt="${esc(p.name)}">`:''}<div class="product-card-top"><span class="product-category">${esc(categoryLabel(p.category))}</span><span class="product-icon">${esc(icon(p.category))}</span></div><h3>${esc(p.name)}</h3>${p.price?`<div class="product-price">${esc(p.price)}</div>`:''}<p>${esc(p.description)}</p><label class="product-qty">Quantity <input type="number" min="1" step="1" value="1" data-qty="${esc(p.id)}"></label><div class="product-actions"><a class="request-price" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">Request Price</a><button type="button" class="add-enquiry" data-add="${esc(p.id)}">Add to Enquiry</button><a class="wa-order" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">WhatsApp Enquiry</a></div></article>`;}).join('');
     if(empty)empty.hidden=rows.length!==0;
   }
   function renderBasket(){const clean=basket.filter(x=>getProduct(x.id));if(clean.length!==basket.length){basket=clean;save();}const totalQty=basket.reduce((s,x)=>s+(Number(x.qty)||0),0);if(basketCount)basketCount.textContent=`${basket.length} item${basket.length===1?'':'s'} · Qty ${totalQty}`;if(headerCount)headerCount.textContent=basket.length;if(mobileCount)mobileCount.textContent=basket.length;if(basketEmpty)basketEmpty.hidden=basket.length>0;if(!basketItems)return;basketItems.innerHTML=basket.map(x=>{const p=getProduct(x.id);const price=p?.price?` · ${p.price}`:'';return `<div class="basket-row"><div><b>${esc(p?.name||'Item')}</b><small>Unit: ${esc(p?.unit||'unit')}${esc(price)}</small></div><label>Qty<input type="number" min="1" step="1" value="${Number(x.qty)||1}" data-basket-qty="${esc(x.id)}"></label><button type="button" aria-label="Remove item" data-remove="${esc(x.id)}">×</button></div>`;}).join('');}
