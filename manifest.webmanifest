@@ -2,24 +2,24 @@
   "id": "/",
   "name": "MMGC General Trading",
   "short_name": "MMGC",
-  "description": "MMGC General Trading opportunities hub, procurement desk, tender support, jobs, products, supplier marketplace and business services in Lesotho.",
+  "description": "MMGC General Trading: Smart Homes, high-tech products, procurement, tender support, jobs, supplier marketplace and business services in Lesotho.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#eef6fa",
   "theme_color": "#082b4c",
-  "categories": ["business", "productivity", "utilities"],
+  "categories": ["business", "productivity", "utilities", "shopping"],
   "icons": [
     {"src":"/assets/mmgc-app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"},
     {"src":"/assets/mmgc-logo.png","sizes":"any","type":"image/png","purpose":"any"}
   ],
   "shortcuts": [
+    {"name":"MMGC Smart Homes","short_name":"Smart Homes","url":"/smart-home.html"},
+    {"name":"Products & High-Tech","short_name":"Products","url":"/products.html"},
     {"name":"Available Tenders & RFQs","short_name":"Tenders","url":"/tenders.html"},
-    {"name":"Tender Cost Calculator","short_name":"Costing","url":"/tender-calculator.html"},
     {"name":"Jobs & Consultancies","short_name":"Jobs","url":"/jobs.html"},
-    {"name":"Apply for a Job","short_name":"Apply","url":"/job-apply.html"},
-    {"name":"Products & Supplies","short_name":"Products","url":"/products.html"}
+    {"name":"Tender Cost Calculator","short_name":"Costing","url":"/tender-calculator.html"}
   ],
   "launch_handler": {"client_mode":"navigate-existing"}
 }
