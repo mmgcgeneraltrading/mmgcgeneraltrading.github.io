@@ -1,10 +1,11 @@
 (()=>{
   if(window.MMGC_SITE_INTEGRATION_LOADED)return;
   window.MMGC_SITE_INTEGRATION_LOADED=true;
+  const current=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+  const smartPages=new Set(['smart-home.html','smart-life.html','smart-energy.html','smart-vehicle.html','smart-security.html','ai-tech.html','products.html']);
   const load=(tag,attrs)=>{const key=attrs.src||attrs.href;if(!key)return;if(document.querySelector(`${tag}[src="${key}"],${tag}[href="${key}"]`))return;const el=document.createElement(tag);Object.entries(attrs).forEach(([k,v])=>el[k]=v);document.head.appendChild(el);};
   const ensureManifest=()=>{if(document.querySelector('link[rel="manifest"]'))return;const m=document.createElement('link');m.rel='manifest';m.href='manifest.webmanifest';document.head.appendChild(m);};
   const addSmartHomeBanner=()=>{
-    const current=(location.pathname.split('/').pop()||'index.html').toLowerCase();
     if(current!=='index.html'||document.querySelector('.mmgc-smart-home-banner'))return;
     const hero=document.querySelector('.hero');
     const intro=document.querySelector('.intro-strip');
@@ -19,21 +20,24 @@
     if(nav){
       nav.querySelectorAll('a[href="tenders.html"]').forEach(a=>a.textContent='Tenders & RFQs');
       nav.querySelectorAll('a[href="jobs.html"]').forEach(a=>a.textContent='Jobs & Consultancies');
-      let opp=nav.querySelector('a[href="opportunities.html"]');
-      if(!opp){opp=document.createElement('a');opp.href='opportunities.html';opp.textContent='Opportunities';const home=nav.querySelector('a[href="index.html"],a[href="#home"]');home?.insertAdjacentElement('afterend',opp);if(!home)nav.prepend(opp);}
       let smart=nav.querySelector('a[href="smart-home.html"]');
-      if(!smart){smart=document.createElement('a');smart.href='smart-home.html';smart.textContent='Smart Homes';opp?.insertAdjacentElement('afterend',smart);if(!opp)nav.prepend(smart);}else smart.textContent='Smart Homes';
+      if(!smart){smart=document.createElement('a');smart.href='smart-home.html';smart.textContent='Smart Homes';const home=nav.querySelector('a[href="index.html"],a[href="#home"]');home?.insertAdjacentElement('afterend',smart);if(!home)nav.prepend(smart);}else smart.textContent='Smart Homes';
       let products=nav.querySelector('a[href="products.html"]');
       if(!products){products=document.createElement('a');products.href='products.html';products.textContent='Products';smart?.insertAdjacentElement('afterend',products);if(!smart)nav.prepend(products);}else products.textContent='Products';
-      const tender=nav.querySelector('a[href="tenders.html"]');
-      if(tender&&tender.previousElementSibling!==products)products.insertAdjacentElement('afterend',tender);
-      let jobs=nav.querySelector('a[href="jobs.html"]');
-      if(!jobs){jobs=document.createElement('a');jobs.href='jobs.html';jobs.textContent='Jobs & Consultancies';tender?.insertAdjacentElement('afterend',jobs);}
-      else if(tender&&jobs.previousElementSibling!==tender)tender.insertAdjacentElement('afterend',jobs);
-      let applications=nav.querySelector('a[href="applications.html"]');
-      if(!applications){applications=document.createElement('a');applications.href='applications.html';applications.textContent='My Applications';jobs?.insertAdjacentElement('afterend',applications);}
-      else if(jobs&&applications.previousElementSibling!==jobs)jobs.insertAdjacentElement('afterend',applications);
-      const current=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+      if(!smartPages.has(current)){
+        let opp=nav.querySelector('a[href="opportunities.html"]');
+        if(!opp){opp=document.createElement('a');opp.href='opportunities.html';opp.textContent='Opportunities';const home=nav.querySelector('a[href="index.html"],a[href="#home"]');home?.insertAdjacentElement('afterend',opp);if(!home)nav.prepend(opp);}
+        if(smart&&opp&&smart.previousElementSibling!==opp)opp.insertAdjacentElement('afterend',smart);
+        if(products&&smart&&products.previousElementSibling!==smart)smart.insertAdjacentElement('afterend',products);
+        const tender=nav.querySelector('a[href="tenders.html"]');
+        if(tender&&tender.previousElementSibling!==products)products.insertAdjacentElement('afterend',tender);
+        let jobs=nav.querySelector('a[href="jobs.html"]');
+        if(!jobs){jobs=document.createElement('a');jobs.href='jobs.html';jobs.textContent='Jobs & Consultancies';tender?.insertAdjacentElement('afterend',jobs);}
+        else if(tender&&jobs.previousElementSibling!==tender)tender.insertAdjacentElement('afterend',jobs);
+        let applications=nav.querySelector('a[href="applications.html"]');
+        if(!applications){applications=document.createElement('a');applications.href='applications.html';applications.textContent='My Applications';jobs?.insertAdjacentElement('afterend',applications);}
+        else if(jobs&&applications.previousElementSibling!==jobs)jobs.insertAdjacentElement('afterend',applications);
+      }
       nav.querySelectorAll('a[href]').forEach(a=>{const target=(a.getAttribute('href')||'').split('#')[0].toLowerCase();if(target===current)a.setAttribute('aria-current','page');});
     }
     document.querySelectorAll('.main-nav a').forEach(a=>{if(a.dataset.mmgcNavBound)return;a.dataset.mmgcNavBound='1';a.addEventListener('click',()=>{const t=document.getElementById('nav-toggle');if(t)t.checked=false;});});
