@@ -1,0 +1,1 @@
+.product-card-image{width:calc(100% + 36px);height:150px;object-fit:cover;margin:-18px -18px 14px;border-radius:18px 18px 0 0;display:block}.package-card .product-card-image{height:175px}.product-card-image+ .product-card-top{margin-top:0}@media(max-width:720px){.product-card-image{height:190px}.package-card .product-card-image{height:210px}}
