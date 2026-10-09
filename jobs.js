@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   const allJobs=[...new Map(combined.map(x=>[x.id,x])).values()];
   const active=allJobs.filter(x=>x.deadline&&new Date(x.deadline)>=now).sort((a,b)=>new Date(a.deadline)-new Date(b.deadline));
   let type='all';
-  const verifyText=x=>x.verification==='double'?'Double verified':x.verification==='official'?'Official source verified':'Cross-checked';
-  const verifyClass=x=>x.verification==='double'?'double':x.verification==='official'?'official':'cross';
+  const verifyText=x=>x.verification==='double'?'Double verified':x.verification==='official'?'Official source verified':x.verification==='newspaper'?'Newspaper advert':'Cross-checked';
+  const verifyClass=x=>x.verification==='double'?'double':x.verification==='official'?'official':x.verification==='newspaper'?'newspaper':'cross';
   const schemaItems=active.filter(x=>x.type==='job').map(x=>({'@type':'JobPosting',title:x.title,description:x.summary,datePosted:(x.posted||'').slice(0,10),validThrough:x.deadline,hiringOrganization:{'@type':'Organization',name:x.employer},jobLocation:{'@type':'Place',address:{'@type':'PostalAddress',addressLocality:x.location,addressCountry:'LS'}},url:x.official}));
   if(schemaItems.length){const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify({'@context':'https://schema.org','@graph':schemaItems});document.head.appendChild(ld);}
 
