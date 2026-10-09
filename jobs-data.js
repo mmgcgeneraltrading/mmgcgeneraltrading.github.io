@@ -237,5 +237,26 @@ window.MMGC_JOBS = [
     requirements:['See the official LHDA Careers vacancy and downloadable notice for the complete qualifications, experience and submission requirements.'],
     application:'Use the official LHDA Careers page and vacancy document for the complete application instructions.',
     official:'https://www.lhda.org.ls/home/careers', primarySourceName:'LHDA Careers', verification:'official', verifiedAt:'2026-09-10T12:35:00+02:00'
-  }
+  },
+
+  {
+    id:'cbl-graduate-internship-intn27-2026', type:'job', employer:'Central Bank of Lesotho',
+    title:'Graduate Internship Opportunity', location:'Lesotho', arrangement:'1-year continuous internship programme · Ref INTN27',
+    posted:'2026-10-09T00:00:00+02:00', deadline:'2026-10-23T23:59:59+02:00', deadlineLabel:'23 Oct 2026 · exact closing time not stated',
+    summary:'The Central Bank of Lesotho is inviting top-performing Basotho graduates to a one-year internship programme with a monthly stipend. Placements are advertised across Finance, Human Resources, Research (Statistics), Research (Studies and Analysis) and Operations.',
+    requirements:['Basotho graduate.','Exceptional academic performance such as 1:1, 2:1, Cum Laude or Distinction.','Age 35 years or below.','Relevant Bachelor’s Degree or equivalent qualification for the advertised internship placement.','The newspaper advert lists qualification routes including Accounting/Commerce, Economics/Econometrics, Accounting Technician, Human Resources/Industrial Psychology/People Management, and quantitative fields such as Statistics, Data Science, Mathematics, Computer Science or Actuarial Science.'],
+    application:'Apply through the Central Bank of Lesotho careers website. Reconfirm the exact placement-to-qualification mapping on the official careers page before submitting.',
+    official:'https://centralbank.org.ls/careers/', officialLabel:'Central Bank Careers', primarySourceName:'Central Bank of Lesotho newspaper advert · Public Eye 9 Oct 2026',
+    verification:'newspaper', verifiedAt:'2026-10-09T00:00:00+02:00', discoveredVia:'Public Eye Careers & Workplace'
+  },
+  {
+    id:'cbl-hygiene-controller-2026', type:'job', employer:'Central Bank of Lesotho',
+    title:'Hygiene Controller', location:'Lesotho', arrangement:'Career opportunity · Ref HC',
+    posted:'2026-10-09T00:00:00+02:00', deadline:'2026-10-23T23:59:59+02:00', deadlineLabel:'23 Oct 2026 · exact closing time not stated',
+    summary:'The Central Bank of Lesotho is recruiting a Hygiene Controller to maintain clean, safe and welcoming Bank premises, including routine cleaning, sanitation, waste handling, stock monitoring, meeting refreshments, tableware control and flower-care duties.',
+    requirements:['LGCSE or equivalent qualification.','A pass in Mathematics and English is an added advantage.','Valid Food Handlers Certificate.','Basic Computer Training.','A minimum of 2 years of cleaner/janitor experience in a commercial, residential or industrial setting is preferred.','Basic verbal communication, interpersonal, time-management, multitasking and attention-to-detail skills.'],
+    application:'Apply through the Central Bank of Lesotho careers website before the closing date shown in the newspaper advert.',
+    official:'https://centralbank.org.ls/careers/', officialLabel:'Central Bank Careers', primarySourceName:'Central Bank of Lesotho newspaper advert · Public Eye 9 Oct 2026',
+    verification:'newspaper', verifiedAt:'2026-10-09T00:00:00+02:00', discoveredVia:'Public Eye Careers & Workplace'
+  },
 ];
