@@ -69,11 +69,13 @@ def google_jobs(api_key, fetch=request):
         tokens.add(token)
     raise ValueError('Search pagination exceeded 100 pages; refusing partial results')
 
-def main():
+def main(sources=('tenders', 'jobs')):
     data = json.loads(OUTPUT.read_text()) if OUTPUT.exists() else {'jobs': {'items': []}, 'tenders': {'items': []}}
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     failed = False
     for name, loader in [('tenders', lambda: tender_feed(request(FEED))), ('jobs', lambda: google_jobs(os.environ['SERPAPI_API_KEY']))]:
+        if name not in sources:
+            continue
         section = data.setdefault(name, {'items': []})
         section['lastAttempt'] = now
         try:
@@ -95,4 +97,8 @@ def main():
     return int(failed)
 
 if __name__ == '__main__':
-    raise SystemExit(main())
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--tenders-only', action='store_true', help='Refresh Selibeng notices without using Google Jobs API quota')
+    args = parser.parse_args()
+    raise SystemExit(main(('tenders',) if args.tenders_only else ('tenders', 'jobs')))

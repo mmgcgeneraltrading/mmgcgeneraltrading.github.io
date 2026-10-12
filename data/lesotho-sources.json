@@ -563,7 +563,48 @@
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.facebook.com/selibengls"
+    },
+    {
+      "name": "Directorate on Corruption and Economic Offences — Opportunities",
+      "url": "https://www.dceo.org.ls/opportunities/",
+      "kinds": [
+        "jobs",
+        "tenders",
+        "opportunities"
+      ],
+      "official": true,
+      "notes": "Opportunity index linked from the DCEO homepage.",
+      "checkedAt": "2026-10-12T21:19:00.489119+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.dceo.org.ls/opportunities/"
+    },
+    {
+      "name": "Lesotho Institute of Accountants — Careers",
+      "url": "https://lia.org.ls/careers/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "Careers page linked from the Institute’s homepage.",
+      "checkedAt": "2026-10-12T21:19:00.489881+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lia.org.ls/careers/"
+    },
+    {
+      "name": "Lesotho Institute of Accountants — Opportunities",
+      "url": "https://lia.org.ls/opportunities/",
+      "kinds": [
+        "opportunities"
+      ],
+      "official": true,
+      "notes": "Opportunity index linked from the Institute’s homepage.",
+      "checkedAt": "2026-10-12T21:19:00.490362+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lia.org.ls/opportunities/"
     }
   ],
-  "checkedAt": "2026-10-12T21:07:35.813960+00:00"
+  "checkedAt": "2026-10-12T21:19:04.073530+00:00"
 }

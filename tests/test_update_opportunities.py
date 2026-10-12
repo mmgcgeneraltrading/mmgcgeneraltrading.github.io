@@ -34,6 +34,19 @@ class DiscoveryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             u.google_jobs('test', lambda url: b'{"jobs_results":[],"serpapi_pagination":{"next_page_token":"same"}}')
 
+    def test_overnight_refresh_does_not_touch_jobs_or_call_search_api(self):
+        with TemporaryDirectory() as folder:
+            output = Path(folder) / 'results.json'
+            previous = {'jobs': {'items': [{'title': 'Existing job'}], 'updatedAt': 'old'}, 'tenders': {'items': []}}
+            output.write_text(json.dumps(previous))
+            feed = b'<rss><channel><item><title>New tender</title><link>https://selibeng.com/new-tender/</link></item></channel></rss>'
+            with patch.object(u, 'OUTPUT', output), patch.object(u, 'request', return_value=feed), patch.object(u, 'google_jobs') as search:
+                self.assertEqual(u.main(('tenders',)), 0)
+                search.assert_not_called()
+            current = json.loads(output.read_text())
+            self.assertEqual(current['jobs'], previous['jobs'])
+            self.assertEqual(current['tenders']['items'][0]['title'], 'New tender')
+
     def test_source_failure_preserves_previous_successful_results(self):
         with TemporaryDirectory() as folder:
             output = Path(folder) / 'results.json'

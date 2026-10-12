@@ -4,7 +4,7 @@ The site keeps curated tender/job records separate from automatically collected 
 
 ## Daily updates
 
-`.github/workflows/daily-opportunities.yml` runs at 05:00 UTC (07:00 Africa/Maseru) and supports **Run workflow**. GitHub schedules can be delayed and run only on the default branch; inactivity may disable schedules in public repositories.
+`.github/workflows/daily-opportunities.yml` runs at 05:00 UTC (07:00 Africa/Maseru), with additional tender/source checks at 22:00 and 02:00 UTC (midnight and 04:00 Africa/Maseru), and supports **Run workflow**. GitHub schedules can be delayed and run only on the default branch; inactivity may disable schedules in public repositories.
 
 - Selibeng: reads its tender category RSS feed. The feed contains the notices provided by Selibeng, not every historical article. These are discovery links, with deadlines marked for confirmation.
 - Google Jobs: uses SerpApi's `google_jobs` engine for `jobs lesotho`, following pagination until exhausted. Google results depend on location, date and indexing; this cannot guarantee all personalised browser results. A search result is not independent employer verification. Listings are refreshed as a complete source snapshot and are not added to curated records or assigned invented deadlines.
@@ -32,6 +32,8 @@ The updater exits nonzero if any source fails, while still saving successful sou
 
 ## Lesotho source directory
 
-`lesotho-sources.html` lists 43 issuer, employer, recruitment and publisher links, including all 17 requested URLs and additional source pages discovered in issuer navigation. Search and filters support jobs, tenders and general opportunities; all links remain available without JavaScript. Archived individual adverts are explicitly labelled.
+`lesotho-sources.html` lists 46 issuer, employer, recruitment and publisher links, including all 17 requested URLs and additional source pages discovered in issuer navigation. Search and filters support jobs, tenders and general opportunities; all links remain available without JavaScript. Archived individual adverts are explicitly labelled.
 
 `scripts/check_source_links.py` checks access over verified HTTPS and updates `data/lesotho-sources.json`. The daily workflow runs this check and publishes the resulting statuses alongside source discoveries. An HTTP response only verifies page access, not that its notices are current. Four sources could not be reached during the initial 43-link check; their warnings remain visible. The directory is not an exhaustive inventory of Lesotho domains.
+
+Overnight runs use `--tenders-only` and do not call Google Jobs or consume its API quota. These are scheduled data refreshes, not a continuously running agent or guaranteed exhaustive research. Hosted run success remains unverified until GitHub Actions access is available.

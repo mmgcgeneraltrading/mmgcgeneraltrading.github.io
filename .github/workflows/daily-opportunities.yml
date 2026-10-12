@@ -2,6 +2,7 @@ name: Daily opportunity discovery
 on:
   schedule:
     - cron: '0 5 * * *' # 07:00 Africa/Maseru; GitHub may delay scheduled runs.
+    - cron: '0 22,2 * * *' # Midnight and 04:00 Africa/Maseru: tender/source checks only.
   workflow_dispatch:
 permissions:
   contents: write
@@ -25,7 +26,13 @@ jobs:
         continue-on-error: true
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
-        run: python3 scripts/update_opportunities.py
+          REFRESH_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "$REFRESH_SCHEDULE" = "0 22,2 * * *" ]; then
+            python3 scripts/update_opportunities.py --tenders-only
+          else
+            python3 scripts/update_opportunities.py
+          fi
       - name: Check source directory access
         run: python3 scripts/check_source_links.py
       - name: Save discoveries and refresh status
