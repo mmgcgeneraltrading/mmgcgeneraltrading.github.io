@@ -91,6 +91,412 @@ id:'moh-negative-air-pressure-2026',issuerKey:'moh',issuer:'Ministry of Health /
 },
 {
 id:'moh-hvac-fridge-biosafety-maintenance-2026',issuerKey:'moh',issuer:'Ministry of Health / MOFDP Project Management Unit',title:'Repair, Service and Maintenance of Air Conditioners, Fridges and Biosafety Equipment',ref:'MOH/RSM/-2026',type:'major',categories:['services','maintenance','hvac','refrigeration','health'],summary:'Open competitive tender for repair, service and maintenance of air conditioners, fridges and biosafety equipment.',simple:'The Ministry of Health requires maintenance services for air conditioners, fridges and biosafety equipment. The newspaper notice states a virtual pre-bid meeting and a Bid Securing Declaration.',deadline:'2026-11-18T10:00:00+02:00',deadlineLabel:'18 November 2026 · 10:00',published:'9 October 2026',documentFee:{state:'public',label:'Free download from MOFPMU website'},bidSecurity:{state:'declaration',label:'Bid Securing Declaration · valid until 18 April 2027'},siteVisit:{state:'none',label:'No physical site visit stated in newspaper notice'},preBid:{state:'required',label:'Virtual pre-bid · 15 October 2026 · 14:00'},official:'https://www.mofpmu.org.ls/tenders/',verification:'newspaper',verifiedAt:'9 October 2026',lots:[{title:'Maintenance Services',text:'Repair, service and maintenance of air conditioners, fridges and biosafety equipment; detailed asset list and service requirements are in the bidding document.'}],checklist:['Download bidding document from MOFPMU.','Attend virtual pre-bid on 15 October at 14:00.','Send clarification requests by 28 October.','Prepare Bid Securing Declaration valid until 18 April 2027.','Submit before 10:00 on 18 November 2026.']
+},
+{
+  "id": "pmu-incinerator-maintenance-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance and Development Planning – Project Management Unit",
+  "title": "Repair, Service and Maintenance of Incinerators — Re-advertisement",
+  "ref": "MOFDP-PMU/MAINIC/-2026",
+  "type": "major",
+  "categories": [
+    "services",
+    "maintenance",
+    "health"
+  ],
+  "summary": "Re-advertised open competitive tender for repair, service and maintenance of incinerators. Clarification requests are due 20 October 2026.",
+  "simple": "Re-advertised open competitive tender for repair, service and maintenance of incinerators. Clarification requests are due 20 October 2026.",
+  "deadline": "2026-11-03T10:00:00+02:00",
+  "deadlineLabel": "3 November 2026 · 10:00 (Lesotho time)",
+  "published": "25 September 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from issuer website"
+  },
+  "bidSecurity": {
+    "state": "declaration",
+    "label": "Bid Securing Declaration · valid until 23 April 2027"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "No physical site visit identified — confirm with issuer"
+  },
+  "preBid": {
+    "state": "required",
+    "label": "Virtual pre-bid · 7 October 2026 · 14:00 (already passed; confirm eligibility)"
+  },
+  "official": "https://www.mofpmu.org.ls/tenders/",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "Maintenence-of-Incinerators-re-advertisment.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "delivery": "Submit sealed hard-copy bids to MOFDP-PMU, 4th Floor, MGC Office Park, corner Pope John Paul II and Mpilo Boulevards, Maseru. Confirm supply/service completion requirements in the bidding document."
+},
+{
+  "id": "pmu-monitoring-evaluation-tools-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance and Development Planning – Project Management Unit",
+  "title": "Supply, Printing and Delivery of Monitoring & Evaluation Tools",
+  "ref": "MOFDP-PMU/M&E-2026",
+  "type": "major",
+  "categories": [
+    "goods",
+    "printing",
+    "health"
+  ],
+  "summary": "Supply, printing and delivery of monitoring and evaluation tools. Clarification requests are due 19 October 2026; use the document’s complete print specifications and quantities.",
+  "simple": "Supply, printing and delivery of monitoring and evaluation tools. Clarification requests are due 19 October 2026; use the document’s complete print specifications and quantities.",
+  "deadline": "2026-11-03T10:00:00+02:00",
+  "deadlineLabel": "3 November 2026 · 10:00 (Lesotho time)",
+  "published": "25 September 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from issuer website"
+  },
+  "bidSecurity": {
+    "state": "declaration",
+    "label": "Bid Securing Declaration · valid until 23 April 2027"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "No physical site visit identified — confirm with issuer"
+  },
+  "preBid": {
+    "state": "required",
+    "label": "Virtual pre-bid · 7 October 2026 · 14:00 (already passed; confirm eligibility)"
+  },
+  "official": "https://www.mofpmu.org.ls/tenders/",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "Bid-Document-for-Supply-Printing-and-delivery-of-ME-tools2.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "delivery": "Submit sealed hard-copy bids to MOFDP-PMU, 4th Floor, MGC Office Park, corner Pope John Paul II and Mpilo Boulevards, Maseru. Confirm supply/service completion requirements in the bidding document."
+},
+{
+  "id": "pmu-iec-materials-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance and Development Planning – Project Management Unit",
+  "title": "Supply, Printing and Delivery of IEC Materials",
+  "ref": "MOFDP-PMU/IEC/07-2026",
+  "type": "major",
+  "categories": [
+    "goods",
+    "printing",
+    "health"
+  ],
+  "summary": "Supply, printing and delivery of information, education and communication materials. Clarification requests are due 19 October 2026.",
+  "simple": "Supply, printing and delivery of information, education and communication materials. Clarification requests are due 19 October 2026.",
+  "deadline": "2026-11-03T10:00:00+02:00",
+  "deadlineLabel": "3 November 2026 · 10:00 (Lesotho time)",
+  "published": "25 September 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from issuer website"
+  },
+  "bidSecurity": {
+    "state": "declaration",
+    "label": "Bid Securing Declaration · valid until 23 April 2027"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "No physical site visit identified — confirm with issuer"
+  },
+  "preBid": {
+    "state": "required",
+    "label": "Virtual pre-bid · 7 October 2026 · 14:00 (already passed; confirm eligibility)"
+  },
+  "official": "https://www.mofpmu.org.ls/tenders/",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "Bid-Document-for-Supply-printing-and-delivery-of-IEC-Materials2.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "delivery": "Submit sealed hard-copy bids to MOFDP-PMU, 4th Floor, MGC Office Park, corner Pope John Paul II and Mpilo Boulevards, Maseru. Confirm supply/service completion requirements in the bidding document."
+},
+{
+  "id": "pmu-sample-transporter-smartphones-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance and Development Planning – Project Management Unit",
+  "title": "Supply and Delivery of Smartphones for Sample Transporters",
+  "ref": "MOFDP-PMU/PHN/RFH-2026",
+  "type": "major",
+  "categories": [
+    "goods",
+    "ict",
+    "health"
+  ],
+  "summary": "Supply and delivery of smartphones for sample transporters. Clarification requests are due 21 October 2026; confirm all device specifications and quantities.",
+  "simple": "Supply and delivery of smartphones for sample transporters. Clarification requests are due 21 October 2026; confirm all device specifications and quantities.",
+  "deadline": "2026-11-05T10:00:00+02:00",
+  "deadlineLabel": "5 November 2026 · 10:00 (Lesotho time)",
+  "published": "25 September 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from issuer website"
+  },
+  "bidSecurity": {
+    "state": "declaration",
+    "label": "Bid Securing Declaration · valid until 26 April 2027"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "No physical site visit identified — confirm with issuer"
+  },
+  "preBid": {
+    "state": "required",
+    "label": "Virtual pre-bid · 7 October 2026 · 14:00 (already passed; confirm eligibility)"
+  },
+  "official": "https://www.mofpmu.org.ls/tenders/",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "Bid-Document-for-Supply-Delivery-of-RFH-Gadgets.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "delivery": "Submit sealed hard-copy bids to MOFDP-PMU, 4th Floor, MGC Office Park, corner Pope John Paul II and Mpilo Boulevards, Maseru. Confirm supply/service completion requirements in the bidding document."
+},
+{
+  "id": "pmu-sample-transporter-motorcycles-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance and Development Planning – Project Management Unit",
+  "title": "Supply and Delivery of Motorcycles for Sample Transporters",
+  "ref": "MOFDP-PMU/MTCL/RFH-2026",
+  "type": "major",
+  "categories": [
+    "goods",
+    "vehicles",
+    "health"
+  ],
+  "summary": "Supply and delivery of motorcycles for sample transporters. Clarification requests are due 21 October 2026; confirm motorcycle specifications, accessories and delivery requirements.",
+  "simple": "Supply and delivery of motorcycles for sample transporters. Clarification requests are due 21 October 2026; confirm motorcycle specifications, accessories and delivery requirements.",
+  "deadline": "2026-11-05T10:00:00+02:00",
+  "deadlineLabel": "5 November 2026 · 10:00 (Lesotho time)",
+  "published": "25 September 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from issuer website"
+  },
+  "bidSecurity": {
+    "state": "declaration",
+    "label": "Bid Securing Declaration · valid until 26 April 2027"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "No physical site visit identified — confirm with issuer"
+  },
+  "preBid": {
+    "state": "required",
+    "label": "Virtual pre-bid · 7 October 2026 · 14:00 (already passed; confirm eligibility)"
+  },
+  "official": "https://www.mofpmu.org.ls/tenders/",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "Bid-Document-for-Supply-Delivery-of-RFH-Motorcycles.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "delivery": "Submit sealed hard-copy bids to MOFDP-PMU, 4th Floor, MGC Office Park, corner Pope John Paul II and Mpilo Boulevards, Maseru. Confirm supply/service completion requirements in the bidding document."
+},
+{
+  "id": "pmu-procurement-manual-consultancy-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance and Development Planning – Project Management Unit",
+  "title": "Consultancy to Customise the LPPA Procurement Manual, Update PMU OPPM and Develop Procurement SOPs and Toolkit",
+  "ref": "MOFDP/PMU/G7/PROC/TA/2026",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting"
+  ],
+  "summary": "Re-advertised consulting-firm assignment to customise the LPPA procurement manual for PMU, update its OPPM and develop procurement SOPs and a toolkit. Clarifications are due 12 November 2026.",
+  "simple": "Re-advertised consulting-firm assignment to customise the LPPA procurement manual for PMU, update its OPPM and develop procurement SOPs and a toolkit. Clarifications are due 12 November 2026.",
+  "deadline": "2026-11-27T10:00:00+02:00",
+  "deadlineLabel": "27 November 2026 · 10:00 (Lesotho time)",
+  "published": "24 September 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from issuer website"
+  },
+  "bidSecurity": {
+    "state": "unknown",
+    "label": "Confirm in the bidding document"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "Confirm in the bidding document"
+  },
+  "preBid": {
+    "state": "unknown",
+    "label": "Confirm in the bidding document"
+  },
+  "official": "https://www.mofpmu.org.ls/tenders/",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "Detailed-RFP-TORs-Procurement-TA-21092026-Final.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "eligibility": [
+    "Legally registered consulting firm compliant with tax obligations in its country of origin."
+  ],
+  "requiredDocs": [
+    "Signed Technical Proposal submission form.",
+    "Signed Financial Proposal submission form.",
+    "Proof of legal registration and tax compliance.",
+    "Organisational profile."
+  ],
+  "delivery": "Deliver one original hard-copy Technical Proposal and one original Financial Proposal in separately labelled envelopes inside one outer envelope bearing the consulting firm’s identification, as instructed. Deliver to PMU Reception, 4th Floor, MGC Office Park, Maseru."
+},
+{
+  "id": "roll-vegetable-production-inputs-2026",
+  "issuerKey": "roll",
+  "issuer": "Regeneration of Landscapes and Livelihoods (ROLL)",
+  "title": "Procurement and Distribution of Inputs for Vegetable Production",
+  "ref": "LSO-2000002340-0239-G-NCB",
+  "type": "major",
+  "categories": [
+    "goods",
+    "agriculture"
+  ],
+  "summary": "National competitive bidding for vegetable-production inputs across five district lots: Berea, Leribe, Butha-Buthe, Thaba-Tseka and Qacha. Register on the ROLL website and use the full seed quantities/specifications.",
+  "simple": "National competitive bidding for vegetable-production inputs across five district lots: Berea, Leribe, Butha-Buthe, Thaba-Tseka and Qacha. Register on the ROLL website and use the full seed quantities/specifications.",
+  "deadline": "2026-11-09T10:00:00+02:00",
+  "deadlineLabel": "9 November 2026 · 10:00 (Lesotho time)",
+  "published": "2 October 2026",
+  "documentFee": {
+    "state": "unknown",
+    "label": "Download from ROLL website; confirm any fee"
+  },
+  "bidSecurity": {
+    "state": "required",
+    "label": "M20,000 per lot"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "Confirm in the bidding document"
+  },
+  "preBid": {
+    "state": "none",
+    "label": "No pre-bid conference"
+  },
+  "official": "https://rollproject.gov.ls/tenders",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "tender_doc_1791295342_BiddingDocument-Vegetableproduction.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "delivery": "Hard-copy bids to ROLL, Industrial Area, Plot 12281-609, Maseru. Electronic bids are not accepted."
+},
+{
+  "id": "roll-orchard-irrigation-schemes-2026",
+  "issuerKey": "roll",
+  "issuer": "Regeneration of Landscapes and Livelihoods (ROLL)",
+  "title": "Supply and Installation of Orchard Irrigation Schemes",
+  "ref": "LSO-2000002340-0165-W-NCB",
+  "type": "major",
+  "categories": [
+    "works",
+    "construction",
+    "agriculture"
+  ],
+  "summary": "National competitive bidding for supply and installation of orchard irrigation schemes under a lump-sum contract based on a priced activity schedule. Register on the ROLL website.",
+  "simple": "National competitive bidding for supply and installation of orchard irrigation schemes under a lump-sum contract based on a priced activity schedule. Register on the ROLL website.",
+  "deadline": "2026-11-16T10:00:00+02:00",
+  "deadlineLabel": "16 November 2026 · 10:00 (Lesotho time)",
+  "published": "October 2026",
+  "documentFee": {
+    "state": "unknown",
+    "label": "Download from ROLL website; confirm any fee"
+  },
+  "bidSecurity": {
+    "state": "required",
+    "label": "Not less than M20,000; bid-securing declaration is not accepted"
+  },
+  "siteVisit": {
+    "state": "required",
+    "label": "Bidders arrange their own site visits using coordinates in the Bid Data Sheet"
+  },
+  "preBid": {
+    "state": "required",
+    "label": "26 October 2026 · Goodnight Lodge, Fokothi, Maseru · time to confirm"
+  },
+  "official": "https://rollproject.gov.ls/tenders",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "tender_doc_1791295732_SupplyandInstallationofOrchardsIrrigationsSchemes-Biddingdocument.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "delivery": "Submit hard-copy bids to ROLL as specified in the Bid Data Sheet. Electronic bids are not accepted."
+},
+{
+  "id": "roll-carbon-markets-framework-2026",
+  "issuerKey": "roll",
+  "issuer": "Regeneration of Landscapes and Livelihoods (ROLL)",
+  "title": "Consultancy: Development of Lesotho’s National Carbon Markets Framework",
+  "ref": "LSO-2000002340-0261-CS-ICS",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting",
+    "environment"
+  ],
+  "summary": "Consultancy to develop Lesotho’s national carbon markets framework for the Ministry of Environment and Forestry, Lesotho Meteorological Services and ROLL. The supplied TOR has no submission deadline; confirm the invitation and closing date with ROLL before applying.",
+  "simple": "Consultancy to develop Lesotho’s national carbon markets framework for the Ministry of Environment and Forestry, Lesotho Meteorological Services and ROLL. The supplied TOR has no submission deadline; confirm the invitation and closing date with ROLL before applying.",
+  "deadline": null,
+  "deadlineLabel": "Submission deadline not stated in supplied TOR — confirm with ROLL",
+  "published": "",
+  "documentFee": {
+    "state": "unknown",
+    "label": "Download from ROLL website; confirm any fee"
+  },
+  "bidSecurity": {
+    "state": "unknown",
+    "label": "Confirm in the bidding document"
+  },
+  "siteVisit": {
+    "state": "unknown",
+    "label": "Confirm in the bidding document"
+  },
+  "preBid": {
+    "state": "unknown",
+    "label": "Confirm in the bidding document"
+  },
+  "official": "https://rollproject.gov.ls/tenders",
+  "verification": "uploaded",
+  "verifiedAt": "12 October 2026",
+  "sourceDocument": "tender_doc_1790239085_TermsofReferenceCarbonLegalFramework_v31.pdf",
+  "checklist": [
+    "Obtain the latest bidding document and any addenda from the issuer.",
+    "Confirm eligibility, specifications and all mandatory forms.",
+    "Submit according to the issuer’s instructions."
+  ],
+  "eligibility": [
+    "Advanced university degree (Master’s or higher) in the relevant fields specified in the TOR.",
+    "At least ten years of relevant professional experience; see TOR for full criteria."
+  ]
 }
 ];
 window.MMGC_ISSUERS={finance:{name:'Ministry of Finance & Development Planning',short:'Ministry of Finance',url:'https://finance.gov.ls/tenders'},roadfund:{name:'Road Fund Lesotho',short:'Road Fund',url:'https://www.roadfund.org.ls/tenders/'},lhda:{name:'Lesotho Highlands Development Authority (LHDA)',short:'LHDA',url:'https://www.lhda.org.ls/procurement/currentTenders'},rsl:{name:'Revenue Services Lesotho (RSL)',short:'RSL',url:'https://www.rsl.org.ls/opportunities-jobs-tenders'},government:{name:'Government of Lesotho',short:'Government of Lesotho',url:'https://www.gov.ls/documents/tenders/'},lec:{name:'Lesotho Electricity Company (LEC)',short:'LEC',url:'https://lec.co.ls/tenders/'},roll:{name:'Regeneration of Landscapes and Livelihoods (ROLL)',short:'ROLL',url:'https://rollproject.gov.ls/tenders'},kkm:{name:'Kopano Ke Matla Joint Venture (KKM JV)',short:'KKM JV',url:'mailto:Tendering@kkm-jv.co.ls'},llwdp3:{name:'Lesotho Lowlands Water Development and Sanitation Project III (LLWDSP III)',short:'LLWDSP III',url:'mailto:ramaqelef@llwdp3.org.ls'},fhi360:{name:'FHI 360 Lesotho',short:'FHI 360',url:'mailto:procurement.lesotho@fhi360.org'},dceo:{name:'Directorate on Corruption and Economic Offences (DCEO)',short:'DCEO',url:'mailto:tmathias@dceo.org.ls'},sixty15:{name:'Sixty 15 Joint Venture',short:'Sixty15 JV',url:'mailto:tenders@sixty15.co.ls'},bbdc:{name:'Botha-Bothe District Council',short:'Botha-Bothe District Council',url:'mailto:bbdcprocurement@gmail.com'},moh:{name:'Ministry of Health / MOFDP Project Management Unit',short:'Ministry of Health',url:'https://www.mofpmu.org.ls/tenders/'}};

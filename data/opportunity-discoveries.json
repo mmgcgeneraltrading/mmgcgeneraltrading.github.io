@@ -1,0 +1,375 @@
+{
+  "jobs": {
+    "status": "error",
+    "items": [],
+    "lastAttempt": "2026-10-12T20:34:23.801223+00:00",
+    "error": "Refresh failed; previous results retained. Check source access and API configuration."
+  },
+  "tenders": {
+    "status": "ok",
+    "items": [
+      {
+        "id": "adba58e7d96641fc1809",
+        "title": "RFP: Development of Positive Parenting ChatBot",
+        "url": "https://selibeng.com/rfp-development-of-positive-parenting-chatbot/",
+        "source": "Selibeng",
+        "published": "Mon, 12 Oct 2026 19:37:31 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7af5d7ddc6609b329d3f",
+        "title": "REOI – Consultancy Firm to Conduct Review of the National Agriculture Subsidy Policy",
+        "url": "https://selibeng.com/review-subsidy-sadp/",
+        "source": "Selibeng",
+        "published": "Mon, 12 Oct 2026 15:02:39 +0000",
+        "deadline": null
+      },
+      {
+        "id": "52dd7a23d8e558f5be9d",
+        "title": "Consultancy to Revise and Update the SADC Harmonised Consumer Price Index Methods and Procedures",
+        "url": "https://selibeng.com/consultancy-to-revise-and-update-the-sadc-harmonised-consumer-price-index-methods-and-procedures/",
+        "source": "Selibeng",
+        "published": "Mon, 12 Oct 2026 13:19:47 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a662c326dc86fcd05861",
+        "title": "Provision of ICT Support Services to SADC Secretariat",
+        "url": "https://selibeng.com/provision-of-ict-support-services-to-sadc-secretariat-2/",
+        "source": "Selibeng",
+        "published": "Mon, 12 Oct 2026 10:44:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "095f36089bc98cc58f95",
+        "title": "Procurement of Internet and Data Connectivity Service",
+        "url": "https://selibeng.com/procurement-of-internet-and-data-connectivity-service/",
+        "source": "Selibeng",
+        "published": "Mon, 12 Oct 2026 08:43:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "155b033ced3d9f26839d",
+        "title": "RFQ: Supply of Film Production Equipment",
+        "url": "https://selibeng.com/rfq-supply-of-film-production-equipment/",
+        "source": "Selibeng",
+        "published": "Mon, 12 Oct 2026 07:27:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ba0e216c5b6c07674323",
+        "title": "Consultancy to Revise and Update The SADC Methodological Guidelines and Harmonised Data Collection Instruments for Disaggregated Trade in Services Statistics in SADC Region",
+        "url": "https://selibeng.com/consultancy-to-revise-and-update-the-sadc-methodological-guidelines-and-harmonised-data-collection-instruments-for-disaggregated-trade-in-services-statistics-in-sadc-region/",
+        "source": "Selibeng",
+        "published": "Mon, 12 Oct 2026 07:19:57 +0000",
+        "deadline": null
+      },
+      {
+        "id": "04d8c6d881573c42d1a0",
+        "title": "Consultant to Carry Out National Training on Survey Solution to 5 SADC Member States",
+        "url": "https://selibeng.com/consultant-to-carry-out-national-training-on-survey-solution-to-5-sadc-member-states/",
+        "source": "Selibeng",
+        "published": "Sat, 10 Oct 2026 17:40:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1c3eaf7ed0e43b3a744e",
+        "title": "Provision of Security Services at SADC SHOC NACALA Offices",
+        "url": "https://selibeng.com/provision-of-security-services-at-sadc-shoc-nacala-offices/",
+        "source": "Selibeng",
+        "published": "Sat, 10 Oct 2026 15:09:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "75416b0879dca1937209",
+        "title": "Consultancy to Conduct an Independent Analysis and Reorganisation of The SADC Secretariat Structure and Staff Complement",
+        "url": "https://selibeng.com/consultancy-to-conduct-an-independent-analysis-and-reorganisation-of-the-sadc-secretariat-structure-and-staff-complement/",
+        "source": "Selibeng",
+        "published": "Sat, 10 Oct 2026 12:26:58 +0000",
+        "deadline": null
+      },
+      {
+        "id": "48849d80568aa43e312a",
+        "title": "Consultancy for End of Project Evaluation for Disaster Risk Management Strengthening in Southern Africa Project",
+        "url": "https://selibeng.com/consultancy-for-end-of-project-evaluation-for-disaster-risk-management-strengthening-in-southern-africa-project/",
+        "source": "Selibeng",
+        "published": "Sat, 10 Oct 2026 08:57:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7e3f54cca6fe8c92287c",
+        "title": "Tender – Procurement of Storage System",
+        "url": "https://selibeng.com/tender-procurement-of-storage-system/",
+        "source": "Selibeng",
+        "published": "Fri, 09 Oct 2026 17:42:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "038aaa77c9b8370bc40c",
+        "title": "Tender – Provision of Insurance Broking Services",
+        "url": "https://selibeng.com/tender-provision-of-insurance-broking-services/",
+        "source": "Selibeng",
+        "published": "Fri, 09 Oct 2026 14:47:40 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f4a26fa1cafaabd87675",
+        "title": "Consultancy – Evaluation and Assessment of Lesotho National Broadcasting Services Transmission Network",
+        "url": "https://selibeng.com/consultancy-evaluation-and-assessment-of-lesotho-national-broadcasting-services-transmission-network/",
+        "source": "Selibeng",
+        "published": "Thu, 08 Oct 2026 12:41:37 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9f8035a375a3f26a3315",
+        "title": "Provision of Security Guards for MICSTI",
+        "url": "https://selibeng.com/provision-of-security-guards-for-micsti/",
+        "source": "Selibeng",
+        "published": "Thu, 08 Oct 2026 11:13:54 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e0bcb1d865f2a0a3fcfb",
+        "title": "Supply and Fitting of Blinds, and Supply and Installation of Door Signage and Wayfinding Signage",
+        "url": "https://selibeng.com/supply-and-fitting-of-blinds-and-supply-and-installation-of-door-signage-and-wayfinding-signage/",
+        "source": "Selibeng",
+        "published": "Thu, 08 Oct 2026 11:10:07 +0000",
+        "deadline": null
+      },
+      {
+        "id": "067913cfd24638055df4",
+        "title": "RFQ – Vehicle Hire Services on Long Term Agreement (LTA)",
+        "url": "https://selibeng.com/rfq-vehicle-hire-services-on-long-term-agreement-lta/",
+        "source": "Selibeng",
+        "published": "Thu, 08 Oct 2026 05:02:35 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a0da67f340427f38a9fe",
+        "title": "Request for Quotation for Supply and Delivery of Groceries",
+        "url": "https://selibeng.com/request-for-quotation-for-supply-and-delivery-of-groceries/",
+        "source": "Selibeng",
+        "published": "Mon, 05 Oct 2026 17:18:59 +0000",
+        "deadline": null
+      },
+      {
+        "id": "90771dd82ec27102f54a",
+        "title": "Tender: Supply, Installation and Management of Vehicle Tracking System at BCMCF Lesotho",
+        "url": "https://selibeng.com/itt-vehicle-tracking/",
+        "source": "Selibeng",
+        "published": "Thu, 01 Oct 2026 15:38:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2b18725b1e56e26ada4b",
+        "title": "RFQ: Supply and Delivery of Cleaning Chemicals",
+        "url": "https://selibeng.com/rfq-supply-and-delivery-of-cleaning-chemicals/",
+        "source": "Selibeng",
+        "published": "Tue, 29 Sep 2026 13:32:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c0ef297b2cd89fbc61dd",
+        "title": "Supply and Delivery of Tarpaulins, ICT Equipment and Protective Clothing",
+        "url": "https://selibeng.com/supply-and-delivery-of-tarpaulins-ict-equipment-and-protective-clothing/",
+        "source": "Selibeng",
+        "published": "Tue, 29 Sep 2026 10:21:44 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7e9a9d2db8e5f65ef796",
+        "title": "Consulting Services – Independent Design Check for Pedestrian Bridges across the Polihali Reservoir",
+        "url": "https://selibeng.com/consulting-services-independent-design-check-for-pedestrian-bridges-across-the-polihali-reservoir/",
+        "source": "Selibeng",
+        "published": "Tue, 29 Sep 2026 08:05:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a3cda7b6036cd021ca88",
+        "title": "Request for Expression of Interest (EOI) – Lot 9: Construction of 11 kV Powerline",
+        "url": "https://selibeng.com/request-for-expression-of-interest-eoi-lot-9-construction-of-11-kv-powerline/",
+        "source": "Selibeng",
+        "published": "Mon, 28 Sep 2026 08:04:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2ad4cd36ca3009d01837",
+        "title": "Request For Proposals: Tracing Services",
+        "url": "https://selibeng.com/request-for-proposals-tracing-services/",
+        "source": "Selibeng",
+        "published": "Sat, 26 Sep 2026 15:18:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "21d4565a4e8726b320da",
+        "title": "RFQ – Provision of Meals for Tourism Department",
+        "url": "https://selibeng.com/rfq-provision-of-meals-for-tourism-department/",
+        "source": "Selibeng",
+        "published": "Fri, 25 Sep 2026 19:17:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0ce75b139046549af8e4",
+        "title": "Tender – Repair, Service and Maintenance of Incinerators",
+        "url": "https://selibeng.com/tender-repair-service-and-maintenance-of-incinerators/",
+        "source": "Selibeng",
+        "published": "Fri, 25 Sep 2026 12:40:44 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7c69b97508b4d17caa20",
+        "title": "Tender – Supply and Delivery of Motorcycles for Sample Transporters",
+        "url": "https://selibeng.com/tender-supply-and-delivery-of-motorcycles-for-sample-transporters/",
+        "source": "Selibeng",
+        "published": "Fri, 25 Sep 2026 12:40:08 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d005533fcb1a5ca01fb2",
+        "title": "Tender – Supply and Delivery of Smartphones for Sample Transporters",
+        "url": "https://selibeng.com/tender-supply-and-delivery-of-smartphones-for-sample-transporters/",
+        "source": "Selibeng",
+        "published": "Fri, 25 Sep 2026 12:39:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "bdea1ab57e5c39ca4c24",
+        "title": "Tender – Supply, Printing and Delivery of M&E Tools",
+        "url": "https://selibeng.com/tender-supply-printing-and-delivery-of-me-tools/",
+        "source": "Selibeng",
+        "published": "Fri, 25 Sep 2026 12:30:28 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2923b5e2562038e60d0f",
+        "title": "EOI – Access to Affordable Renewable Energy (AARE) Project",
+        "url": "https://selibeng.com/eoi-access-to-affordable-renewable-energy-aare-project/",
+        "source": "Selibeng",
+        "published": "Thu, 24 Sep 2026 14:22:36 +0000",
+        "deadline": null
+      },
+      {
+        "id": "39e09890e4b31daf2be3",
+        "title": "RFQ: Supply and installation of Tactile Blocks",
+        "url": "https://selibeng.com/rfq-supply-and-installation-of-tactile-blocks/",
+        "source": "Selibeng",
+        "published": "Thu, 24 Sep 2026 06:09:57 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c60961c993d2ed75afb0",
+        "title": "Tender – Regional Open Request for Proposal for E-Commerce Platform Partner",
+        "url": "https://selibeng.com/tender-regional-open-request-for-proposal-for-e-commerce-platform-partner/",
+        "source": "Selibeng",
+        "published": "Mon, 21 Sep 2026 07:23:39 +0000",
+        "deadline": null
+      },
+      {
+        "id": "275104d0b0ddee0c86cf",
+        "title": "Tender – Supply and Delivery of Safety Boots and Freezer Suits",
+        "url": "https://selibeng.com/tender-supply-and-delivery-of-safety-boots-and-freezer-suits/",
+        "source": "Selibeng",
+        "published": "Sun, 20 Sep 2026 17:34:55 +0000",
+        "deadline": null
+      },
+      {
+        "id": "fb2ba3cb3e1ffa56483e",
+        "title": "Tender – Supply of Immigration Uniform",
+        "url": "https://selibeng.com/tender-supply-of-immigration-uniform/",
+        "source": "Selibeng",
+        "published": "Sun, 20 Sep 2026 17:06:33 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f154f75bd2ccd6dea37a",
+        "title": "Job Evaluation Consultancy",
+        "url": "https://selibeng.com/job-evaluation-consultancy-2/",
+        "source": "Selibeng",
+        "published": "Sat, 19 Sep 2026 18:42:37 +0000",
+        "deadline": null
+      },
+      {
+        "id": "91ff00e8fe03beff3d72",
+        "title": "RFP: Organisational Structure Review Consultancy",
+        "url": "https://selibeng.com/rfp-organisational-structure-review-consultancy/",
+        "source": "Selibeng",
+        "published": "Sat, 19 Sep 2026 18:41:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a9560fc0794f92c041c0",
+        "title": "Supply, Installation, Configuration, Testing and Commissioning of an IP-Based CCTV Surveillance System",
+        "url": "https://selibeng.com/supply-installation-configuration-testing-and-commissioning-of-an-ip-based-cctv-surveillance-system/",
+        "source": "Selibeng",
+        "published": "Sat, 19 Sep 2026 18:39:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "93dd9d4eb59250ab7357",
+        "title": "Tender – Implementation of a Digital Document Workflow and Electronic Signature Solution",
+        "url": "https://selibeng.com/tender-implementation-of-a-digital-document-workflow-and-electronic-signature-solution/",
+        "source": "Selibeng",
+        "published": "Sat, 19 Sep 2026 18:38:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b40050b530442818fbc1",
+        "title": "Request for Bids: Provision of Retirement Fund Administration Services",
+        "url": "https://selibeng.com/request-for-bids-provision-of-retirement-fund-administration-services/",
+        "source": "Selibeng",
+        "published": "Fri, 18 Sep 2026 16:10:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a857f86e649dbaa8c1af",
+        "title": "Expression of Interest – Owner’s Engineer",
+        "url": "https://selibeng.com/expression-of-interest-owners-engineer/",
+        "source": "Selibeng",
+        "published": "Fri, 18 Sep 2026 15:55:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2e9ee852504ab75bd91e",
+        "title": "RFP: Development of the Lesotho Independent Anti-Corruption and Ethics Commission (LIACEC) Policy",
+        "url": "https://selibeng.com/rfp-development-of-the-lesotho-independent-anti-corruption-and-ethics-commission-liacec-policy/",
+        "source": "Selibeng",
+        "published": "Fri, 18 Sep 2026 08:16:20 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5e9d4c50b6a6bfc44040",
+        "title": "Tender – Supply and Delivery of Food Fodder",
+        "url": "https://selibeng.com/tender-supply-and-delivery-of-food-fodder/",
+        "source": "Selibeng",
+        "published": "Thu, 17 Sep 2026 19:38:03 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5ecab56b85e5f1eac7e8",
+        "title": "Provision of Security Services & Debt Collection Services",
+        "url": "https://selibeng.com/provision-of-security-services-debt-collection-services/",
+        "source": "Selibeng",
+        "published": "Thu, 17 Sep 2026 10:12:36 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8785adbbb94edd73fee3",
+        "title": "RFQ: Servicing of Fire Extinguishers",
+        "url": "https://selibeng.com/rfq-servicing-of-fire-extinguishers/",
+        "source": "Selibeng",
+        "published": "Wed, 16 Sep 2026 18:53:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0de0406e37e1b30bbff2",
+        "title": "EoI: Implementation and Operation of a Turnkey Fuel Marking Programme (FMP) Solution",
+        "url": "https://selibeng.com/eoi-implementation-and-operation-of-a-turnkey-fuel-marking-programme-fmp-solution/",
+        "source": "Selibeng",
+        "published": "Wed, 16 Sep 2026 12:17:00 +0000",
+        "deadline": null
+      }
+    ],
+    "lastAttempt": "2026-10-12T20:34:23.801223+00:00",
+    "updatedAt": "2026-10-12T20:34:23.801223+00:00"
+  }
+}

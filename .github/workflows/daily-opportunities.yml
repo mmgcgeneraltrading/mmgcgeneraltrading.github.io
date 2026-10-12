@@ -1,0 +1,63 @@
+name: Daily opportunity discovery
+on:
+  schedule:
+    - cron: '0 5 * * *' # 07:00 Africa/Maseru; GitHub may delay scheduled runs.
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: daily-opportunities
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      updated: ${{ steps.commit.outputs.updated }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh source discoveries
+        id: refresh
+        continue-on-error: true
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: python3 scripts/update_opportunities.py
+      - name: Save discoveries and refresh status
+        id: commit
+        run: |
+          if git diff --quiet -- data/opportunity-discoveries.json; then
+            echo 'updated=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/opportunity-discoveries.json
+          git commit -m 'Refresh daily opportunity discoveries'
+          git push
+          echo 'updated=true' >> "$GITHUB_OUTPUT"
+      - name: Report source failure
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo 'One or more sources failed. Previous successful results were retained.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Stage public site
+        if: steps.commit.outputs.updated == 'true'
+        run: |
+          mkdir -p /tmp/mmgc-public-site
+          git archive HEAD | tar -x -C /tmp/mmgc-public-site
+          rm -rf /tmp/mmgc-public-site/.github /tmp/mmgc-public-site/scripts /tmp/mmgc-public-site/tests /tmp/mmgc-public-site/api /tmp/mmgc-public-site/supabase
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.commit.outputs.updated == 'true'
+        with:
+          path: /tmp/mmgc-public-site
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.updated == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
