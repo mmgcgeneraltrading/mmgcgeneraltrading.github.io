@@ -1,0 +1,569 @@
+{
+  "sources": [
+    {
+      "name": "Central Bank of Lesotho — Careers",
+      "url": "https://centralbank.org.ls/careers/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:02.203915+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://centralbank.org.ls/careers/"
+    },
+    {
+      "name": "Central Bank of Lesotho — Current Vacancies",
+      "url": "https://centralbankoflesotho.breezy.hr/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "Recruitment portal linked from the Bank’s careers page.",
+      "checkedAt": "2026-10-12T21:07:02.204751+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
+    },
+    {
+      "name": "Central Bank of Lesotho — Tenders",
+      "url": "https://centralbank.org.ls/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:02.205294+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://centralbank.org.ls/tenders/"
+    },
+    {
+      "name": "Ministry of Finance — Tenders",
+      "url": "https://finance.gov.ls/tenders",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:02.205779+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://finance.gov.ls/tenders"
+    },
+    {
+      "name": "Ministry of Finance — Vacancies",
+      "url": "https://finance.gov.ls/vacancies",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:02.206285+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://finance.gov.ls/vacancies"
+    },
+    {
+      "name": "Ministry of Health",
+      "url": "https://health.gov.ls/",
+      "kinds": [
+        "opportunities"
+      ],
+      "official": true,
+      "notes": "Ministry homepage; look for announcements and procurement notices.",
+      "checkedAt": "2026-10-12T21:07:02.207576+00:00",
+      "status": "access_error",
+      "httpStatus": 503,
+      "error": "Source returned an HTTP error; try opening it directly."
+    },
+    {
+      "name": "Lesotho Communications Authority — Vacancies",
+      "url": "https://lca.org.ls/vacancies/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:02.221091+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lca.org.ls/vacancies/"
+    },
+    {
+      "name": "Lesotho Communications Authority — Tenders",
+      "url": "https://lca.org.ls/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:03.389745+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lca.org.ls/tenders/"
+    },
+    {
+      "name": "LCA — Field Enumerators Advert",
+      "url": "https://lca.org.ls/vacancy/vacancies-field-enumerators-data-collectors/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "Historical advert: application text closed 11 September 2026 at noon. Use the vacancy index for current jobs.",
+      "checkedAt": "2026-10-12T21:07:03.878153+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lca.org.ls/vacancy/vacancies-field-enumerators-data-collectors/"
+    },
+    {
+      "name": "Lesotho Electricity Company — Tenders",
+      "url": "https://lec.co.ls/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:03.957489+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lec.co.ls/tenders/"
+    },
+    {
+      "name": "Lesotho Electricity Company — Tender Documents",
+      "url": "https://lec.co.ls/tender-documents/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:04.102214+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lec.co.ls/tender-documents/"
+    },
+    {
+      "name": "Lesotho Electricity Company — Careers",
+      "url": "https://lec.co.ls/careers/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:04.294026+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://lec.co.ls/careers/"
+    },
+    {
+      "name": "National AIDS Commission — Opportunities",
+      "url": "https://nac.org.ls/opportunities/",
+      "kinds": [
+        "jobs",
+        "tenders",
+        "opportunities"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:04.569892+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://nac.org.ls/opportunities/"
+    },
+    {
+      "name": "NAC — Chief Executive Advert Archive",
+      "url": "https://nac.org.ls/opportunities/chief-executive-job-advert/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "Archive page links a 2021 PDF. Use the opportunities index for newer notices.",
+      "checkedAt": "2026-10-12T21:07:04.744051+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://nac.org.ls/opportunities/chief-executive-job-advert/"
+    },
+    {
+      "name": "ROLL Project — Tenders",
+      "url": "https://rollproject.gov.ls/tenders",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:05.050529+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rollproject.gov.ls/tenders"
+    },
+    {
+      "name": "Examinations Council of Lesotho",
+      "url": "https://www.examscouncil.org.ls/",
+      "kinds": [
+        "opportunities"
+      ],
+      "official": true,
+      "notes": "Homepage requires JavaScript; browse its announcements for opportunities.",
+      "checkedAt": "2026-10-12T21:07:07.206917+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.examscouncil.org.ls/"
+    },
+    {
+      "name": "Government of Lesotho — Tenders",
+      "url": "https://www.gov.ls/documents/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:08.848118+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.gov.ls/documents/tenders/"
+    },
+    {
+      "name": "Government of Lesotho — Opportunities",
+      "url": "https://www.gov.ls/download-category/opportunities/",
+      "kinds": [
+        "jobs",
+        "tenders",
+        "opportunities"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:08.983875+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.gov.ls/download-category/opportunities/"
+    },
+    {
+      "name": "Government of Lesotho — Jobs",
+      "url": "https://www.gov.ls/jobs/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:09.191558+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.gov.ls/jobs/"
+    },
+    {
+      "name": "LHDA — Careers",
+      "url": "https://www.lhda.org.ls/home/careers",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:09.322480+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lhda.org.ls/home/careers"
+    },
+    {
+      "name": "LHDA — Recruitment Portal",
+      "url": "https://lhda.gosmarthr.co.za/recruits/jobprofiles.aspx",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "Recruitment portal embedded in LHDA’s careers page.",
+      "checkedAt": "2026-10-12T21:07:09.474597+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
+    },
+    {
+      "name": "LHDA — Current Tenders",
+      "url": "https://www.lhda.org.ls/procurement/currentTenders",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:09.475133+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lhda.org.ls/procurement/currentTenders"
+    },
+    {
+      "name": "LHDA — Tender Bulletin",
+      "url": "https://www.lhda.org.ls/tenderbulletin/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:09.479488+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/"
+    },
+    {
+      "name": "LHDA Tender Bulletin — All Procurement",
+      "url": "https://www.lhda.org.ls/tenderbulletin/currentProcurement.aspx",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
+      "checkedAt": "2026-10-12T21:07:12.022801+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/currentProcurement.aspx"
+    },
+    {
+      "name": "LHDA Tender Bulletin — Professional Services",
+      "url": "https://www.lhda.org.ls/tenderbulletin/curentProcurement.aspx",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
+      "checkedAt": "2026-10-12T21:07:12.046959+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/curentProcurement.aspx"
+    },
+    {
+      "name": "LHDA Tender Bulletin — Works",
+      "url": "https://www.lhda.org.ls/tenderbulletin/currentProcurrement.aspx",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
+      "checkedAt": "2026-10-12T21:07:12.648176+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/currentProcurrement.aspx"
+    },
+    {
+      "name": "LHDA Tender Bulletin — Goods",
+      "url": "https://www.lhda.org.ls/tenderbulletin/curentProcurrement.aspx",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
+      "checkedAt": "2026-10-12T21:07:12.813630+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/curentProcurrement.aspx"
+    },
+    {
+      "name": "MOFDP Project Management Unit — Tenders",
+      "url": "https://www.mofpmu.org.ls/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:12.939873+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mofpmu.org.ls/tenders/"
+    },
+    {
+      "name": "MOFDP Project Management Unit — Vacancies",
+      "url": "https://www.mofpmu.org.ls/vacancies/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:13.313019+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.mofpmu.org.ls/vacancies/"
+    },
+    {
+      "name": "Road Fund Lesotho — Tenders",
+      "url": "https://www.roadfund.org.ls/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:13.612376+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.roadfund.org.ls/tenders/"
+    },
+    {
+      "name": "Road Fund Lesotho — Careers",
+      "url": "https://www.roadfund.org.ls/careers/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:15.823039+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.roadfund.org.ls/careers/"
+    },
+    {
+      "name": "Revenue Services Lesotho — Jobs and Tenders",
+      "url": "https://www.rsl.org.ls/opportunities-jobs-tenders",
+      "kinds": [
+        "jobs",
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:16.158229+00:00",
+      "status": "access_error",
+      "httpStatus": 503,
+      "error": "Source returned an HTTP error; try opening it directly."
+    },
+    {
+      "name": "WASCO — Tenders",
+      "url": "https://www.wasco.co.ls/category/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:16.544843+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.wasco.co.ls/category/tenders/"
+    },
+    {
+      "name": "WASCO — Vacancies",
+      "url": "https://www.wasco.co.ls/vacancies-2/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:17.020412+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.wasco.co.ls/vacancies-2/"
+    },
+    {
+      "name": "Lesotho Public Procurement Authority — Careers",
+      "url": "https://www.lppa.org.ls/careers/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:17.273328+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lppa.org.ls/careers/"
+    },
+    {
+      "name": "Lesotho Electricity and Water Authority — Tenders",
+      "url": "https://www.lewa.org.ls/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:17.434550+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lewa.org.ls/tenders/"
+    },
+    {
+      "name": "Lesotho Electricity and Water Authority — Vacancies",
+      "url": "https://www.lewa.org.ls/vacancies/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:17.784871+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.lewa.org.ls/vacancies/"
+    },
+    {
+      "name": "Econet Telecom Lesotho — Tenders",
+      "url": "https://www.etl.co.ls/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:19.851046+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.etl.co.ls/tenders"
+    },
+    {
+      "name": "Econet Telecom Lesotho — Careers",
+      "url": "https://www.etl.co.ls/careers/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": true,
+      "notes": "",
+      "checkedAt": "2026-10-12T21:07:20.465018+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.etl.co.ls/careers"
+    },
+    {
+      "name": "Selibeng — Jobs",
+      "url": "https://selibeng.com/category/opportunities/jobs/",
+      "kinds": [
+        "jobs"
+      ],
+      "official": false,
+      "notes": "Independent opportunity publisher; confirm each advert with its employer.",
+      "checkedAt": "2026-10-12T21:07:21.018155+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://selibeng.com/category/opportunities/jobs/"
+    },
+    {
+      "name": "Selibeng — Tenders",
+      "url": "https://selibeng.com/category/opportunities/tenders/",
+      "kinds": [
+        "tenders"
+      ],
+      "official": false,
+      "notes": "Independent opportunity publisher; confirm each notice with its issuer.",
+      "checkedAt": "2026-10-12T21:07:21.587593+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://selibeng.com/category/opportunities/tenders/"
+    },
+    {
+      "name": "Mohiri Lesotho — Facebook",
+      "url": "https://www.facebook.com/Mohiriles",
+      "kinds": [
+        "jobs"
+      ],
+      "official": false,
+      "notes": "Facebook may require sign-in. Posts are discovery leads, not employer confirmation.",
+      "checkedAt": "2026-10-12T21:07:21.739711+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.facebook.com/Mohiriles"
+    },
+    {
+      "name": "Selibeng — Facebook",
+      "url": "https://www.facebook.com/selibengls",
+      "kinds": [
+        "jobs",
+        "tenders",
+        "opportunities"
+      ],
+      "official": false,
+      "notes": "Facebook may require sign-in. Posts are discovery leads, not issuer confirmation.",
+      "checkedAt": "2026-10-12T21:07:21.995860+00:00",
+      "status": "reachable",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.facebook.com/selibengls"
+    }
+  ],
+  "checkedAt": "2026-10-12T21:07:35.813960+00:00"
+}

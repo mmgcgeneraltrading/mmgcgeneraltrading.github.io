@@ -463,11 +463,11 @@ id:'moh-hvac-fridge-biosafety-maintenance-2026',issuerKey:'moh',issuer:'Ministry
     "consulting",
     "environment"
   ],
-  "summary": "Consultancy to develop Lesotho’s national carbon markets framework for the Ministry of Environment and Forestry, Lesotho Meteorological Services and ROLL. The supplied TOR has no submission deadline; confirm the invitation and closing date with ROLL before applying.",
-  "simple": "Consultancy to develop Lesotho’s national carbon markets framework for the Ministry of Environment and Forestry, Lesotho Meteorological Services and ROLL. The supplied TOR has no submission deadline; confirm the invitation and closing date with ROLL before applying.",
-  "deadline": null,
-  "deadlineLabel": "Submission deadline not stated in supplied TOR — confirm with ROLL",
-  "published": "",
+  "summary": "Consultancy to develop Lesotho’s national carbon markets framework for the Ministry of Environment and Forestry, Lesotho Meteorological Services and ROLL. The ROLL tender listing gives 16 October 2026 as the due date; the supplied TOR does not state an exact submission time. Confirm the invitation, closing time and any addenda with ROLL before applying.",
+  "simple": "Consultancy to develop Lesotho’s national carbon markets framework for the Ministry of Environment and Forestry, Lesotho Meteorological Services and ROLL. The ROLL tender listing gives 16 October 2026 as the due date; the supplied TOR does not state an exact submission time. Confirm the invitation, closing time and any addenda with ROLL before applying.",
+  "deadline": "2026-10-16T23:59:59+02:00",
+  "deadlineLabel": "16 October 2026 · exact time not stated on ROLL listing — confirm with issuer",
+  "published": "24 September 2026",
   "documentFee": {
     "state": "unknown",
     "label": "Download from ROLL website; confirm any fee"
@@ -485,7 +485,7 @@ id:'moh-hvac-fridge-biosafety-maintenance-2026',issuerKey:'moh',issuer:'Ministry
     "label": "Confirm in the bidding document"
   },
   "official": "https://rollproject.gov.ls/tenders",
-  "verification": "uploaded",
+  "verification": "official",
   "verifiedAt": "12 October 2026",
   "sourceDocument": "tender_doc_1790239085_TermsofReferenceCarbonLegalFramework_v31.pdf",
   "checklist": [

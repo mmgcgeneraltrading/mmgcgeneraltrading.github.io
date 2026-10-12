@@ -1,6 +1,6 @@
 # Daily tender and job discoveries
 
-The site keeps curated tender/job records separate from automatically collected source discoveries. Nine unique tender records were extracted from the supplied issuer PDFs on 12 October 2026. Duplicate copies of the smartphone and IEC documents were omitted. The Public Eye tender notices already existed in the curated data. The MMGC capability statement is not a tender. The carbon-markets TOR does not state an application deadline; its listing directs readers to confirm with ROLL.
+The site keeps curated tender/job records separate from automatically collected source discoveries. Nine unique tender records were extracted from the supplied issuer PDFs on 12 October 2026. Duplicate copies of the smartphone and IEC documents were omitted. The Public Eye tender notices already existed in the curated data. The MMGC capability statement is not a tender. The carbon-markets TOR does not state an application deadline. The ROLL issuer listing was subsequently checked and gives 16 October 2026, with no exact closing time. The stored end-of-day value supports date-based display only; the label directs readers to confirm the time with ROLL.
 
 ## Daily updates
 
@@ -29,3 +29,9 @@ python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 The updater exits nonzero if any source fails, while still saving successful sources and failure status. It uses Python's standard library and verified HTTPS; no dependency installation is required. Do not log the search request URL because it includes the API key.
+
+## Lesotho source directory
+
+`lesotho-sources.html` lists 43 issuer, employer, recruitment and publisher links, including all 17 requested URLs and additional source pages discovered in issuer navigation. Search and filters support jobs, tenders and general opportunities; all links remain available without JavaScript. Archived individual adverts are explicitly labelled.
+
+`scripts/check_source_links.py` checks access over verified HTTPS and updates `data/lesotho-sources.json`. The daily workflow runs this check and publishes the resulting statuses alongside source discoveries. An HTTP response only verifies page access, not that its notices are current. Four sources could not be reached during the initial 43-link check; their warnings remain visible. The directory is not an exhaustive inventory of Lesotho domains.
