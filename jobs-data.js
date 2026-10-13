@@ -259,4 +259,73 @@ window.MMGC_JOBS = [
     official:'https://centralbank.org.ls/careers/', officialLabel:'Central Bank Careers', primarySourceName:'Central Bank of Lesotho newspaper advert · Public Eye 9 Oct 2026',
     verification:'newspaper', verifiedAt:'2026-10-09T00:00:00+02:00', discoveredVia:'Public Eye Careers & Workplace'
   },
+{
+  "id": "cbl-operations-internship-2026",
+  "title": "Internship in the Department of Operations",
+  "employer": "Central Bank of Lesotho",
+  "type": "job",
+  "location": "Maseru, Lesotho",
+  "arrangement": "Internship",
+  "posted": "2026-10-09T00:00:00+02:00",
+  "deadline": "2026-10-23T23:59:59+02:00",
+  "deadlineUnknown": false,
+  "deadlineLabel": "23 October 2026 · exact time not stated in programme newspaper notice",
+  "summary": "The Central Bank’s recruitment portal lists an internship in its Operations department in Maseru. The programme newspaper notice lists a 23 October closing date; confirm the exact time and placement requirements with the Bank.",
+  "requirements": [
+    "Confirm qualifications, experience and all application documents on the original advert."
+  ],
+  "application": "Open the source notice and follow its application instructions. Confirm applications are still accepted.",
+  "official": "https://centralbankoflesotho.breezy.hr/p/fa119801976f-internship-in-the-department-of-operations",
+  "primarySourceName": "CBL official recruitment portal",
+  "verification": "official",
+  "verifiedAt": "2026-10-13T00:00:00+02:00",
+  "verificationNote": "Individual placement found on employer portal; closing date comes from the programme newspaper notice already recorded by MMGC.",
+  "discoveredVia": "User-supplied Google Jobs alert"
+},
+{
+  "id": "hm-sales-marketing-specialist-2026",
+  "title": "Sales and Marketing Specialist",
+  "employer": "HM Holdings",
+  "type": "job",
+  "location": "Maseru, Lesotho",
+  "arrangement": "Confirm employment terms",
+  "posted": "",
+  "deadline": null,
+  "deadlineUnknown": true,
+  "deadlineLabel": "Closing date unconfirmed — check the source",
+  "summary": "Selibeng’s current jobs feed lists this opportunity at HM Holdings in Maseru. Full requirements, employment terms and deadline remain to be confirmed from the employer advert.",
+  "requirements": [
+    "Confirm qualifications, experience and all application documents on the original advert."
+  ],
+  "application": "Open the source notice and follow its application instructions. Confirm applications are still accepted.",
+  "official": "https://selibeng.com/sales-and-marketing-specialist-at-hm-holdings/",
+  "primarySourceName": "Selibeng jobs RSS feed",
+  "verification": "publisher",
+  "verifiedAt": "2026-10-13T00:00:00+02:00",
+  "verificationNote": "Title and employer found in Selibeng’s jobs feed. Employer-level confirmation and deadline remain outstanding.",
+  "discoveredVia": "User-supplied Google Jobs alert"
+},
+{
+  "id": "ihrl-thuso-project-manager-2026",
+  "title": "Project Manager — THUSO Project (Marang Fund)",
+  "employer": "International Human Rights Lab (IHRL)",
+  "type": "job",
+  "location": "Maseru, Lesotho",
+  "arrangement": "Confirm employment terms",
+  "posted": "",
+  "deadline": null,
+  "deadlineUnknown": true,
+  "deadlineLabel": "Closing date unconfirmed — check the source",
+  "summary": "Selibeng’s feed lists an IHRL vacancy for the EU-funded THUSO Project. It describes Maseru with possible travel and a 12-month contract subject to funding; confirm full details and the closing date on the original notice.",
+  "requirements": [
+    "Confirm qualifications, experience and all application documents on the original advert."
+  ],
+  "application": "Open the source notice and follow its application instructions. Confirm applications are still accepted.",
+  "official": "https://selibeng.com/project-manager-thuso-project-marang-fund/",
+  "primarySourceName": "Selibeng jobs RSS feed",
+  "verification": "publisher",
+  "verifiedAt": "2026-10-13T00:00:00+02:00",
+  "verificationNote": "Title and employer found in Selibeng’s jobs feed. Employer-level confirmation and deadline remain outstanding.",
+  "discoveredVia": "User-supplied Google Jobs alert"
+}
 ];

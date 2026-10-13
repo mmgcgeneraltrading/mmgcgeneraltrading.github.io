@@ -12,6 +12,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data' / 'opportunity-discoveries.json'
 FEED = 'https://selibeng.com/category/opportunities/tenders/feed/'
+JOBS_FEED = 'https://selibeng.com/category/opportunities/jobs/feed/'
 
 def request(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'MMGC-Opportunity-Updater/1.0', 'Accept': 'application/json, application/rss+xml, application/xml'})
@@ -69,11 +70,11 @@ def google_jobs(api_key, fetch=request):
         tokens.add(token)
     raise ValueError('Search pagination exceeded 100 pages; refusing partial results')
 
-def main(sources=('tenders', 'jobs')):
+def main(sources=('tenders', 'local_jobs', 'jobs')):
     data = json.loads(OUTPUT.read_text()) if OUTPUT.exists() else {'jobs': {'items': []}, 'tenders': {'items': []}}
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     failed = False
-    for name, loader in [('tenders', lambda: tender_feed(request(FEED))), ('jobs', lambda: google_jobs(os.environ['SERPAPI_API_KEY']))]:
+    for name, loader in [('tenders', lambda: tender_feed(request(FEED))), ('local_jobs', lambda: tender_feed(request(JOBS_FEED))), ('jobs', lambda: google_jobs(os.environ['SERPAPI_API_KEY']))]:
         if name not in sources:
             continue
         section = data.setdefault(name, {'items': []})
@@ -101,4 +102,4 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--tenders-only', action='store_true', help='Refresh Selibeng notices without using Google Jobs API quota')
     args = parser.parse_args()
-    raise SystemExit(main(('tenders',) if args.tenders_only else ('tenders', 'jobs')))
+    raise SystemExit(main(('tenders',) if args.tenders_only else ('tenders', 'local_jobs', 'jobs')))

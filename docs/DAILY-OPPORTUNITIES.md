@@ -4,7 +4,7 @@ The site keeps curated tender/job records separate from automatically collected 
 
 ## Daily updates
 
-`.github/workflows/daily-opportunities.yml` runs at 05:00 UTC (07:00 Africa/Maseru), with additional tender/source checks at 22:00 and 02:00 UTC (midnight and 04:00 Africa/Maseru), and supports **Run workflow**. GitHub schedules can be delayed and run only on the default branch; inactivity may disable schedules in public repositories.
+`.github/workflows/daily-opportunities.yml` runs at 05:30 UTC (07:30 Africa/Maseru), with additional tender/source checks at 22:00 and 02:00 UTC (midnight and 04:00 Africa/Maseru), and supports **Run workflow**. GitHub schedules can be delayed and run only on the default branch; inactivity may disable schedules in public repositories.
 
 - Selibeng: reads its tender category RSS feed. The feed contains the notices provided by Selibeng, not every historical article. These are discovery links, with deadlines marked for confirmation.
 - Google Jobs: uses SerpApi's `google_jobs` engine for `jobs lesotho`, following pagination until exhausted. Google results depend on location, date and indexing; this cannot guarantee all personalised browser results. A search result is not independent employer verification. Listings are refreshed as a complete source snapshot and are not added to curated records or assigned invented deadlines.
@@ -37,3 +37,9 @@ The updater exits nonzero if any source fails, while still saving successful sou
 `scripts/check_source_links.py` checks access over verified HTTPS and updates `data/lesotho-sources.json`. The daily workflow runs this check and publishes the resulting statuses alongside source discoveries. An HTTP response only verifies page access, not that its notices are current. Four sources could not be reached during the initial 43-link check; their warnings remain visible. The directory is not an exhaustive inventory of Lesotho domains.
 
 Overnight runs use `--tenders-only` and do not call Google Jobs or consume its API quota. These are scheduled data refreshes, not a continuously running agent or guaranteed exhaustive research. Hosted run success remains unverified until GitHub Actions access is available.
+
+## Google alert listings and local jobs feed
+
+On 13 October, three individual listings were added from the user’s ten alert titles: Central Bank Operations internship (employer portal), HM Holdings Sales and Marketing Specialist and IHRL THUSO Project Manager (titles/employers confirmed in Selibeng’s jobs feed). The CBL programme was already listed as a combined internship advert; the new record gives the individual Operations placement and links its employer notice. Its 23 October closing date comes from the existing programme newspaper record; exact time remains unconfirmed. HM and IHRL deadlines remain unknown and have no calendar reminders. Seven remaining alert titles are shown separately as unverified leads with no invented application URLs or deadlines.
+
+The default daily updater now imports `local_jobs` from Selibeng’s jobs feed without an API key. Google Jobs remains a separate optional API source. The morning cron was corrected to 07:30 Africa/Maseru. Unknown-deadline records are labelled, generate no structured JobPosting data, and do not receive calendar links.

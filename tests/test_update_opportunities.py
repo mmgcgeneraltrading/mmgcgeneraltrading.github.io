@@ -47,6 +47,16 @@ class DiscoveryTests(unittest.TestCase):
             self.assertEqual(current['jobs'], previous['jobs'])
             self.assertEqual(current['tenders']['items'][0]['title'], 'New tender')
 
+    def test_local_jobs_feed_can_refresh_without_a_google_key(self):
+        with TemporaryDirectory() as folder:
+            output = Path(folder) / 'results.json'
+            feed = b'<rss><channel><item><title>Sales role</title><link>https://selibeng.com/sales/</link></item></channel></rss>'
+            with patch.object(u, 'OUTPUT', output), patch.object(u, 'request', return_value=feed), patch.dict(u.os.environ, {}, clear=True):
+                self.assertEqual(u.main(('local_jobs',)), 0)
+            current = json.loads(output.read_text())
+            self.assertEqual(current['local_jobs']['status'], 'ok')
+            self.assertIsNone(current['local_jobs']['items'][0]['deadline'])
+
     def test_source_failure_preserves_previous_successful_results(self):
         with TemporaryDirectory() as folder:
             output = Path(folder) / 'results.json'

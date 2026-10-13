@@ -1,7 +1,7 @@
 name: Daily opportunity discovery
 on:
   schedule:
-    - cron: '0 5 * * *' # 07:00 Africa/Maseru; GitHub may delay scheduled runs.
+    - cron: '30 5 * * *' # 07:30 Africa/Maseru; GitHub may delay scheduled runs.
     - cron: '0 22,2 * * *' # Midnight and 04:00 Africa/Maseru: tender/source checks only.
   workflow_dispatch:
 permissions:

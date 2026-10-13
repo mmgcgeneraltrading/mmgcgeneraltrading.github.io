@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
-  const host = document.getElementById('source-discoveries');
-  if (!host) return;
-  const kind = host.dataset.kind;
+  for (const host of document.querySelectorAll('[data-discovery-kind]')) {
+  const kind = host.dataset.discoveryKind;
   const status = document.createElement('p');
   status.textContent = 'Loading source discoveries…';
   host.append(status);
@@ -36,5 +35,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     host.append(rows);
   } catch {
     status.textContent = 'Source discoveries are unavailable. Use the source link below or browse the curated listings above.';
+  }
   }
 });
