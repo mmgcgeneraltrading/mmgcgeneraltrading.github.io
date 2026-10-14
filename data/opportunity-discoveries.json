@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-13T07:59:10.387337+00:00",
+    "lastAttempt": "2026-10-14T10:29:35.034800+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "485dbff724e6d86c33cf",
+        "title": "Consultant: Site Agent – Connector Roads",
+        "url": "https://selibeng.com/consultant-site-agent-connector-roads/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 07:43:00 +0000",
+        "deadline": null
+      },
       {
         "id": "76600588791e1f09e912",
         "title": "Consultancy for The Assessment of The Extension of Assignment Allowance to Regionally Recruited Staff from Host Countries",
@@ -359,21 +367,157 @@
         "source": "Selibeng",
         "published": "Thu, 17 Sep 2026 19:38:03 +0000",
         "deadline": null
-      },
-      {
-        "id": "5ecab56b85e5f1eac7e8",
-        "title": "Provision of Security Services & Debt Collection Services",
-        "url": "https://selibeng.com/provision-of-security-services-debt-collection-services/",
-        "source": "Selibeng",
-        "published": "Thu, 17 Sep 2026 10:12:36 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-14T07:12:47.304683+00:00",
-    "updatedAt": "2026-10-14T07:12:47.304683+00:00"
+    "lastAttempt": "2026-10-14T10:29:35.034800+00:00",
+    "updatedAt": "2026-10-14T10:29:35.034800+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "100f2c226b06e5f6153e",
+        "title": "HR, Industrial and Labour Relations Consulting Intern",
+        "url": "https://selibeng.com/hr-industrial-and-labour-relations-consulting-intern/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 08:27:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a90cda8abc78f2dcbfda",
+        "title": "Plant Manager at UNIK Construction",
+        "url": "https://selibeng.com/plant-manager-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 07:11:25 +0000",
+        "deadline": null
+      },
+      {
+        "id": "85e2a1671e597eb2887b",
+        "title": "Chef de Partie at Maliba Lodge",
+        "url": "https://selibeng.com/chef-de-partie-at-maliba-lodge/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 06:51:43 +0000",
+        "deadline": null
+      },
+      {
+        "id": "304b9c976f02bbfece68",
+        "title": "Volunteer Coordinators and Facilitators at Therapy Hub",
+        "url": "https://selibeng.com/volunteer-coordinators-and-facilitators-at-therapy-hub/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 06:50:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "12eb4e19b39a4f6573e5",
+        "title": "IT and Software Specialist at StarX Tech",
+        "url": "https://selibeng.com/it-and-software-specialist-at-starx-tech/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 06:49:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2c198e2a452fc349943c",
+        "title": "Commercial Manager at UNIK Construction",
+        "url": "https://selibeng.com/commercial-manager-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 06:43:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "062c944962c9d20cce9a",
+        "title": "Land Surveyor at UNIK Construction",
+        "url": "https://selibeng.com/land-surveyor-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 06:43:13 +0000",
+        "deadline": null
+      },
+      {
+        "id": "db786773ce060658d7f2",
+        "title": "Quantity Surveyor at UNIK Construction",
+        "url": "https://selibeng.com/quantity-surveyor-at-unik-construction-2/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 06:42:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7883fc1b1cd7afc02e27",
+        "title": "Restaurant Supervisor at Mpilo Boutique Hotel",
+        "url": "https://selibeng.com/restaurant-supervisor-at-mpilo-boutique-hotel/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 16:51:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3fe1d6337aed8d720ba4",
+        "title": "Packaging Manager at Lesotho Flour Mills",
+        "url": "https://selibeng.com/packaging-manager-at-lesotho-flour-mills/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 13:46:54 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a224d2a66d3488701443",
+        "title": "Sales Associate at Exact, Maseru",
+        "url": "https://selibeng.com/sales-associate-at-exact-maseru-2/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 13:22:45 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a490c30df7a705652975",
+        "title": "Sales Associate – Markham, Pioneer Mall",
+        "url": "https://selibeng.com/sales-associate-markham-pioneer-mall/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 13:20:46 +0000",
+        "deadline": null
+      },
+      {
+        "id": "bdb96049c34fd6c83a21",
+        "title": "Head Coach at LMPS Football Club",
+        "url": "https://selibeng.com/head-coach-at-lmps-football-club/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 13:12:36 +0000",
+        "deadline": null
+      },
+      {
+        "id": "629d800ec18ad5f56960",
+        "title": "Temporary Cleaning Attendants at Lerotholi Polytechnic",
+        "url": "https://selibeng.com/temporary-cleaning-attendants-lp/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 12:31:43 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e54b7304af360bc55ad8",
+        "title": "Delivery Drivers at Nexus Lesotho",
+        "url": "https://selibeng.com/delivery-drivers-at-nexus-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 10:53:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9354d39eb6b022efdd9e",
+        "title": "Intern Physiotherapist at TM Physiotherapy Maseru",
+        "url": "https://selibeng.com/intern-physiotherapist-at-tm-physiotherapy-maseru/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 10:02:42 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5c87afe2030706757c08",
+        "title": "Data Analyst Intern at Colossus Global",
+        "url": "https://selibeng.com/data-analyst-intern-at-colossus-global/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 09:15:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cee97320d136560248fe",
+        "title": "Business Analyst Intern at Colossus Global",
+        "url": "https://selibeng.com/business-analyst-intern-at-colossus-global/",
+        "source": "Selibeng",
+        "published": "Tue, 13 Oct 2026 09:15:15 +0000",
+        "deadline": null
+      },
       {
         "id": "18bd49b4dd221b2931c1",
         "title": "Reconciliation Officer at The Lesotho PostBank",
@@ -589,154 +733,10 @@
         "source": "Selibeng",
         "published": "Fri, 09 Oct 2026 08:47:04 +0000",
         "deadline": null
-      },
-      {
-        "id": "9a2ec6fe2ba66c54cdc0",
-        "title": "Project Manager – THUSO Project (Marang Fund)",
-        "url": "https://selibeng.com/project-manager-thuso-project-marang-fund/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 07:27:51 +0000",
-        "deadline": null
-      },
-      {
-        "id": "8c0cd8541938a5c9f454",
-        "title": "Accountant at Lioli Football Club",
-        "url": "https://selibeng.com/accountant-at-lioli-football-club/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 04:59:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b7cd559c0a48acb2dd79",
-        "title": "Mandarin Teacher at The Porch International",
-        "url": "https://selibeng.com/mandarin-teacher-at-the-porch-international/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 04:57:48 +0000",
-        "deadline": null
-      },
-      {
-        "id": "607b747f65f488803722",
-        "title": "Boom Swinger / Sound Intern at Vision Street",
-        "url": "https://selibeng.com/boom-swinger-sound-intern-at-vision-street/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 17:14:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c0d2263cc31a9c598e64",
-        "title": "Data Wrangler Intern at Vision Street",
-        "url": "https://selibeng.com/data-wrangler-intern-at-vision-street/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 17:13:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "dc47e8df3c7248bd0e10",
-        "title": "Camera Operator Intern at Vision Street",
-        "url": "https://selibeng.com/camera-operator-intern-at-vision-street/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 17:12:55 +0000",
-        "deadline": null
-      },
-      {
-        "id": "43f9aa806d0202535249",
-        "title": "Assistant Director Intern at Vision Street",
-        "url": "https://selibeng.com/assistant-director-intern-at-vision-street/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 17:12:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1a79732282dc13712916",
-        "title": "Marketing Administrator at Lioli Football Club",
-        "url": "https://selibeng.com/marketing-administrator-at-lioli-football-club/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 17:03:26 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3072ffd361329945f57c",
-        "title": "Sales & Marketing Consultant at PhisYx IT",
-        "url": "https://selibeng.com/sales-marketing-consultant-at-phisyx-it/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 13:35:56 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3123167deb9fbcb00bca",
-        "title": "Credit & Operations Assistant at MacFin Micro Finance",
-        "url": "https://selibeng.com/credit-operations-assistant-at-macfin-micro-finance/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 08:44:19 +0000",
-        "deadline": null
-      },
-      {
-        "id": "478d22795173a3aaf4ac",
-        "title": "Marketing Specialist at Mak’aya Café",
-        "url": "https://selibeng.com/marketing-specialist-at-makaya-cafe/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 08:40:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ece4d2dd92f0de46204f",
-        "title": "Plumber at Mohale’s Hoek English Medium Primary",
-        "url": "https://selibeng.com/plumber-at-mohales-hoek-english-medium-primary/",
-        "source": "Selibeng",
-        "published": "Wed, 07 Oct 2026 17:10:46 +0000",
-        "deadline": null
-      },
-      {
-        "id": "16f6068717ab9653a46e",
-        "title": "Table Clerk at The National Assembly",
-        "url": "https://selibeng.com/table-clerk-at-the-national-assembly/",
-        "source": "Selibeng",
-        "published": "Wed, 07 Oct 2026 16:45:33 +0000",
-        "deadline": null
-      },
-      {
-        "id": "90dee31f17324a8e6cc6",
-        "title": "4 Positions at Pacito’s",
-        "url": "https://selibeng.com/4-positions-at-pacitos/",
-        "source": "Selibeng",
-        "published": "Wed, 07 Oct 2026 16:33:43 +0000",
-        "deadline": null
-      },
-      {
-        "id": "8a055dcb983170541549",
-        "title": "Associate Legal Adviser at The International Commission of Jurists (ICJ)",
-        "url": "https://selibeng.com/associate-legal-adviser-at-the-international-commission-of-jurists-icj/",
-        "source": "Selibeng",
-        "published": "Wed, 07 Oct 2026 09:50:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "47fdd11329be4da3c8ff",
-        "title": "Assistant Food Safety & Hygiene Manager at Avani Lesotho",
-        "url": "https://selibeng.com/assistant-food-safety-hygiene-manager-at-avani-lesotho/",
-        "source": "Selibeng",
-        "published": "Wed, 07 Oct 2026 09:28:44 +0000",
-        "deadline": null
-      },
-      {
-        "id": "84d59170b3051b5cc187",
-        "title": "Front Office Manager at Avani Lesotho",
-        "url": "https://selibeng.com/front-office-manager-at-avani-lesotho/",
-        "source": "Selibeng",
-        "published": "Wed, 07 Oct 2026 09:27:08 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6c16647601739c2346d4",
-        "title": "Shop Assistant / Cashier x2 – Clicks Pioneer Mall",
-        "url": "https://selibeng.com/shop-assistant-cashier-x2-clicks-pioneer-mall/",
-        "source": "Selibeng",
-        "published": "Wed, 07 Oct 2026 06:58:19 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-13T07:59:10.387337+00:00",
-    "updatedAt": "2026-10-13T07:59:10.387337+00:00",
+    "lastAttempt": "2026-10-14T10:29:35.034800+00:00",
+    "updatedAt": "2026-10-14T10:29:35.034800+00:00",
     "status": "ok"
   }
 }
