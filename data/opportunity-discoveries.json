@@ -9,6 +9,22 @@
     "status": "ok",
     "items": [
       {
+        "id": "7b42ab666d5415244afe",
+        "title": "Tender – Content Development for Licensing Examinations for Supply Chain Management in Malawi",
+        "url": "https://selibeng.com/tender-content-development-for-licensing-examinations-for-supply-chain-management-in-malawi/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 12:53:35 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5f4c38284ff6c0d689ea",
+        "title": "Project Finance and Administration Consultant – Connector Roads",
+        "url": "https://selibeng.com/project-finance-and-administration-consultant-connector-roads/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 11:42:00 +0000",
+        "deadline": null
+      },
+      {
         "id": "485dbff724e6d86c33cf",
         "title": "Consultant: Site Agent – Connector Roads",
         "url": "https://selibeng.com/consultant-site-agent-connector-roads/",
@@ -351,26 +367,10 @@
         "source": "Selibeng",
         "published": "Fri, 18 Sep 2026 15:55:53 +0000",
         "deadline": null
-      },
-      {
-        "id": "2e9ee852504ab75bd91e",
-        "title": "RFP: Development of the Lesotho Independent Anti-Corruption and Ethics Commission (LIACEC) Policy",
-        "url": "https://selibeng.com/rfp-development-of-the-lesotho-independent-anti-corruption-and-ethics-commission-liacec-policy/",
-        "source": "Selibeng",
-        "published": "Fri, 18 Sep 2026 08:16:20 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5e9d4c50b6a6bfc44040",
-        "title": "Tender – Supply and Delivery of Food Fodder",
-        "url": "https://selibeng.com/tender-supply-and-delivery-of-food-fodder/",
-        "source": "Selibeng",
-        "published": "Thu, 17 Sep 2026 19:38:03 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-14T10:29:35.034800+00:00",
-    "updatedAt": "2026-10-14T10:29:35.034800+00:00"
+    "lastAttempt": "2026-10-15T00:18:50.649237+00:00",
+    "updatedAt": "2026-10-15T00:18:50.649237+00:00"
   },
   "local_jobs": {
     "items": [
