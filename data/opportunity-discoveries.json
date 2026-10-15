@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-14T10:29:35.034800+00:00",
+    "lastAttempt": "2026-10-15T10:13:08.337729+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,43 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-15T07:04:31.293271+00:00",
-    "updatedAt": "2026-10-15T07:04:31.293271+00:00"
+    "lastAttempt": "2026-10-15T10:13:08.337729+00:00",
+    "updatedAt": "2026-10-15T10:13:08.337729+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "d647c10d2f692b02920c",
+        "title": "Administration Assistant at Rural Electrification Unit",
+        "url": "https://selibeng.com/administration-assistant-at-rural-electrification-unit/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 17:28:19 +0000",
+        "deadline": null
+      },
+      {
+        "id": "055f9f5950da3b950797",
+        "title": "TBM Tunnel Superintendent at SMEC",
+        "url": "https://selibeng.com/tbm-tunnel-superintendent-at-smec/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 17:19:32 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9dec85640edef198c357",
+        "title": "Head Chef at Thakadu Restaurant",
+        "url": "https://selibeng.com/head-chef-at-thakadu-restaurant/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 12:59:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f629d565f4bb7984f79f",
+        "title": "Foreman at The Keepers Cleaners",
+        "url": "https://selibeng.com/foreman-at-the-keepers-cleaners/",
+        "source": "Selibeng",
+        "published": "Wed, 14 Oct 2026 12:35:38 +0000",
+        "deadline": null
+      },
       {
         "id": "100f2c226b06e5f6153e",
         "title": "HR, Industrial and Labour Relations Consulting Intern",
@@ -701,42 +733,10 @@
         "source": "Selibeng",
         "published": "Fri, 09 Oct 2026 09:06:15 +0000",
         "deadline": null
-      },
-      {
-        "id": "022da8c8fd4aff915107",
-        "title": "Information Technology Manager at MEFMI",
-        "url": "https://selibeng.com/information-technology-manager-at-mefmi/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 09:05:01 +0000",
-        "deadline": null
-      },
-      {
-        "id": "493ac5a79a6ff2e192cf",
-        "title": "Programme Manager – Sovereign Asset Management at MEFMI",
-        "url": "https://selibeng.com/programme-manager-sovereign-asset-management-at-mefmi/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 09:03:45 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1a9c2d0464fba59759e4",
-        "title": "Public Relations Manager at LHDA",
-        "url": "https://selibeng.com/public-relations-manager-at-lhda/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 08:47:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c165ec9797a4e0149cb8",
-        "title": "Senior Accountant Fixed Assets at LHDA",
-        "url": "https://selibeng.com/senior-accountant-fixed-assets-at-lhda-2/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 08:47:04 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-14T10:29:35.034800+00:00",
-    "updatedAt": "2026-10-14T10:29:35.034800+00:00",
+    "lastAttempt": "2026-10-15T10:13:08.337729+00:00",
+    "updatedAt": "2026-10-15T10:13:08.337729+00:00",
     "status": "ok"
   }
 }
