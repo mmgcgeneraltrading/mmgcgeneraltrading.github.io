@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-15T10:13:08.337729+00:00",
+    "lastAttempt": "2026-10-16T10:03:17.896861+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,91 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-16T06:48:23.936905+00:00",
-    "updatedAt": "2026-10-16T06:48:23.936905+00:00"
+    "lastAttempt": "2026-10-16T10:03:17.896861+00:00",
+    "updatedAt": "2026-10-16T10:03:17.896861+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "142124f05dde7c6fddb5",
+        "title": "Boom Pump Truck Operator at UNIK Construction",
+        "url": "https://selibeng.com/boom-pump-truck-operator-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 09:53:49 +0000",
+        "deadline": null
+      },
+      {
+        "id": "27c7c64e47c8380527ac",
+        "title": "Retention Advisor at Metropolitan",
+        "url": "https://selibeng.com/retention-advisor-at-metropolitan/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 07:08:25 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ae693d0f13ad48e2f25f",
+        "title": "Millwright at WASCO",
+        "url": "https://selibeng.com/millwright-at-wasco/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 06:33:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "61954123d11ad7434d4a",
+        "title": "Brand Ambassador at Natty Glam and Healing Haven",
+        "url": "https://selibeng.com/brand-ambassador-at-natty-glam-and-healing-haven/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 06:32:17 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e3fad718f1d418c1c977",
+        "title": "Beautician at Leading Business College",
+        "url": "https://selibeng.com/beautician-at-leading-business-college/",
+        "source": "Selibeng",
+        "published": "Thu, 15 Oct 2026 18:37:51 +0000",
+        "deadline": null
+      },
+      {
+        "id": "fc24cc69666ad5ff1001",
+        "title": "Beauty Advisor at Foschini – Pioneer Mall",
+        "url": "https://selibeng.com/beauty-advisor-at-foschini-pioneer-mall-2/",
+        "source": "Selibeng",
+        "published": "Thu, 15 Oct 2026 17:35:32 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b2439ccee129d5d8fda2",
+        "title": "Finance Officer at Colossus Global",
+        "url": "https://selibeng.com/finance-officer-at-colossus-global/",
+        "source": "Selibeng",
+        "published": "Thu, 15 Oct 2026 16:43:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "155b758b3e5f30b5ab71",
+        "title": "Primary School Teacher at Play To Learn Primary School",
+        "url": "https://selibeng.com/primary-school-teacher-at-play-to-learn-primary-school/",
+        "source": "Selibeng",
+        "published": "Thu, 15 Oct 2026 12:36:26 +0000",
+        "deadline": null
+      },
+      {
+        "id": "624811db6e41fd42f621",
+        "title": "Sales Internship Programme at Armour",
+        "url": "https://selibeng.com/sales-internship-programme-at-armour/",
+        "source": "Selibeng",
+        "published": "Thu, 15 Oct 2026 10:27:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f8f851aea42d69f85bfe",
+        "title": "Brewery Microbiologist and Food Safety Specialist",
+        "url": "https://selibeng.com/brewery-microbiologist-and-food-safety-specialist/",
+        "source": "Selibeng",
+        "published": "Thu, 15 Oct 2026 10:22:09 +0000",
+        "deadline": null
+      },
       {
         "id": "d647c10d2f692b02920c",
         "title": "Administration Assistant at Rural Electrification Unit",
@@ -653,90 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 12 Oct 2026 08:35:56 +0000",
         "deadline": null
-      },
-      {
-        "id": "52d607be030e2a346ac5",
-        "title": "Maintenance Technician x3 at WeGrow",
-        "url": "https://selibeng.com/maintenance-technician-x3-at-wegrow/",
-        "source": "Selibeng",
-        "published": "Sat, 10 Oct 2026 09:43:25 +0000",
-        "deadline": null
-      },
-      {
-        "id": "de51327e37c11fd6394f",
-        "title": "Hygiene Controller at CBL",
-        "url": "https://selibeng.com/hygiene-controller-at-cbl/",
-        "source": "Selibeng",
-        "published": "Sat, 10 Oct 2026 09:07:02 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7f77bfd0d28e014fbee1",
-        "title": "Biology and Chemistry Teacher at The Kingdom Academy",
-        "url": "https://selibeng.com/biology-and-chemistry-teacher-at-the-kingdom-academy/",
-        "source": "Selibeng",
-        "published": "Sat, 10 Oct 2026 09:02:12 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3b88264249d716462878",
-        "title": "Clerk: Transport Admin at Lesotho Bakery",
-        "url": "https://selibeng.com/clerk-transport-admin-at-lesotho-bakery/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 18:08:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "61af4fd6b3c217db8beb",
-        "title": "Various Positions at Boloka Building Materials",
-        "url": "https://selibeng.com/various-positions-at-boloka-building-materials/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 17:39:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9755ae67fd4608283592",
-        "title": "Sales Consultant at Zeecom",
-        "url": "https://selibeng.com/sales-consultant-at-zeecom/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 14:51:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ffe0a1d79d3aac749b41",
-        "title": "Lecturer – Textiles at Lerotholi Polytechnic",
-        "url": "https://selibeng.com/lecturer-textiles-lp/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 13:59:22 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f299166ae18d06c8b5d3",
-        "title": "Stores Attendant at Lerotholi Polytechnic",
-        "url": "https://selibeng.com/stores-attendant-lp/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 13:55:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c22d18a757067def0fb2",
-        "title": "Technical Director at LENEPWHA",
-        "url": "https://selibeng.com/technical-director-at-lenepwha/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 13:31:45 +0000",
-        "deadline": null
-      },
-      {
-        "id": "563d6d6a93b96ae7bc1c",
-        "title": "Human Resources Manager at MEFMI",
-        "url": "https://selibeng.com/human-resources-manager-at-mefmi/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 09:06:15 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-15T10:13:08.337729+00:00",
-    "updatedAt": "2026-10-15T10:13:08.337729+00:00",
+    "lastAttempt": "2026-10-16T10:03:17.896861+00:00",
+    "updatedAt": "2026-10-16T10:03:17.896861+00:00",
     "status": "ok"
   }
 }
