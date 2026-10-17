@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-16T10:03:17.896861+00:00",
+    "lastAttempt": "2026-10-17T09:36:17.751745+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,75 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-17T06:40:18.140805+00:00",
-    "updatedAt": "2026-10-17T06:40:18.140805+00:00"
+    "lastAttempt": "2026-10-17T09:36:17.751745+00:00",
+    "updatedAt": "2026-10-17T09:36:17.751745+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "180d940cad3548317155",
+        "title": "Business Administration Officer at Ralikhomo Fabrications",
+        "url": "https://selibeng.com/business-administration-officer-at-ralikhomo-fabrications/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 09:26:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "89b0f5f8c26ec35425e0",
+        "title": "Security Officers at Hawk-Eyed Security",
+        "url": "https://selibeng.com/security-officers-at-hawk-eyed-security-3/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 09:20:43 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d6fa34b02c40eb5acfa6",
+        "title": "School Secretary at Mohale’s Hoek English Medium High School",
+        "url": "https://selibeng.com/school-secretary-at-mohales-hoek-english-medium-high-school/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 09:12:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c32ccb7c3af761153644",
+        "title": "Teachers at Katleho Private Academy",
+        "url": "https://selibeng.com/teachers-at-katleho-private-academy/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 08:31:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "06831d4eb694cb3e57bf",
+        "title": "IT Assistant at Formosa Textiles",
+        "url": "https://selibeng.com/it-assistant-at-formosa-textiles/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 19:07:14 +0000",
+        "deadline": null
+      },
+      {
+        "id": "890dd2b4938a3f46a2c5",
+        "title": "Specialised Mechanic at Urban Roadside Assistance & Workshop",
+        "url": "https://selibeng.com/specialised-mechanic-at-urban-roadside-assistance-workshop/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 18:57:36 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f1beba6f29bb88924afd",
+        "title": "Product Owner – Digital at Vodacom Lesotho",
+        "url": "https://selibeng.com/product-owner-digital-at-vodacom-lesotho/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 12:48:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c4c5ad268ebac00c46cc",
+        "title": "Marketing and Business Operations Intern at SmartConnect",
+        "url": "https://selibeng.com/marketing-and-business-operations-intern-at-smartconnect/",
+        "source": "Selibeng",
+        "published": "Fri, 16 Oct 2026 10:04:27 +0000",
+        "deadline": null
+      },
       {
         "id": "142124f05dde7c6fddb5",
         "title": "Boom Pump Truck Operator at UNIK Construction",
@@ -669,74 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 12 Oct 2026 19:51:45 +0000",
         "deadline": null
-      },
-      {
-        "id": "5708c908b273c8020209",
-        "title": "HTS Lay Counsellors at Phelisanang Bophelong",
-        "url": "https://selibeng.com/hts-lay-counsellor-at-phelisanang-bophelong/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 19:51:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9002bae43007cc8423d7",
-        "title": "Internships – Rubicon Guest House",
-        "url": "https://selibeng.com/interships-rubicon-guest-house/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 10:42:11 +0000",
-        "deadline": null
-      },
-      {
-        "id": "888fb535f515b12e93fc",
-        "title": "CBL Graduate Internship –  Department of Research: Statistics Division",
-        "url": "https://selibeng.com/cbl-graduate-internship-department-of-research-statistics-division/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 09:26:14 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c4413818e62de08b16de",
-        "title": "CBL Graduate Internship – Finance",
-        "url": "https://selibeng.com/cbl-graduate-internship-finance/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 09:23:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "418ba1c72ad3c641fec0",
-        "title": "CBL Graduate Internship – Human Resources Management",
-        "url": "https://selibeng.com/cbl-graudate-internship-human-resources-management/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 09:21:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f19a86f1d83c279b456c",
-        "title": "CBL Graduate Internship – Department of Research: Studies and Analysis Division",
-        "url": "https://selibeng.com/cbl-graduate-internship-department-of-research-studies-and-analysis-division/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 08:59:02 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0ef7bcfc6ea14f334133",
-        "title": "CBL Graduate Internship – Department of Operations",
-        "url": "https://selibeng.com/cbl-graduate-internship-department-of-operations/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 08:56:59 +0000",
-        "deadline": null
-      },
-      {
-        "id": "71d0491e15713311d6af",
-        "title": "Sales and Marketing Specialist at HM Holdings",
-        "url": "https://selibeng.com/sales-and-marketing-specialist-at-hm-holdings/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 08:35:56 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-16T10:03:17.896861+00:00",
-    "updatedAt": "2026-10-16T10:03:17.896861+00:00",
+    "lastAttempt": "2026-10-17T09:36:17.751745+00:00",
+    "updatedAt": "2026-10-17T09:36:17.751745+00:00",
     "status": "ok"
   }
 }
