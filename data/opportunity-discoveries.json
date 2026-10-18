@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-17T09:36:17.751745+00:00",
+    "lastAttempt": "2026-10-18T09:48:24.281243+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,51 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-18T07:01:41.975735+00:00",
-    "updatedAt": "2026-10-18T07:01:41.975735+00:00"
+    "lastAttempt": "2026-10-18T09:48:24.281243+00:00",
+    "updatedAt": "2026-10-18T09:48:24.281243+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "4bd67e8154c6349dcdfc",
+        "title": "Dentist at Scott Hospital",
+        "url": "https://selibeng.com/dentist-at-scott-hospital/",
+        "source": "Selibeng",
+        "published": "Sun, 18 Oct 2026 06:52:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a2029a07a98d4151e449",
+        "title": "Lecturer / Senior Lecturer in Mathematics Education at NUL",
+        "url": "https://selibeng.com/lecturer-senior-lecturer-in-mathematics-education-at-nul/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 15:18:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "91ab48f5b8f7d33b7c2b",
+        "title": "Programme Associate at UNICEF",
+        "url": "https://selibeng.com/programme-associate-at-unicef-2/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 13:13:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d4f17476035e767315cc",
+        "title": "Independent Non-Executive Director at FNB Lesotho",
+        "url": "https://selibeng.com/independent-non-executive-director-at-fnb-lesotho/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 11:29:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0d1bfc11a2af46221274",
+        "title": "REOI for Youth Apprenticeship",
+        "url": "https://selibeng.com/reoi-for-youth-apprenticeship/",
+        "source": "Selibeng",
+        "published": "Sat, 17 Oct 2026 10:08:53 +0000",
+        "deadline": null
+      },
       {
         "id": "180d940cad3548317155",
         "title": "Business Administration Officer at Ralikhomo Fabrications",
@@ -693,50 +733,10 @@
         "source": "Selibeng",
         "published": "Tue, 13 Oct 2026 09:15:15 +0000",
         "deadline": null
-      },
-      {
-        "id": "18bd49b4dd221b2931c1",
-        "title": "Reconciliation Officer at The Lesotho PostBank",
-        "url": "https://selibeng.com/reconciliation-officer-at-the-lesotho-postbank/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 06:58:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0dbe7cfe614565561a01",
-        "title": "Faculty of Engineering and Technology – Lecturer/ Senior Lecturer at Botho University",
-        "url": "https://selibeng.com/faculty-of-engineering-and-technology-lecturer-senior-lecturer-at-botho-university/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 06:35:37 +0000",
-        "deadline": null
-      },
-      {
-        "id": "fa9a7e268e0495586dc2",
-        "title": "Faculty of Engineering and Technology – Fellow/ Professor at Botho University",
-        "url": "https://selibeng.com/faculty-of-engineering-and-technology-fellow-professor-at-botho-university/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 06:32:31 +0000",
-        "deadline": null
-      },
-      {
-        "id": "72c0e54c64fa19528d1a",
-        "title": "Car Wash Attendants at Monaco Lounge & Car Wash",
-        "url": "https://selibeng.com/car-wash-attendants-at-monaco-lounge-car-wash/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 20:12:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d714879e4a93a4a00191",
-        "title": "Peer Navigators at Phelisanang Bophelong",
-        "url": "https://selibeng.com/peer-navigators-at-phelisanang-bophelong/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 19:51:45 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-17T09:36:17.751745+00:00",
-    "updatedAt": "2026-10-17T09:36:17.751745+00:00",
+    "lastAttempt": "2026-10-18T09:48:24.281243+00:00",
+    "updatedAt": "2026-10-18T09:48:24.281243+00:00",
     "status": "ok"
   }
 }
