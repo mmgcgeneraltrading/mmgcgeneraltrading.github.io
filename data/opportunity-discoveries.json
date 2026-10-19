@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-18T09:48:24.281243+00:00",
+    "lastAttempt": "2026-10-19T11:05:56.581394+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "412f2f0224b4df1b62f9",
+        "title": "Invitation to Mandatory Site Inspection",
+        "url": "https://selibeng.com/invitation-to-mandatory-site-inspection/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 09:21:15 +0000",
+        "deadline": null
+      },
       {
         "id": "7162f3fcff22c0bcf880",
         "title": "Request for Proposals: Financial and Risk Management Compliance Audits for Sub-Grantees",
@@ -359,21 +367,117 @@
         "source": "Selibeng",
         "published": "Sun, 20 Sep 2026 17:06:33 +0000",
         "deadline": null
-      },
-      {
-        "id": "f154f75bd2ccd6dea37a",
-        "title": "Job Evaluation Consultancy",
-        "url": "https://selibeng.com/job-evaluation-consultancy-2/",
-        "source": "Selibeng",
-        "published": "Sat, 19 Sep 2026 18:42:37 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-19T07:24:29.160257+00:00",
-    "updatedAt": "2026-10-19T07:24:29.160257+00:00"
+    "lastAttempt": "2026-10-19T11:05:56.581394+00:00",
+    "updatedAt": "2026-10-19T11:05:56.581394+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "b708e04b7406aa53ee44",
+        "title": "Welder at Ralikhomo Fabrications",
+        "url": "https://selibeng.com/welder-at-ralikhomo-fabrications-2/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 09:51:36 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ba685e3f3a39711a4d68",
+        "title": "Marketing Intern at Phuthalichaba Savings and Credit Cooperative Society",
+        "url": "https://selibeng.com/marketing-intern-at-phuthalichaba-savings-and-credit-cooperative-society/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 09:29:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6ff98d24f4163d9ff081",
+        "title": "Customer Team Member at KFC",
+        "url": "https://selibeng.com/customer-team-member-at-kfc-2/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 09:25:30 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5c1d9d71a6ac516dcb8d",
+        "title": "Store Supervisor – Mokhotlong at Vodacom",
+        "url": "https://selibeng.com/store-supervisor-mokhotlong-at-vodacom/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 09:19:09 +0000",
+        "deadline": null
+      },
+      {
+        "id": "79fb4a4f22f5303510bf",
+        "title": "Procurement Manager at BEDCO",
+        "url": "https://selibeng.com/procurement-manager-at-bedco/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 07:55:36 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c25d3dd87ccffd5bf43d",
+        "title": "Manager Marketing, Communication and Stakeholder Relations at BEDCO",
+        "url": "https://selibeng.com/manager-marketing-communication-and-stakeholder-relations-at-bedco/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 07:54:09 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c196ccab5f50c06e7d9a",
+        "title": "Tutor / Teacher – Supplementary and Extra Classes",
+        "url": "https://selibeng.com/tutor-teacher-supplementary-and-extra-classes/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 07:41:10 +0000",
+        "deadline": null
+      },
+      {
+        "id": "34f2b10e4507bea9830b",
+        "title": "Operations and Maintenance Sub-Committee Member – Asset Management Specialist",
+        "url": "https://selibeng.com/operations-and-maintenance-sub-committee-member-asset-management-specialist/",
+        "source": "Selibeng",
+        "published": "Sun, 18 Oct 2026 15:37:47 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f40c6d627a8bdf01de9e",
+        "title": "Operations and Maintenance Sub-Committee Member – Operations and Maintenance",
+        "url": "https://selibeng.com/operations-and-maintenance-sub-committee-member-operations-and-maintenance/",
+        "source": "Selibeng",
+        "published": "Sun, 18 Oct 2026 15:36:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c23a6f4122bd122224d8",
+        "title": "Audit and Risk Management Sub-Committee Member – Information Systems Specialist",
+        "url": "https://selibeng.com/audit-and-risk-management-sub-committee-member-information-systems-specialist/",
+        "source": "Selibeng",
+        "published": "Sun, 18 Oct 2026 15:35:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c6900b4f2897b75048bf",
+        "title": "Audit and Risk Management Sub-Committee Member – Chartered Accountant",
+        "url": "https://selibeng.com/audit-and-risk-management-sub-committee-member-chartered-accountant/",
+        "source": "Selibeng",
+        "published": "Sun, 18 Oct 2026 15:34:20 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3c39c5d48a0cc634b5a6",
+        "title": "Station Manager at Bokamoso FM",
+        "url": "https://selibeng.com/station-manager-at-bokamoso-fm/",
+        "source": "Selibeng",
+        "published": "Sun, 18 Oct 2026 13:48:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4d836f283734ac915d8d",
+        "title": "Hospitality Candidate at Roma Valley Park and Carwash",
+        "url": "https://selibeng.com/hospitality-candidate-at-roma-valley-park-and-carwash/",
+        "source": "Selibeng",
+        "published": "Sun, 18 Oct 2026 13:46:47 +0000",
+        "deadline": null
+      },
       {
         "id": "4bd67e8154c6349dcdfc",
         "title": "Dentist at Scott Hospital",
@@ -629,114 +733,10 @@
         "source": "Selibeng",
         "published": "Wed, 14 Oct 2026 06:49:12 +0000",
         "deadline": null
-      },
-      {
-        "id": "2c198e2a452fc349943c",
-        "title": "Commercial Manager at UNIK Construction",
-        "url": "https://selibeng.com/commercial-manager-at-unik-construction/",
-        "source": "Selibeng",
-        "published": "Wed, 14 Oct 2026 06:43:29 +0000",
-        "deadline": null
-      },
-      {
-        "id": "062c944962c9d20cce9a",
-        "title": "Land Surveyor at UNIK Construction",
-        "url": "https://selibeng.com/land-surveyor-at-unik-construction/",
-        "source": "Selibeng",
-        "published": "Wed, 14 Oct 2026 06:43:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "db786773ce060658d7f2",
-        "title": "Quantity Surveyor at UNIK Construction",
-        "url": "https://selibeng.com/quantity-surveyor-at-unik-construction-2/",
-        "source": "Selibeng",
-        "published": "Wed, 14 Oct 2026 06:42:02 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7883fc1b1cd7afc02e27",
-        "title": "Restaurant Supervisor at Mpilo Boutique Hotel",
-        "url": "https://selibeng.com/restaurant-supervisor-at-mpilo-boutique-hotel/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 16:51:29 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3fe1d6337aed8d720ba4",
-        "title": "Packaging Manager at Lesotho Flour Mills",
-        "url": "https://selibeng.com/packaging-manager-at-lesotho-flour-mills/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 13:46:54 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a224d2a66d3488701443",
-        "title": "Sales Associate at Exact, Maseru",
-        "url": "https://selibeng.com/sales-associate-at-exact-maseru-2/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 13:22:45 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a490c30df7a705652975",
-        "title": "Sales Associate – Markham, Pioneer Mall",
-        "url": "https://selibeng.com/sales-associate-markham-pioneer-mall/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 13:20:46 +0000",
-        "deadline": null
-      },
-      {
-        "id": "bdb96049c34fd6c83a21",
-        "title": "Head Coach at LMPS Football Club",
-        "url": "https://selibeng.com/head-coach-at-lmps-football-club/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 13:12:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "629d800ec18ad5f56960",
-        "title": "Temporary Cleaning Attendants at Lerotholi Polytechnic",
-        "url": "https://selibeng.com/temporary-cleaning-attendants-lp/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 12:31:43 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e54b7304af360bc55ad8",
-        "title": "Delivery Drivers at Nexus Lesotho",
-        "url": "https://selibeng.com/delivery-drivers-at-nexus-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 10:53:16 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9354d39eb6b022efdd9e",
-        "title": "Intern Physiotherapist at TM Physiotherapy Maseru",
-        "url": "https://selibeng.com/intern-physiotherapist-at-tm-physiotherapy-maseru/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 10:02:42 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5c87afe2030706757c08",
-        "title": "Data Analyst Intern at Colossus Global",
-        "url": "https://selibeng.com/data-analyst-intern-at-colossus-global/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 09:15:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cee97320d136560248fe",
-        "title": "Business Analyst Intern at Colossus Global",
-        "url": "https://selibeng.com/business-analyst-intern-at-colossus-global/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 09:15:15 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-18T09:48:24.281243+00:00",
-    "updatedAt": "2026-10-18T09:48:24.281243+00:00",
+    "lastAttempt": "2026-10-19T11:05:56.581394+00:00",
+    "updatedAt": "2026-10-19T11:05:56.581394+00:00",
     "status": "ok"
   }
 }
