@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "d6b016d7324b55d55063",
+        "title": "REOI: Travel Management Companies",
+        "url": "https://selibeng.com/reoi-travel-management-companies/",
+        "source": "Selibeng",
+        "published": "Mon, 19 Oct 2026 17:45:15 +0000",
+        "deadline": null
+      },
+      {
         "id": "412f2f0224b4df1b62f9",
         "title": "Invitation to Mandatory Site Inspection",
         "url": "https://selibeng.com/invitation-to-mandatory-site-inspection/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Sun, 20 Sep 2026 17:34:55 +0000",
         "deadline": null
-      },
-      {
-        "id": "fb2ba3cb3e1ffa56483e",
-        "title": "Tender – Supply of Immigration Uniform",
-        "url": "https://selibeng.com/tender-supply-of-immigration-uniform/",
-        "source": "Selibeng",
-        "published": "Sun, 20 Sep 2026 17:06:33 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-19T11:05:56.581394+00:00",
-    "updatedAt": "2026-10-19T11:05:56.581394+00:00"
+    "lastAttempt": "2026-10-20T00:55:46.837904+00:00",
+    "updatedAt": "2026-10-20T00:55:46.837904+00:00"
   },
   "local_jobs": {
     "items": [
