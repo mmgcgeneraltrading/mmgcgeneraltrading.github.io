@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "b882f89069146ab2eaa9",
+        "title": "Tender: Installation and Configuration of Palo Alto Prisma Browser Solution to the RSL Environment",
+        "url": "https://selibeng.com/tender-installation-and-configuration-of-palo-alto-prisma-browser-solution-to-the-rsl-environment/",
+        "source": "Selibeng",
+        "published": "Wed, 21 Oct 2026 07:04:38 +0000",
+        "deadline": null
+      },
+      {
         "id": "d6b016d7324b55d55063",
         "title": "REOI: Travel Management Companies",
         "url": "https://selibeng.com/reoi-travel-management-companies/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Mon, 21 Sep 2026 07:23:39 +0000",
         "deadline": null
-      },
-      {
-        "id": "275104d0b0ddee0c86cf",
-        "title": "Tender – Supply and Delivery of Safety Boots and Freezer Suits",
-        "url": "https://selibeng.com/tender-supply-and-delivery-of-safety-boots-and-freezer-suits/",
-        "source": "Selibeng",
-        "published": "Sun, 20 Sep 2026 17:34:55 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-21T00:24:16.335070+00:00",
-    "updatedAt": "2026-10-21T00:24:16.335070+00:00"
+    "lastAttempt": "2026-10-21T07:11:09.202082+00:00",
+    "updatedAt": "2026-10-21T07:11:09.202082+00:00"
   },
   "local_jobs": {
     "items": [
