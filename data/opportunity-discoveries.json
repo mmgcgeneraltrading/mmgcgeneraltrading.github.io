@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-20T10:18:54.176288+00:00",
+    "lastAttempt": "2026-10-21T10:29:09.349110+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,43 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-21T07:11:09.202082+00:00",
-    "updatedAt": "2026-10-21T07:11:09.202082+00:00"
+    "lastAttempt": "2026-10-21T10:29:09.349110+00:00",
+    "updatedAt": "2026-10-21T10:29:09.349110+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "356debf4c9ab7d624623",
+        "title": "Employee Benefits Manager at Minet",
+        "url": "https://selibeng.com/employee-benefits-manager-at-minet/",
+        "source": "Selibeng",
+        "published": "Wed, 21 Oct 2026 08:31:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b88afb0c50b708cf2f77",
+        "title": "Bartender at Khutsong Lodge",
+        "url": "https://selibeng.com/bartender-at-khutsong-lodge/",
+        "source": "Selibeng",
+        "published": "Tue, 20 Oct 2026 15:26:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "03400e41cda879d4f336",
+        "title": "Front Desk Administrator at Khutsong Lodge",
+        "url": "https://selibeng.com/front-desk-administrator-at-khutsong-lodge/",
+        "source": "Selibeng",
+        "published": "Tue, 20 Oct 2026 15:26:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "dd90731d860280716a28",
+        "title": "Office Administrator at Mayet & Associates Attorneys",
+        "url": "https://selibeng.com/office-administrator-at-mayet-associates-attorneys/",
+        "source": "Selibeng",
+        "published": "Tue, 20 Oct 2026 12:13:23 +0000",
+        "deadline": null
+      },
       {
         "id": "6d50797a420f59962079",
         "title": "Administrator at BlackHair",
@@ -701,42 +733,10 @@
         "source": "Selibeng",
         "published": "Sat, 17 Oct 2026 08:31:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "06831d4eb694cb3e57bf",
-        "title": "IT Assistant at Formosa Textiles",
-        "url": "https://selibeng.com/it-assistant-at-formosa-textiles/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 19:07:14 +0000",
-        "deadline": null
-      },
-      {
-        "id": "890dd2b4938a3f46a2c5",
-        "title": "Specialised Mechanic at Urban Roadside Assistance & Workshop",
-        "url": "https://selibeng.com/specialised-mechanic-at-urban-roadside-assistance-workshop/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 18:57:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f1beba6f29bb88924afd",
-        "title": "Product Owner – Digital at Vodacom Lesotho",
-        "url": "https://selibeng.com/product-owner-digital-at-vodacom-lesotho/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 12:48:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c4c5ad268ebac00c46cc",
-        "title": "Marketing and Business Operations Intern at SmartConnect",
-        "url": "https://selibeng.com/marketing-and-business-operations-intern-at-smartconnect/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 10:04:27 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-20T10:18:54.176288+00:00",
-    "updatedAt": "2026-10-20T10:18:54.176288+00:00",
+    "lastAttempt": "2026-10-21T10:29:09.349110+00:00",
+    "updatedAt": "2026-10-21T10:29:09.349110+00:00",
     "status": "ok"
   }
 }
