@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b2f57">
+<meta name="description" content="MMGC Shop POS - secure point of sale for shops in Lesotho, inventory, cash registers and receipts.">
+<meta name="robots" content="noindex,nofollow">
+<title>Shop POS | MMGC General Trading</title>
+<link rel="icon" href="assets/mmgc-logo.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+:root{--pos-ink:#142f48;--pos-blue:#0b2f57;--pos-green:#138b55;--pos-gold:#dcaf49;--pos-muted:#67798b;--pos-line:#dce6ee;--pos-bg:#f4f7fa}
+*{box-sizing:border-box}
+html:not(.mmgc-auth-ready) body{visibility:hidden}
+[hidden]{display:none!important}
+body{margin:0;background:var(--pos-bg);color:var(--pos-ink);font-family:Arial,Helvetica,sans-serif}
+.pos-header{background:#fff;border-bottom:1px solid var(--pos-line);min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px max(3%,calc((100vw - 1360px)/2));position:sticky;top:0;z-index:20}
+.pos-brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--pos-blue)}.pos-brand img{height:44px;width:44px;object-fit:contain}.pos-brand b{display:block;font-size:15px}.pos-brand small{font-size:11px;color:var(--pos-green);letter-spacing:1px}
+.pos-header-links{display:flex;gap:18px;align-items:center}.pos-header-links a{text-decoration:none;color:var(--pos-blue);font-size:13px;font-weight:700}
+.pos-header-links .pill{background:var(--pos-blue);color:white!important;padding:9px 14px;border-radius:10px}
+.pos-wrapper{max-width:1360px;margin:0 auto;padding:26px 3% 80px}
+.pos-title{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:22px}.pos-title h1{font-size:clamp(24px,3vw,33px);margin:0 0 5px;color:var(--pos-blue)}.pos-title p{margin:0;color:var(--pos-muted);font-size:14px}
+.pos-pill{background:#e7f5ee;border:1px solid #bce4d0;color:#116b43;font-size:12px;font-weight:800;border-radius:99px;padding:8px 12px}
+.pos-card{background:#fff;border:1px solid var(--pos-line);border-radius:17px;box-shadow:0 6px 25px #0b2f5709;padding:23px;min-width:0}
+.pos-card h2{font-size:19px;color:var(--pos-blue);margin:0 0 8px}.pos-card h3{font-size:15px;margin:0 0 10px}.pos-muted{font-size:13px;color:var(--pos-muted)}
+.pos-grid{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:19px;align-items:start}
+.pos-layout{display:grid;grid-template-columns:192px minmax(0,1fr);gap:22px}
+.pos-sidebar{background:#0b2f57;color:#fff;border-radius:17px;padding:17px;height:fit-content;position:sticky;top:95px}
+.pos-sidebar h2{font-size:12px;color:#b6cce0;text-transform:uppercase;letter-spacing:1px;margin:0 0 12px}
+.pos-sidebar button{display:flex;width:100%;border:0;background:transparent;color:#deebf5;text-align:left;border-radius:10px;padding:13px 12px;font-weight:800;font-size:13px;cursor:pointer;margin:3px 0}
+.pos-sidebar button.active,.pos-sidebar button:hover{background:#ffffff19;color:#fff}
+.pos-main{min-width:0}.pos-toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:17px}
+.pos-toolbar>input,.pos-toolbar>select{flex:1;min-width:140px}
+input,select,textarea{color:#142f48;border:1px solid #bdcedb;border-radius:10px;padding:12px;font:inherit;font-size:14px;background:#fff}
+input:focus,select:focus,textarea:focus{outline:2px solid #a4d4e6;outline-offset:1px}
+label{font-size:13px;font-weight:700;color:var(--pos-ink);display:block}
+label input,label select,label textarea{margin-top:7px;width:100%}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.form-grid .wide{grid-column:1/-1}
+button,.pos-button{cursor:pointer;font:inherit}
+.pos-button{background:#0b2f57;color:white;padding:12px 16px;border:none;text-decoration:none;border-radius:10px;font-size:13px;font-weight:800;display:inline-block;text-align:center}
+.pos-button:hover{filter:brightness(1.09)}
+.pos-button:disabled{opacity:.48;cursor:not-allowed}
+.pos-button.green{background:#12894f}.pos-button.white{background:#fff;color:#0b2f57;border:1px solid #c8d7e2}
+.pos-button.danger{background:#ad3346}.pos-button.small{padding:8px 10px;font-size:12px}
+.pos-products{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:12px}
+.pos-product{padding:15px;border:1px solid #d9e4ed;border-radius:13px;background:#fff;text-align:left;display:flex;flex-direction:column;gap:8px;min-height:144px}
+.pos-product strong{font-size:13px;line-height:1.3;color:#17324d}.pos-product small{font-size:11px;color:#607486}
+.pos-product .price{margin-top:auto;color:#0d7550;font-size:19px;font-weight:900}
+.pos-product:hover:not(:disabled){border-color:#12915b;box-shadow:0 5px 15px #138b551a}
+.pos-product:disabled{opacity:.55;cursor:not-allowed}
+.pos-cart{position:sticky;top:95px}.pos-cart-header{display:flex;align-items:center;justify-content:space-between}
+.cart-row{display:grid;grid-template-columns:minmax(0,1fr) 90px auto;align-items:center;gap:9px;padding:13px 0;border-bottom:1px solid #e5ecf2}
+.cart-row strong{font-size:12px;display:block}.cart-row small{font-size:11px;color:var(--pos-muted)}
+.counter{display:flex;align-items:center;gap:8px}.counter button{width:27px;height:27px;border:1px solid #bacfdd;border-radius:8px;background:#f7fafc;font-weight:900}.counter b{font-size:12px}
+.cart-row .cart-total{font-weight:800;font-size:12px;white-space:nowrap}
+.totals{border-top:1px solid var(--pos-line);margin-top:16px;padding-top:15px}
+.totals>div{display:flex;justify-content:space-between;margin-bottom:9px;font-size:13px}.totals .grand{font-weight:900;font-size:23px;color:#0b2f57}
+.pos-cart label{margin-top:12px}.pos-cart label input,.pos-cart label select{width:100%}
+.pos-notice{padding:12px 14px;background:#fff8e6;border:1px solid #f1dfb2;border-radius:10px;font-size:12px;line-height:1.5;color:#775d22;margin:15px 0}
+.pos-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:0 0 22px}
+.pos-stat{background:#fff;border:1px solid #dce6ee;border-radius:15px;padding:17px}.pos-stat span{display:block;color:var(--pos-muted);font-size:11px;font-weight:700;margin-bottom:8px}.pos-stat b{font-size:23px;color:#0b2f57}
+.pos-tablewrap{overflow:auto}.pos-table{width:100%;border-collapse:collapse;min-width:640px;font-size:13px}.pos-table th,.pos-table td{padding:13px 10px;border-bottom:1px solid #e2eaf0;text-align:left}.pos-table th{color:#5d7385;font-size:11px;background:#f4f7fa;text-transform:uppercase}.pos-table td b{color:#0b2f57}
+.pos-bad{color:#b33d3d;font-weight:800}.pos-good{color:#14774b;font-weight:800}
+.pos-actions{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0 0}
+.pos-onboard{max-width:680px;margin:25px auto}.pos-onboard .pos-card{padding:30px}.pos-onboard h1{margin:3px 0 8px;color:#0b2f57}.pos-onboard p{color:#586e80}
+.pos-panel[hidden]{display:none!important}
+.pos-empty{padding:35px 15px;text-align:center;border:1px dashed #b8cbd7;border-radius:12px;color:#5f7587;background:#fafcfd;font-size:13px}
+dialog{border:1px solid #d6e4ec;border-radius:18px;box-shadow:0 25px 80px #102e4c45;padding:25px;width:min(560px,95vw);max-height:90vh;overflow:auto}
+dialog::backdrop{background:#0c253c9e}dialog h2{margin-top:0;color:#0b2f57}
+.pos-flash{position:fixed;bottom:22px;right:22px;max-width:450px;padding:14px 18px;background:#0b2f57;color:#fff;border-radius:13px;box-shadow:0 12px 35px #0b2f5736;z-index:50;font-size:13px}
+.pos-flash.error{background:#b03446}
+#receipt{display:none}
+@media(max-width:1080px){.pos-layout{grid-template-columns:1fr}.pos-sidebar{position:static;display:flex;flex-wrap:wrap;align-items:center;gap:5px}.pos-sidebar h2{margin:0 8px}.pos-sidebar button{width:auto;margin:0}}
+@media(max-width:810px){.pos-grid{grid-template-columns:1fr}.pos-cart{position:static}.pos-stats{grid-template-columns:repeat(2,1fr)}.pos-header-links a:not(.pill){display:none}}
+@media(max-width:520px){.pos-wrapper{padding:18px 4% 65px}.pos-card{padding:17px}.pos-title{display:block}.pos-title .pos-pill{display:inline-block;margin-top:12px}.form-grid{grid-template-columns:1fr}.form-grid .wide{grid-column:auto}.pos-sidebar{gap:3px;padding:10px}.pos-sidebar button{padding:10px 9px;font-size:11px}.pos-products{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.pos-stats{gap:8px}.pos-stat b{font-size:19px}}
+@media print{body{background:white!important}body>*:not(#receipt){display:none!important}#receipt{display:block!important;color:#111!important;font:12px/1.45 Arial,sans-serif!important;max-width:350px;margin:0 auto;padding:15px}#receipt h2{text-align:center;font-size:16px;margin:4px 0}#receipt .r-center{text-align:center}#receipt hr{border:0;border-top:1px dashed #555;margin:13px 0}#receipt table{width:100%;border-collapse:collapse;font-size:11px}#receipt td,#receipt th{padding:4px;text-align:left}#receipt td:last-child,#receipt th:last-child{text-align:right}}
+</style>
+<script type="module" src="auth-guard.js"></script>
+<script type="module" src="pos.js?v=1"></script>
+</head>
+<body>
+<header class="pos-header">
+ <a class="pos-brand" href="index.html"><img src="assets/mmgc-logo.png" alt="MMGC logo"><span><b>MMGC GENERAL TRADING</b><small>SHOP POINT OF SALE</small></span></a>
+ <nav class="pos-header-links"><a href="index.html">Website</a><a href="account.html">My Account</a><a class="pill" href="tools.html">Business Tools</a></nav>
+</header>
+<div class="pos-wrapper">
+ <div id="posLoading" class="pos-card" role="status">Loading your shop POS…</div>
+ <section id="posOnboarding" class="pos-onboard" hidden>
+  <div class="pos-card">
+   <p class="pos-pill">MMGC POS · FOR SHOPS</p>
+   <h1>Set up your shop</h1>
+   <p>Each shop has its own private products, stock, staff and sales. Use your existing MMGC account to get started.</p>
+   <form id="shopForm" class="form-grid">
+    <label class="wide">Shop name<input name="name" required maxlength="120" minlength="2" placeholder="e.g. Mabote Mini Market"></label>
+    <label>Phone number<input name="phone" maxlength="35" placeholder="+266 ..."></label>
+    <label>Shop location / address<input name="address" maxlength="240" placeholder="Maseru, Lesotho"></label>
+    <div class="wide"><button class="pos-button green" type="submit">Create Shop & Open Till</button></div>
+   </form>
+   <p class="pos-muted">An internet connection is required. This system is not a payment gateway: mobile money and card payments must be confirmed independently.</p>
+  </div>
+ </section>
+ <section id="posWorkbench" hidden>
+  <div class="pos-title"><div><h1>Shop Point of Sale</h1><p>Sell products, manage inventory, print receipts and review activity.</p></div><span class="pos-pill" id="shopRole">Staff access</span></div>
+  <div class="pos-toolbar"><label style="min-width:200px;flex:1">Selected shop<select id="shopSelect" aria-label="Select shop"></select></label><button class="pos-button white" id="newShop" type="button">+ New Shop</button><span id="shopMeta" class="pos-muted"></span></div>
+  <div id="posStats" class="pos-stats">
+   <div class="pos-stat"><span>TODAY'S SALES</span><b id="statRevenue">M0.00</b></div>
+   <div class="pos-stat"><span>TODAY'S TRANSACTIONS</span><b id="statTransactions">0</b></div>
+   <div class="pos-stat"><span>ACTIVE PRODUCTS</span><b id="statProducts">0</b></div>
+   <div class="pos-stat"><span>LOW-STOCK PRODUCTS</span><b id="statLowStock">0</b></div>
+  </div>
+  <div class="pos-layout">
+   <aside class="pos-sidebar">
+    <h2>Manage shop</h2>
+    <button type="button" class="active" data-tab="checkout">🛒 Sell / Checkout</button>
+    <button type="button" data-tab="inventory">📦 Products & Stock</button>
+    <button type="button" data-tab="sales">🧾 Sales History</button>
+    <button type="button" data-tab="reports">📊 Reports</button>
+    <button type="button" data-tab="team">👥 Staff & Access</button>
+   </aside>
+   <main class="pos-main">
+    <section class="pos-panel" data-panel="checkout">
+     <div class="pos-grid">
+      <div class="pos-card"><h2>Products</h2><p class="pos-muted">Search by product, SKU or category. Barcode scanners that type a SKU can use the search field.</p>
+       <div class="pos-toolbar"><input id="productSearch" type="search" placeholder="Search product / scan SKU…" aria-label="Search products"><select id="categoryFilter" aria-label="Product category"><option value="">All categories</option></select></div>
+       <div id="productCards" class="pos-products"></div>
+      </div>
+      <aside class="pos-card pos-cart"><div class="pos-cart-header"><h2>Current basket</h2><button class="pos-button white small" type="button" id="clearCart">Clear</button></div>
+       <div id="cartRows"></div>
+       <div class="totals"><div class="grand"><span>Total</span><strong id="cartTotal">M0.00</strong></div><div><span>Items</span><strong id="cartCount">0</strong></div><div id="cashChangeRow" hidden><span>Change due</span><strong id="cashChange">M0.00</strong></div></div>
+       <label>Customer name (optional)<input id="customerName" maxlength="150" placeholder="Walk-in customer"></label>
+       <label>Payment method<select id="paymentMethod"><option value="cash">Cash</option><option value="mpesa">M-Pesa (manually confirmed)</option><option value="ecocash">EcoCash (manually confirmed)</option><option value="card">Card (manually confirmed)</option><option value="bank">Bank transfer (manually confirmed)</option></select></label>
+       <label id="receivedWrap">Cash received (M)<input id="amountReceived" type="number" min="0" step="0.01" placeholder="Amount customer handed over"></label>
+       <label>Payment reference / note (optional)<input id="paymentReference" maxlength="120" placeholder="Transaction reference"></label>
+       <div class="pos-notice">For non-cash payments, check your actual bank or mobile-money account first. Recording a sale here does not transfer or verify money.</div>
+       <button id="checkoutButton" class="pos-button green" style="width:100%" type="button" disabled>Complete Sale</button>
+      </aside>
+     </div>
+    </section>
+    <section class="pos-panel" data-panel="inventory" hidden>
+     <div class="pos-card"><div class="pos-toolbar" style="justify-content:space-between"><div><h2>Products & Stock</h2><p class="pos-muted">Manage stock counts and selling prices for this shop.</p></div><button id="addProduct" class="pos-button green" type="button">+ Add Product</button></div>
+      <div class="pos-toolbar"><input id="inventorySearch" type="search" placeholder="Filter products…" aria-label="Filter inventory"><button id="exportStock" class="pos-button white" type="button">Export Stock CSV</button></div>
+      <div class="pos-tablewrap"><table class="pos-table"><thead><tr><th>Product / SKU</th><th>Category</th><th>Unit price</th><th>Stock</th><th>Low threshold</th><th>Status</th><th>Action</th></tr></thead><tbody id="inventoryRows"></tbody></table></div>
+     </div>
+    </section>
+    <section class="pos-panel" data-panel="sales" hidden>
+     <div class="pos-card"><h2>Sales History</h2><p class="pos-muted">Showing the newest 300 transactions. Select a receipt to print a copy.</p>
+      <div class="pos-toolbar"><button id="refreshSales" class="pos-button white" type="button">Refresh Sales</button><button id="exportSales" class="pos-button white" type="button">Export Sales CSV</button></div>
+      <div class="pos-tablewrap"><table class="pos-table"><thead><tr><th>Receipt</th><th>Time</th><th>Method</th><th>Customer</th><th>Total</th><th>Action</th></tr></thead><tbody id="salesRows"></tbody></table></div>
+     </div>
+    </section>
+    <section class="pos-panel" data-panel="reports" hidden>
+     <div class="pos-card"><h2>Shop Reports</h2><p class="pos-muted">Sales statistics based on the currently displayed sales history (latest 300 transactions).</p><div id="reportContent"></div></div>
+    </section>
+    <section class="pos-panel" data-panel="team" hidden>
+     <div class="pos-card"><h2>Shop Staff</h2><p class="pos-muted">Shop owners can grant cashier or manager access to people who already have MMGC website accounts.</p>
+      <div id="teamOwner" hidden>
+       <form id="staffForm" class="form-grid" style="margin:18px 0"><label>Staff MMGC account email<input name="email" type="email" required placeholder="employee@example.com"></label><label>Role<select name="role"><option value="cashier">Cashier – checkout only</option><option value="manager">Manager – checkout and stock</option></select></label><div class="wide"><button type="submit" class="pos-button green">Add / Update Staff</button></div></form>
+       <div class="pos-tablewrap"><table class="pos-table"><thead><tr><th>Email</th><th>Role</th><th>Action</th></tr></thead><tbody id="staffRows"></tbody></table></div>
+      </div>
+      <p id="teamNoOwner" class="pos-notice">Only the shop owner can manage staff accounts.</p>
+     </div>
+    </section>
+   </main>
+  </div>
+ </section>
+</div>
+<dialog id="productDialog"><form id="productForm">
+ <h2 id="productDialogHeading">Add Product</h2>
+ <input type="hidden" name="id">
+ <div class="form-grid">
+  <label class="wide">Product name<input name="name" maxlength="180" required placeholder="e.g. A4 Paper Ream"></label>
+  <label>SKU / Barcode<input name="sku" maxlength="60" placeholder="Unique shop code"></label>
+  <label>Category<input name="category" maxlength="60" value="General"></label>
+  <label>Unit<select name="unit"><option>each</option><option>pack</option><option>box</option><option>ream</option><option>kg</option><option>litre</option><option>metre</option><option>service</option></select></label>
+  <label>Selling price (M)<input name="price" type="number" min="0" max="999999999" step="0.01" required></label>
+  <label>Stock quantity<input name="quantity" type="number" min="0" max="999999" step="1" required></label>
+  <label>Low stock alert at<input name="reorder_level" type="number" min="0" max="999999" step="1" value="5" required></label>
+  <label><input name="active" type="checkbox" checked style="width:auto"> Active / available for sale</label>
+ </div>
+ <div class="pos-actions"><button type="submit" class="pos-button green">Save Product</button><button type="button" id="cancelProduct" class="pos-button white">Cancel</button></div>
+ </form></dialog>
+<div id="toast" class="pos-flash" hidden role="status" aria-live="polite"></div>
+<section id="receipt" aria-label="Printable sales receipt"></section>
+</body>
+</html>
