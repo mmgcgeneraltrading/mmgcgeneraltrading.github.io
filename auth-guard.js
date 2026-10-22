@@ -114,7 +114,12 @@ function addNav(user) {
 
 async function run() {
   if (current === 'auth.html') { show(); return; }
-  if (publicPage) show();
+  if (publicPage) {
+    show();
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded',()=>addNav(null),{once:true});
+    } else addNav(null);
+  }
   let user = null;
   try {
     const { data, error } = await client.auth.getUser();
