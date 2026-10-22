@@ -14,26 +14,47 @@
   <link rel="stylesheet" href="tender-enhancements.css">
   <link rel="stylesheet" href="mobile.css">
 <style>html:not(.mmgc-auth-ready) body{visibility:hidden}</style><script type="module" src="auth-guard.js"></script>
+<link rel="stylesheet" href="header-v4.css?v=4">
+<script src="header-v4.js?v=4" defer></script>
 </head>
 <body class="desk-body">
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="index.html" aria-label="MMGC General Trading home">
-      <img src="assets/mmgc-logo.png" alt="MMGC General Trading logo">
-      <span><b>MMGC GENERAL TRADING</b><small>General Suppliers & Business Support</small></span>
-    </a>
-    <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open navigation menu">
-    <label class="nav-toggle-label" for="nav-toggle"><span></span><span></span><span></span></label>
-    <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a class="active-desk" href="tenders.html">Tender Desk</a>
-      <a href="products.html">Products</a>
-      <a href="tender-calculator.html">Cost Calculator</a>
-      <a href="suppliers.html">Suppliers</a>
-      <a href="past-tenders.html">Past Tenders</a>
-      <a class="pill" href="index.html#quote">Request a Quote</a>
-    </nav>
-  </div>
+<header class="mmgc-v4-header">
+<svg class="mmgc-v4-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<symbol id="mmgc-v4-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></symbol>
+<symbol id="mmgc-v4-company" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 21v-5h6v5M8 8h1m6 0h1M8 12h1m6 0h1"/></symbol>
+<symbol id="mmgc-v4-services" viewBox="0 0 24 24"><path d="M12 3a7 7 0 0 0-7 7c0 3.4 2.5 5.3 4 7v4h6v-4c1.5-1.7 4-3.6 4-7a7 7 0 0 0-7-7Z"/><path d="M9 18h6M9 21h6"/></symbol>
+<symbol id="mmgc-v4-store" viewBox="0 0 24 24"><path d="M4 10 6 3h12l2 7v2a3 3 0 0 1-5 2 3 3 0 0 1-6 0 3 3 0 0 1-5-2v-2Z"/><path d="M5 15v6h14v-6M9 21v-5h6v5"/></symbol>
+<symbol id="mmgc-v4-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13c5 3 13 3 18 0"/></symbol>
+<symbol id="mmgc-v4-tools" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 15v3m5-10v10m5-6v6M7 11h0m5-7h0m5 5h0"/></symbol>
+<symbol id="mmgc-v4-quote" viewBox="0 0 24 24"><path d="M4 4h16v13H8l-4 4V4Z"/><path d="M8 9h8M8 13h5"/></symbol>
+<symbol id="mmgc-v4-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+<symbol id="mmgc-v4-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="mmgc-v4-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+</svg>
+<div class="wrap nav mmgc-v4-inner">
+<a class="brand mmgc-v4-brand" href="index.html" aria-label="MMGC General Trading homepage">
+<img src="assets/mmgc-logo.png" alt="MMGC General Trading logo" width="48" height="48" />
+<span><b>MMGC</b><small>GENERAL TRADING</small></span>
+</a>
+<input class="nav-toggle mmgc-v4-check" id="nav-toggle" type="checkbox" aria-label="Toggle navigation"/>
+<label class="nav-toggle-label mmgc-v4-hamburger" for="nav-toggle" aria-label="Open navigation"><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-menu"></use></svg></label>
+<nav class="main-nav mmgc-v4-nav" aria-label="Main menu">
+<div class="mmgc-v4-primary">
+<a class="mmgc-v4-home" href="index.html"><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-home"></use></svg><span>Home</span></a>
+<details class="mmgc-v4-group "><summary><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-company"></use></svg><span>Company</span><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-chevron"></use></svg></summary><div class="mmgc-v4-dropdown"><a href="about.html">About MMGC</a><a href="portfolio.html">Our Portfolio</a><a href="industries.html">Industries We Serve</a><a href="why-mmgc.html">Why Choose MMGC</a></div></details>
+<details class="mmgc-v4-group "><summary><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-services"></use></svg><span>Services</span><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-chevron"></use></svg></summary><div class="mmgc-v4-dropdown"><a href="services.html">All Services</a><a href="tender-support.html">Tender Support</a><a href="drone-services.html">Drone Services & T55</a><a href="smart-home.html">Smart Homes & Starlink</a><a href="smart-security.html">Security Cameras & Alarms</a><a href="standard-services.html">Standard Services</a></div></details>
+<details class="mmgc-v4-group mmgc-v4-member"><summary><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-store"></use></svg><span>Marketplace</span><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-chevron"></use></svg></summary><div class="mmgc-v4-dropdown"><a href="products.html">Products Catalogue</a><a href="smart-home.html">Smart Home Products</a><a href="stationery.html">Stationery</a><a href="suppliers.html">Suppliers</a><a href="smart-builder.html">Smart Home Builder</a></div></details>
+<details class="mmgc-v4-group mmgc-v4-member"><summary><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-briefcase"></use></svg><span>Opportunities</span><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-chevron"></use></svg></summary><div class="mmgc-v4-dropdown"><a href="opportunities.html">All Opportunities</a><a href="tenders.html">Tenders & RFQs</a><a href="jobs.html">Individual Jobs</a><a href="applications.html">My Applications</a><a href="south-africa-tenders.html">South Africa Tenders</a><a href="south-africa-jobs.html">South Africa Jobs</a></div></details>
+<details class="mmgc-v4-group mmgc-v4-member"><summary><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-tools"></use></svg><span>Tools</span><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-chevron"></use></svg></summary><div class="mmgc-v4-dropdown"><a href="tools.html">Business Dashboards</a><a href="tender-calculator.html">Tender Calculator</a><a href="checklists.html">Bid Checklists</a><a href="alerts.html">Tender Alerts</a><a href="categories.html">Categories</a></div></details>
+</div>
+<div class="mmgc-v4-actions">
+<a class="mmgc-v4-quote" href="index.html#quote"><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-quote"></use></svg><span>Get a Quote</span></a>
+<a class="mmgc-v4-signin mmgc-v4-guest" data-mmgc-login href="auth.html?mode=login"><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-user"></use></svg><span>Sign In</span></a>
+<a class="mmgc-v4-join mmgc-v4-guest" data-mmgc-signup href="auth.html?mode=signup">Sign Up</a>
+<details class="mmgc-v4-account mmgc-v4-member"><summary><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-user"></use></svg><span>Account</span><svg class="mmgc-v4-icon" aria-hidden="true"><use href="#mmgc-v4-chevron"></use></svg></summary><div class="mmgc-v4-dropdown"><a href="account.html">My Account</a><button type="button" data-mmgc-signout>Sign Out</button></div></details>
+</div>
+</nav>
+</div>
 </header>
 <div id="procurement-alerts" class="procurement-alerts" aria-live="polite"></div>
 
