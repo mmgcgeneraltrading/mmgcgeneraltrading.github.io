@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "546eeaa20e78dbcfeef6",
+        "title": "Consultancy to Undertake Capacity Building on STATA in 5 SADC Member States as a Resource Person",
+        "url": "https://selibeng.com/consultancy-to-undertake-capacity-building-on-stata-in-5-sadc-member-states-as-a-resource-person/",
+        "source": "Selibeng",
+        "published": "Wed, 21 Oct 2026 18:47:04 +0000",
+        "deadline": null
+      },
+      {
         "id": "b882f89069146ab2eaa9",
         "title": "Tender: Installation and Configuration of Palo Alto Prisma Browser Solution to the RSL Environment",
         "url": "https://selibeng.com/tender-installation-and-configuration-of-palo-alto-prisma-browser-solution-to-the-rsl-environment/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Thu, 24 Sep 2026 06:09:57 +0000",
         "deadline": null
-      },
-      {
-        "id": "c60961c993d2ed75afb0",
-        "title": "Tender – Regional Open Request for Proposal for E-Commerce Platform Partner",
-        "url": "https://selibeng.com/tender-regional-open-request-for-proposal-for-e-commerce-platform-partner/",
-        "source": "Selibeng",
-        "published": "Mon, 21 Sep 2026 07:23:39 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-21T10:29:09.349110+00:00",
-    "updatedAt": "2026-10-21T10:29:09.349110+00:00"
+    "lastAttempt": "2026-10-22T00:27:41.838942+00:00",
+    "updatedAt": "2026-10-22T00:27:41.838942+00:00"
   },
   "local_jobs": {
     "items": [
