@@ -5,6 +5,10 @@ function init(){
  const header=document.querySelector('header.mmgc-v4-header');
  if(!header||header.dataset.navReady)return;
  header.dataset.navReady='1';
+ const toolsMenu=header.querySelector('.mmgc-v4-tools .mmgc-v4-dropdown');
+ if(toolsMenu&&!toolsMenu.querySelector('a[href="pos.html"]')){
+  const posLink=document.createElement('a');posLink.href='pos.html';posLink.textContent='Shop POS · Point of Sale';toolsMenu.appendChild(posLink);
+ }
  const menus=[...header.querySelectorAll('details.mmgc-v4-group,details.mmgc-v4-account')];
  const toggle=header.querySelector('#nav-toggle');
  const close=except=>menus.forEach(menu=>{if(menu!==except)menu.open=false;});
