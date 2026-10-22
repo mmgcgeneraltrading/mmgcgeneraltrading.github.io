@@ -1,4 +1,13 @@
 /* MMGC compact nav: native <details> works without JS; enhancements for focus & mobile. */
+function mmgcLoadAssistant(){
+  if(window.__MMGC_ASSISTANT_LOADER)return;
+  if(/\/(auth|job-apply|applications)\.html$/i.test(location.pathname))return;
+  window.__MMGC_ASSISTANT_LOADER=true;
+  if(!document.querySelector('link[href="assistant.css"]')){const c=document.createElement('link');c.rel='stylesheet';c.href='assistant.css?v=3';document.head.appendChild(c);}
+  const script=document.createElement('script');script.src='assistant.js?v=3';script.defer=true;document.head.appendChild(script);
+}
+mmgcLoadAssistant();
+
 (function(){
 'use strict';
 function init(){
