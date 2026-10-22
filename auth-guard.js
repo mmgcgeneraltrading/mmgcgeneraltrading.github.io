@@ -102,11 +102,11 @@ function addNav(user) {
     });
     toggle.addEventListener('change',()=>{
       label.setAttribute('aria-expanded',String(toggle.checked));
-      document.body.classList.toggle('mmgc-menu-open',toggle.checked&&innerWidth<=1020);
+      document.body.classList.toggle('mmgc-menu-open',toggle.checked&&innerWidth<=1180);
     });
     document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeMenu();});
     document.addEventListener('click',(e)=>{if(toggle.checked && !header.contains(e.target))closeMenu();});
-    window.addEventListener('resize',()=>{if(innerWidth>1020)closeMenu();});
+    window.addEventListener('resize',()=>{if(innerWidth>1180)closeMenu();});
   }
   nav.id='mmgc-main-navigation';
   if(label)label.setAttribute('aria-expanded',toggle?.checked?'true':'false');
