@@ -25,6 +25,21 @@ document.addEventListener('DOMContentLoaded',()=>{
     'smart-vehicle':'https://images.pexels.com/photos/34647485/pexels-photo-34647485.jpeg?auto=compress&cs=tinysrgb&w=700',
     'ai-high-tech':'https://images.pexels.com/photos/34241691/pexels-photo-34241691.jpeg?auto=compress&cs=tinysrgb&w=700'
   };
+  // Official manufacturer *reference examples*, not promises that these brands are stocked.
+  const sourcedProductImages={
+    'a4-paper':{
+      src:'https://eu.doubleapaper.com/application/files/7216/7794/9361/double_a_paper_premium.png',
+      brand:'Double A Premium (A4 example)'
+    },
+    'a3-paper':{
+      src:'https://eu.doubleapaper.com/application/files/7216/7794/9361/double_a_paper_premium.png',
+      brand:'Double A Premium (A3 example)'
+    },
+    'pens-black':{
+      src:'https://res.cloudinary.com/bic-digital/image/upload/q_auto:best,f_auto,w_294,h_500,c_fill/strapi-v5/img_collection_cristal_original_1_4516c32215.jpg',
+      brand:'BIC Cristal Original (example)'
+    }
+  };
   let active='all';
   let basket=[];
   try{basket=JSON.parse(localStorage.getItem('mmgcEnquiryBasket')||'[]');if(!Array.isArray(basket))basket=[];}catch{basket=[];}
@@ -39,7 +54,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(!grid)return;
     const q=(search?.value||'').trim().toLowerCase();
     const rows=products.filter(p=>(active==='all'||p.category===active)&&(!q||[p.name,p.description,p.category,p.price||'',...(p.tags||[])].join(' ').toLowerCase().includes(q)));
-    grid.innerHTML=rows.map(p=>{const image=smartImages[p.category];return `<article class="product-card ${p.category==='smart-home-packages'?'package-card':''}" data-product="${esc(p.id)}">${image?`<img class="product-card-image" src="${image}" alt="${esc(p.name)}">`:''}<div class="product-card-top"><span class="product-category">${esc(categoryLabel(p.category))}</span><span class="product-icon">${esc(icon(p.category))}</span></div><h3>${esc(p.name)}</h3>${p.price?`<div class="product-price">${esc(p.price)}</div>`:''}<p>${esc(p.description)}</p><label class="product-qty">Quantity <input type="number" min="1" step="1" value="1" data-qty="${esc(p.id)}"></label><div class="product-actions"><a class="request-price" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">Request Price</a><button type="button" class="add-enquiry" data-add="${esc(p.id)}">Add to Enquiry</button><a class="wa-order" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">WhatsApp Enquiry</a></div></article>`;}).join('');
+    grid.innerHTML=rows.map(p=>{const official=sourcedProductImages[p.id];const image=official?.src||smartImages[p.category];return `<article class="product-card ${p.category==='smart-home-packages'?'package-card':''}" data-product="${esc(p.id)}">${image?`<img class="product-card-image ${official?'official-sample':''}" loading="lazy" decoding="async" src="${esc(image)}" alt="${esc(p.name)}${official?' — manufacturer reference image':''}"><span class="product-photo-status">${official?'Manufacturer example: '+esc(official.brand):'Illustrative category photo'}</span>`:''}<div class="product-card-top"><span class="product-category">${esc(categoryLabel(p.category))}</span><span class="product-icon">${esc(icon(p.category))}</span></div><h3>${esc(p.name)}</h3>${p.price?`<div class="product-price">${esc(p.price)}</div>`:''}<p>${esc(p.description)}</p><label class="product-qty">Quantity <input type="number" min="1" step="1" value="1" data-qty="${esc(p.id)}"></label><div class="product-actions"><a class="request-price" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">Request Price</a><button type="button" class="add-enquiry" data-add="${esc(p.id)}">Add to Enquiry</button><a class="wa-order" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">WhatsApp Enquiry</a></div></article>`;}).join('');
     if(empty)empty.hidden=rows.length!==0;
   }
   function renderBasket(){const clean=basket.filter(x=>getProduct(x.id));if(clean.length!==basket.length){basket=clean;save();}const totalQty=basket.reduce((s,x)=>s+(Number(x.qty)||0),0);if(basketCount)basketCount.textContent=`${basket.length} item${basket.length===1?'':'s'} · Qty ${totalQty}`;if(headerCount)headerCount.textContent=basket.length;if(mobileCount)mobileCount.textContent=basket.length;if(basketEmpty)basketEmpty.hidden=basket.length>0;if(!basketItems)return;basketItems.innerHTML=basket.map(x=>{const p=getProduct(x.id);const price=p?.price?` · ${p.price}`:'';return `<div class="basket-row"><div><b>${esc(p?.name||'Item')}</b><small>Unit: ${esc(p?.unit||'unit')}${esc(price)}</small></div><label>Qty<input type="number" min="1" step="1" value="${Number(x.qty)||1}" data-basket-qty="${esc(x.id)}"></label><button type="button" aria-label="Remove item" data-remove="${esc(x.id)}">×</button></div>`;}).join('');}
@@ -48,6 +63,14 @@ document.addEventListener('DOMContentLoaded',()=>{
   function ensureBasket(){if(!basket.length){alert('Your enquiry basket is empty. Add at least one product first.');return false;}return true;}
   filters?.addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(!b)return;active=b.dataset.category||'all';renderFilters();renderProducts();});
   search?.addEventListener('input',renderProducts);
+  // Avoid broken-image icons when a third-party manufacturer changes its image CDN rules.
+  grid?.addEventListener('error',e=>{
+    if(e.target instanceof HTMLImageElement && e.target.classList.contains('product-card-image')){
+      e.target.hidden=true;
+      const badge=e.target.nextElementSibling;
+      if(badge?.classList.contains('product-photo-status'))badge.hidden=true;
+    }
+  },true);
   grid?.addEventListener('input',e=>{if(!e.target.matches('[data-qty]'))return;const id=e.target.dataset.qty;const p=getProduct(id);const card=e.target.closest('.product-card');const qty=Math.max(1,parseInt(e.target.value||1,10));card?.querySelectorAll('[data-direct]').forEach(a=>a.href=`https://wa.me/26658311808?text=${singleMessage(p,qty)}`);});
   grid?.addEventListener('click',e=>{const b=e.target.closest('[data-add]');if(!b)return;const card=b.closest('.product-card');add(b.dataset.add,qtyFor(card,b.dataset.add));b.textContent='Added ✓';setTimeout(()=>b.textContent='Add to Enquiry',900);});
   basketItems?.addEventListener('change',e=>{if(!e.target.matches('[data-basket-qty]'))return;const row=basket.find(x=>x.id===e.target.dataset.basketQty);if(row){row.qty=Math.max(1,parseInt(e.target.value||1,10));save();renderBasket();}});
