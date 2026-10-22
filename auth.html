@@ -1,0 +1,70 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b2f57"><meta name="robots" content="noindex">
+<title>Sign In / Create Account | MMGC General Trading</title>
+<link rel="icon" href="assets/mmgc-logo.png" type="image/png"><link rel="stylesheet" href="styles.css">
+<style>
+body{background:linear-gradient(125deg,#eaf4ed,#f4f8fc);color:#17324d;margin:0;min-height:100vh}
+.auth-top{padding:20px 0}.auth-top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.auth-brand{display:flex;align-items:center;gap:12px;color:#0b2f57;text-decoration:none;font-weight:900}
+.auth-brand img{width:54px;height:47px;object-fit:contain}.home-back{color:#0b2f57;font-weight:800;text-decoration:none}
+.auth-layout{width:min(1050px,92%);display:grid;grid-template-columns:.9fr 1.1fr;gap:32px;align-items:center;margin:35px auto 65px}
+.auth-copy{background:linear-gradient(145deg,#0b2f57,#11684c);padding:37px;border-radius:23px;color:white;min-height:430px}
+.auth-copy h1{font-size:clamp(34px,4vw,47px);line-height:1.1;margin:12px 0}.auth-copy p{color:#e4f2ec}
+.auth-copy ul{padding-left:19px;line-height:2}.auth-card{background:white;padding:32px;border:1px solid #d4e0e9;border-radius:22px;box-shadow:0 19px 55px #0b2f571b}
+.auth-card h2{color:#0b2f57;margin:0 0 5px}.auth-card>p{color:#62778b;margin:0 0 20px}
+.auth-tabs{display:flex;gap:8px;margin-bottom:22px}
+.mode-tab{flex:1;padding:12px;border-radius:9px;background:#edf3f7;border:1px solid #d5e1e8;color:#0b2f57;font-weight:800;cursor:pointer}
+.mode-tab[aria-selected=true]{background:#0b2f57;color:#fff}
+.auth-form{display:grid;gap:13px}.auth-form[hidden]{display:none}
+.auth-field{font-weight:700;font-size:13px;display:block;color:#193b55}
+.auth-field input,.auth-field select{margin-top:6px;display:block;width:100%;border-radius:9px;border:1px solid #c7d4dc;padding:12px 13px;font:inherit;color:#17324d}
+.auth-field input:focus,.auth-field select:focus{outline:3px solid #b9ddcf}
+.auth-form button[type=submit]{border:0;border-radius:10px;background:#13853f;color:white;padding:13px 16px;font:inherit;font-weight:800;cursor:pointer}
+.auth-form button[disabled]{opacity:.6}
+.auth-links{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:17px}
+.auth-links button{border:0;background:transparent;color:#07528a;text-decoration:underline;cursor:pointer;padding:0}
+.auth-message{min-height:20px;font-size:13px;color:#566575;line-height:1.5;margin:14px 0 0}
+.auth-message.success{color:#096b32}.auth-message.error{color:#b42318}
+.auth-note{font-size:12px;color:#687d8d;margin-top:21px;border-top:1px solid #dde8ee;padding-top:12px}
+@media(max-width:800px){.auth-layout{grid-template-columns:1fr;margin-top:10px}.auth-copy{min-height:unset}.auth-card{padding:23px}}
+</style>
+</head><body>
+<div class="auth-top"><div class="wrap"><a class="auth-brand" href="index.html"><img src="assets/mmgc-logo.png" alt="MMGC Logo"><span>MMGC GENERAL TRADING</span></a><a class="home-back" href="index.html">← Home</a></div></div>
+<main class="auth-layout">
+<section class="auth-copy"><p style="color:#ffe0a0;font-weight:800;letter-spacing:2px">MMGC CUSTOMER PORTAL</p><h1>Your business services, in one place.</h1><p>Join MMGC General Trading to unlock our business tools, tender resources, product catalogue and customer services.</p>
+<ul><li>Explore interactive tender pricing tools</li><li>Browse procurement and job resources</li><li>Access account-only services</li><li>Contact MMGC for quotations and support</li></ul>
+<p style="font-size:12px">Email verification may be required. An account does not automatically grant staff or administrator access.</p>
+</section>
+<section class="auth-card">
+<div class="auth-tabs" role="tablist" aria-label="Account access"><button class="mode-tab" type="button" data-mode="login" aria-selected="true">Sign In</button><button class="mode-tab" type="button" data-mode="signup" aria-selected="false">Create Account</button></div>
+<h2>MMGC Account</h2><p id="authSubtitle">Welcome back to MMGC</p>
+<form id="loginForm" class="auth-form" data-form="login">
+<label class="auth-field">Email address<input id="loginEmail" type="email" autocomplete="email" required placeholder="name@example.com"></label>
+<label class="auth-field">Password<input id="loginPassword" type="password" autocomplete="current-password" required placeholder="Your password"></label>
+<button type="submit">Sign In</button>
+</form>
+<form id="signupForm" class="auth-form" data-form="signup" hidden>
+<label class="auth-field">Full name<input id="fullName" type="text" autocomplete="name" required maxlength="120" placeholder="Full name"></label>
+<label class="auth-field">Account type<select id="accountType" required><option value="individual">Individual</option><option value="company">Company / Organisation</option></select></label>
+<label class="auth-field" id="companyWrap" hidden>Company name<input id="companyName" type="text" maxlength="130" placeholder="Company or organisation"></label>
+<label class="auth-field">Phone / WhatsApp (optional)<input id="mobile" type="tel" autocomplete="tel" maxlength="30" placeholder="+266 ..."></label>
+<label class="auth-field">Email address<input id="signupEmail" type="email" autocomplete="email" required placeholder="name@example.com"></label>
+<label class="auth-field">Password (at least 8 characters)<input id="signupPassword" type="password" minlength="8" autocomplete="new-password" required></label>
+<label class="auth-field">Confirm password<input id="confirmPassword" type="password" minlength="8" autocomplete="new-password" required></label>
+<button type="submit">Create My Account</button>
+</form>
+<form id="forgotForm" class="auth-form" data-form="forgot" hidden>
+<label class="auth-field">Registered email address<input id="forgotEmail" type="email" required autocomplete="email"></label>
+<button type="submit">Send Password Reset</button>
+</form>
+<form id="resetForm" class="auth-form" data-form="reset" hidden>
+<label class="auth-field">New password<input id="resetPassword" type="password" minlength="8" required autocomplete="new-password"></label>
+<button type="submit">Save New Password</button>
+</form>
+<div class="auth-links"><button type="button" data-mode="forgot">Forgot password?</button><button type="button" data-mode="login">Back to Sign In</button></div>
+<p id="authMessage" class="auth-message" role="status" aria-live="polite"></p>
+<p class="auth-note">Your password is processed by Supabase authentication over HTTPS, not emailed to MMGC. Never share passwords or one-time codes. For assistance: <a href="mailto:mmgcgeneraltrading@gmail.com">mmgcgeneraltrading@gmail.com</a>.</p>
+</section></main>
+<script type="module" src="auth-page.js"></script>
+</body></html>
