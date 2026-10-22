@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Account | MMGC General Trading</title><meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="assets/mmgc-logo.png">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="mobile.css">
+<style>html:not(.mmgc-auth-ready) body{visibility:hidden}
+.account-hero{padding:45px 0;background:linear-gradient(120deg,#0b2f57,#126b50);color:white}
+.account-hero h1{font-size:clamp(30px,4vw,48px);margin:7px 0}
+.account-hero p{color:#e2f0f2}.account-main{background:#f4f7fa;padding:35px 0 75px;min-height:50vh}
+.account-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.account-item{display:block;background:white;padding:27px;border:1px solid #dce6ee;border-radius:17px;color:#0b2f57;text-decoration:none;box-shadow:0 8px 25px #0b2f5710}
+.account-item h2{font-size:19px;color:#0b2f57;margin:0 0 8px}.account-item p{color:#61758a;font-size:14px}
+.account-item strong{color:#13853f}.account-note{margin-top:25px;color:#61758a;font-size:13px;max-width:740px}
+@media(max-width:850px){.account-list{grid-template-columns:1fr}}
+</style>
+<script type="module" src="auth-guard.js"></script></head><body>
+<header><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/mmgc-logo.png" alt="MMGC logo"><span><b>MMGC GENERAL TRADING</b><small>Customer Account</small></span></a>
+<input class="nav-toggle" type="checkbox" id="nav-toggle"><label class="nav-toggle-label" for="nav-toggle"><span></span><span></span><span></span></label>
+<nav class="main-nav"><a href="index.html">Home</a><a href="products.html">Products</a><a href="opportunities.html">Opportunities</a><a href="tools.html">Business Tools</a><a class="pill" href="index.html#quote">Request Quote</a></nav></div></header>
+<section class="account-hero"><div class="wrap"><p class="eyebrow">SIGNED-IN MEMBER AREA</p><h1>Welcome, <span id="accountName">MMGC Member</span></h1><p>Account email: <strong id="accountEmail"></strong></p></div></section>
+<main class="account-main"><div class="wrap">
+<div class="account-list">
+<a class="account-item" href="tools.html"><h2>Tender Pricing & Cash-Flow Tools</h2><p>Calculate gross margins, markup, contingency, and cash flow.</p><strong>Open Business Tools →</strong></a>
+<a class="account-item" href="opportunities.html"><h2>Tenders, Jobs & Opportunities</h2><p>Browse procurement notices, jobs and consultancy listings.</p><strong>Browse opportunities →</strong></a>
+<a class="account-item" href="products.html"><h2>Products & Services</h2><p>Browse products and submit detailed quotation requests.</p><strong>View products →</strong></a>
+<a class="account-item" href="tender-calculator.html"><h2>Advanced Tender Calculator</h2><p>Prepare procurement costs and tender pricing comparisons.</p><strong>Open calculator →</strong></a>
+<a class="account-item" href="job-apply.html"><h2>Job Applications</h2><p>Visit the application tools and available career resources.</p><strong>Open applications →</strong></a>
+<a class="account-item" href="index.html#quote"><h2>Contact MMGC</h2><p>Request a formal quotation or get support.</p><strong>Request assistance →</strong></a>
+</div>
+<p class="account-note">Your MMGC account grants access to member pages. Personal quotations, invoices, messaging, payments and persistent order histories require additional server-side account services and are not yet active in this portal.</p>
+</div></main><footer><div class="wrap footer-bottom">© 2026 MMGC General Trading · Customer Portal</div></footer>
+</body></html>
