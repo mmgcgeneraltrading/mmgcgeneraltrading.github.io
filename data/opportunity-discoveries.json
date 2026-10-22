@@ -2,12 +2,28 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-21T10:29:09.349110+00:00",
+    "lastAttempt": "2026-10-22T10:29:23.599817+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "cb2e9bb19e66ba689d1c",
+        "title": "Consultancy: Raise SRHR Project Coordinator",
+        "url": "https://selibeng.com/consultancy-raise-srhr-project-coordinator/",
+        "source": "Selibeng",
+        "published": "Thu, 22 Oct 2026 08:26:18 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0de50073efb747044ece",
+        "title": "Consultancy: Development and Operationalisation of the National MPDSR System",
+        "url": "https://selibeng.com/consultancy-development-and-operationalisation-of-the-national-mpdsr-system/",
+        "source": "Selibeng",
+        "published": "Thu, 22 Oct 2026 08:24:34 +0000",
+        "deadline": null
+      },
       {
         "id": "1b6515df268809cdb16b",
         "title": "Tender – Provision of Pest Control Services",
@@ -351,29 +367,53 @@
         "source": "Selibeng",
         "published": "Fri, 25 Sep 2026 12:40:44 +0000",
         "deadline": null
-      },
-      {
-        "id": "7c69b97508b4d17caa20",
-        "title": "Tender – Supply and Delivery of Motorcycles for Sample Transporters",
-        "url": "https://selibeng.com/tender-supply-and-delivery-of-motorcycles-for-sample-transporters/",
-        "source": "Selibeng",
-        "published": "Fri, 25 Sep 2026 12:40:08 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d005533fcb1a5ca01fb2",
-        "title": "Tender – Supply and Delivery of Smartphones for Sample Transporters",
-        "url": "https://selibeng.com/tender-supply-and-delivery-of-smartphones-for-sample-transporters/",
-        "source": "Selibeng",
-        "published": "Fri, 25 Sep 2026 12:39:53 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-22T07:13:15.222164+00:00",
-    "updatedAt": "2026-10-22T07:13:15.222164+00:00"
+    "lastAttempt": "2026-10-22T10:29:23.599817+00:00",
+    "updatedAt": "2026-10-22T10:29:23.599817+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "75854199af37f27aacd0",
+        "title": "Welder / Steel Fabricator at Mehloli ea Lintle",
+        "url": "https://selibeng.com/welder-steel-fabricator-at-mehloli-ea-lintle/",
+        "source": "Selibeng",
+        "published": "Thu, 22 Oct 2026 06:51:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "17dee725bf57ad501652",
+        "title": "Calling All Local Fashion Designers – LNIG Hollard Gospel Xplosion",
+        "url": "https://selibeng.com/calling-all-local-fashion-designers-lnig-hollard-gospel-xplosion/",
+        "source": "Selibeng",
+        "published": "Wed, 21 Oct 2026 13:27:42 +0000",
+        "deadline": null
+      },
+      {
+        "id": "545e53675f5231f6a4df",
+        "title": "Waitresses at Panda Night Club",
+        "url": "https://selibeng.com/waitresses-at-panda-night-club/",
+        "source": "Selibeng",
+        "published": "Wed, 21 Oct 2026 13:21:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2d10cba4a80bcc463c81",
+        "title": "Lecturer in Environmental Health at NUL",
+        "url": "https://selibeng.com/lecturer-in-environmental-health-at-nul/",
+        "source": "Selibeng",
+        "published": "Wed, 21 Oct 2026 10:32:45 +0000",
+        "deadline": null
+      },
+      {
+        "id": "832dd2cfb21f80f1d2e1",
+        "title": "Lecturer in Physical Education and Sports at NUL",
+        "url": "https://selibeng.com/lecturer-in-physical-education-and-sports-at-nul/",
+        "source": "Selibeng",
+        "published": "Wed, 21 Oct 2026 10:32:36 +0000",
+        "deadline": null
+      },
       {
         "id": "356debf4c9ab7d624623",
         "title": "Employee Benefits Manager at Minet",
@@ -693,50 +733,10 @@
         "source": "Selibeng",
         "published": "Sat, 17 Oct 2026 11:29:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "0d1bfc11a2af46221274",
-        "title": "REOI for Youth Apprenticeship",
-        "url": "https://selibeng.com/reoi-for-youth-apprenticeship/",
-        "source": "Selibeng",
-        "published": "Sat, 17 Oct 2026 10:08:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "180d940cad3548317155",
-        "title": "Business Administration Officer at Ralikhomo Fabrications",
-        "url": "https://selibeng.com/business-administration-officer-at-ralikhomo-fabrications/",
-        "source": "Selibeng",
-        "published": "Sat, 17 Oct 2026 09:26:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "89b0f5f8c26ec35425e0",
-        "title": "Security Officers at Hawk-Eyed Security",
-        "url": "https://selibeng.com/security-officers-at-hawk-eyed-security-3/",
-        "source": "Selibeng",
-        "published": "Sat, 17 Oct 2026 09:20:43 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d6fa34b02c40eb5acfa6",
-        "title": "School Secretary at Mohale’s Hoek English Medium High School",
-        "url": "https://selibeng.com/school-secretary-at-mohales-hoek-english-medium-high-school/",
-        "source": "Selibeng",
-        "published": "Sat, 17 Oct 2026 09:12:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c32ccb7c3af761153644",
-        "title": "Teachers at Katleho Private Academy",
-        "url": "https://selibeng.com/teachers-at-katleho-private-academy/",
-        "source": "Selibeng",
-        "published": "Sat, 17 Oct 2026 08:31:00 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-21T10:29:09.349110+00:00",
-    "updatedAt": "2026-10-21T10:29:09.349110+00:00",
+    "lastAttempt": "2026-10-22T10:29:23.599817+00:00",
+    "updatedAt": "2026-10-22T10:29:23.599817+00:00",
     "status": "ok"
   }
 }
