@@ -1,0 +1,342 @@
+{
+  "version": "2026-10-22",
+  "purpose": "MMGC AI website source manifest. Does not contain private client/customer records. Server checks membership before using member-only content.",
+  "documents": [
+    {
+      "path": "index.html",
+      "title": "Home",
+      "keywords": "company overview, contact, drones, smart security, quotes",
+      "visibility": "public",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/"
+    },
+    {
+      "path": "about.html",
+      "title": "About MMGC",
+      "keywords": "company history registration headquarters profile",
+      "visibility": "public",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/about.html"
+    },
+    {
+      "path": "services.html",
+      "title": "MMGC Services",
+      "keywords": "procurement office IT printing cleaning services",
+      "visibility": "public",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/services.html"
+    },
+    {
+      "path": "portfolio.html",
+      "title": "Portfolio",
+      "keywords": "company projects prior work experience",
+      "visibility": "public",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/portfolio.html"
+    },
+    {
+      "path": "industries.html",
+      "title": "Industries",
+      "keywords": "sectors industries procurement",
+      "visibility": "public",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/industries.html"
+    },
+    {
+      "path": "why-mmgc.html",
+      "title": "Why Choose MMGC",
+      "keywords": "company value commitment",
+      "visibility": "public",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/why-mmgc.html"
+    },
+    {
+      "path": "tender-support.html",
+      "title": "Tender Support",
+      "keywords": "tender assistance and submission",
+      "visibility": "public",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/tender-support.html"
+    },
+    {
+      "path": "drone-services.html",
+      "title": "Drone Services",
+      "keywords": "agriculture drone spray mapping ROC aviation",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/drone-services.html"
+    },
+    {
+      "path": "smart-home.html",
+      "title": "Smart Homes",
+      "keywords": "Starlink Wi-Fi connected house smart systems",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/smart-home.html"
+    },
+    {
+      "path": "smart-builder.html",
+      "title": "Smart Home Builder",
+      "keywords": "packages custom combinations build",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/smart-builder.html"
+    },
+    {
+      "path": "smart-security.html",
+      "title": "Smart Security",
+      "keywords": "CCTV alarm Watchdogs monitoring",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/smart-security.html"
+    },
+    {
+      "path": "smart-life.html",
+      "title": "Smart Life",
+      "keywords": "home appliances lifestyle smart",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/smart-life.html"
+    },
+    {
+      "path": "smart-energy.html",
+      "title": "Smart Energy",
+      "keywords": "solar battery inverter power",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/smart-energy.html"
+    },
+    {
+      "path": "smart-vehicle.html",
+      "title": "Smart Vehicles",
+      "keywords": "car tracking monitoring",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/smart-vehicle.html"
+    },
+    {
+      "path": "ai-tech.html",
+      "title": "AI and High-Tech",
+      "keywords": "technology artificial intelligence",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/ai-tech.html"
+    },
+    {
+      "path": "products.html",
+      "title": "Product Catalogue",
+      "keywords": "product prices quotation hardware",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/products.html"
+    },
+    {
+      "path": "stationery.html",
+      "title": "Stationery",
+      "keywords": "paper pens printer stationery costs",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/stationery.html"
+    },
+    {
+      "path": "standard-services.html",
+      "title": "Service Prices",
+      "keywords": "printing scanning photocopy CV fee rates",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/standard-services.html"
+    },
+    {
+      "path": "suppliers.html",
+      "title": "Suppliers",
+      "keywords": "supplier partners sourcing",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/suppliers.html"
+    },
+    {
+      "path": "opportunities.html",
+      "title": "Opportunities",
+      "keywords": "jobs tenders RFQs vacancies",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/opportunities.html"
+    },
+    {
+      "path": "tenders.html",
+      "title": "Tenders",
+      "keywords": "RFQ bids deadline site visit bid security",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/tenders.html"
+    },
+    {
+      "path": "tender-details.html",
+      "title": "Tender Details",
+      "keywords": "tender reference eligibility and lots",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/tender-details.html"
+    },
+    {
+      "path": "tender-calculator.html",
+      "title": "Tender Cost Calculator",
+      "keywords": "boq estimate margin costs",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/tender-calculator.html"
+    },
+    {
+      "path": "past-tenders.html",
+      "title": "Past Tenders",
+      "keywords": "closed tenders archival",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/past-tenders.html"
+    },
+    {
+      "path": "jobs.html",
+      "title": "Jobs",
+      "keywords": "vacancies careers employment",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/jobs.html"
+    },
+    {
+      "path": "job.html",
+      "title": "Job Details",
+      "keywords": "job application vacancy",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/job.html"
+    },
+    {
+      "path": "south-africa-jobs.html",
+      "title": "South Africa Jobs",
+      "keywords": "jobs RSA regional",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/south-africa-jobs.html"
+    },
+    {
+      "path": "south-africa-tenders.html",
+      "title": "South Africa Tenders",
+      "keywords": "procurement RSA",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/south-africa-tenders.html"
+    },
+    {
+      "path": "checklists.html",
+      "title": "Tender Checklists",
+      "keywords": "bid compliance mandatory documents",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/checklists.html"
+    },
+    {
+      "path": "alerts.html",
+      "title": "Alerts",
+      "keywords": "deadlines reminders",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/alerts.html"
+    },
+    {
+      "path": "issuers.html",
+      "title": "Issuers",
+      "keywords": "tender issuing organisation",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/issuers.html"
+    },
+    {
+      "path": "categories.html",
+      "title": "Categories",
+      "keywords": "opportunity categories",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/categories.html"
+    },
+    {
+      "path": "tools.html",
+      "title": "Business Tools",
+      "keywords": "dashboard pricing calculator cashflow",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/tools.html"
+    },
+    {
+      "path": "pos.html",
+      "title": "Shop POS",
+      "keywords": "shops sell checkout inventory cash receipt",
+      "visibility": "member",
+      "type": "html",
+      "url": "https://mmgcgeneraltrading.github.io/pos.html"
+    },
+    {
+      "path": "product-data.js",
+      "title": "Products source dataset",
+      "keywords": "model manufacturer package selling price",
+      "visibility": "member",
+      "type": "javascript",
+      "url": "https://mmgcgeneraltrading.github.io/product-data.js"
+    },
+    {
+      "path": "procurement-data.js",
+      "title": "Tender source dataset",
+      "keywords": "tender deadline ref issuer visit fee bond",
+      "visibility": "member",
+      "type": "javascript",
+      "url": "https://mmgcgeneraltrading.github.io/procurement-data.js"
+    },
+    {
+      "path": "jobs-data.js",
+      "title": "Jobs source dataset",
+      "keywords": "job employer vacancy expiry salary",
+      "visibility": "member",
+      "type": "javascript",
+      "url": "https://mmgcgeneraltrading.github.io/jobs-data.js"
+    },
+    {
+      "path": "jobs-social-data.js",
+      "title": "Social Jobs source dataset",
+      "keywords": "vacancy social jobs",
+      "visibility": "member",
+      "type": "javascript",
+      "url": "https://mmgcgeneraltrading.github.io/jobs-social-data.js"
+    },
+    {
+      "path": "smart-home-data.js",
+      "title": "Smart Home source dataset",
+      "keywords": "connected equipment and packages",
+      "visibility": "member",
+      "type": "javascript",
+      "url": "https://mmgcgeneraltrading.github.io/smart-home-data.js"
+    },
+    {
+      "path": "stationery-expanded.js",
+      "title": "Stationery source dataset",
+      "keywords": "stationery paper price pen box stock",
+      "visibility": "member",
+      "type": "javascript",
+      "url": "https://mmgcgeneraltrading.github.io/stationery-expanded.js"
+    }
+  ],
+  "workspaceDirectory": {
+    "display": "MMGC Workspace",
+    "folders": [
+      "01 MMGC General Trading: Administration, Human Resources, Finance and Accounting, Marketing, Sales, Operations, IT, Research, Customer Service, Legal, Procurement, Tenders, Emails",
+      "02 Clients (confidential)",
+      "03 Proposals and Tenders (confidential unless approved for publication)",
+      "04 CVs and Application Letters (confidential)",
+      "05 Entertainment and Marketing",
+      "06 Aviation and Research",
+      "07 IT and Websites",
+      "08 Images to Review",
+      "09 Unclassified Documents to Review",
+      "10 ChatGPT Exports and Indexes"
+    ],
+    "notice": "This is an index of folder names only. These folders are not automatically synchronized with this website. Never claim to have read their contents or share confidential files, customer records, banking details, IDs, signatures or bid documents."
+  }
+}
