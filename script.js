@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     header.insertAdjacentElement('afterend', ribbon);
   }
 
-  if (!sessionStorage.getItem('mmgcTenderAnnouncementSeen')) {
+  if (!document.getElementById('opportunity-showcase') && !sessionStorage.getItem('mmgcTenderAnnouncementSeen')) {
     const popup = document.createElement('div');
     popup.className = 'tender-announcement';
     popup.setAttribute('role','dialog');
