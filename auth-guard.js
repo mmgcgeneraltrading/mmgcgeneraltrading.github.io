@@ -138,6 +138,9 @@ function addNav(user) {
   links.appendChild(makeGroup('Services','services.html',[
     ['All Services','services.html','What we offer'],
     ['Tender Support','tender-support.html','Procurement and RFQ help'],
+    ['Drone Services & T55','drone-services.html','Agriculture, mapping and inspections'],
+    ['Smart Homes & Starlink','smart-home.html','Connected properties'],
+    ['Cameras & Alarms','smart-security.html','Connected security solutions'],
     ['Standard Services','standard-services.html','Everyday business support']
   ]));
   if(user) {
