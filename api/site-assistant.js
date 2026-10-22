@@ -75,7 +75,7 @@ function decode(t){
 function htmlText(s){
  const main=s.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i);
  let t=main?main[1]:(s.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)||[])[1]||s;
- t=t.replace(/<(script|style|svg|noscript|iframe|footer|header)\b[^>]*>[\s\S]*?<\/\1>/gi,' ');
+ t=t.replace(/<(script|style|svg|noscript|iframe|footer|header|nav)\b[^>]*>[\s\S]*?<\/\1>/gi,' ');
  t=t.replace(/<!--[\s\S]*?-->/g,' ').replace(/<\/(?:p|div|h[1-6]|tr|li|section|article|br|table)>/gi,'\n');
  t=t.replace(/<[^>]+>/g,' ');
  return decode(t).replace(/[ \t]{2,}/g,' ').replace(/(?:\n\s*){3,}/g,'\n\n').trim().slice(0,70000);
@@ -213,8 +213,10 @@ export default async function handler(req,res){
   const actions=cleanActions(parsed?.actions,uniqueSources);
   return json(res,200,{answer,actions,grounded:!!sources.passages.length,sourceCount:uniqueSources.length,liveAi:true});
  }catch(e){
-  console.error('site-assistant:',String(e).slice(0,200));
+  const errorText=String(e?.message||e).toLowerCase();
+  const aiIssue=/quota|billing|balance|credit/.test(errorText)?'api_billing_or_quota':/model|not found|unsupported/.test(errorText)?'api_model_unavailable':/api key|unauthorized|authentication|401/.test(errorText)?'api_authentication':'api_request_unavailable';
+  console.error('site-assistant AI fallback:',aiIssue);
   const a=fallback(sources.passages,!!user);
-  return json(res,200,{...a,actions:cleanActions(a.actions,uniqueSources),liveAi:false,grounded:!!sources.passages.length});
+  return json(res,200,{...a,actions:cleanActions(a.actions,uniqueSources),liveAi:false,grounded:!!sources.passages.length,aiIssue});
  }
 }
