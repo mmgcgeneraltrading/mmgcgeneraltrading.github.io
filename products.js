@@ -13,33 +13,6 @@ document.addEventListener('DOMContentLoaded',()=>{
   const mobileCount=document.getElementById('mobile-basket-count');
   const navToggle=document.getElementById('nav-toggle');
   const esc=(v='')=>String(v).replace(/[&<>'\"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[ch]));
-  const smartImages={
-    'smart-home-packages':'https://images.pexels.com/photos/28549934/pexels-photo-28549934.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'connectivity-networking':'https://images.pexels.com/photos/34241691/pexels-photo-34241691.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'smart-security':'https://images.pexels.com/photos/28117882/pexels-photo-28117882.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'smart-lighting-power':'https://images.pexels.com/photos/28549934/pexels-photo-28549934.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'smart-entertainment':'https://images.pexels.com/photos/29606737/pexels-photo-29606737.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'smart-appliances':'https://images.pexels.com/photos/6856831/pexels-photo-6856831.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'ai-automation':'https://images.pexels.com/photos/34241691/pexels-photo-34241691.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'smart-energy':'https://images.pexels.com/photos/9875680/pexels-photo-9875680.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'smart-vehicle':'https://images.pexels.com/photos/34647485/pexels-photo-34647485.jpeg?auto=compress&cs=tinysrgb&w=700',
-    'ai-high-tech':'https://images.pexels.com/photos/34241691/pexels-photo-34241691.jpeg?auto=compress&cs=tinysrgb&w=700'
-  };
-  // Official manufacturer *reference examples*, not promises that these brands are stocked.
-  const sourcedProductImages={
-    'a4-paper':{
-      src:'https://eu.doubleapaper.com/application/files/7216/7794/9361/double_a_paper_premium.png',
-      brand:'Double A Premium (A4 example)'
-    },
-    'a3-paper':{
-      src:'https://eu.doubleapaper.com/application/files/7216/7794/9361/double_a_paper_premium.png',
-      brand:'Double A Premium (A3 example)'
-    },
-    'pens-black':{
-      src:'https://res.cloudinary.com/bic-digital/image/upload/q_auto:best,f_auto,w_294,h_500,c_fill/strapi-v5/img_collection_cristal_original_1_4516c32215.jpg',
-      brand:'BIC Cristal Original (example)'
-    }
-  };
   let active='all';
   let basket=[];
   try{basket=JSON.parse(localStorage.getItem('mmgcEnquiryBasket')||'[]');if(!Array.isArray(basket))basket=[];}catch{basket=[];}
@@ -54,7 +27,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(!grid)return;
     const q=(search?.value||'').trim().toLowerCase();
     const rows=products.filter(p=>(active==='all'||p.category===active)&&(!q||[p.name,p.description,p.category,p.price||'',...(p.tags||[])].join(' ').toLowerCase().includes(q)));
-    grid.innerHTML=rows.map(p=>{const official=sourcedProductImages[p.id];const image=official?.src||smartImages[p.category];return `<article class="product-card ${p.category==='smart-home-packages'?'package-card':''}" data-product="${esc(p.id)}">${image?`<img class="product-card-image ${official?'official-sample':''}" loading="lazy" decoding="async" src="${esc(image)}" alt="${esc(p.name)}${official?' — manufacturer reference image':''}"><span class="product-photo-status">${official?'Manufacturer example: '+esc(official.brand):'Illustrative category photo'}</span>`:''}<div class="product-card-top"><span class="product-category">${esc(categoryLabel(p.category))}</span><span class="product-icon">${esc(icon(p.category))}</span></div><h3>${esc(p.name)}</h3>${p.price?`<div class="product-price">${esc(p.price)}</div>`:''}<p>${esc(p.description)}</p><label class="product-qty">Quantity <input type="number" min="1" step="1" value="1" data-qty="${esc(p.id)}"></label><div class="product-actions"><a class="request-price" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">Request Price</a><button type="button" class="add-enquiry" data-add="${esc(p.id)}">Add to Enquiry</button><a class="wa-order" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">WhatsApp Enquiry</a></div></article>`;}).join('');
+    grid.innerHTML=rows.map(p=>{const imageInfo=window.MMGC_CATALOG_IMAGES.resolve(p);const image=imageInfo.src;return `<article class="product-card ${p.category==='smart-home-packages'?'package-card':''}" data-product="${esc(p.id)}"><img class="product-card-image ${imageInfo.official?'official-product':'illustrative-item'}" loading="lazy" decoding="async" src="${esc(image)}" alt="${esc(imageInfo.alt)}" data-catalog-image="${esc(p.id)}"><span class="product-photo-status">${esc(imageInfo.label)}</span><div class="product-card-top"><span class="product-category">${esc(categoryLabel(p.category))}</span><span class="product-icon">${esc(icon(p.category))}</span></div><h3>${esc(p.name)}</h3>${p.price?`<div class="product-price">${esc(p.price)}</div>`:''}<p>${esc(p.description)}</p><label class="product-qty">Quantity <input type="number" min="1" step="1" value="1" data-qty="${esc(p.id)}"></label><div class="product-actions"><a class="request-price" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">Request Price</a><button type="button" class="add-enquiry" data-add="${esc(p.id)}">Add to Enquiry</button><a class="wa-order" target="_blank" rel="noopener" href="https://wa.me/26658311808?text=${singleMessage(p,1)}" data-direct="${esc(p.id)}">WhatsApp Enquiry</a></div></article>`;}).join('');
     if(empty)empty.hidden=rows.length!==0;
   }
   function renderBasket(){const clean=basket.filter(x=>getProduct(x.id));if(clean.length!==basket.length){basket=clean;save();}const totalQty=basket.reduce((s,x)=>s+(Number(x.qty)||0),0);if(basketCount)basketCount.textContent=`${basket.length} item${basket.length===1?'':'s'} · Qty ${totalQty}`;if(headerCount)headerCount.textContent=basket.length;if(mobileCount)mobileCount.textContent=basket.length;if(basketEmpty)basketEmpty.hidden=basket.length>0;if(!basketItems)return;basketItems.innerHTML=basket.map(x=>{const p=getProduct(x.id);const price=p?.price?` · ${p.price}`:'';return `<div class="basket-row"><div><b>${esc(p?.name||'Item')}</b><small>Unit: ${esc(p?.unit||'unit')}${esc(price)}</small></div><label>Qty<input type="number" min="1" step="1" value="${Number(x.qty)||1}" data-basket-qty="${esc(x.id)}"></label><button type="button" aria-label="Remove item" data-remove="${esc(x.id)}">×</button></div>`;}).join('');}
@@ -66,9 +39,20 @@ document.addEventListener('DOMContentLoaded',()=>{
   // Avoid broken-image icons when a third-party manufacturer changes its image CDN rules.
   grid?.addEventListener('error',e=>{
     if(e.target instanceof HTMLImageElement && e.target.classList.contains('product-card-image')){
-      e.target.hidden=true;
-      const badge=e.target.nextElementSibling;
-      if(badge?.classList.contains('product-photo-status'))badge.hidden=true;
+      const original=products.find(p=>p.id===e.target.getAttribute('data-catalog-image'));
+      if(e.target.dataset.usedFallback!=='1' && original){
+        e.target.dataset.usedFallback='1';
+        e.target.src=window.MMGC_CATALOG_IMAGES.illustration(original);
+        e.target.alt='Illustration of '+original.name+' — exact make/model subject to quotation';
+        e.target.classList.remove('official-product');
+        e.target.classList.add('illustrative-item');
+        const badge=e.target.nextElementSibling;
+        if(badge?.classList.contains('product-photo-status'))badge.textContent='Illustrative image – exact make/model subject to quotation';
+      } else {
+        e.target.hidden=true;
+        const badge=e.target.nextElementSibling;
+        if(badge?.classList.contains('product-photo-status'))badge.hidden=true;
+      }
     }
   },true);
   grid?.addEventListener('input',e=>{if(!e.target.matches('[data-qty]'))return;const id=e.target.dataset.qty;const p=getProduct(id);const card=e.target.closest('.product-card');const qty=Math.max(1,parseInt(e.target.value||1,10));card?.querySelectorAll('[data-direct]').forEach(a=>a.href=`https://wa.me/26658311808?text=${singleMessage(p,qty)}`);});
