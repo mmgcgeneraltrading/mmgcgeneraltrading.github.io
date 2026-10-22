@@ -35,6 +35,30 @@ const loginURL = function(mode, next) {
 const show = function() { document.documentElement.classList.add('mmgc-auth-ready'); };
 function addNav(user) {
   const header = document.querySelector('header');
+  if(header?.classList.contains('mmgc-v4-header')){
+    header.classList.toggle('mmgc-signed-in',Boolean(user));
+    const next=location.pathname+location.search;
+    const login=header.querySelector('[data-mmgc-login]');
+    const signup=header.querySelector('[data-mmgc-signup]');
+    if(login)login.href=loginURL('login',next);
+    if(signup)signup.href=loginURL('signup',next);
+    const signout=header.querySelector('[data-mmgc-signout]');
+    if(signout&&!signout.dataset.bound){
+      signout.dataset.bound='1';
+      signout.addEventListener('click',async function(){
+        signout.disabled=true;signout.textContent='Signing out…';
+        try{
+          const {error}=await client.auth.signOut();
+          if(error)throw error;
+          location.replace('index.html');
+        }catch(_){
+          signout.disabled=false;
+          signout.textContent='Sign Out (retry)';
+        }
+      });
+    }
+    return;
+  }
   const nav = header?.querySelector('.main-nav');
   if (!header || !nav) return;
   header.classList.add('mmgc-modern-header');
