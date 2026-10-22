@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="styles.css">
 <script type="module" src="auth-guard.js"></script>
 <link rel="stylesheet" href="header-modern.css">
+<link rel="stylesheet" href="opportunity-showcase.css">
+<script src="procurement-data.js" defer></script>
+<script src="jobs-data.js" defer></script>
+<script src="opportunity-showcase.js" defer></script>
 </head>
 <body>
 <header>
@@ -69,6 +73,48 @@
         <a href="mailto:mmgcgeneraltrading@gmail.com">mmgcgeneraltrading@gmail.com</a>
       </div>
     </aside>
+  </div>
+</section>
+
+
+<!-- Latest tenders and individual jobs, powered by the MMGC listing datasets -->
+<section class="opportunity-showcase" id="opportunity-showcase" aria-labelledby="opportunity-showcase-title">
+  <div class="wrap">
+    <div class="opp-showcase-heading">
+      <div>
+        <p class="eyebrow">DISCOVER · APPLY · BID</p>
+        <h2 id="opportunity-showcase-title">Latest tenders & individual job opportunities.</h2>
+        <p>Swipe through short opportunity snapshots, check the closing dates and open the full listing when you are ready. A free MMGC account is needed to view member-only details.</p>
+      </div>
+      <span class="opp-showcase-status" id="oppShowcaseStatus" aria-live="polite">Checking listings</span>
+    </div>
+    <div class="opp-showcase-toolbar">
+      <div class="opp-showcase-filters" role="group" aria-label="Show opportunity types">
+        <button type="button" class="opp-showcase-filter" data-kind="all" aria-pressed="true">All opportunities</button>
+        <button type="button" class="opp-showcase-filter" data-kind="tender" aria-pressed="false">Tenders & RFQs</button>
+        <button type="button" class="opp-showcase-filter" data-kind="job" aria-pressed="false">Individual jobs</button>
+      </div>
+      <div class="opp-showcase-arrows">
+        <button type="button" class="opp-showcase-arrow" id="oppShowcasePrev" aria-label="Previous opportunity slides">‹</button>
+        <button type="button" class="opp-showcase-arrow" id="oppShowcaseNext" aria-label="Next opportunity slides">›</button>
+      </div>
+    </div>
+    <div class="opp-showcase-viewport" id="oppShowcaseViewport" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Tender and job opportunity snapshots">
+      <div class="opp-showcase-track" id="oppShowcaseTrack" aria-live="off">
+        <div class="opp-showcase-empty">
+          <strong>Loading current tender and job previews…</strong>
+          <p>Browse the MMGC opportunities directory if the slides do not load.</p>
+          <a href="opportunities.html">Explore Opportunities →</a>
+        </div>
+      </div>
+    </div>
+    <div class="opp-showcase-bottom">
+      <div class="opp-showcase-pagination" id="oppShowcaseDots" aria-label="Select opportunity slide"></div>
+      <p class="mini-note">Automatically advances · hover or focus to pause · swipe on mobile</p>
+      <a class="view-all" href="opportunities.html" id="oppShowcaseAllLink">Explore all opportunities →</a>
+    </div>
+    <div class="opp-showcase-progress" aria-hidden="true"><span id="oppShowcaseProgressBar"></span></div>
+    <p class="opp-showcase-notice">MMGC displays source-based opportunity summaries, not guaranteed vacancies or awards. Confirm current availability, closing dates, changes and application conditions with the issuing organisation before acting.</p>
   </div>
 </section>
 
