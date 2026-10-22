@@ -10,6 +10,7 @@ const status=root.querySelector('#oppShowcaseStatus');
 const bar=root.querySelector('#oppShowcaseProgressBar');
 const filters=[...root.querySelectorAll('.opp-showcase-filter')];
 const prev=root.querySelector('#oppShowcasePrev');
+const pauseButton=root.querySelector('#oppShowcasePause');
 const next=root.querySelector('#oppShowcaseNext');
 const allLink=root.querySelector('#oppShowcaseAllLink');
 const navURL={all:'opportunities.html',tender:'tenders.html',job:'jobs.html'};
@@ -162,10 +163,14 @@ viewport.addEventListener('keydown',e=>{
  if(e.key==='ArrowRight'){e.preventDefault();move(1);}
  if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}
 });
-root.addEventListener('mouseenter',()=>{paused=true;stop();});
-root.addEventListener('mouseleave',()=>{paused=false;restart();});
-root.addEventListener('focusin',()=>{paused=true;stop();});
-root.addEventListener('focusout',e=>{if(!root.contains(e.relatedTarget)){paused=false;restart();}});
+pauseButton?.addEventListener('click',()=>{
+ paused=!paused;
+ pauseButton.textContent=paused?'▶':'Ⅱ';
+ pauseButton.title=paused?'Resume automatic slideshow':'Pause automatic slideshow';
+ pauseButton.setAttribute('aria-label',pauseButton.title);
+ pauseButton.setAttribute('aria-pressed',String(paused));
+ restart();
+});
 let touchX=0;
 viewport.addEventListener('touchstart',e=>{touchX=e.changedTouches[0].clientX;},{passive:true});
 viewport.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-touchX;if(Math.abs(dx)>42)move(dx<0?1:-1);},{passive:true});
