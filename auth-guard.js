@@ -261,7 +261,7 @@ async function run() {
   if (current === 'account.html' && user) {
     const email = document.getElementById('accountEmail');
     const name = document.getElementById('accountName');
-    if (email) email.textContent = user.email || '';
+    if (email) email.textContent = user.email || user.phone || '';
     if (name) name.textContent = (user.user_metadata && user.user_metadata.full_name) || 'MMGC Member';
   }
   show();
