@@ -9,6 +9,30 @@
     "status": "ok",
     "items": [
       {
+        "id": "1b6515df268809cdb16b",
+        "title": "Tender – Provision of Pest Control Services",
+        "url": "https://selibeng.com/tender-provision-of-pest-control-services/",
+        "source": "Selibeng",
+        "published": "Thu, 22 Oct 2026 07:10:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4fb84c1423d929d0cf4a",
+        "title": "Consultant to Carry out National Training and Technical Assistance on Eurotrace to 4 SADC Member States",
+        "url": "https://selibeng.com/consultant-to-carry-out-national-training-and-technical-assistance-on-eurotrace-to-4-sadc-member-states/",
+        "source": "Selibeng",
+        "published": "Thu, 22 Oct 2026 07:03:05 +0000",
+        "deadline": null
+      },
+      {
+        "id": "21f885a3c63eb432c09e",
+        "title": "Consultancy Firm to Produce a Documentary on The Hashim Mbita Publications on Southern Africa’s Liberations Struggle",
+        "url": "https://selibeng.com/consultancy-firm-to-produce-a-documentary-on-the-hashim-mbita-publications-on-southern-africas-liberations-struggle/",
+        "source": "Selibeng",
+        "published": "Thu, 22 Oct 2026 05:21:37 +0000",
+        "deadline": null
+      },
+      {
         "id": "546eeaa20e78dbcfeef6",
         "title": "Consultancy to Undertake Capacity Building on STATA in 5 SADC Member States as a Resource Person",
         "url": "https://selibeng.com/consultancy-to-undertake-capacity-building-on-stata-in-5-sadc-member-states-as-a-resource-person/",
@@ -343,34 +367,10 @@
         "source": "Selibeng",
         "published": "Fri, 25 Sep 2026 12:39:53 +0000",
         "deadline": null
-      },
-      {
-        "id": "bdea1ab57e5c39ca4c24",
-        "title": "Tender – Supply, Printing and Delivery of M&E Tools",
-        "url": "https://selibeng.com/tender-supply-printing-and-delivery-of-me-tools/",
-        "source": "Selibeng",
-        "published": "Fri, 25 Sep 2026 12:30:28 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2923b5e2562038e60d0f",
-        "title": "EOI – Access to Affordable Renewable Energy (AARE) Project",
-        "url": "https://selibeng.com/eoi-access-to-affordable-renewable-energy-aare-project/",
-        "source": "Selibeng",
-        "published": "Thu, 24 Sep 2026 14:22:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "39e09890e4b31daf2be3",
-        "title": "RFQ: Supply and installation of Tactile Blocks",
-        "url": "https://selibeng.com/rfq-supply-and-installation-of-tactile-blocks/",
-        "source": "Selibeng",
-        "published": "Thu, 24 Sep 2026 06:09:57 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-22T00:27:41.838942+00:00",
-    "updatedAt": "2026-10-22T00:27:41.838942+00:00"
+    "lastAttempt": "2026-10-22T07:13:15.222164+00:00",
+    "updatedAt": "2026-10-22T07:13:15.222164+00:00"
   },
   "local_jobs": {
     "items": [
