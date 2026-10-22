@@ -29,7 +29,9 @@ const loginURL = function(mode, next) {
 const show = function() { document.documentElement.classList.add('mmgc-auth-ready'); };
 function addNav(user) {
   const nav = document.querySelector('.main-nav') || document.querySelector('header nav');
-  if (!nav || nav.querySelector('.mmgc-account-link')) return;
+  if (!nav) return;
+  nav.querySelectorAll('.mmgc-account-link.mmgc-static').forEach(link=>link.remove());
+  if (nav.querySelector('.mmgc-account-link')) return;
   const protectedRoutes = new Set([
     'tools.html','products.html','opportunities.html','tenders.html','jobs.html',
     'job.html','job-apply.html','applications.html','suppliers.html','stationery.html',
