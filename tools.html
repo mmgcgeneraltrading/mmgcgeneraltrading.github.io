@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Free interactive tender costing calculator and cash-flow dashboard by MMGC General Trading, Maseru, Lesotho.">
+<meta name="theme-color" content="#0b2f57">
+<title>Business Tools & Calculators | MMGC General Trading</title>
+<link rel="icon" type="image/png" href="assets/mmgc-logo.png">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="mobile.css">
+<style>
+:root{--navy:#0b2f57;--green:#13853f;--gold:#d7a42d;--ink:#17324d;--muted:#61758a;--line:#dce6ee;--bg:#f6f9fb}
+html{scroll-padding-top:90px}
+body{background:#f6f9fb}
+.main-nav .selected{color:var(--green)}
+.tools-hero{background:linear-gradient(117deg,#072d51,#0d4762 66%,#126e55);color:#fff;padding:63px 0 57px}
+.tools-hero .eyebrow{color:#f4c85f}
+.tools-hero h1{font-size:clamp(34px,5vw,56px);max-width:790px;line-height:1.06;margin:7px 0 16px}
+.tools-hero h1 em{font-style:normal;color:#c9f0d6}
+.tools-hero p:not(.eyebrow){font-size:17px;max-width:760px;color:#e1ebf0}
+.tools-chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}
+.tools-chips span{border:1px solid #64829c;background:#ffffff12;border-radius:99px;padding:7px 12px;font-size:12px;font-weight:700}
+.tools-main{padding:34px 0 76px}
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.tool-tab{border:1px solid #bed0dd;border-radius:11px;padding:13px 18px;background:#fff;color:var(--navy);font-weight:800;font-size:14px;cursor:pointer}
+.tool-tab[aria-selected="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.tool-panel[hidden]{display:none}
+.tool-panel h2{font-size:clamp(24px,3vw,34px);color:var(--navy);margin:0 0 6px}
+.panel-sub{color:var(--muted);margin:0 0 20px;max-width:800px}
+.tools-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(310px,.9fr);gap:22px;align-items:start}
+.tools-card{background:#fff;border:1px solid var(--line);border-radius:19px;padding:25px;box-shadow:0 12px 34px rgba(11,47,87,.045);min-width:0}
+.tools-card h3{font-size:18px;color:var(--navy);margin:0 0 16px}
+.tools-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.tools-field{display:block;font-size:12px;font-weight:800;color:var(--ink)}
+.tools-field input,.tools-field select{display:block;width:100%;margin-top:7px;border:1px solid #c6d4df;background:#fff;color:var(--ink);padding:12px;border-radius:10px;font:inherit;font-size:15px}
+.tools-field input:focus,.tools-field select:focus{outline:3px solid #beddf0;outline-offset:1px}
+.field-note,.small-print{font-size:12px;color:var(--muted)}
+.field-note{margin:10px 0 0}
+.tools-divider{border:0;border-top:1px solid var(--line);margin:22px 0}
+.rate-wrap{display:flex;align-items:center;justify-content:space-between;margin-top:20px}
+#rateNumber{font-size:20px;font-weight:900;color:var(--green)}
+input[type=range]{width:100%;accent-color:var(--green);margin:13px 0 0}
+.checkline{display:flex;align-items:center;gap:9px;font-size:13px;margin-top:15px}
+.checkline input{accent-color:var(--green);width:17px;height:17px}
+.kpi-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.kpi{border-radius:13px;border:1px solid #dce6ed;background:#f8fafb;padding:16px;min-width:0}
+.kpi span{display:block;font-size:12px;color:var(--muted);margin-bottom:5px}
+.kpi strong{display:block;font-size:clamp(18px,2vw,23px);color:var(--navy);overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.kpi.good{background:#eff9f2;border-color:#cbe7d2}.kpi.good strong{color:#116b39}
+.kpi.total{background:#0b2f57;border-color:#0b2f57;grid-column:1/-1}
+.kpi.total span{color:#c3d3e2}.kpi.total strong{font-size:clamp(27px,3vw,37px);color:#fff}
+.meter{display:flex;height:20px;border-radius:999px;overflow:hidden;background:#e4e9ee;margin-top:13px}
+.meter-cost{background:#1c4e83;transition:width .25s}.meter-profit{background:#1b9b55;transition:width .25s}
+.legend{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 5px;font-size:12px;color:var(--muted)}
+.legend b{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px}
+.legend .cost-dot{background:#1c4e83}.legend .profit-dot{background:#1b9b55}
+.tool-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tool-actions .btn{font-size:13px;padding:10px 14px}
+.tool-actions button{font-weight:800}
+#copyStatus{font-size:12px;color:var(--green);min-height:18px}
+.scenario-card{margin-top:22px}
+.tools-tablewrap{overflow-x:auto}
+.tools-table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+.tools-table th,.tools-table td{padding:12px 8px;text-align:right;border-bottom:1px solid var(--line)}
+.tools-table th:first-child,.tools-table td:first-child{text-align:left}
+.tools-table th{font-size:11px;text-transform:uppercase;letter-spacing:.3px;color:var(--muted);background:#f6f9fb}
+.tools-table td input{width:100%;min-width:95px;padding:9px;border:1px solid #bdcdda;border-radius:7px;color:var(--navy);font:inherit}
+.chart-section{margin-top:22px}
+.cash-top{display:grid;grid-template-columns:1fr auto;gap:15px;align-items:end}
+.bar-chart{display:flex;align-items:end;gap:17px;height:230px;padding:20px 8px 0;border-bottom:1px solid #ccdae3}
+.bar-column{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:end;height:100%}
+.bar-bars{display:flex;align-items:end;justify-content:center;gap:4px;flex:1;width:100%;height:180px}
+.bar{width:min(27px,44%);min-height:2px;border-radius:5px 5px 0 0;transition:height .2s}
+.bar-revenue{background:#158b51}.bar-expense{background:#225583}
+.bar-label{font-size:11px;color:var(--muted);padding:9px 0 4px}
+.chart-legend{margin-top:15px}
+.notice{background:#fff9e9;border:1px solid #ead6a1;color:#705923;border-radius:10px;font-size:12px;line-height:1.5;padding:12px 14px;margin-top:18px}
+.cta-tools{margin-top:28px;background:linear-gradient(110deg,#0a3158,#135a4e);color:#fff;border-radius:18px;padding:26px 30px;display:flex;gap:25px;align-items:center;justify-content:space-between}
+.cta-tools h3{margin:0 0 6px;color:#fff;font-size:22px}.cta-tools p{margin:0;color:#e1eeeb}
+.cta-tools a{flex-shrink:0;background:#fff;color:var(--navy)}
+.tools-footer{background:#07233e;color:#eaf0f7;padding:25px 0;font-size:13px}
+.tools-footer a{color:#fff}.tools-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+@media(max-width:900px){.tools-layout{grid-template-columns:1fr}.tools-main{padding-top:23px}.cta-tools{display:block}.cta-tools a{margin-top:17px}.cash-top{grid-template-columns:1fr}}
+@media(max-width:540px){.tools-card{padding:18px}.tools-fields{grid-template-columns:1fr}.kpi-grid{gap:8px}.kpi{padding:12px}.tabs{display:grid;grid-template-columns:1fr}.bar-chart{gap:6px}.bar-label{font-size:10px}}
+@media print{header,.tools-hero,.tabs,.tool-actions,.cta-tools,.tools-footer{display:none!important}.tool-panel[hidden]{display:none!important}.tools-card{box-shadow:none;break-inside:avoid}.tools-main{padding:0}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap nav">
+  <a class="brand" href="index.html"><img src="assets/mmgc-logo.png" alt="MMGC General Trading logo"><span><b>MMGC GENERAL TRADING</b><small>General Suppliers & Business Support</small></span></a>
+  <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open navigation menu">
+  <label class="nav-toggle-label" for="nav-toggle"><span></span><span></span><span></span></label>
+  <nav class="main-nav"><a href="index.html">Home</a><a href="tender-support.html">Tender Support</a><a href="services.html">Services</a><a href="products.html">Products</a><a href="opportunities.html">Opportunities</a><a class="selected" href="tools.html" aria-current="page">Business Tools</a><a class="pill" href="index.html#quote">Request a Quote</a></nav>
+ </div>
+</header>
+<section class="tools-hero"><div class="wrap">
+ <p class="eyebrow">MMGC DIGITAL BUSINESS TOOLS</p>
+ <h1>Plan your numbers. <em>Make better business decisions.</em></h1>
+ <p>Explore tender pricing, markups, margins and a six-month cash-flow dashboard. Change the figures and see your results instantly.</p>
+ <div class="tools-chips"><span>Live calculations</span><span>Maloti (M)</span><span>No account required</span><span>CSV exports</span><span>Mobile friendly</span></div>
+</div></section>
+<main class="tools-main"><div class="wrap">
+ <div class="tabs" role="tablist" aria-label="Choose a business tool">
+  <button type="button" class="tool-tab" id="pricing-tab" role="tab" aria-controls="pricing-panel" aria-selected="true" data-tab="pricing">Tender pricing calculator</button>
+  <button type="button" class="tool-tab" id="cash-tab" role="tab" aria-controls="cash-panel" aria-selected="false" data-tab="cash">Cash-flow dashboard</button>
+ </div>
+ <section class="tool-panel" id="pricing-panel" role="tabpanel" aria-labelledby="pricing-tab">
+  <h2>Tender pricing & profit calculator</h2>
+  <p class="panel-sub">Use your own supplier costs and business assumptions to explore selling prices. This is a planning tool, not an MMGC quotation.</p>
+  <div class="tools-layout">
+   <div class="tools-card">
+    <h3>Enter your project costs</h3>
+    <div class="tools-fields">
+     <label class="tools-field">Unit purchase cost (M)<input type="number" id="unit" min="0" step=".01" value="1200" inputmode="decimal"></label>
+     <label class="tools-field">Quantity<input type="number" id="quantity" min="0" step="1" value="20" inputmode="numeric"></label>
+     <label class="tools-field">Transport & delivery (M)<input type="number" id="transport" min="0" step=".01" value="1500" inputmode="decimal"></label>
+     <label class="tools-field">Other expenses (M)<input type="number" id="other" min="0" step=".01" value="500" inputmode="decimal"></label>
+     <label class="tools-field">Contingency (%)<input type="number" id="contingency" min="0" max="100" step=".5" value="5" inputmode="decimal"></label>
+     <label class="tools-field">Pricing method<select id="method"><option value="markup">Markup on total costs</option><option value="margin">Target gross margin</option></select></label>
+    </div>
+    <div class="rate-wrap"><label for="rate"><strong id="rateTitle">Markup on costs</strong></label><output id="rateNumber" for="rate">25%</output></div>
+    <input id="rate" type="range" min="0" max="70" value="25" step="5" aria-label="Markup or margin percentage">
+    <div class="field-note">Markup and gross margin are not the same. All amounts entered are assumed to be costs before recoverable VAT.</div>
+    <label class="checkline"><input id="vat" type="checkbox"> Add illustrative 15% VAT to the selling price</label>
+    <div class="field-note">VAT is OFF by default. The VAT toggle is for planning only and does not imply MMGC charges VAT.</div>
+   </div>
+   <div class="tools-card">
+    <h3>Live results</h3>
+    <div class="kpi-grid" aria-live="polite">
+     <div class="kpi"><span>Purchase cost</span><strong id="purchaseValue">—</strong></div>
+     <div class="kpi"><span>Total costs incl. contingency</span><strong id="costValue">—</strong></div>
+     <div class="kpi good"><span>Estimated gross profit</span><strong id="profitValue">—</strong></div>
+     <div class="kpi"><span>Gross profit margin</span><strong id="marginValue">—</strong></div>
+     <div class="kpi total"><span>Estimated selling price <small id="vatCaption">(excluding VAT)</small></span><strong id="saleValue">—</strong></div>
+    </div>
+    <div class="meter" aria-label="Cost and profit share"><div class="meter-cost" id="costBar" style="width:80%"></div><div class="meter-profit" id="profitBar" style="width:20%"></div></div>
+    <div class="legend"><span><b class="cost-dot"></b>Costs</span><span><b class="profit-dot"></b>Gross profit</span></div>
+    <p class="small-print" id="breakdown"></p>
+    <div class="tool-actions">
+     <button class="btn primary" type="button" id="copyPricing">Copy summary</button>
+     <button class="btn secondary" type="button" id="downloadPricing">Export CSV</button>
+     <button class="btn secondary" type="button" id="resetPricing">Reset example</button>
+    </div>
+    <p id="copyStatus" role="status"></p>
+   </div>
+  </div>
+  <div class="tools-card scenario-card">
+   <h3>What-if pricing comparison</h3>
+   <p class="panel-sub">Compare five alternative rates against the same total costs. These are example scenarios, not company pricing policies.</p>
+   <div class="tools-tablewrap"><table class="tools-table"><thead><tr><th>Rate</th><th>Price ex VAT</th><th>Gross profit</th><th>Margin</th></tr></thead><tbody id="scenarioBody"></tbody></table></div>
+  </div>
+  <div class="notice">Important: Figures are indicative. They exclude unentered fees, financing costs, tax on profit, unexpected losses and tender-specific commercial rules. Check tax obligations and tender instructions before submitting a bid.</div>
+ </section>
+ <section class="tool-panel" id="cash-panel" role="tabpanel" aria-labelledby="cash-tab" hidden>
+  <h2>Six-month cash-flow dashboard</h2>
+  <p class="panel-sub">Try different monthly income and spending levels. The starting figures are <strong>illustrative examples, not MMGC financial data</strong>.</p>
+  <div class="tools-card">
+   <div class="cash-top"><h3>Monthly planning inputs</h3><label class="tools-field">Opening cash (M)<input id="openingCash" type="number" min="0" step=".01" value="5000"></label></div>
+   <div class="tools-tablewrap"><table class="tools-table"><thead><tr><th>Month</th><th>Cash in (M)</th><th>Cash out (M)</th><th>Net (M)</th><th>Closing cash (M)</th></tr></thead><tbody id="monthsRows"></tbody></table></div>
+  </div>
+  <div class="tools-card chart-section">
+   <h3>Live cash-flow overview</h3>
+   <div class="kpi-grid" aria-live="polite">
+    <div class="kpi"><span>Total cash in</span><strong id="totalIn">—</strong></div>
+    <div class="kpi"><span>Total cash out</span><strong id="totalOut">—</strong></div>
+    <div class="kpi good"><span>Net cash movement</span><strong id="netCash">—</strong></div>
+    <div class="kpi total"><span>Closing cash balance</span><strong id="closingCash">—</strong></div>
+   </div>
+   <div class="bar-chart" id="cashChart" role="img" aria-label="Monthly cash in and cash out bar chart"></div>
+   <div class="legend chart-legend"><span><b class="profit-dot"></b>Cash in</span><span><b class="cost-dot"></b>Cash out</span></div>
+   <p class="small-print" id="cashMessage"></p>
+   <div class="tool-actions">
+    <button type="button" class="btn primary" id="downloadCash">Download CSV</button>
+    <button type="button" class="btn secondary" id="resetCash">Reset example</button>
+    <button type="button" class="btn secondary" onclick="window.print()">Print this dashboard</button>
+   </div>
+  </div>
+  <div class="notice">The dashboard calculates simple cash receipts and payments. It is not an accounting system and does not account for unpaid invoices, accruals, financing charges or tax unless included in your cash-out figures.</div>
+ </section>
+ <div class="cta-tools"><div><h3>Need a formal quotation or tender support?</h3><p>MMGC can help with sourcing, RFQs, BOQs, document preparation and submission planning.</p></div><a class="btn" href="index.html#quote">Request help from MMGC →</a></div>
+ <p class="small-print" style="margin-top:17px">Privacy: All calculations happen in your browser. This page does not upload, transmit or save your entered figures. Only choose export or copy if you wish to retain them. Avoid sensitive information on shared devices.</p>
+</div></main>
+<footer class="tools-footer"><div class="wrap"><span>© 2026 MMGC General Trading · Maseru, Lesotho</span><span><a href="index.html">Home</a> · <a href="mailto:mmgcgeneraltrading@gmail.com">Contact MMGC</a></span></div></footer>
+<script>
+(function(){
+'use strict';
+var money = function(v){return 'M'+(Number(v)||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});};
+var el = function(id){return document.getElementById(id);};
+var num = function(id){return Math.max(0,Number(el(id).value)||0);};
+var fixed = function(v){return Math.round(v*100)/100;};
+var CSV = function(rows,name){
+ var clean=function(v){var s=String(v);return '"'+s.replace(/"/g,'""')+'"';};
+ var blob=new Blob(['\ufeff'+rows.map(function(r){return r.map(clean).join(',');}).join('\r\n')],{type:'text/csv;charset=utf-8'});
+ var url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);
+};
+document.querySelectorAll('[data-tab]').forEach(function(btn){
+ btn.addEventListener('click',function(){
+  var active=btn.dataset.tab;
+  document.querySelectorAll('[data-tab]').forEach(function(b){b.setAttribute('aria-selected',String(b.dataset.tab===active));});
+  el('pricing-panel').hidden=active!=='pricing';el('cash-panel').hidden=active!=='cash';
+ });
+});
+var latestPrice={};
+function calculatePrice(){
+ var unit=num('unit'),quantity=Math.floor(num('quantity')),transport=num('transport'),other=num('other');
+ var contingency=Math.min(100,num('contingency')),rate=num('rate'),method=el('method').value;
+ var purchase=unit*quantity,base=purchase+transport+other,reserve=base*contingency/100,cost=base+reserve;
+ var price=function(r){return method==='margin'?cost/(1-r/100):cost*(1+r/100);};
+ var exVat=price(rate),profit=exVat-cost,margin=exVat>0?100*profit/exVat:0,vat=el('vat').checked?exVat*.15:0,total=exVat+vat;
+ latestPrice={unit:unit,quantity:quantity,transport:transport,other:other,contingency:contingency,rate:rate,method:method,purchase:purchase,reserve:reserve,cost:cost,exVat:exVat,profit:profit,margin:margin,vat:vat,total:total};
+ el('rateNumber').textContent=rate+'%';el('rateTitle').textContent=method==='markup'?'Markup on costs':'Target gross margin';
+ el('purchaseValue').textContent=money(purchase);el('costValue').textContent=money(cost);el('profitValue').textContent=money(profit);
+ el('marginValue').textContent=margin.toFixed(1)+'%';el('saleValue').textContent=money(total);
+ el('vatCaption').textContent=el('vat').checked?'(including VAT)':'(excluding VAT)';
+ el('costBar').style.width=(exVat?100*cost/exVat:100)+'%';el('profitBar').style.width=(exVat?100*profit/exVat:0)+'%';
+ el('breakdown').textContent='Included contingency: '+money(reserve)+' · Estimated selling price excluding VAT: '+money(exVat)+' · Illustrative VAT: '+money(vat)+'.';
+ var body=el('scenarioBody');body.textContent='';
+ [15,25,35,45,60].forEach(function(r){
+  var s=price(r),p=s-cost,m=s?100*p/s:0,tr=document.createElement('tr');
+  [r+'%',money(s),money(p),m.toFixed(1)+'%'].forEach(function(t){var td=document.createElement('td');td.textContent=t;tr.appendChild(td);});
+  body.appendChild(tr);
+ });
+}
+['unit','quantity','transport','other','contingency','rate','method','vat'].forEach(function(id){el(id).addEventListener('input',calculatePrice);el(id).addEventListener('change',calculatePrice);});
+el('resetPricing').addEventListener('click',function(){
+ [['unit',1200],['quantity',20],['transport',1500],['other',500],['contingency',5],['rate',25],['method','markup']].forEach(function(p){el(p[0]).value=p[1];});
+ el('vat').checked=false;el('copyStatus').textContent='';calculatePrice();
+});
+el('downloadPricing').addEventListener('click',function(){
+ var v=latestPrice;
+ CSV([['MMGC Business Tools','Tender Pricing Estimate'],['Metric','Value'],['Unit cost',fixed(v.unit)],['Quantity',v.quantity],['Purchase cost',fixed(v.purchase)],['Transport',fixed(v.transport)],['Other expenses',fixed(v.other)],['Contingency %',v.contingency],['Contingency amount',fixed(v.reserve)],['Total costs',fixed(v.cost)],['Method',v.method],['Rate %',v.rate],['Selling price ex VAT',fixed(v.exVat)],['Illustrative VAT',fixed(v.vat)],['Selling price incl selected VAT',fixed(v.total)],['Gross profit',fixed(v.profit)],['Gross margin %',fixed(v.margin)],['Disclaimer','Planning estimate only; not a formal quotation']], 'mmgc-tender-pricing-estimate.csv');
+});
+el('copyPricing').addEventListener('click',function(){
+ var v=latestPrice,text='MMGC Business Tools - Tender Pricing Estimate\nTotal cost: '+money(v.cost)+'\nMethod: '+v.method+' '+v.rate+'%\nSelling price excl. VAT: '+money(v.exVat)+'\nVAT (if selected): '+money(v.vat)+'\nEstimated total: '+money(v.total)+'\nEstimated gross profit: '+money(v.profit)+'\nMargin: '+v.margin.toFixed(1)+'%\nPlanning estimate only.';
+ if(navigator.clipboard && window.isSecureContext){navigator.clipboard.writeText(text).then(function(){el('copyStatus').textContent='Copied to clipboard.';}).catch(function(){el('copyStatus').textContent='Copy unavailable. Use CSV export instead.';});}
+ else {el('copyStatus').textContent='Clipboard unavailable. Use CSV export instead.';}
+});
+var initialMonths=[[8500,6200],[13000,9600],[9800,8100],[15200,10900],[12000,11800],[16000,12500]],cashRows=[];
+function buildCashRows(){
+ var body=el('monthsRows');body.textContent='';cashRows=[];
+ initialMonths.forEach(function(pair,i){
+  var tr=document.createElement('tr');var label=document.createElement('td');label.textContent='Month '+(i+1);tr.appendChild(label);
+  var refs=[];
+  pair.forEach(function(amount){
+   var td=document.createElement('td'),inp=document.createElement('input');inp.type='number';inp.min='0';inp.step='.01';inp.inputMode='decimal';inp.value=amount;inp.setAttribute('aria-label',(refs.length?'Cash out':'Cash in')+' month '+(i+1));inp.addEventListener('input',calcCash);td.appendChild(inp);tr.appendChild(td);refs.push(inp);
+  });
+  var net=document.createElement('td'),closing=document.createElement('td');tr.appendChild(net);tr.appendChild(closing);cashRows.push({inputIn:refs[0],inputOut:refs[1],net:net,closing:closing});body.appendChild(tr);
+ });
+}
+function calcCash(){
+ var opening=num('openingCash'),running=opening,sumIn=0,sumOut=0,series=[],belowZero=false;
+ cashRows.forEach(function(row,i){
+  var inV=Math.max(0,Number(row.inputIn.value)||0),outV=Math.max(0,Number(row.inputOut.value)||0),net=inV-outV;
+  sumIn+=inV;sumOut+=outV;running+=net;if(running<0)belowZero=true;
+  row.net.textContent=money(net);row.closing.textContent=money(running);series.push({month:i+1,inV:inV,outV:outV});
+ });
+ el('totalIn').textContent=money(sumIn);el('totalOut').textContent=money(sumOut);el('netCash').textContent=money(sumIn-sumOut);el('closingCash').textContent=money(running);
+ el('cashMessage').textContent=belowZero?'Warning: Your model predicts a negative cash balance in at least one month. Consider increasing receipts or reducing payments.':'Projected cash balances stay non-negative in all six months.';
+ var max=Math.max(1,...series.map(function(s){return Math.max(s.inV,s.outV);}));
+ var chart=el('cashChart');chart.textContent='';
+ series.forEach(function(s){
+  var col=document.createElement('div');col.className='bar-column';var bars=document.createElement('div');bars.className='bar-bars';
+  [['inV','bar-revenue','Cash in'],['outV','bar-expense','Cash out']].forEach(function(spec){
+   var bar=document.createElement('div');bar.className='bar '+spec[1];bar.style.height=Math.max(2,s[spec[0]]/max*100)+'%';bar.title='Month '+s.month+' '+spec[2]+': '+money(s[spec[0]]);bars.appendChild(bar);
+  });
+  col.appendChild(bars);var label=document.createElement('div');label.className='bar-label';label.textContent='M'+s.month;col.appendChild(label);chart.appendChild(col);
+ });
+}
+el('openingCash').addEventListener('input',calcCash);
+el('resetCash').addEventListener('click',function(){el('openingCash').value=5000;buildCashRows();calcCash();});
+el('downloadCash').addEventListener('click',function(){
+ var rows=[['MMGC Business Tools','Cash-flow Estimate'],['Opening balance',num('openingCash')],['Month','Cash in','Cash out','Net cash','Closing balance']],running=num('openingCash');
+ cashRows.forEach(function(row,i){var a=Math.max(0,Number(row.inputIn.value)||0),b=Math.max(0,Number(row.inputOut.value)||0);running+=a-b;rows.push([i+1,fixed(a),fixed(b),fixed(a-b),fixed(running)]);});
+ rows.push(['Disclaimer','Illustrative cash-flow planning tool; not financial statements']);
+ CSV(rows,'mmgc-cash-flow-dashboard.csv');
+});
+buildCashRows();calculatePrice();calcCash();
+})();
+</script>
+</body>
+</html>
