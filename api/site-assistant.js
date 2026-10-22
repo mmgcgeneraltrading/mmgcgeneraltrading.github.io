@@ -109,8 +109,8 @@ async function findSources(question,member,preferredPath){
   if(downloads[i].status!=='fulfilled')continue;
   const d=selected[i],parts=segments(downloads[i].value,d.type);
   for(const passage of parts){
-   const relevance=score(passage,words)+(d.rank/3);
-   if(relevance<=0)continue;
+   const relevance=(score(passage,words)*5)+(d.rank/4)+(passage.length<90?-12:0);
+   if(relevance<=0||passage.length<35)continue;
    rows.push({title:d.title,url:d.url||SITE+'/'+d.path,visibility:d.visibility,text:passage,score:relevance});
   }
  }
@@ -157,7 +157,7 @@ function parse(text){
 }
 function fallback(passages,member){
  if(!passages.length)return {answer:'I could not find a verified MMGC website source for that question. Please check the relevant MMGC page or ask MMGC directly.',actions:[{label:'Contact MMGC',url:'index.html#quote'}]};
- const a=passages.slice(0,2);
+ const a=passages.filter(p=>p.text.length>90).slice(0,2).length?passages.filter(p=>p.text.length>90).slice(0,2):passages.slice(0,2);
  return {answer:'Here is the wording found in MMGC website sources:\n\n'+a.map(p=>'“'+p.text.slice(0,480)+'”\n— '+p.title).join('\n\n')+'\n\nOpen the cited page for the full wording and to confirm current prices, availability and deadlines.',actions:[]};
 }
 export default async function handler(req,res){
@@ -204,7 +204,7 @@ export default async function handler(req,res){
   'QUESTION:\n'+message
  ].filter(Boolean).join('\n\n');
  try{
-  const payload={model:'gpt-5.6-terra',instructions,input,max_output_tokens:1200,store:false,reasoning:{effort:'low'}};
+  const payload={model:'gpt-6-luna',instructions,input,max_output_tokens:1200,store:false,reasoning:{effort:'low'}};
   const response=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:'Bearer '+apiKey,'Content-Type':'application/json'},body:JSON.stringify(payload),signal:AbortSignal.timeout(35000)});
   const data=await response.json();
   if(!response.ok)throw new Error(data?.error?.message||'AI request failed');
