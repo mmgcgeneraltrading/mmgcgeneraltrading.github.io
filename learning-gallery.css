@@ -1,0 +1,41 @@
+/* MMGC Video Learning Galleries: lightweight YouTube previews, with no autoplay */
+.mmgc-media-guide{background:#f3f8f7;padding:64px 0;color:#17394f}
+.mmgc-media-guide .wrap{width:min(1180px,92%);margin:auto}
+.mmgc-media-top{max-width:800px;margin:0 0 27px}
+.mmgc-media-eyebrow{display:inline-block;color:#13853f;font-size:11px;font-weight:900;letter-spacing:1.6px;text-transform:uppercase}
+.mmgc-media-top h2{font-size:clamp(27px,3.5vw,41px);line-height:1.14;color:#0b2f57;margin:8px 0 13px}
+.mmgc-media-top p{font-size:15px;line-height:1.7;color:#5a7281}
+.mmgc-media-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px;align-items:stretch}
+.mmgc-media-card{background:white;border:1px solid #d9e7e3;border-radius:18px;overflow:hidden;box-shadow:0 10px 31px #092b4a0c;display:flex;flex-direction:column}
+.mmgc-media-video{position:relative;aspect-ratio:16/9;background:linear-gradient(115deg,#09364f,#177b59);overflow:hidden}
+.mmgc-media-video img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mmgc-media-video:after{content:"";position:absolute;pointer-events:none;inset:0;background:linear-gradient(to top,#071f3447,transparent 60%)}
+.mmgc-media-video button{position:absolute;inset:0;border:0;background:transparent;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:1}
+.mmgc-media-video button span{display:grid;place-items:center;width:62px;height:62px;background:#ffffffed;border:2px solid #ffffffbc;color:#0c483b;border-radius:50%;font-size:22px;padding-left:3px;box-shadow:0 10px 22px #0004;transition:transform .2s}
+.mmgc-media-video button:hover span,.mmgc-media-video button:focus-visible span{transform:scale(1.12)}
+.mmgc-media-video iframe{position:absolute;inset:0;border:0;width:100%;height:100%;z-index:2}
+.mmgc-media-body{padding:20px 21px 23px;display:flex;flex-direction:column;flex:1}
+.mmgc-media-topic{color:#0f8250;font-size:10px;font-weight:900;letter-spacing:.9px;text-transform:uppercase}
+.mmgc-media-body h3{margin:8px 0 8px;line-height:1.24;color:#0b2f57;font-size:18px}
+.mmgc-media-body p{font-size:12.5px;line-height:1.6;color:#5e7280;margin:0 0 12px;flex:1}
+.mmgc-media-credit{font-size:11px;color:#718493;margin:0 0 12px}
+.mmgc-media-external{font-size:12px;font-weight:800;color:#0a6e43;text-decoration:underline;text-underline-offset:3px;align-self:flex-start}
+.mmgc-media-info{background:#fff;border:1px solid #deebe4;border-radius:16px;margin-top:23px;padding:25px}
+.mmgc-media-info h3{font-size:20px;color:#0b2f57;margin:0 0 12px}
+.mmgc-media-checks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.mmgc-media-checks div{border-left:3px solid #14924d;padding:4px 8px 4px 14px}
+.mmgc-media-checks b{display:block;color:#0b2f57;font-size:13px;margin-bottom:6px}
+.mmgc-media-checks p{margin:0;color:#526e7d;line-height:1.6;font-size:12px}
+.mmgc-media-faq{margin-top:24px}
+.mmgc-media-faq h3{font-size:21px;margin:0 0 13px;color:#0b2f57}
+.mmgc-media-faq details{border:1px solid #d9e7e3;background:#fff;border-radius:10px;margin:9px 0;padding:0 17px}
+.mmgc-media-faq summary{cursor:pointer;font-weight:800;color:#183c56;padding:15px 0}
+.mmgc-media-faq details p{color:#546f7f;font-size:13px;line-height:1.7;margin:0 0 17px}
+.mmgc-media-cta{margin-top:25px;display:flex;align-items:center;justify-content:space-between;gap:18px;background:linear-gradient(110deg,#092f4d,#096544);color:#fff;border-radius:16px;padding:23px 27px}
+.mmgc-media-cta h3{margin:0 0 5px;color:#fff;font-size:20px}
+.mmgc-media-cta p{margin:0;color:#dcf1e7;font-size:12px;line-height:1.5;max-width:720px}
+.mmgc-media-cta a{background:#fff;color:#0b2f57;padding:12px 16px;text-decoration:none;border-radius:9px;font-size:12px;font-weight:900;flex:none}
+.mmgc-media-note{font-size:11px!important;color:#678090;margin-top:17px;line-height:1.55}
+@media(max-width:890px){.mmgc-media-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mmgc-media-checks{grid-template-columns:1fr}.mmgc-media-guide{padding:47px 0}}
+@media(max-width:590px){.mmgc-media-grid{grid-template-columns:1fr}.mmgc-media-guide{padding:38px 0}.mmgc-media-cta{display:block}.mmgc-media-cta a{display:inline-block;margin-top:17px}.mmgc-media-video button span{width:58px;height:58px}}
+@media(prefers-reduced-motion:reduce){.mmgc-media-video button span{transition:none!important}}
