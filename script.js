@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '#industries':'industries.html',
     '#why':'why-mmgc.html'
   };
-  if (nav) {
+  if (nav && !nav.classList.contains('mmgc-header-nav')) {
     nav.querySelectorAll('a').forEach(a => {
       if (pageMap[a.getAttribute('href')]) a.href = pageMap[a.getAttribute('href')];
     });
