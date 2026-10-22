@@ -1,0 +1,232 @@
+/* MMGC Procurement Directory — 2026-10-22
+ * Dedicated style for categories, issuers and their results.
+ * Header intentionally inherits header-v4.css; this file styles only the page body.
+ */
+body[data-directory]{background:#f5f8fa;color:#16354d}
+body[data-directory] .tool-hero{
+  padding:70px 0 68px;
+  background:linear-gradient(118deg,#082944 0%,#0b3655 58%,#09634e 100%);
+  color:#fff;
+  position:relative;overflow:hidden;isolation:isolate
+}
+body[data-directory] .tool-hero::after{
+  content:"";position:absolute;z-index:-1;pointer-events:none;
+  height:420px;width:420px;border:1px solid #ffffff18;border-radius:50%;
+  right:-100px;top:-180px;box-shadow:0 0 0 58px #ffffff07,0 0 0 132px #ffffff04
+}
+body[data-directory] .tool-hero-grid{
+  display:grid;grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);
+  gap:52px;align-items:center
+}
+body[data-directory] .directory-back{
+  display:inline-flex;gap:8px;align-items:center;color:#d2e8ef;
+  font-size:12px;text-decoration:none;font-weight:800;
+  margin-bottom:23px
+}
+body[data-directory] .directory-back:hover{text-decoration:underline;color:#fff}
+body[data-directory] .tool-hero .eyebrow{
+  color:#f2ca69;font-size:11px;font-weight:900;letter-spacing:2px;margin:0 0 12px
+}
+body[data-directory] .tool-hero h1{
+  color:#fff;font-size:clamp(35px,4.3vw,55px);
+  line-height:1.09;letter-spacing:-1.3px;font-weight:900;
+  margin:0 0 16px;max-width:790px
+}
+body[data-directory] .tool-hero p:not(.eyebrow){
+  color:#d4e5ed;font-size:15px;line-height:1.7;max-width:680px;margin:0
+}
+body[data-directory] .tool-hero aside{
+  background:rgba(255,255,255,.11);
+  border:1px solid rgba(255,255,255,.24);
+  border-radius:20px;padding:28px;
+  color:#fff;box-shadow:0 14px 40px #02172920;
+}
+body[data-directory] .tool-hero aside b{
+  display:block;font-size:20px;line-height:1.3;color:#fff;margin:2px 0 10px
+}
+body[data-directory] .tool-hero aside p{
+  font-size:13px!important;color:#d5e9ee!important;line-height:1.65!important
+}
+body[data-directory] .directory-hero-icon{
+  display:grid;place-items:center;background:#c6f0d82b;
+  color:#d7ffeb;width:50px;height:50px;border:1px solid #ffffff2a;
+  border-radius:14px;margin-bottom:16px;
+}
+body[data-directory] .directory-hero-icon svg{width:27px;height:27px}
+body[data-directory] .directory-aside-link{
+  display:inline-flex;margin-top:18px;align-items:center;gap:7px;
+  color:#fff;font-size:12px;font-weight:850;text-decoration:none;
+  border-bottom:1px solid #bed8cd;padding-bottom:3px
+}
+body[data-directory] .directory-aside-link:hover{color:#f8d784}
+body[data-directory] .desk-section.directory-section{
+  padding:55px 0 78px;background:#f5f8fa;min-height:360px
+}
+body[data-directory] .directory-section-header{
+  display:flex;justify-content:space-between;align-items:end;gap:24px;margin:0 0 21px
+}
+body[data-directory] .directory-section-header .eyebrow{
+  color:#168453;font-size:10px;letter-spacing:1.6px;font-weight:900;margin-bottom:6px
+}
+body[data-directory] .directory-section-header h2{
+  color:#0b2f57;font-size:clamp(24px,3vw,31px);
+  letter-spacing:-.5px;line-height:1.2;margin:0 0 7px
+}
+body[data-directory] .directory-section-header p{color:#637d8b;font-size:13px;max-width:700px;margin:0}
+body[data-directory] .directory-search{
+  display:grid;gap:6px;flex:0 0 290px;color:#244861;font-size:12px;font-weight:800
+}
+body[data-directory] .directory-search input{
+  border:1px solid #cbdbe4;border-radius:11px;padding:12px 14px;
+  width:100%;background:#fff;color:#13354c;font:inherit;font-size:14px;
+  min-height:44px;outline:0
+}
+body[data-directory] .directory-search input:focus{
+  border-color:#168d58;box-shadow:0 0 0 3px #168d581c
+}
+body[data-directory] .directory-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:19px;align-items:stretch
+}
+body[data-directory] .directory-card{
+  position:relative;overflow:hidden;display:flex;flex-direction:column;
+  min-height:278px;padding:24px;
+  background:#fff!important;border:1px solid #dce7ed!important;
+  border-radius:18px;color:#143b56!important;text-decoration:none!important;
+  box-shadow:0 9px 25px #153f5910;
+  transition:transform .17s,box-shadow .17s,border-color .17s;
+}
+body[data-directory] .directory-card::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,#0c7853,#36af81);
+}
+body[data-directory] .directory-card[data-kind="works"]::before,
+body[data-directory] .directory-card[data-kind="construction"]::before{background:linear-gradient(90deg,#b77f28,#edbd62)}
+body[data-directory] .directory-card[data-kind="ict"]::before{background:linear-gradient(90deg,#224a97,#6da6dc)}
+body[data-directory] .directory-card[data-kind="printing"]::before{background:linear-gradient(90deg,#8554a6,#c29de1)}
+body[data-directory] .directory-card[data-kind="cleaning"]::before{background:linear-gradient(90deg,#107a91,#79c5d5)}
+body[data-directory] .directory-card:hover,
+body[data-directory] .directory-card:focus-visible{
+  transform:translateY(-4px);box-shadow:0 20px 40px #153f5920;
+  border-color:#97c7b0!important
+}
+body[data-directory] .directory-card-header{
+  display:flex;align-items:start;justify-content:space-between;gap:10px;
+  margin:0 0 17px
+}
+body[data-directory] .directory-card-icon{
+  display:grid;place-items:center;flex:0 0 auto;height:50px;width:50px;
+  border-radius:13px;color:#0c7354;background:#eaf7f0;
+}
+body[data-directory] .directory-card[data-kind="works"] .directory-card-icon{background:#fff4df;color:#94651e}
+body[data-directory] .directory-card[data-kind="ict"] .directory-card-icon{background:#eaf1ff;color:#345da8}
+body[data-directory] .directory-card[data-kind="printing"] .directory-card-icon{background:#f4eafa;color:#80559c}
+body[data-directory] .directory-card[data-kind="cleaning"] .directory-card-icon{background:#e7f6f8;color:#1b8399}
+body[data-directory] .directory-card-icon svg{
+  width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.8;
+  stroke-linecap:round;stroke-linejoin:round
+}
+body[data-directory] .directory-count{
+  display:inline-flex;align-items:center;gap:4px;padding:6px 9px;
+  border-radius:100px;background:#edf5f0;color:#196443;
+  font-size:10px;font-weight:850;white-space:nowrap;
+}
+body[data-directory] .directory-count.none{background:#f0f3f5;color:#788895}
+body[data-directory] .directory-card h2{
+  display:block;font-size:21px!important;line-height:1.22!important;
+  letter-spacing:-.4px;font-weight:900;
+  color:#0b2f57!important;margin:0 0 9px!important;
+  text-decoration:none!important
+}
+body[data-directory] .directory-card p{
+  font-size:13px!important;line-height:1.6!important;
+  color:#617887!important;margin:0 0 20px!important;
+  text-decoration:none!important
+}
+body[data-directory] .directory-card-action{
+  margin-top:auto;display:flex;justify-content:space-between;gap:12px;
+  align-items:center;padding-top:15px;border-top:1px solid #e8eff2;
+  color:#0b7650;font-size:12px;font-weight:850
+}
+body[data-directory] .directory-card-action .arrow{
+  display:grid;place-items:center;width:29px;height:29px;
+  border-radius:9px;background:#eaf6ef;font-size:18px;
+  transition:transform .17s
+}
+body[data-directory] .directory-card:hover .directory-card-action .arrow{transform:translateX(3px)}
+body[data-directory] .directory-results{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;align-items:start
+}
+body[data-directory] .directory-tender-card{
+  background:#fff;padding:24px;border:1px solid #dce7ed;
+  border-radius:18px;box-shadow:0 9px 24px #153f5910;min-width:0
+}
+body[data-directory] .directory-tender-card h3{
+  color:#0b2f57;font-size:20px;line-height:1.35;margin:5px 0 10px
+}
+body[data-directory] .directory-tender-card p{font-size:13px;line-height:1.6;color:#5e7684}
+body[data-directory] .directory-tender-card .issuer{
+  margin:0 0 9px!important;color:#16764f!important
+}
+body[data-directory] .directory-tender-card .meta{
+  margin:17px 0 19px;display:flex;flex-wrap:wrap;gap:7px
+}
+body[data-directory] .directory-tender-card .meta span{
+  background:#f2f7f9;border-radius:99px;padding:6px 9px;
+  font-size:11px;color:#3b5970
+}
+body[data-directory] .directory-tender-card .card-actions{display:flex;gap:9px;flex-wrap:wrap}
+body[data-directory] .directory-tender-card .card-actions a{
+  display:inline-flex;padding:11px 15px;border-radius:10px;
+  text-decoration:none;font-size:12px;font-weight:850
+}
+body[data-directory] .directory-tender-card .summary-link{background:#0b2f57;color:#fff}
+body[data-directory] .directory-tender-card .cost-link{background:#eaf6ef;color:#0b6a42}
+body[data-directory] .directory-empty{
+  border:1px dashed #aac8b6;background:#fff;padding:25px;
+  border-radius:16px;color:#446876;text-align:center;font-size:14px;margin-top:18px
+}
+body[data-directory] .directory-empty[hidden]{display:none}
+body[data-directory] .directory-footnote{
+  display:flex;gap:15px;align-items:center;justify-content:space-between;
+  border:1px solid #d5e6df;border-radius:16px;background:#eaf5ee;
+  padding:19px 23px;margin-top:30px
+}
+body[data-directory] .directory-footnote p{
+  color:#38614f;font-size:12px;line-height:1.65;margin:0;max-width:780px
+}
+body[data-directory] .directory-footnote a{
+  flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+  background:#0b2f57;color:#fff;border-radius:9px;padding:12px 15px;
+  font-size:12px;font-weight:900;text-decoration:none
+}
+body[data-directory] .directory-footnote a:hover{background:#11784c}
+body[data-directory] .directory-card.is-hidden{display:none}
+body[data-directory] a:focus-visible,
+body[data-directory] .directory-search input:focus-visible{outline-offset:3px}
+@media(max-width:970px){
+  body[data-directory] .tool-hero-grid{grid-template-columns:1fr;gap:22px}
+  body[data-directory] .tool-hero{padding:45px 0}
+  body[data-directory] .tool-hero aside{max-width:680px}
+  body[data-directory] .directory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:690px){
+  body[data-directory] .tool-hero{padding:34px 0 40px}
+  body[data-directory] .tool-hero h1{font-size:34px;letter-spacing:-.8px}
+  body[data-directory] .tool-hero p:not(.eyebrow){font-size:13px}
+  body[data-directory] .tool-hero aside{padding:19px}
+  body[data-directory] .desk-section.directory-section{padding:35px 0 80px}
+  body[data-directory] .directory-section-header{flex-direction:column;align-items:stretch;gap:14px}
+  body[data-directory] .directory-search{flex:1}
+  body[data-directory] .directory-grid,
+  body[data-directory] .directory-results{grid-template-columns:1fr;gap:13px}
+  body[data-directory] .directory-card{min-height:237px;padding:20px}
+  body[data-directory] .directory-footnote{display:block;padding:17px}
+  body[data-directory] .directory-footnote a{margin-top:14px;width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  body[data-directory] .directory-card,
+  body[data-directory] .directory-card-action .arrow{transition:none}
+  body[data-directory] .directory-card:hover{transform:none}
+}
