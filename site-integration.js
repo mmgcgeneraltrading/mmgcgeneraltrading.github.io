@@ -55,7 +55,7 @@
         localStorage.setItem('mmgcEnquiryBasket',JSON.stringify(basket));location.href='products.html#basket';
       });
     });
-    addSmartHomeBanner();
+    if(!document.getElementById('smart-security-priority')) addSmartHomeBanner();
   };
   ensureManifest();
   load('link',{rel:'stylesheet',href:'assistant.css'});
