@@ -89,7 +89,7 @@ header.mmgc-modern-header a:focus-visible,
 header.mmgc-modern-header .nav-toggle-label:focus-visible{
   outline:3px solid #e1b04b;outline-offset:3px
 }
-@media(max-width:1200px) and (min-width:1021px){
+@media(max-width:1250px) and (min-width:1181px){
   header.mmgc-modern-header .nav{gap:8px}
   header.mmgc-modern-header .brand b{font-size:12px!important}
   header.mmgc-modern-header .brand small{font-size:9px}
@@ -99,7 +99,7 @@ header.mmgc-modern-header .nav-toggle-label:focus-visible{
   header.mmgc-modern-header .mmgc-nav-actions{gap:5px}
   header.mmgc-modern-header .mmgc-nav-actions>a{font-size:11px!important;padding:9px 10px!important}
 }
-@media(max-width:1020px){
+@media(max-width:1180px){
   header.mmgc-modern-header .nav{
     min-height:70px;gap:10px;width:min(94%,1180px);padding:0
   }
