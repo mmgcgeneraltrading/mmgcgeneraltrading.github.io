@@ -1,6 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Browse Lesotho tender opportunities by procurement category on the MMGC Procurement Desk."><meta name="theme-color" content="#082b4c"><title>Tender Categories | MMGC Procurement Desk</title><link rel="icon" href="assets/mmgc-logo.png"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="tenders.css"><link rel="stylesheet" href="mobile.css"><style>html:not(.mmgc-auth-ready) body{visibility:hidden}</style><script type="module" src="auth-guard.js"></script>
 <link rel="stylesheet" href="header-v4.css?v=4">
 <script src="header-v4.js?v=4" defer></script>
+<link rel="stylesheet" href="directory-pages.css?v=1">
 </head><body class="desk-body" data-directory="categories"><header class="mmgc-v4-header">
 <svg class="mmgc-v4-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 <symbol id="mmgc-v4-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></symbol>
@@ -38,4 +39,42 @@
 </div>
 </nav>
 </div>
-</header><main><section class="tool-hero"><div class="wrap tool-hero-grid"><div><p class="eyebrow light">PROCUREMENT CATEGORIES</p><h1>Find the kind of tender you can actually deliver.</h1><p>Browse opportunities by goods, services, works, ICT and other MMGC procurement categories.</p></div><aside><b>Focus your search</b><p>Category pages help suppliers and contractors avoid wasting time on opportunities outside their capability.</p></aside></div></section><section class="desk-section"><div class="wrap"><div id="directory-grid" class="directory-grid"></div></div></section></main><nav class="mobile-dock"><a href="tenders.html"><span>⌕</span>Tenders</a><a href="tender-calculator.html"><span>M</span>Costing</a><a class="dock-main" href="https://wa.me/26658311808" target="_blank"><span>✆</span>Help</a><a href="categories.html"><span>▦</span>Categories</a><a href="issuers.html"><span>🏛</span>Issuers</a></nav><footer><div class="wrap footer-bottom">© 2026 MMGC General Trading · Procurement Categories</div></footer><script src="procurement-data.js"></script><script src="directory.js"></script></body></html>
+</header><main>
+<section class="tool-hero">
+  <div class="wrap tool-hero-grid">
+    <div>
+      <a class="directory-back" href="opportunities.html">← MMGC Opportunities</a>
+      <p class="eyebrow">PROCUREMENT DESK · CATEGORY DIRECTORY</p>
+      <h1>Find tenders that match your business.</h1>
+      <p>Browse opportunities by supply type, professional services, construction, technology and more. Go straight to the work your company is equipped to deliver.</p>
+    </div>
+    <aside>
+      <div class="directory-hero-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg></div>
+      <b>Find opportunities faster</b>
+      <p>Choose your sector, explore individual tender notices and compare each requirement against your company's capabilities.</p>
+      <a class="directory-aside-link" href="tenders.html">Browse all tenders →</a>
+    </aside>
+  </div>
+</section>
+<section class="desk-section directory-section">
+  <div class="wrap">
+    <div class="directory-section-header">
+      <div>
+        <p class="eyebrow">EXPLORE BY SECTOR</p>
+        <h2>Procurement categories</h2>
+        <p>Six sectors covering common supplies, technical works and business services.</p>
+      </div>
+      <label class="directory-search" for="directory-search">Search categories
+        <input id="directory-search" type="search" placeholder="e.g. ICT, works, printing" autocomplete="off">
+      </label>
+    </div>
+    <p id="directory-count" style="font-size:12px;color:#628091;margin:0 0 16px" role="status">Loading categories…</p>
+    <div id="directory-grid" class="directory-grid"></div>
+    <p id="directory-empty" class="directory-empty" hidden>No categories match your search. Try another keyword.</p>
+    <div class="directory-footnote">
+      <p><strong>Important:</strong> Category counts are MMGC listings with future or unconfirmed closing dates, not guaranteed open bids. Always check official documents, deadlines and eligibility before quoting.</p>
+      <a href="tender-calculator.html">Open Tender Calculator →</a>
+    </div>
+  </div>
+</section>
+</main><nav class="mobile-dock"><a href="tenders.html"><span>⌕</span>Tenders</a><a href="tender-calculator.html"><span>M</span>Costing</a><a class="dock-main" href="https://wa.me/26658311808" target="_blank"><span>✆</span>Help</a><a href="categories.html"><span>▦</span>Categories</a><a href="issuers.html"><span>🏛</span>Issuers</a></nav><footer><div class="wrap footer-bottom">© 2026 MMGC General Trading · Procurement Categories</div></footer><script src="procurement-data.js"></script><script src="directory.js?v=2"></script><script src="directory-ui.js?v=1"></script></body></html>
