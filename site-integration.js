@@ -17,7 +17,7 @@
   };
   const init=()=>{
     const nav=document.querySelector('.main-nav');
-    if(nav){
+    if(nav && !nav.classList.contains('mmgc-header-nav')){
       nav.querySelectorAll('a[href="tenders.html"]').forEach(a=>a.textContent='Tenders & RFQs');
       nav.querySelectorAll('a[href="jobs.html"]').forEach(a=>a.textContent='Jobs & Consultancies');
       let smart=nav.querySelector('a[href="smart-home.html"]');
