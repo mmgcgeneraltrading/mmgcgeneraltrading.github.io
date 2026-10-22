@@ -6,6 +6,12 @@ const client = createClient(
   { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true } }
 );
 window.MMGC_AUTH_CLIENT = client;
+if (!document.querySelector('link[href="header-modern.css"]')) {
+  const css = document.createElement('link');
+  css.rel = 'stylesheet';
+  css.href = 'header-modern.css';
+  document.head.appendChild(css);
+}
 
 const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
 const publicPages = new Set([
@@ -28,49 +34,84 @@ const loginURL = function(mode, next) {
 };
 const show = function() { document.documentElement.classList.add('mmgc-auth-ready'); };
 function addNav(user) {
-  const nav = document.querySelector('.main-nav') || document.querySelector('header nav');
-  if (!nav) return;
-  nav.querySelectorAll('.mmgc-account-link.mmgc-static').forEach(link=>link.remove());
-  if (nav.querySelector('.mmgc-account-link')) return;
-  const protectedRoutes = new Set([
-    'tools.html','products.html','opportunities.html','tenders.html','jobs.html',
-    'job.html','job-apply.html','applications.html','suppliers.html','stationery.html',
-    'south-africa-jobs.html','south-africa-tenders.html','past-tenders.html',
-    'tender-details.html','tender-calculator.html','checklists.html','alerts.html',
-    'issuers.html','categories.html','smart-home.html','smart-builder.html',
-    'smart-security.html','smart-life.html','smart-energy.html','smart-vehicle.html',
-    'ai-tech.html','account.html'
-  ]);
-  if (!user) {
-    nav.querySelectorAll('a[href]').forEach(function(a) {
-      const link = (a.getAttribute('href') || '').split('#')[0].split('?')[0].replace(/^\.\//, '').toLowerCase();
-      if (protectedRoutes.has(link)) a.style.display='none';
-    });
+  const header = document.querySelector('header');
+  const nav = header?.querySelector('.main-nav');
+  if (!header || !nav) return;
+  header.classList.add('mmgc-modern-header');
+  nav.classList.add('mmgc-header-nav');
+  nav.setAttribute('aria-label','Main navigation');
+  const brand=header.querySelector('.brand');
+  if(brand) {
+    brand.href='index.html';
+    brand.setAttribute('aria-label','MMGC General Trading homepage');
+    const title=brand.querySelector('b'),tagline=brand.querySelector('small');
+    if(title)title.textContent='MMGC GENERAL TRADING';
+    if(tagline)tagline.textContent='Procurement · Business Support';
   }
-  const signIn = document.createElement('a');
-  signIn.className = 'mmgc-account-link';
-  const signUp = document.createElement('a');
-  signUp.className = 'mmgc-account-link';
-  if (user) {
-    signIn.href = 'account.html';
-    signIn.textContent = 'My Account';
-    signUp.href = '#';
-    signUp.textContent = 'Sign Out';
-    signUp.addEventListener('click', async function(event) {
-      event.preventDefault();
-      signUp.textContent = 'Signing out…';
-      try { await client.auth.signOut(); } catch (_) {}
+  const links = document.createElement('div');
+  links.className='mmgc-nav-links';
+  const actions=document.createElement('div');
+  actions.className='mmgc-nav-actions';
+  const make=(text,href,kind)=>{
+    const a=document.createElement('a');
+    a.textContent=text;a.href=href;
+    if(kind)a.className=kind;
+    const target=href.split('#')[0].split('?')[0];
+    if(target===current || (current==='index.html'&&href==='index.html')){
+      a.setAttribute('aria-current','page');
+    }
+    a.addEventListener('click',()=>closeMenu());
+    return a;
+  };
+  const primary=user
+    ? [['Home','index.html'],['About','about.html'],['Services','services.html'],
+       ['Products','products.html'],['Opportunities','opportunities.html'],['Business Tools','tools.html']]
+    : [['Home','index.html'],['About','about.html'],['Services','services.html'],
+       ['Tender Support','tender-support.html']];
+  primary.forEach(([label,href])=>links.appendChild(make(label,href)));
+  actions.appendChild(make('Get a Quote','index.html#quote','mmgc-action-quote'));
+  if(user){
+    actions.appendChild(make('My Account','account.html','mmgc-action-signin'));
+    const out=make('Sign Out','#','mmgc-action-signout');
+    out.addEventListener('click',async(e)=>{
+      e.preventDefault();out.textContent='Signing out…';
+      try{await client.auth.signOut();}catch(_){}
       location.replace('index.html');
     });
+    actions.appendChild(out);
   } else {
-    signIn.href = loginURL('login', location.pathname + location.search);
-    signIn.textContent = 'Sign In';
-    signUp.href = loginURL('signup', location.pathname + location.search);
-    signUp.textContent = 'Create Account';
+    actions.appendChild(make('Sign In',loginURL('login',location.pathname+location.search),'mmgc-action-signin'));
+    actions.appendChild(make('Create Account',loginURL('signup',location.pathname+location.search),'mmgc-action-signup'));
   }
-  signUp.style.cssText = 'padding:10px 14px;border-radius:999px;background:#13853f;color:#fff;font-weight:800;';
-  nav.append(signIn,signUp);
+  nav.replaceChildren(links,actions);
+  const toggle=header.querySelector('.nav-toggle');
+  const label=header.querySelector('.nav-toggle-label');
+  function closeMenu(){
+    if(toggle)toggle.checked=false;
+    document.body.classList.remove('mmgc-menu-open');
+    if(label)label.setAttribute('aria-expanded','false');
+  }
+  if(toggle && label && !toggle.dataset.mmgcModernBound){
+    toggle.dataset.mmgcModernBound='1';
+    label.setAttribute('role','button');
+    label.setAttribute('tabindex','0');
+    label.setAttribute('aria-label','Toggle navigation menu');
+    label.setAttribute('aria-controls','mmgc-main-navigation');
+    label.addEventListener('keydown',(e)=>{
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle.checked=!toggle.checked;toggle.dispatchEvent(new Event('change'));}
+    });
+    toggle.addEventListener('change',()=>{
+      label.setAttribute('aria-expanded',String(toggle.checked));
+      document.body.classList.toggle('mmgc-menu-open',toggle.checked&&innerWidth<=1020);
+    });
+    document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeMenu();});
+    document.addEventListener('click',(e)=>{if(toggle.checked && !header.contains(e.target))closeMenu();});
+    window.addEventListener('resize',()=>{if(innerWidth>1020)closeMenu();});
+  }
+  nav.id='mmgc-main-navigation';
+  if(label)label.setAttribute('aria-expanded',toggle?.checked?'true':'false');
 }
+
 async function run() {
   if (current === 'auth.html') { show(); return; }
   if (publicPage) show();
