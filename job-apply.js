@@ -90,6 +90,34 @@
   document.addEventListener('DOMContentLoaded',async()=>{
     const authError=window.MMGCPlatform.initAuthFromUrl();if(authError)setStatus(qs('#auth-status'),authError,'error');
     populateJob(selectedJob());toggleAccountFields();bindAuth();await refreshAuth();
+    // Preselect the existing private application form when arriving from the CV Office.
+    // No records are created until the client explicitly submits and agrees to consent.
+    const serviceMode=new URLSearchParams(location.search).get('service');
+    if(!selectedJob()&&['cv','letter','package'].includes(serviceMode)){
+      const wantsCv=qs('#wants-new-cv'),wantsTailoring=qs('#wants-cv-tailoring'),wantsLetter=qs('#wants-letter');
+      const intro=qs('#summary-title'),summary=qs('#summary-text');
+      if(serviceMode==='cv'){
+        setValue('#job-title-field','CV preparation — no specific vacancy',{onlyIfBlank:true});
+        if(wantsCv)wantsCv.checked=true;
+        if(wantsTailoring)wantsTailoring.checked=false;
+        if(wantsLetter)wantsLetter.checked=false;
+        if(intro)intro.textContent='Professional CV preparation';
+        if(summary)summary.textContent='A vacancy or employer is not required for CV-only work. Check your personal details, upload an existing CV if available, and request a reviewed draft.';
+        setValue('#public-notes-field','CV preparation request; no specific vacancy selected.',{onlyIfBlank:true});
+      }else if(serviceMode==='letter'){
+        if(wantsCv)wantsCv.checked=false;
+        if(wantsTailoring)wantsTailoring.checked=false;
+        if(wantsLetter)wantsLetter.checked=true;
+        if(intro)intro.textContent='Application letter preparation';
+        if(summary)summary.textContent='Enter the target job title and employer, and provide the vacancy requirements so the letter can be tailored accurately.';
+      }else{
+        if(wantsCv)wantsCv.checked=true;
+        if(wantsTailoring)wantsTailoring.checked=true;
+        if(wantsLetter)wantsLetter.checked=true;
+        if(intro)intro.textContent='CV + application letter package';
+        if(summary)summary.textContent='Enter the intended position and employer if known. Supply your CV and vacancy advert where possible; MMGC will confirm the scope before finalising the package.';
+      }
+    }
     qs('#extract-cv-fill')?.addEventListener('click',extractCvAndFill);qs('#generate-drafts')?.addEventListener('click',createDrafts);qs('#application-form')?.addEventListener('submit',submitApplication);
     qs('#application-method')?.addEventListener('change',()=>{if(qs('#application-method')?.value==='hand_delivered'){qs('#hand-delivery-required').checked=true;qs('#shop-collection-required').checked=true;qs('#wants-printing').checked=true}});
   });
