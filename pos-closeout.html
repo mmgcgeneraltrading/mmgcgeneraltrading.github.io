@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b2f57">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="MMGC POS daily closing and tender-safe, read-only sales reconciliation.">
+<title>Daily Sales Closeout | MMGC Shop POS</title>
+<link rel="icon" href="assets/mmgc-logo.png">
+<style>
+:root{--navy:#0b2f57;--ink:#18334b;--line:#dae5ef;--muted:#607388;--bg:#f3f7fb;--green:#13734b}
+*{box-sizing:border-box}html:not(.mmgc-auth-ready) body{visibility:hidden}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;margin:0}
+header{background:var(--navy);color:#fff;padding:18px max(20px,calc((100vw - 1080px)/2));display:flex;gap:16px;align-items:center;justify-content:space-between}
+header a{color:#fff;text-decoration:none;font-weight:700}
+header strong{font-size:18px}
+main{max-width:1120px;margin:auto;padding:28px 20px 70px}
+h1{margin:0;color:var(--navy);font-size:clamp(25px,4vw,35px)}
+h2{font-size:19px;color:var(--navy);margin:0 0 12px}
+.subtitle{color:var(--muted);margin-top:3px}
+.card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:21px;box-shadow:0 8px 26px #0b2f5708}
+.toolbar{display:flex;gap:12px;align-items:end;flex-wrap:wrap;margin:20px 0}
+label{font-size:13px;font-weight:700;display:grid;gap:6px}
+select,input{font:inherit;padding:10px 12px;border:1px solid #aabeca;border-radius:9px;min-height:42px;background:#fff;color:#142d44}
+button,.button{border:0;background:var(--navy);color:#fff;padding:11px 17px;min-height:42px;border-radius:9px;font:inherit;font-weight:750;cursor:pointer;text-decoration:none;display:inline-flex;gap:7px;align-items:center;justify-content:center}
+button:disabled{opacity:.55;cursor:not-allowed}.secondary{background:#e9f0f7;color:var(--navy);border:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.number{color:var(--navy);font-size:25px;font-weight:800;display:block}
+.kpi-label{font-size:11px;letter-spacing:.04em;font-weight:800;color:var(--muted)}
+.split{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;margin-top:16px}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:11px;text-transform:uppercase}td:last-child,th:last-child{text-align:right}
+.scroll{overflow:auto}.fine{color:var(--muted);font-size:13px}.warning{padding:12px 15px;margin-top:16px;border-radius:10px;background:#fff8e9;border:1px solid #eaddb5;color:#725824}
+#status{font-weight:700;margin:12px 0;color:var(--muted)}
+#status.error{color:#ae3340}
+#difference[data-state="short"]{color:#b32939}#difference[data-state="over"]{color:#117548}
+footer{margin-top:20px;color:var(--muted);font-size:12px}
+@media(max-width:760px){header{flex-wrap:wrap}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.split{grid-template-columns:1fr}}
+@media print{body{background:#fff}header,.toolbar button,.toolbar .button,footer{display:none!important}main{padding:4px;max-width:none}.card{box-shadow:none;break-inside:avoid}#status{display:none}.split{grid-template-columns:1fr 1fr}#printHead{display:block!important}}
+</style>
+<script type="module" src="auth-guard.js"></script>
+<script type="module" src="pos-closeout.js"></script>
+</head>
+<body>
+<header><strong>MMGC GENERAL TRADING · POS</strong><nav><a href="pos.html">← Return to Shop POS</a></nav></header>
+<main>
+<div id="printHead" hidden><h1>MMGC Daily Closeout</h1></div>
+<h1>Daily sales closeout</h1><p class="subtitle">Read-only, shop-scoped sales reconciliation · Lesotho time (SAST, UTC+2)</p>
+<p id="status" role="status" aria-live="polite">Loading your authorised shops…</p>
+<div class="card toolbar">
+<label>Shop<select id="shop" disabled><option>Loading…</option></select></label>
+<label>Business date<input type="date" id="day" required></label>
+<button id="load" type="button">Review date</button>
+<button id="export" type="button" class="secondary" disabled>Export CSV</button>
+<button id="print" type="button" class="secondary" disabled>Print closeout</button>
+<a href="pos.html" class="button secondary">Back to POS</a>
+</div>
+<section class="grid" aria-label="Sales totals">
+<div class="card"><div class="kpi-label">SALES RECORDED</div><span class="number" id="total">M0.00</span></div>
+<div class="card"><div class="kpi-label">TRANSACTIONS</div><span class="number" id="count">0</span></div>
+<div class="card"><div class="kpi-label">RECORDED CASH SALES</div><span class="number" id="cash">M0.00</span></div>
+<div class="card"><div class="kpi-label">UNREFERENCED NON-CASH</div><span class="number" id="missing">0</span></div>
+</section>
+<div class="split">
+<section class="card"><h2>Payment method breakdown</h2>
+<div class="scroll"><table><thead><tr><th>Method</th><th>Receipts</th><th>Total</th></tr></thead><tbody id="methods"><tr><td colspan="3">Choose a date</td></tr></tbody></table></div>
+<p class="fine">This is recorded sales by declared payment method, not verified deposits or settlement.</p>
+</section>
+<section class="card"><h2>Cash drawer check</h2>
+<p class="fine">Compare the physical cash count against cash sales recorded here. Opening float, cash payouts and refunds are not included.</p>
+<label>Actual cash counted (M)<input id="counted" type="number" min="0" step="0.01" placeholder="Enter cash counted"></label>
+<p>Recorded cash sales: <strong id="expected">M0.00</strong></p>
+<p>Difference: <strong id="difference">—</strong></p>
+<p class="fine">Difference is calculated locally and not saved to a bank or accounting system.</p>
+</section>
+</div>
+<section class="card" style="margin-top:16px"><h2>Recorded receipts</h2><p class="fine" id="salesNote">Choose a date and shop to view sales.</p>
+<div class="scroll"><table><thead><tr><th>Receipt</th><th>Time (Lesotho)</th><th>Method</th><th>Customer</th><th>Reference</th><th>Total</th></tr></thead><tbody id="rows"><tr><td colspan="6">No date selected</td></tr></tbody></table></div>
+</section>
+<div class="warning">This closeout page is read-only: it does not create sales, settle M-Pesa/EcoCash/card payments, change inventory, or generate an accounting-approved tax report. Validate mobile-money and bank transactions separately.</div>
+<footer>MMGC General Trading · Internal POS report · The sales and staff access remain governed by the existing Supabase RLS policies.</footer>
+</main>
+</body></html>
