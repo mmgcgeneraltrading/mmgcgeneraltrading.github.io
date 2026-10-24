@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "a77c22e5010ca59eaa7e",
+        "title": "Consultancy for The Development of National Multi-Hazard Early Warning Systems (MHEWS) Roadmaps",
+        "url": "https://selibeng.com/consultancy-for-the-development-of-national-multi-hazard-early-warning-systems-mhews-roadmaps/",
+        "source": "Selibeng",
+        "published": "Fri, 23 Oct 2026 13:50:54 +0000",
+        "deadline": null
+      },
+      {
         "id": "cb2e9bb19e66ba689d1c",
         "title": "Consultancy: Raise SRHR Project Coordinator",
         "url": "https://selibeng.com/consultancy-raise-srhr-project-coordinator/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Fri, 25 Sep 2026 19:17:01 +0000",
         "deadline": null
-      },
-      {
-        "id": "0ce75b139046549af8e4",
-        "title": "Tender – Repair, Service and Maintenance of Incinerators",
-        "url": "https://selibeng.com/tender-repair-service-and-maintenance-of-incinerators/",
-        "source": "Selibeng",
-        "published": "Fri, 25 Sep 2026 12:40:44 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-23T10:25:04.796687+00:00",
-    "updatedAt": "2026-10-23T10:25:04.796687+00:00"
+    "lastAttempt": "2026-10-24T00:19:29.404454+00:00",
+    "updatedAt": "2026-10-24T00:19:29.404454+00:00"
   },
   "local_jobs": {
     "items": [
