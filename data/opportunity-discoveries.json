@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-23T10:25:04.796687+00:00",
+    "lastAttempt": "2026-10-24T09:44:02.743091+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,43 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-24T06:56:18.212691+00:00",
-    "updatedAt": "2026-10-24T06:56:18.212691+00:00"
+    "lastAttempt": "2026-10-24T09:44:02.743091+00:00",
+    "updatedAt": "2026-10-24T09:44:02.743091+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "7dec758cccf831c4e7da",
+        "title": "Office Administrator at Babix Interior Deco",
+        "url": "https://selibeng.com/office-administrator-at-babix-interior-deco/",
+        "source": "Selibeng",
+        "published": "Fri, 23 Oct 2026 16:40:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5cdbe5bcb28b6c5574e5",
+        "title": "Sales Associate at Jet – Pioneer Mall",
+        "url": "https://selibeng.com/sales-associate-at-jet-pioneer-mall-2/",
+        "source": "Selibeng",
+        "published": "Fri, 23 Oct 2026 13:52:54 +0000",
+        "deadline": null
+      },
+      {
+        "id": "424b5cd0e309fcefa8af",
+        "title": "Brand Ambassador x2 at 2Bros Traders",
+        "url": "https://selibeng.com/brand-ambassador-x2-at-2bros-traders/",
+        "source": "Selibeng",
+        "published": "Fri, 23 Oct 2026 12:58:59 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2311ae1e894f73ed2348",
+        "title": "Graphic Designer at Splendid Lifestyle",
+        "url": "https://selibeng.com/graphic-designer-at-splendid-lifestyle/",
+        "source": "Selibeng",
+        "published": "Fri, 23 Oct 2026 12:57:47 +0000",
+        "deadline": null
+      },
       {
         "id": "35b874d8ccc0845c93bb",
         "title": "Multiple Positions at Better Life",
@@ -701,42 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 19 Oct 2026 07:55:36 +0000",
         "deadline": null
-      },
-      {
-        "id": "c25d3dd87ccffd5bf43d",
-        "title": "Manager Marketing, Communication and Stakeholder Relations at BEDCO",
-        "url": "https://selibeng.com/manager-marketing-communication-and-stakeholder-relations-at-bedco/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 07:54:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c196ccab5f50c06e7d9a",
-        "title": "Tutor / Teacher – Supplementary and Extra Classes",
-        "url": "https://selibeng.com/tutor-teacher-supplementary-and-extra-classes/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 07:41:10 +0000",
-        "deadline": null
-      },
-      {
-        "id": "731817496d5cd388755f",
-        "title": "National Professional Officer (Health System Strengthening) at WHO",
-        "url": "https://selibeng.com/national-professional-officer-health-system-strengthening-at-who/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 06:27:14 +0000",
-        "deadline": null
-      },
-      {
-        "id": "34f2b10e4507bea9830b",
-        "title": "Operations and Maintenance Sub-Committee Member – Asset Management Specialist",
-        "url": "https://selibeng.com/operations-and-maintenance-sub-committee-member-asset-management-specialist/",
-        "source": "Selibeng",
-        "published": "Sun, 18 Oct 2026 15:37:47 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-23T10:25:04.796687+00:00",
-    "updatedAt": "2026-10-23T10:25:04.796687+00:00",
+    "lastAttempt": "2026-10-24T09:44:02.743091+00:00",
+    "updatedAt": "2026-10-24T09:44:02.743091+00:00",
     "status": "ok"
   }
 }
