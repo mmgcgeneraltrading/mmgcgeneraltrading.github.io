@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-24T09:44:02.743091+00:00",
+    "lastAttempt": "2026-10-25T10:02:27.155029+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,8 +369,8 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-25T07:20:50.262840+00:00",
-    "updatedAt": "2026-10-25T07:20:50.262840+00:00"
+    "lastAttempt": "2026-10-25T10:02:27.155029+00:00",
+    "updatedAt": "2026-10-25T10:02:27.155029+00:00"
   },
   "local_jobs": {
     "items": [
@@ -735,8 +735,8 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-24T09:44:02.743091+00:00",
-    "updatedAt": "2026-10-24T09:44:02.743091+00:00",
+    "lastAttempt": "2026-10-25T10:02:27.155029+00:00",
+    "updatedAt": "2026-10-25T10:02:27.155029+00:00",
     "status": "ok"
   }
 }
