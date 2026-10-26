@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-25T10:02:27.155029+00:00",
+    "lastAttempt": "2026-10-26T11:25:05.476072+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,107 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-26T07:29:54.626435+00:00",
-    "updatedAt": "2026-10-26T07:29:54.626435+00:00"
+    "lastAttempt": "2026-10-26T11:25:05.476072+00:00",
+    "updatedAt": "2026-10-26T11:25:05.476072+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "9f32f195e15cb36d081b",
+        "title": "School Secretary at Academ-iQ Multinational School",
+        "url": "https://selibeng.com/school-secretary-at-academ-iq-multinational-school/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 07:59:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1783a9efae7d9b59cd7c",
+        "title": "Chinese Language Teaching Positions at Xiao-Qiao Language Institute",
+        "url": "https://selibeng.com/chinese-language-teaching-positions-at-xiao-qiao-language-institute/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 07:55:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "02723a26c7322eb935cc",
+        "title": "Teachers at Royal Kids Academy",
+        "url": "https://selibeng.com/teachers-at-royal-kids-academy/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 07:02:45 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b0a93708513e761cf091",
+        "title": "Office Assistant at Masters of Steel and Engineering",
+        "url": "https://selibeng.com/office-assistant-at-masters-of-steel-and-engineering/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 19:30:50 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8875c7f227c10eb582eb",
+        "title": "Sales, Marketing and Branding Manager at Masters of Steel and Engineering",
+        "url": "https://selibeng.com/sales-marketing-and-branding-manager-at-masters-of-steel-and-engineering/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 19:30:09 +0000",
+        "deadline": null
+      },
+      {
+        "id": "31c70cd987744b44f5bc",
+        "title": "Welders x3 at Masters of Steel and Engineering",
+        "url": "https://selibeng.com/welders-x3-at-masters-of-steel-and-engineering/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 19:29:10 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7cb23b6b99a5da6a1c54",
+        "title": "Cleaner x2 at Molumong Butchery",
+        "url": "https://selibeng.com/cleaner-x2-at-molumong-butchery/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 16:10:17 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b93bf4863fb20a64e75e",
+        "title": "Cashier at Molumong Butchery",
+        "url": "https://selibeng.com/cashier-at-molumong-butchery/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 16:09:17 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9c2d9e8c12d7b37fb516",
+        "title": "Assistant Butcher at Molumong Butchery",
+        "url": "https://selibeng.com/assistant-butcher-at-molumong-butchery/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 16:08:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2153fd3c84162a101f8d",
+        "title": "Lead Butcher at Molumong Butchery",
+        "url": "https://selibeng.com/lead-butcher-at-molumong-butchery/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 16:07:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5e49e9f8f4963fde6900",
+        "title": "Butchery Manager at Molumong Butchery",
+        "url": "https://selibeng.com/butchery-manager-at-molumong-butchery/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 16:06:20 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9bafc92b640be3ce111c",
+        "title": "Direct Sales Agents x10 at Equiways",
+        "url": "https://selibeng.com/direct-sales-agents-x10-at-equiways/",
+        "source": "Selibeng",
+        "published": "Sun, 25 Oct 2026 16:04:45 +0000",
+        "deadline": null
+      },
       {
         "id": "7dec758cccf831c4e7da",
         "title": "Office Administrator at Babix Interior Deco",
@@ -637,106 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 19 Oct 2026 19:09:20 +0000",
         "deadline": null
-      },
-      {
-        "id": "9089dc6cbc2bf07a9f03",
-        "title": "English Literature Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/english-literature-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:08:51 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3c958ac5ecf19be3f7f2",
-        "title": "French Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/french-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:08:18 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c49758c6dfaf848b1d84",
-        "title": "Biology Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/biology-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:08:01 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0fa7eaa74cd24fb20398",
-        "title": "Human Resource Officer at Labamba Forest Guest House",
-        "url": "https://selibeng.com/human-resource-officer-at-labamba-forest-guest-house/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 14:23:26 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3b51454a64966ce0bbc3",
-        "title": "Chefs x3 at Labamba Forest Guest House",
-        "url": "https://selibeng.com/chefs-x3-at-labamba-forest-guest-house/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 14:22:55 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1eeffaba4bb18d288e4a",
-        "title": "Admin at Labamba Forest Guest House",
-        "url": "https://selibeng.com/admin-at-labamba-forest-guest-house/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 14:22:33 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a225491fb976952ab2c0",
-        "title": "Sales Associate at Jet – Butha-Buthe",
-        "url": "https://selibeng.com/sales-associate-at-jet-butha-buthe/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 13:21:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b708e04b7406aa53ee44",
-        "title": "Welder at Ralikhomo Fabrications",
-        "url": "https://selibeng.com/welder-at-ralikhomo-fabrications-2/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 09:51:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ba685e3f3a39711a4d68",
-        "title": "Marketing Intern at Phuthalichaba Savings and Credit Cooperative Society",
-        "url": "https://selibeng.com/marketing-intern-at-phuthalichaba-savings-and-credit-cooperative-society/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 09:29:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6ff98d24f4163d9ff081",
-        "title": "Customer Team Member at KFC",
-        "url": "https://selibeng.com/customer-team-member-at-kfc-2/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 09:25:30 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5c1d9d71a6ac516dcb8d",
-        "title": "Store Supervisor – Mokhotlong at Vodacom",
-        "url": "https://selibeng.com/store-supervisor-mokhotlong-at-vodacom/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 09:19:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "79fb4a4f22f5303510bf",
-        "title": "Procurement Manager at BEDCO",
-        "url": "https://selibeng.com/procurement-manager-at-bedco/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 07:55:36 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-25T10:02:27.155029+00:00",
-    "updatedAt": "2026-10-25T10:02:27.155029+00:00",
+    "lastAttempt": "2026-10-26T11:25:05.476072+00:00",
+    "updatedAt": "2026-10-26T11:25:05.476072+00:00",
     "status": "ok"
   }
 }
