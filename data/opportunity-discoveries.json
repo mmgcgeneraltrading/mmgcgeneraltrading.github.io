@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-26T11:25:05.476072+00:00",
+    "lastAttempt": "2026-10-27T10:49:02.190496+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "450df4e85960aba59d04",
+        "title": "RFP: Supply and Delivery of Katse Luxury Cruise Boat with Associated Infrastructure",
+        "url": "https://selibeng.com/rfp-supply-and-delivery-of-katse-luxury-cruise-boat-with-associated-infrastructure/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 09:59:41 +0000",
+        "deadline": null
+      },
       {
         "id": "a77c22e5010ca59eaa7e",
         "title": "Consultancy for The Development of National Multi-Hazard Early Warning Systems (MHEWS) Roadmaps",
@@ -359,21 +367,125 @@
         "source": "Selibeng",
         "published": "Sat, 26 Sep 2026 15:18:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "21d4565a4e8726b320da",
-        "title": "RFQ – Provision of Meals for Tourism Department",
-        "url": "https://selibeng.com/rfq-provision-of-meals-for-tourism-department/",
-        "source": "Selibeng",
-        "published": "Fri, 25 Sep 2026 19:17:01 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-27T07:25:28.499876+00:00",
-    "updatedAt": "2026-10-27T07:25:28.499876+00:00"
+    "lastAttempt": "2026-10-27T10:49:02.190496+00:00",
+    "updatedAt": "2026-10-27T10:49:02.190496+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "96ad54247ad992c28b79",
+        "title": "Supervisor Water Distribution at WASCO",
+        "url": "https://selibeng.com/supervisor-water-distribution-at-wasco/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 10:36:09 +0000",
+        "deadline": null
+      },
+      {
+        "id": "871c9a52bb18c8584fed",
+        "title": "Warehouse Manager at Pepkor Lifestyle",
+        "url": "https://selibeng.com/warehouse-manager-at-pepkor-lifestyle/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 10:34:13 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5a20c0db9d7877ef6982",
+        "title": "Cab Drivers x2 at Global Cabs",
+        "url": "https://selibeng.com/cab-drivers-x2-at-global-cabs/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 08:10:50 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cb894ba6d8cb4e44917c",
+        "title": "Training and Development Officer at LEC",
+        "url": "https://selibeng.com/training-and-development-officer-at-lec/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 18:38:59 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c2911645eb30d6a23e38",
+        "title": "Inspections Manager at LEC",
+        "url": "https://selibeng.com/inspections-manager-at-lec/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 18:38:33 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cdf0e1be49dde53e3d03",
+        "title": "Large Customers Manager at LEC",
+        "url": "https://selibeng.com/large-customers-manager-at-lec/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 18:38:14 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8ba5e0d1529a82ce6c50",
+        "title": "Organisational Effectiveness & Talent Acquisition Manager at LEC",
+        "url": "https://selibeng.com/organisational-effectiveness-talent-acquisition-manager-at-lec/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 18:37:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b4277605b36cb9aa67b6",
+        "title": "Small Customers Manager at LEC",
+        "url": "https://selibeng.com/small-customers-manager-at-lec/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 18:36:46 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f02273624b29cb917ee1",
+        "title": "Industrial Relations Officer at LEC",
+        "url": "https://selibeng.com/industrial-relations-officer-at-lec/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 18:36:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6850e96ce890b872f000",
+        "title": "MISA Lesotho/RSL Journalism Excellence Awards 2026: Call for Applications and Nominations for Adjudicators",
+        "url": "https://selibeng.com/misa-lesotho-rsl-journalism-excellence-awards-2026-call-for-applications-and-nominations-for-adjudicators/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 14:30:42 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2e5a366e8b0bf5106c76",
+        "title": "Lecturer at Dona@Balos Chef School & Hospitality",
+        "url": "https://selibeng.com/lecurer-at-donabalos-chef-school-hospitality/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 14:25:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "fc9d23cc73a3033de0e5",
+        "title": "Electrical Engineer at Partners In Health",
+        "url": "https://selibeng.com/electrical-engineer-at-partners-in-health/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 12:23:07 +0000",
+        "deadline": null
+      },
+      {
+        "id": "513f0a56afabbd192694",
+        "title": "Health and Safety Manager at Sixty15 JV",
+        "url": "https://selibeng.com/health-and-safety-manager-at-sixty15-jv/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 12:23:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "327bce59a896c9adee9d",
+        "title": "Photography Assistant at Vision Photography",
+        "url": "https://selibeng.com/photography-assistant-at-vision-photography/",
+        "source": "Selibeng",
+        "published": "Mon, 26 Oct 2026 12:22:57 +0000",
+        "deadline": null
+      },
       {
         "id": "9f32f195e15cb36d081b",
         "title": "School Secretary at Academ-iQ Multinational School",
@@ -621,122 +733,10 @@
         "source": "Selibeng",
         "published": "Wed, 21 Oct 2026 08:31:34 +0000",
         "deadline": null
-      },
-      {
-        "id": "b88afb0c50b708cf2f77",
-        "title": "Bartender at Khutsong Lodge",
-        "url": "https://selibeng.com/bartender-at-khutsong-lodge/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 15:26:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "03400e41cda879d4f336",
-        "title": "Front Desk Administrator at Khutsong Lodge",
-        "url": "https://selibeng.com/front-desk-administrator-at-khutsong-lodge/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 15:26:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "dd90731d860280716a28",
-        "title": "Office Administrator at Mayet & Associates Attorneys",
-        "url": "https://selibeng.com/office-administrator-at-mayet-associates-attorneys/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 12:13:23 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6d50797a420f59962079",
-        "title": "Administrator at BlackHair",
-        "url": "https://selibeng.com/administrator-at-blackhair/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 09:19:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3c8acd130320f4428423",
-        "title": "Professional Hair Stylists x6 at BlackHair",
-        "url": "https://selibeng.com/professional-hair-stylists-x6-at-blackhair/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 09:18:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5a16760297d13eaaa97f",
-        "title": "Sales Supervisor at Incredible Connection",
-        "url": "https://selibeng.com/sales-supervisor-at-incredible-connection/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 06:35:54 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b5980743964e2963a256",
-        "title": "School Counsellor at Busy Bees International High School",
-        "url": "https://selibeng.com/school-counsellor-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 06:18:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "75496a66035447c6d6b1",
-        "title": "Head of Academics at Busy Bees International High School",
-        "url": "https://selibeng.com/head-of-academics-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Tue, 20 Oct 2026 06:17:46 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3496a202d88547b879c7",
-        "title": "Commerce Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/commerce-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 20:13:25 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d77589f829328a1b1874",
-        "title": "Computer Science / ICT Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/computer-science-ict-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:42:26 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1eecbef07fa9802b28c1",
-        "title": "English Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/english-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:10:51 +0000",
-        "deadline": null
-      },
-      {
-        "id": "fa22bc080ede00c8d677",
-        "title": "Accounting Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/accounting-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:10:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cb09ec8819b475ab061e",
-        "title": "Travel and Tourism Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/travel-and-tourism-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:09:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "690b872ec5fcd5f0a9df",
-        "title": "Sesotho Teacher at Busy Bees International High School",
-        "url": "https://selibeng.com/sesotho-teacher-at-busy-bees-international-high-school/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 19:09:20 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-26T11:25:05.476072+00:00",
-    "updatedAt": "2026-10-26T11:25:05.476072+00:00",
+    "lastAttempt": "2026-10-27T10:49:02.190496+00:00",
+    "updatedAt": "2026-10-27T10:49:02.190496+00:00",
     "status": "ok"
   }
 }
