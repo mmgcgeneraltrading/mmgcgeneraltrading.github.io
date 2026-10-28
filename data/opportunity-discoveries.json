@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-27T10:49:02.190496+00:00",
+    "lastAttempt": "2026-10-28T11:30:33.486194+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,211 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-28T07:59:08.138244+00:00",
-    "updatedAt": "2026-10-28T07:59:08.138244+00:00"
+    "lastAttempt": "2026-10-28T11:30:33.486194+00:00",
+    "updatedAt": "2026-10-28T11:30:33.486194+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "e618505167661320b429",
+        "title": "Strategic Information Lead at BCMCF Lesotho",
+        "url": "https://selibeng.com/si-lead-bcmcfl/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 10:49:25 +0000",
+        "deadline": null
+      },
+      {
+        "id": "73dcdf0df7e5b548f4e8",
+        "title": "Principal at Providere Academy",
+        "url": "https://selibeng.com/principal-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 10:14:58 +0000",
+        "deadline": null
+      },
+      {
+        "id": "dfaaf109446eb9558c36",
+        "title": "Deputy Principal at Providere Academy",
+        "url": "https://selibeng.com/deputy-principal-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 10:07:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "455122efa92bd024a6d7",
+        "title": "Head of Department at Providere Academy",
+        "url": "https://selibeng.com/head-of-department-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 09:57:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7ebb7c06f9e273425917",
+        "title": "Cambridge Primary Teacher at Providere Academy",
+        "url": "https://selibeng.com/cambridge-primary-teacher-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 09:38:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "de3fb55c7c5248588833",
+        "title": "IT Teacher at Providere Academy",
+        "url": "https://selibeng.com/it-teacher-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 09:38:21 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1590a9c5739b49cafbca",
+        "title": "French Teacher at Providere Academy",
+        "url": "https://selibeng.com/french-teacher-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 09:37:33 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ef240006b806e01b7b2a",
+        "title": "School Nurse at Providere Academy",
+        "url": "https://selibeng.com/school-nurse-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 09:37:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b839468851079fd5c666",
+        "title": "Security Guard at Providere Academy",
+        "url": "https://selibeng.com/security-guard-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 09:37:09 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2b34d498ccd6428e58af",
+        "title": "Cleaner at Providere Academy",
+        "url": "https://selibeng.com/cleaner-at-providere-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 09:36:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4c89ea8877cd5019430d",
+        "title": "Crusher Machine Operator at UNIK Construction",
+        "url": "https://selibeng.com/crusher-machine-operator-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 08:36:58 +0000",
+        "deadline": null
+      },
+      {
+        "id": "642109f05145296ac591",
+        "title": "Public Health and Safety Expert, Lesotho",
+        "url": "https://selibeng.com/public-health-and-safety-expert-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 07:42:30 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ab32f2f78a24f02c8af2",
+        "title": "Transport Officer x2 at RSL",
+        "url": "https://selibeng.com/transport-officer-x2-at-rsl/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 07:40:14 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e6128397e61fcc884e6e",
+        "title": "Truck Mechanic",
+        "url": "https://selibeng.com/truck-mechanic-2/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 06:59:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "35dba5de1c417d67eb56",
+        "title": "Sales Representatives (Commission-Based)",
+        "url": "https://selibeng.com/sales-representatives-commission-based/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 06:50:41 +0000",
+        "deadline": null
+      },
+      {
+        "id": "108a84f2e520df613fd4",
+        "title": "Bricklayers x10 at EWP Enterprise",
+        "url": "https://selibeng.com/bricklayers-x10-at-ewp-enterprise/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 06:48:40 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e61894cfca0a4b9c1e25",
+        "title": "Marketing & Communications Officer at Botle Media & Advertising",
+        "url": "https://selibeng.com/marketing-communications-officer-at-botle-media-advertising/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 06:47:48 +0000",
+        "deadline": null
+      },
+      {
+        "id": "23e3303e93ba87798b38",
+        "title": "Administration & HR Clerk at Sechaba Milling Company",
+        "url": "https://selibeng.com/administration-hr-clerk-at-sechaba-milling-company/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 15:25:49 +0000",
+        "deadline": null
+      },
+      {
+        "id": "633e5edf4c21012186eb",
+        "title": "Quality Controller at Sechaba Milling Company",
+        "url": "https://selibeng.com/quality-controller-at-sechaba-milling-company/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 15:25:36 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e1ceb55973bdadbd4451",
+        "title": "Sales & Marketing Officer at Sechaba Milling Company",
+        "url": "https://selibeng.com/sales-marketing-officer-at-sechaba-milling-company/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 15:25:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "71092c9b6044c0bef167",
+        "title": "Lecturer – Risk Management and Finance at CAS",
+        "url": "https://selibeng.com/lecturer-risk-management-and-finance-at-cas/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 14:09:37 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b56ae53388c504b27d2d",
+        "title": "Digital Transformation Manager at CAS",
+        "url": "https://selibeng.com/digital-transformation-manager-at-cas/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 14:08:18 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0b8eafc245c9c9bc4100",
+        "title": "Student Services Assistant at CAS",
+        "url": "https://selibeng.com/student-services-assistant-at-cas/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 12:19:40 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a32db10cc882eccc9ff2",
+        "title": "Prevention Programs Manager – Maseru at AHF",
+        "url": "https://selibeng.com/prevention-programs-manager-maseru-at-ahf/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 12:15:35 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e794ada3d9e6e90dadf1",
+        "title": "National Medical Manager – Maseru at AHF",
+        "url": "https://selibeng.com/national-medical-manager-maseru-at-ahf/",
+        "source": "Selibeng",
+        "published": "Tue, 27 Oct 2026 12:14:24 +0000",
+        "deadline": null
+      },
       {
         "id": "96ad54247ad992c28b79",
         "title": "Supervisor Water Distribution at WASCO",
@@ -533,210 +733,10 @@
         "source": "Selibeng",
         "published": "Sun, 25 Oct 2026 19:29:10 +0000",
         "deadline": null
-      },
-      {
-        "id": "7cb23b6b99a5da6a1c54",
-        "title": "Cleaner x2 at Molumong Butchery",
-        "url": "https://selibeng.com/cleaner-x2-at-molumong-butchery/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 16:10:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b93bf4863fb20a64e75e",
-        "title": "Cashier at Molumong Butchery",
-        "url": "https://selibeng.com/cashier-at-molumong-butchery/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 16:09:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9c2d9e8c12d7b37fb516",
-        "title": "Assistant Butcher at Molumong Butchery",
-        "url": "https://selibeng.com/assistant-butcher-at-molumong-butchery/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 16:08:16 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2153fd3c84162a101f8d",
-        "title": "Lead Butcher at Molumong Butchery",
-        "url": "https://selibeng.com/lead-butcher-at-molumong-butchery/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 16:07:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5e49e9f8f4963fde6900",
-        "title": "Butchery Manager at Molumong Butchery",
-        "url": "https://selibeng.com/butchery-manager-at-molumong-butchery/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 16:06:20 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9bafc92b640be3ce111c",
-        "title": "Direct Sales Agents x10 at Equiways",
-        "url": "https://selibeng.com/direct-sales-agents-x10-at-equiways/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 16:04:45 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7dec758cccf831c4e7da",
-        "title": "Office Administrator at Babix Interior Deco",
-        "url": "https://selibeng.com/office-administrator-at-babix-interior-deco/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 16:40:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5cdbe5bcb28b6c5574e5",
-        "title": "Sales Associate at Jet – Pioneer Mall",
-        "url": "https://selibeng.com/sales-associate-at-jet-pioneer-mall-2/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 13:52:54 +0000",
-        "deadline": null
-      },
-      {
-        "id": "424b5cd0e309fcefa8af",
-        "title": "Brand Ambassador x2 at 2Bros Traders",
-        "url": "https://selibeng.com/brand-ambassador-x2-at-2bros-traders/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 12:58:59 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2311ae1e894f73ed2348",
-        "title": "Graphic Designer at Splendid Lifestyle",
-        "url": "https://selibeng.com/graphic-designer-at-splendid-lifestyle/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 12:57:47 +0000",
-        "deadline": null
-      },
-      {
-        "id": "35b874d8ccc0845c93bb",
-        "title": "Multiple Positions at Better Life",
-        "url": "https://selibeng.com/multiple-positions-at-better-life/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 05:49:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "fac43354818e3bacace6",
-        "title": "Service Centre Administrator at OK Furniture",
-        "url": "https://selibeng.com/service-centre-administrator-at-ok-furniture-3/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 03:40:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1aa3af7029f4342103cb",
-        "title": "Open Call: Infrastructure & Project Delivery Consultants",
-        "url": "https://selibeng.com/open-call-infrastructure-project-delivery-consultants/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 03:34:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "93a7f94c96d4a36e0a58",
-        "title": "Pastry Chef / Baker at Smart Bites Bakery",
-        "url": "https://selibeng.com/pastry-chef-baker-at-smart-bites-bakery/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 03:26:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a666acea62aa4c621534",
-        "title": "Facilitator – Pastoral Care and Counselling at Leading Business College",
-        "url": "https://selibeng.com/facilitator-pastoral-care-and-counselling-at-leading-business-college/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 03:13:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "db6ec7a9ee618297c346",
-        "title": "Print Shop Attendant",
-        "url": "https://selibeng.com/print-shop-attendant/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 03:03:08 +0000",
-        "deadline": null
-      },
-      {
-        "id": "001286b8c6402da660ed",
-        "title": "General Assistant at OK Furniture",
-        "url": "https://selibeng.com/general-assistant-at-ok-furniture/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 16:40:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0e1a3a5274e0dc8c2d1e",
-        "title": "Front Shop Sales and Cashier Assistant x4 at Vitality Health",
-        "url": "https://selibeng.com/front-shop-sales-and-cashier-assistant-x4-at-vitality-health/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 16:28:10 +0000",
-        "deadline": null
-      },
-      {
-        "id": "be15b1a6fce238d14728",
-        "title": "Board Members at Vishan Clothing Industries",
-        "url": "https://selibeng.com/board-members-at-vishan-clothing-industries/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 16:26:51 +0000",
-        "deadline": null
-      },
-      {
-        "id": "75854199af37f27aacd0",
-        "title": "Welder / Steel Fabricator at Mehloli ea Lintle",
-        "url": "https://selibeng.com/welder-steel-fabricator-at-mehloli-ea-lintle/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 06:51:23 +0000",
-        "deadline": null
-      },
-      {
-        "id": "17dee725bf57ad501652",
-        "title": "Calling All Local Fashion Designers – LNIG Hollard Gospel Xplosion",
-        "url": "https://selibeng.com/calling-all-local-fashion-designers-lnig-hollard-gospel-xplosion/",
-        "source": "Selibeng",
-        "published": "Wed, 21 Oct 2026 13:27:42 +0000",
-        "deadline": null
-      },
-      {
-        "id": "545e53675f5231f6a4df",
-        "title": "Waitresses at Panda Night Club",
-        "url": "https://selibeng.com/waitresses-at-panda-night-club/",
-        "source": "Selibeng",
-        "published": "Wed, 21 Oct 2026 13:21:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2d10cba4a80bcc463c81",
-        "title": "Lecturer in Environmental Health at NUL",
-        "url": "https://selibeng.com/lecturer-in-environmental-health-at-nul/",
-        "source": "Selibeng",
-        "published": "Wed, 21 Oct 2026 10:32:45 +0000",
-        "deadline": null
-      },
-      {
-        "id": "832dd2cfb21f80f1d2e1",
-        "title": "Lecturer in Physical Education and Sports at NUL",
-        "url": "https://selibeng.com/lecturer-in-physical-education-and-sports-at-nul/",
-        "source": "Selibeng",
-        "published": "Wed, 21 Oct 2026 10:32:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "356debf4c9ab7d624623",
-        "title": "Employee Benefits Manager at Minet",
-        "url": "https://selibeng.com/employee-benefits-manager-at-minet/",
-        "source": "Selibeng",
-        "published": "Wed, 21 Oct 2026 08:31:34 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-27T10:49:02.190496+00:00",
-    "updatedAt": "2026-10-27T10:49:02.190496+00:00",
+    "lastAttempt": "2026-10-28T11:30:33.486194+00:00",
+    "updatedAt": "2026-10-28T11:30:33.486194+00:00",
     "status": "ok"
   }
 }
