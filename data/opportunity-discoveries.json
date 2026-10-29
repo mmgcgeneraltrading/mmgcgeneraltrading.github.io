@@ -2,12 +2,36 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-28T11:30:33.486194+00:00",
+    "lastAttempt": "2026-10-29T11:40:56.151304+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "9eb2216cc157904d2054",
+        "title": "Editor for Papers on Investing in Children Consultant",
+        "url": "https://selibeng.com/editor-for-papers-on-investing-in-children-consultant/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 11:13:39 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3d2af60a0e2114591f2a",
+        "title": "Consultancy to Develop SADC Integrated Border Management Strategy",
+        "url": "https://selibeng.com/consultancy-to-develop-sadc-integrated-border-management-strategy/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 09:58:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cffe6661c5bdba3a7f2a",
+        "title": "Tender – Supply and Delivery of School Furniture for 45 Primary Schools",
+        "url": "https://selibeng.com/tender-supply-and-delivery-of-school-furniture-for-45-primary-schools/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 09:30:48 +0000",
+        "deadline": null
+      },
       {
         "id": "450df4e85960aba59d04",
         "title": "RFP: Supply and Delivery of Katse Luxury Cruise Boat with Associated Infrastructure",
@@ -343,37 +367,157 @@
         "source": "Selibeng",
         "published": "Tue, 29 Sep 2026 10:21:44 +0000",
         "deadline": null
-      },
-      {
-        "id": "7e9a9d2db8e5f65ef796",
-        "title": "Consulting Services – Independent Design Check for Pedestrian Bridges across the Polihali Reservoir",
-        "url": "https://selibeng.com/consulting-services-independent-design-check-for-pedestrian-bridges-across-the-polihali-reservoir/",
-        "source": "Selibeng",
-        "published": "Tue, 29 Sep 2026 08:05:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a3cda7b6036cd021ca88",
-        "title": "Request for Expression of Interest (EOI) – Lot 9: Construction of 11 kV Powerline",
-        "url": "https://selibeng.com/request-for-expression-of-interest-eoi-lot-9-construction-of-11-kv-powerline/",
-        "source": "Selibeng",
-        "published": "Mon, 28 Sep 2026 08:04:02 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2ad4cd36ca3009d01837",
-        "title": "Request For Proposals: Tracing Services",
-        "url": "https://selibeng.com/request-for-proposals-tracing-services/",
-        "source": "Selibeng",
-        "published": "Sat, 26 Sep 2026 15:18:00 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-29T08:08:35.542458+00:00",
-    "updatedAt": "2026-10-29T08:08:35.542458+00:00"
+    "lastAttempt": "2026-10-29T11:40:56.151304+00:00",
+    "updatedAt": "2026-10-29T11:40:56.151304+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "36761037220110092759",
+        "title": "Brick Layers x6 at Amazing Garden & Fountain Design",
+        "url": "https://selibeng.com/brick-layers-x6-at-amazing-garden-fountain-design/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 11:22:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0a8cdefa5fccfcc2f3fa",
+        "title": "Audit Managers x2 at PKF Lesotho",
+        "url": "https://selibeng.com/audit-managers-x2-at-pkf-lesotho/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 09:12:49 +0000",
+        "deadline": null
+      },
+      {
+        "id": "aaff699b779e0a8411d4",
+        "title": "Audit Trainees x5 at PKF Lesotho",
+        "url": "https://selibeng.com/audit-trainees-x5-at-pkf-lesotho/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 09:12:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b41a2cec7c84f75320f5",
+        "title": "Busiquip – Sales Consultant, Business Technology Solutions",
+        "url": "https://selibeng.com/busiquip-sales-consultant-business-technology-solutions/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 09:06:51 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ac8b6e530b58e6968714",
+        "title": "Electrical Installation Lecturer at Global Institute of Crafts and Technology",
+        "url": "https://selibeng.com/electrical-installation-lecturer-at-global-institute-of-crafts-and-technology/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 07:14:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d03290f8dd2ad9dc9d58",
+        "title": "Technical Intern at Makhabane Eco-Hygiene",
+        "url": "https://selibeng.com/technical-intern-at-makhabane-eco-hygiene/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 19:36:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d70f87a10f56225b5992",
+        "title": "Sales Executive at Utande Lesotho",
+        "url": "https://selibeng.com/sales-executive-at-utande-lesotho-2/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 19:21:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "edbee8b0d3ef634ec9de",
+        "title": "Computer Studies Teacher at Maseru Private Academy",
+        "url": "https://selibeng.com/computer-studies-teacher-at-maseru-private-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 19:06:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "469c54f363497cbb0e8a",
+        "title": "Secretary at Mopholosi High School",
+        "url": "https://selibeng.com/secretary-at-mopholosi-high-school/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 18:37:07 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a982716bdb4888923ffd",
+        "title": "Bursar at Mopholosi High School",
+        "url": "https://selibeng.com/bursar-at-mopholosi-high-school/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 18:37:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "589f7d8de7dfd3a5062a",
+        "title": "Director: Governance & Corporate Compliance at Lesotho Public Procurement Authority (LPPA)",
+        "url": "https://selibeng.com/director-governance-corporate-compliance-at-lesotho-public-procurement-authority-lppa/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 15:38:13 +0000",
+        "deadline": null
+      },
+      {
+        "id": "65e64c70c2b43f740139",
+        "title": "Director: Corporate Services at Lesotho Public Procurement Authority (LPPA)",
+        "url": "https://selibeng.com/director-corporate-services-at-lesotho-public-procurement-authority-lppa/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 15:32:11 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4963debe2d709a9fd256",
+        "title": "Pharmacy Assistant at Maluti Adventist Hospital",
+        "url": "https://selibeng.com/pharmacy-assistant-at-maluti-adventist-hospital/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 14:36:41 +0000",
+        "deadline": null
+      },
+      {
+        "id": "204f703d1fe80aaf59d4",
+        "title": "Security Guards at MM Security Services",
+        "url": "https://selibeng.com/security-guards-at-mm-security-services/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 14:36:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7aa8dd9622df7d8cc99e",
+        "title": "Hospitality / Tourism Intern x2 at Destiny Pub and Grill",
+        "url": "https://selibeng.com/hospitality-tourism-intern-x2-at-destiny-pub-and-grill/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 14:33:21 +0000",
+        "deadline": null
+      },
+      {
+        "id": "dece48cfd9ea266a3930",
+        "title": "Administration Officer at BCMCF Lesotho",
+        "url": "https://selibeng.com/admin-officer-bcmcfl/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 13:32:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5a2d1a4fe0570c5f4f94",
+        "title": "Community Engagement Coordinator at BCMCF Lesotho",
+        "url": "https://selibeng.com/cec-bcmcfl/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 13:31:17 +0000",
+        "deadline": null
+      },
+      {
+        "id": "475cbc2770c8b25ed28f",
+        "title": "Logistics Officer (Pharmacist) at BCMCF Lesotho",
+        "url": "https://selibeng.com/logistics-officer-bcmcfl/",
+        "source": "Selibeng",
+        "published": "Wed, 28 Oct 2026 13:29:57 +0000",
+        "deadline": null
+      },
       {
         "id": "e618505167661320b429",
         "title": "Strategic Information Lead at BCMCF Lesotho",
@@ -589,154 +733,10 @@
         "source": "Selibeng",
         "published": "Tue, 27 Oct 2026 10:34:13 +0000",
         "deadline": null
-      },
-      {
-        "id": "5a20c0db9d7877ef6982",
-        "title": "Cab Drivers x2 at Global Cabs",
-        "url": "https://selibeng.com/cab-drivers-x2-at-global-cabs/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 08:10:50 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cb894ba6d8cb4e44917c",
-        "title": "Training and Development Officer at LEC",
-        "url": "https://selibeng.com/training-and-development-officer-at-lec/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 18:38:59 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c2911645eb30d6a23e38",
-        "title": "Inspections Manager at LEC",
-        "url": "https://selibeng.com/inspections-manager-at-lec/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 18:38:33 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cdf0e1be49dde53e3d03",
-        "title": "Large Customers Manager at LEC",
-        "url": "https://selibeng.com/large-customers-manager-at-lec/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 18:38:14 +0000",
-        "deadline": null
-      },
-      {
-        "id": "8ba5e0d1529a82ce6c50",
-        "title": "Organisational Effectiveness & Talent Acquisition Manager at LEC",
-        "url": "https://selibeng.com/organisational-effectiveness-talent-acquisition-manager-at-lec/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 18:37:29 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b4277605b36cb9aa67b6",
-        "title": "Small Customers Manager at LEC",
-        "url": "https://selibeng.com/small-customers-manager-at-lec/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 18:36:46 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f02273624b29cb917ee1",
-        "title": "Industrial Relations Officer at LEC",
-        "url": "https://selibeng.com/industrial-relations-officer-at-lec/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 18:36:23 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6850e96ce890b872f000",
-        "title": "MISA Lesotho/RSL Journalism Excellence Awards 2026: Call for Applications and Nominations for Adjudicators",
-        "url": "https://selibeng.com/misa-lesotho-rsl-journalism-excellence-awards-2026-call-for-applications-and-nominations-for-adjudicators/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 14:30:42 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2e5a366e8b0bf5106c76",
-        "title": "Lecturer at Dona@Balos Chef School & Hospitality",
-        "url": "https://selibeng.com/lecurer-at-donabalos-chef-school-hospitality/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 14:25:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "fc9d23cc73a3033de0e5",
-        "title": "Electrical Engineer at Partners In Health",
-        "url": "https://selibeng.com/electrical-engineer-at-partners-in-health/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 12:23:07 +0000",
-        "deadline": null
-      },
-      {
-        "id": "513f0a56afabbd192694",
-        "title": "Health and Safety Manager at Sixty15 JV",
-        "url": "https://selibeng.com/health-and-safety-manager-at-sixty15-jv/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 12:23:01 +0000",
-        "deadline": null
-      },
-      {
-        "id": "327bce59a896c9adee9d",
-        "title": "Photography Assistant at Vision Photography",
-        "url": "https://selibeng.com/photography-assistant-at-vision-photography/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 12:22:57 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9f32f195e15cb36d081b",
-        "title": "School Secretary at Academ-iQ Multinational School",
-        "url": "https://selibeng.com/school-secretary-at-academ-iq-multinational-school/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 07:59:12 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1783a9efae7d9b59cd7c",
-        "title": "Chinese Language Teaching Positions at Xiao-Qiao Language Institute",
-        "url": "https://selibeng.com/chinese-language-teaching-positions-at-xiao-qiao-language-institute/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 07:55:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "02723a26c7322eb935cc",
-        "title": "Teachers at Royal Kids Academy",
-        "url": "https://selibeng.com/teachers-at-royal-kids-academy/",
-        "source": "Selibeng",
-        "published": "Mon, 26 Oct 2026 07:02:45 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b0a93708513e761cf091",
-        "title": "Office Assistant at Masters of Steel and Engineering",
-        "url": "https://selibeng.com/office-assistant-at-masters-of-steel-and-engineering/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 19:30:50 +0000",
-        "deadline": null
-      },
-      {
-        "id": "8875c7f227c10eb582eb",
-        "title": "Sales, Marketing and Branding Manager at Masters of Steel and Engineering",
-        "url": "https://selibeng.com/sales-marketing-and-branding-manager-at-masters-of-steel-and-engineering/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 19:30:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "31c70cd987744b44f5bc",
-        "title": "Welders x3 at Masters of Steel and Engineering",
-        "url": "https://selibeng.com/welders-x3-at-masters-of-steel-and-engineering/",
-        "source": "Selibeng",
-        "published": "Sun, 25 Oct 2026 19:29:10 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-28T11:30:33.486194+00:00",
-    "updatedAt": "2026-10-28T11:30:33.486194+00:00",
+    "lastAttempt": "2026-10-29T11:40:56.151304+00:00",
+    "updatedAt": "2026-10-29T11:40:56.151304+00:00",
     "status": "ok"
   }
 }
