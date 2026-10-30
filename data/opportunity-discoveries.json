@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-29T11:40:56.151304+00:00",
+    "lastAttempt": "2026-10-30T11:32:05.885524+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "d956e32fd61e2d997904",
+        "title": "Tender – Removal and Replacement of Fence with Commercial Palisade Fencing",
+        "url": "https://selibeng.com/tender-removal-and-replacement-of-fence-with-commercial-palisade-fencing/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 09:29:28 +0000",
+        "deadline": null
+      },
       {
         "id": "f17ecd1bc6ebd953dea9",
         "title": "Supply and Delivery of Goods for the Connector Roads Programme",
@@ -359,21 +367,37 @@
         "source": "Selibeng",
         "published": "Thu, 08 Oct 2026 11:10:07 +0000",
         "deadline": null
-      },
-      {
-        "id": "067913cfd24638055df4",
-        "title": "RFQ – Vehicle Hire Services on Long Term Agreement (LTA)",
-        "url": "https://selibeng.com/rfq-vehicle-hire-services-on-long-term-agreement-lta/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 05:02:35 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-30T08:11:23.575039+00:00",
-    "updatedAt": "2026-10-30T08:11:23.575039+00:00"
+    "lastAttempt": "2026-10-30T11:32:05.885524+00:00",
+    "updatedAt": "2026-10-30T11:32:05.885524+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "067243c504e85a87ae6e",
+        "title": "Potable Water and Wastewater Supervisor at Letšeng Diamonds",
+        "url": "https://selibeng.com/potable-water-and-wastewater-supervisor-at-letseng-diamonds/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 08:20:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b5712e3384ccaae5201b",
+        "title": "Bakers x2 at Sefalana Shopper",
+        "url": "https://selibeng.com/bakers-x2-at-sefalana-shopper/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 07:57:55 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c5b4cfb1c5b863c7001f",
+        "title": "Contract Engineer and Assistant Contract Engineer at SMEC",
+        "url": "https://selibeng.com/contract-engineer-and-assistant-contract-engineer-at-smec-2/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 14:08:30 +0000",
+        "deadline": null
+      },
       {
         "id": "36761037220110092759",
         "title": "Brick Layers x6 at Amazing Garden & Fountain Design",
@@ -709,34 +733,10 @@
         "source": "Selibeng",
         "published": "Tue, 27 Oct 2026 12:15:35 +0000",
         "deadline": null
-      },
-      {
-        "id": "e794ada3d9e6e90dadf1",
-        "title": "National Medical Manager – Maseru at AHF",
-        "url": "https://selibeng.com/national-medical-manager-maseru-at-ahf/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 12:14:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "96ad54247ad992c28b79",
-        "title": "Supervisor Water Distribution at WASCO",
-        "url": "https://selibeng.com/supervisor-water-distribution-at-wasco/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 10:36:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "871c9a52bb18c8584fed",
-        "title": "Warehouse Manager at Pepkor Lifestyle",
-        "url": "https://selibeng.com/warehouse-manager-at-pepkor-lifestyle/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 10:34:13 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-29T11:40:56.151304+00:00",
-    "updatedAt": "2026-10-29T11:40:56.151304+00:00",
+    "lastAttempt": "2026-10-30T11:32:05.885524+00:00",
+    "updatedAt": "2026-10-30T11:32:05.885524+00:00",
     "status": "ok"
   }
 }
