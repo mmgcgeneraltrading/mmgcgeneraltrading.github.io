@@ -9,6 +9,38 @@
     "status": "ok",
     "items": [
       {
+        "id": "f17ecd1bc6ebd953dea9",
+        "title": "Supply and Delivery of Goods for the Connector Roads Programme",
+        "url": "https://selibeng.com/supply-and-delivery-of-goods-for-the-connector-roads-programme/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 13:09:43 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f866ed8a6884454d2745",
+        "title": "RFQ – 2026 Beautification Programme",
+        "url": "https://selibeng.com/rfq-2026-beautification-programme/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 13:07:31 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ec263d088804859ecce1",
+        "title": "RFQ – Corrective Maintenance of 10 Public Ablution Facilities",
+        "url": "https://selibeng.com/rfq-corrective-maintenance-of-10-public-ablution-facilities/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 13:06:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "eeac1e15501764b5498d",
+        "title": "RFP – Develop Nationally Determined Contributions of Lesotho (NDC 3.0)",
+        "url": "https://selibeng.com/rfp-develop-nationally-determined-contributions-of-lesotho-ndc-3-0/",
+        "source": "Selibeng",
+        "published": "Thu, 29 Oct 2026 12:39:58 +0000",
+        "deadline": null
+      },
+      {
         "id": "9eb2216cc157904d2054",
         "title": "Editor for Papers on Investing in Children Consultant",
         "url": "https://selibeng.com/editor-for-papers-on-investing-in-children-consultant/",
@@ -335,42 +367,10 @@
         "source": "Selibeng",
         "published": "Thu, 08 Oct 2026 05:02:35 +0000",
         "deadline": null
-      },
-      {
-        "id": "a0da67f340427f38a9fe",
-        "title": "Request for Quotation for Supply and Delivery of Groceries",
-        "url": "https://selibeng.com/request-for-quotation-for-supply-and-delivery-of-groceries/",
-        "source": "Selibeng",
-        "published": "Mon, 05 Oct 2026 17:18:59 +0000",
-        "deadline": null
-      },
-      {
-        "id": "90771dd82ec27102f54a",
-        "title": "Tender: Supply, Installation and Management of Vehicle Tracking System at BCMCF Lesotho",
-        "url": "https://selibeng.com/itt-vehicle-tracking/",
-        "source": "Selibeng",
-        "published": "Thu, 01 Oct 2026 15:38:23 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2b18725b1e56e26ada4b",
-        "title": "RFQ: Supply and Delivery of Cleaning Chemicals",
-        "url": "https://selibeng.com/rfq-supply-and-delivery-of-cleaning-chemicals/",
-        "source": "Selibeng",
-        "published": "Tue, 29 Sep 2026 13:32:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c0ef297b2cd89fbc61dd",
-        "title": "Supply and Delivery of Tarpaulins, ICT Equipment and Protective Clothing",
-        "url": "https://selibeng.com/supply-and-delivery-of-tarpaulins-ict-equipment-and-protective-clothing/",
-        "source": "Selibeng",
-        "published": "Tue, 29 Sep 2026 10:21:44 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-29T11:40:56.151304+00:00",
-    "updatedAt": "2026-10-29T11:40:56.151304+00:00"
+    "lastAttempt": "2026-10-30T01:37:37.064139+00:00",
+    "updatedAt": "2026-10-30T01:37:37.064139+00:00"
   },
   "local_jobs": {
     "items": [
