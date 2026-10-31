@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-30T11:32:05.885524+00:00",
+    "lastAttempt": "2026-10-31T11:04:58.103293+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,83 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-31T08:04:21.476924+00:00",
-    "updatedAt": "2026-10-31T08:04:21.476924+00:00"
+    "lastAttempt": "2026-10-31T11:04:58.103293+00:00",
+    "updatedAt": "2026-10-31T11:04:58.103293+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "872fa24ec7d0ebe4ef14",
+        "title": "Receptionist at Therapy Hub",
+        "url": "https://selibeng.com/receptionist-at-therapy-hub/",
+        "source": "Selibeng",
+        "published": "Sat, 31 Oct 2026 08:57:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a6caebfd55cf66ba8591",
+        "title": "Administrative Assistant at Shoeshoe ea Moshoeshoe",
+        "url": "https://selibeng.com/administrative-assistant-at-shoeshoe-ea-moshoeshoe/",
+        "source": "Selibeng",
+        "published": "Sat, 31 Oct 2026 08:25:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cac580ec71537b8dbfae",
+        "title": "Driver / Office Assistant at LNLVIP",
+        "url": "https://selibeng.com/driver-office-assistant-at-lnlvip/",
+        "source": "Selibeng",
+        "published": "Sat, 31 Oct 2026 07:07:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b0bf270cf61da6839c4b",
+        "title": "Barber at Urban Blends Barbershop",
+        "url": "https://selibeng.com/barber-at-urban-blends-barbershop/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 17:56:41 +0000",
+        "deadline": null
+      },
+      {
+        "id": "fd353412e2b82977954d",
+        "title": "Chef at Blue Mountain Inn",
+        "url": "https://selibeng.com/chef-at-blue-mountain-inn-2/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 17:48:19 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b3b3a3e61b78b90a2806",
+        "title": "Cleaning and Laundry Staff x2 at Comet Cleaning Services",
+        "url": "https://selibeng.com/cleaning-and-laundry-staff-x2-at-comet-cleaning-services/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 17:47:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d70290896c2ca22ed6fa",
+        "title": "Gardeners x4 at Comet Cleaning Services",
+        "url": "https://selibeng.com/gardeners-x4-at-comet-cleaning-services/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 17:46:43 +0000",
+        "deadline": null
+      },
+      {
+        "id": "005c0ca035680a88c64c",
+        "title": "Guest House Supervisor / Manager at Tribute Guest Houses",
+        "url": "https://selibeng.com/guest-house-supervisor-manager-at-tribute-guest-houses/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 11:37:37 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a22a12a1a63f0205d0e4",
+        "title": "Vacancies at Quantum Apparel",
+        "url": "https://selibeng.com/vacancies-at-quantum-apparel/",
+        "source": "Selibeng",
+        "published": "Fri, 30 Oct 2026 11:35:54 +0000",
+        "deadline": null
+      },
       {
         "id": "067243c504e85a87ae6e",
         "title": "Potable Water and Wastewater Supervisor at Letšeng Diamonds",
@@ -661,82 +733,10 @@
         "source": "Selibeng",
         "published": "Wed, 28 Oct 2026 06:50:41 +0000",
         "deadline": null
-      },
-      {
-        "id": "108a84f2e520df613fd4",
-        "title": "Bricklayers x10 at EWP Enterprise",
-        "url": "https://selibeng.com/bricklayers-x10-at-ewp-enterprise/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 06:48:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e61894cfca0a4b9c1e25",
-        "title": "Marketing & Communications Officer at Botle Media & Advertising",
-        "url": "https://selibeng.com/marketing-communications-officer-at-botle-media-advertising/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 06:47:48 +0000",
-        "deadline": null
-      },
-      {
-        "id": "23e3303e93ba87798b38",
-        "title": "Administration & HR Clerk at Sechaba Milling Company",
-        "url": "https://selibeng.com/administration-hr-clerk-at-sechaba-milling-company/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 15:25:49 +0000",
-        "deadline": null
-      },
-      {
-        "id": "633e5edf4c21012186eb",
-        "title": "Quality Controller at Sechaba Milling Company",
-        "url": "https://selibeng.com/quality-controller-at-sechaba-milling-company/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 15:25:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e1ceb55973bdadbd4451",
-        "title": "Sales & Marketing Officer at Sechaba Milling Company",
-        "url": "https://selibeng.com/sales-marketing-officer-at-sechaba-milling-company/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 15:25:22 +0000",
-        "deadline": null
-      },
-      {
-        "id": "71092c9b6044c0bef167",
-        "title": "Lecturer – Risk Management and Finance at CAS",
-        "url": "https://selibeng.com/lecturer-risk-management-and-finance-at-cas/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 14:09:37 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b56ae53388c504b27d2d",
-        "title": "Digital Transformation Manager at CAS",
-        "url": "https://selibeng.com/digital-transformation-manager-at-cas/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 14:08:18 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0b8eafc245c9c9bc4100",
-        "title": "Student Services Assistant at CAS",
-        "url": "https://selibeng.com/student-services-assistant-at-cas/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 12:19:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a32db10cc882eccc9ff2",
-        "title": "Prevention Programs Manager – Maseru at AHF",
-        "url": "https://selibeng.com/prevention-programs-manager-maseru-at-ahf/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 12:15:35 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-30T11:32:05.885524+00:00",
-    "updatedAt": "2026-10-30T11:32:05.885524+00:00",
+    "lastAttempt": "2026-10-31T11:04:58.103293+00:00",
+    "updatedAt": "2026-10-31T11:04:58.103293+00:00",
     "status": "ok"
   }
 }
