@@ -9,6 +9,22 @@
     "status": "ok",
     "items": [
       {
+        "id": "80a45e5afefc5b23ea6a",
+        "title": "Expression of Interest (EOI) – Qualified Service Providers",
+        "url": "https://selibeng.com/expression-of-interest-eoi-qualified-service-providers/",
+        "source": "Selibeng",
+        "published": "Sat, 31 Oct 2026 07:54:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "457331386dada946ee0b",
+        "title": "Consultancy to Undertake Capacity Building Arising from Identified (MHEWS) Gaps and Needs from Member States",
+        "url": "https://selibeng.com/consultancy-to-undertake-capacity-building-arising-from-identified-mhews-gaps-and-needs-from-member-states/",
+        "source": "Selibeng",
+        "published": "Sat, 31 Oct 2026 06:33:00 +0000",
+        "deadline": null
+      },
+      {
         "id": "0cfebe2c87c8376d204e",
         "title": "Consultancy Services to Conduct the End of Phase VI Evaluation of the MEFMI Phase VI Strategy (2022 – 2026)",
         "url": "https://selibeng.com/consultancy-services-to-conduct-the-end-of-phase-vi-evaluation-of-the-mefmi-phase-vi-strategy-2022-2026/",
@@ -351,26 +367,10 @@
         "source": "Selibeng",
         "published": "Fri, 09 Oct 2026 17:42:04 +0000",
         "deadline": null
-      },
-      {
-        "id": "038aaa77c9b8370bc40c",
-        "title": "Tender – Provision of Insurance Broking Services",
-        "url": "https://selibeng.com/tender-provision-of-insurance-broking-services/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 14:47:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f4a26fa1cafaabd87675",
-        "title": "Consultancy – Evaluation and Assessment of Lesotho National Broadcasting Services Transmission Network",
-        "url": "https://selibeng.com/consultancy-evaluation-and-assessment-of-lesotho-national-broadcasting-services-transmission-network/",
-        "source": "Selibeng",
-        "published": "Thu, 08 Oct 2026 12:41:37 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-31T01:26:19.176094+00:00",
-    "updatedAt": "2026-10-31T01:26:19.176094+00:00"
+    "lastAttempt": "2026-10-31T08:04:21.476924+00:00",
+    "updatedAt": "2026-10-31T08:04:21.476924+00:00"
   },
   "local_jobs": {
     "items": [
