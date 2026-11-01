@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-10-31T11:04:58.103293+00:00",
+    "lastAttempt": "2026-11-01T11:57:56.705561+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,51 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-01T08:50:19.834348+00:00",
-    "updatedAt": "2026-11-01T08:50:19.834348+00:00"
+    "lastAttempt": "2026-11-01T11:57:56.705561+00:00",
+    "updatedAt": "2026-11-01T11:57:56.705561+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "7c246e8944d01f508d73",
+        "title": "E T Consultant at World Bank Lesotho",
+        "url": "https://selibeng.com/e-t-consultant-at-world-bank-lesotho/",
+        "source": "Selibeng",
+        "published": "Sun, 01 Nov 2026 08:03:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "bcf41dce7188a48f6e19",
+        "title": "Strategic Data Information Analyst, Lesotho Country Office",
+        "url": "https://selibeng.com/strategic-data-information-analyst-lesotho-country-office/",
+        "source": "Selibeng",
+        "published": "Sun, 01 Nov 2026 07:01:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3f7123c56ccb21a4f446",
+        "title": "Communications, Partnerships & Resource Mobilization Analyst, Lesotho Country Office",
+        "url": "https://selibeng.com/communications-partnerships-resource-mobilization-analyst-lesotho-country-office/",
+        "source": "Selibeng",
+        "published": "Sun, 01 Nov 2026 05:58:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "10d2cb9936512949fb3e",
+        "title": "Pre-School Assistant Teacher x4 at Annabelle Preschool and Daycare",
+        "url": "https://selibeng.com/pre-school-assistant-teacher-x4-at-annabelle-preschool-and-daycare/",
+        "source": "Selibeng",
+        "published": "Sat, 31 Oct 2026 14:16:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "23cc045dafc006d619b4",
+        "title": "Sales Consultant & Suit Model at Seasonal Fashion Home",
+        "url": "https://selibeng.com/sales-consultant-suit-model-at-seasonal-fashion-home/",
+        "source": "Selibeng",
+        "published": "Sat, 31 Oct 2026 11:13:49 +0000",
+        "deadline": null
+      },
       {
         "id": "872fa24ec7d0ebe4ef14",
         "title": "Receptionist at Therapy Hub",
@@ -693,50 +733,10 @@
         "source": "Selibeng",
         "published": "Wed, 28 Oct 2026 09:36:38 +0000",
         "deadline": null
-      },
-      {
-        "id": "4c89ea8877cd5019430d",
-        "title": "Crusher Machine Operator at UNIK Construction",
-        "url": "https://selibeng.com/crusher-machine-operator-at-unik-construction/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 08:36:58 +0000",
-        "deadline": null
-      },
-      {
-        "id": "642109f05145296ac591",
-        "title": "Public Health and Safety Expert, Lesotho",
-        "url": "https://selibeng.com/public-health-and-safety-expert-lesotho/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 07:42:30 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ab32f2f78a24f02c8af2",
-        "title": "Transport Officer x2 at RSL",
-        "url": "https://selibeng.com/transport-officer-x2-at-rsl/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 07:40:14 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e6128397e61fcc884e6e",
-        "title": "Truck Mechanic",
-        "url": "https://selibeng.com/truck-mechanic-2/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 06:59:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "35dba5de1c417d67eb56",
-        "title": "Sales Representatives (Commission-Based)",
-        "url": "https://selibeng.com/sales-representatives-commission-based/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 06:50:41 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-10-31T11:04:58.103293+00:00",
-    "updatedAt": "2026-10-31T11:04:58.103293+00:00",
+    "lastAttempt": "2026-11-01T11:57:56.705561+00:00",
+    "updatedAt": "2026-11-01T11:57:56.705561+00:00",
     "status": "ok"
   }
 }
