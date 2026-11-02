@@ -2,12 +2,28 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-01T11:57:56.705561+00:00",
+    "lastAttempt": "2026-11-02T13:45:50.521732+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "7e7eb71d7794409e2fb9",
+        "title": "Invitation for Bids: Minor Works at Mohale’s Hoek High-Volume Health Facilities",
+        "url": "https://selibeng.com/invitation-for-bids-minor-works-at-mohales-hoek-high-volume-health-facilities/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 10:14:15 +0000",
+        "deadline": null
+      },
+      {
+        "id": "76aa227a155db476ffb5",
+        "title": "Invitation to Bidders: Procurement and Rehabilitation of Seven Footbridges",
+        "url": "https://selibeng.com/invitation-to-bidders-procurement-and-rehabilitation-of-seven-footbridges/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 10:08:34 +0000",
+        "deadline": null
+      },
       {
         "id": "80a45e5afefc5b23ea6a",
         "title": "Expression of Interest (EOI) – Qualified Service Providers",
@@ -351,29 +367,157 @@
         "source": "Selibeng",
         "published": "Sat, 10 Oct 2026 12:26:58 +0000",
         "deadline": null
-      },
-      {
-        "id": "48849d80568aa43e312a",
-        "title": "Consultancy for End of Project Evaluation for Disaster Risk Management Strengthening in Southern Africa Project",
-        "url": "https://selibeng.com/consultancy-for-end-of-project-evaluation-for-disaster-risk-management-strengthening-in-southern-africa-project/",
-        "source": "Selibeng",
-        "published": "Sat, 10 Oct 2026 08:57:01 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7e3f54cca6fe8c92287c",
-        "title": "Tender – Procurement of Storage System",
-        "url": "https://selibeng.com/tender-procurement-of-storage-system/",
-        "source": "Selibeng",
-        "published": "Fri, 09 Oct 2026 17:42:04 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-02T08:58:24.644006+00:00",
-    "updatedAt": "2026-11-02T08:58:24.644006+00:00"
+    "lastAttempt": "2026-11-02T13:45:50.521732+00:00",
+    "updatedAt": "2026-11-02T13:45:50.521732+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "232226175822cbcd9589",
+        "title": "Driver at Formosa Textile",
+        "url": "https://selibeng.com/driver-at-formosa-textile/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 12:52:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9487173f008f18658173",
+        "title": "Marketing & Customer Care Intern at Super Organics",
+        "url": "https://selibeng.com/marketing-customer-care-intern-at-super-organics/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 12:25:13 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8de9c5aabb9f8cdfd85d",
+        "title": "Trainee Accountants at Moores Rowland",
+        "url": "https://selibeng.com/trainee-accountants-at-moores-rowland/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 12:06:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "bb8b950e7bd739e4f443",
+        "title": "Barber, Nail Technician & Hair Dresser",
+        "url": "https://selibeng.com/barber-nail-technician-hair-dresser/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 11:03:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c7db5484026469438f78",
+        "title": "Customer Service Advisor at Incredible Connection",
+        "url": "https://selibeng.com/customer-service-advisor-at-incredible-connection/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 10:34:57 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b938415fff2d99d40638",
+        "title": "Caddy Master at Maseru Golf Club",
+        "url": "https://selibeng.com/caddy-master-at-maseru-golf-club/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 10:12:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1361ca5f9fbc95afc442",
+        "title": "Low Bed Truck Driver at UNIK Construction",
+        "url": "https://selibeng.com/low-bed-truck-driver-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 09:52:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1cdd4cf2e1d50f120527",
+        "title": "Crane Truck Driver at UNIK Construction",
+        "url": "https://selibeng.com/crane-truck-driver-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 08:27:39 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6b6f502356c192699186",
+        "title": "General Assistant at OK Furniture",
+        "url": "https://selibeng.com/general-assistant-at-ok-furniture-2/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 07:32:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0923edc3725fc1753a64",
+        "title": "Licensing and Compliance Manager at LCA",
+        "url": "https://selibeng.com/licensing-and-compliance-manager-at-lca/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 07:26:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4c88caebadf7408d5598",
+        "title": "Sales Agents at Lenderu Lesotho",
+        "url": "https://selibeng.com/sales-agents-at-lenderu-lesotho-2/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 07:24:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "982db540afcca067ce09",
+        "title": "General Workers & Assistant Manager at Senqu Harvest",
+        "url": "https://selibeng.com/general-workers-assistant-manager-at-senqu-harvest/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 07:02:31 +0000",
+        "deadline": null
+      },
+      {
+        "id": "351f50ac90da2e22e102",
+        "title": "Consultancy Services for the Development of the PWDAC Strategic Plan 2027–2031",
+        "url": "https://selibeng.com/consultancy-services-for-the-development-of-the-pwdac-strategic-plan-2027-2031/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 06:59:40 +0000",
+        "deadline": null
+      },
+      {
+        "id": "092f13c8502181fbec77",
+        "title": "Lecturer in Accounting & Finance at NUL",
+        "url": "https://selibeng.com/lecturer-in-accounting-finance-at-nul-2/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 06:55:33 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3a703c998d5b0fbba274",
+        "title": "Lecturer – Business and Management Development – IEMS",
+        "url": "https://selibeng.com/lecturer-business-and-management-development-iems/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 06:54:44 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7b7ca54b267491724dc5",
+        "title": "Urgent Vacancies at Royal Spring Guest House",
+        "url": "https://selibeng.com/urgent-vacancies-at-royal-spring-guest-house/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 06:51:44 +0000",
+        "deadline": null
+      },
+      {
+        "id": "16ab982cb98e1161873f",
+        "title": "Nail Technician & Eyelash Technician",
+        "url": "https://selibeng.com/nail-technician-eyelash-technician/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 06:40:28 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3d4e0d1931afe55b3f62",
+        "title": "Receptionist at Melvik Guest House",
+        "url": "https://selibeng.com/receptionist-at-melvik-guest-house/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 06:39:36 +0000",
+        "deadline": null
+      },
       {
         "id": "7c246e8944d01f508d73",
         "title": "E T Consultant at World Bank Lesotho",
@@ -589,154 +733,10 @@
         "source": "Selibeng",
         "published": "Wed, 28 Oct 2026 18:37:02 +0000",
         "deadline": null
-      },
-      {
-        "id": "589f7d8de7dfd3a5062a",
-        "title": "Director: Governance & Corporate Compliance at Lesotho Public Procurement Authority (LPPA)",
-        "url": "https://selibeng.com/director-governance-corporate-compliance-at-lesotho-public-procurement-authority-lppa/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 15:38:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "65e64c70c2b43f740139",
-        "title": "Director: Corporate Services at Lesotho Public Procurement Authority (LPPA)",
-        "url": "https://selibeng.com/director-corporate-services-at-lesotho-public-procurement-authority-lppa/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 15:32:11 +0000",
-        "deadline": null
-      },
-      {
-        "id": "4963debe2d709a9fd256",
-        "title": "Pharmacy Assistant at Maluti Adventist Hospital",
-        "url": "https://selibeng.com/pharmacy-assistant-at-maluti-adventist-hospital/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 14:36:41 +0000",
-        "deadline": null
-      },
-      {
-        "id": "204f703d1fe80aaf59d4",
-        "title": "Security Guards at MM Security Services",
-        "url": "https://selibeng.com/security-guards-at-mm-security-services/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 14:36:02 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7aa8dd9622df7d8cc99e",
-        "title": "Hospitality / Tourism Intern x2 at Destiny Pub and Grill",
-        "url": "https://selibeng.com/hospitality-tourism-intern-x2-at-destiny-pub-and-grill/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 14:33:21 +0000",
-        "deadline": null
-      },
-      {
-        "id": "dece48cfd9ea266a3930",
-        "title": "Administration Officer at BCMCF Lesotho",
-        "url": "https://selibeng.com/admin-officer-bcmcfl/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 13:32:16 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5a2d1a4fe0570c5f4f94",
-        "title": "Community Engagement Coordinator at BCMCF Lesotho",
-        "url": "https://selibeng.com/cec-bcmcfl/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 13:31:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "475cbc2770c8b25ed28f",
-        "title": "Logistics Officer (Pharmacist) at BCMCF Lesotho",
-        "url": "https://selibeng.com/logistics-officer-bcmcfl/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 13:29:57 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e618505167661320b429",
-        "title": "Strategic Information Lead at BCMCF Lesotho",
-        "url": "https://selibeng.com/si-lead-bcmcfl/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 10:49:25 +0000",
-        "deadline": null
-      },
-      {
-        "id": "73dcdf0df7e5b548f4e8",
-        "title": "Principal at Providere Academy",
-        "url": "https://selibeng.com/principal-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 10:14:58 +0000",
-        "deadline": null
-      },
-      {
-        "id": "dfaaf109446eb9558c36",
-        "title": "Deputy Principal at Providere Academy",
-        "url": "https://selibeng.com/deputy-principal-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 10:07:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "455122efa92bd024a6d7",
-        "title": "Head of Department at Providere Academy",
-        "url": "https://selibeng.com/head-of-department-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 09:57:01 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7ebb7c06f9e273425917",
-        "title": "Cambridge Primary Teacher at Providere Academy",
-        "url": "https://selibeng.com/cambridge-primary-teacher-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 09:38:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "de3fb55c7c5248588833",
-        "title": "IT Teacher at Providere Academy",
-        "url": "https://selibeng.com/it-teacher-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 09:38:21 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1590a9c5739b49cafbca",
-        "title": "French Teacher at Providere Academy",
-        "url": "https://selibeng.com/french-teacher-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 09:37:33 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ef240006b806e01b7b2a",
-        "title": "School Nurse at Providere Academy",
-        "url": "https://selibeng.com/school-nurse-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 09:37:22 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b839468851079fd5c666",
-        "title": "Security Guard at Providere Academy",
-        "url": "https://selibeng.com/security-guard-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 09:37:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2b34d498ccd6428e58af",
-        "title": "Cleaner at Providere Academy",
-        "url": "https://selibeng.com/cleaner-at-providere-academy/",
-        "source": "Selibeng",
-        "published": "Wed, 28 Oct 2026 09:36:38 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-01T11:57:56.705561+00:00",
-    "updatedAt": "2026-11-01T11:57:56.705561+00:00",
+    "lastAttempt": "2026-11-02T13:45:50.521732+00:00",
+    "updatedAt": "2026-11-02T13:45:50.521732+00:00",
     "status": "ok"
   }
 }
