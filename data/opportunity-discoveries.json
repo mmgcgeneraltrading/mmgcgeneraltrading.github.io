@@ -9,6 +9,22 @@
     "status": "ok",
     "items": [
       {
+        "id": "48a64a2d852e53d3f667",
+        "title": "Tender: Provision of Pest Control Services",
+        "url": "https://selibeng.com/tender-provision-of-pest-control-services-2/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 15:05:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1b763a28687115c2c5f2",
+        "title": "RFQ: Technical Editor & Graphic Designer",
+        "url": "https://selibeng.com/rfq-technical-editor-graphic-designer/",
+        "source": "Selibeng",
+        "published": "Mon, 02 Nov 2026 14:29:08 +0000",
+        "deadline": null
+      },
+      {
         "id": "7e7eb71d7794409e2fb9",
         "title": "Invitation for Bids: Minor Works at Mohale’s Hoek High-Volume Health Facilities",
         "url": "https://selibeng.com/invitation-for-bids-minor-works-at-mohales-hoek-high-volume-health-facilities/",
@@ -351,26 +367,10 @@
         "source": "Selibeng",
         "published": "Sat, 10 Oct 2026 17:40:12 +0000",
         "deadline": null
-      },
-      {
-        "id": "1c3eaf7ed0e43b3a744e",
-        "title": "Provision of Security Services at SADC SHOC NACALA Offices",
-        "url": "https://selibeng.com/provision-of-security-services-at-sadc-shoc-nacala-offices/",
-        "source": "Selibeng",
-        "published": "Sat, 10 Oct 2026 15:09:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "75416b0879dca1937209",
-        "title": "Consultancy to Conduct an Independent Analysis and Reorganisation of The SADC Secretariat Structure and Staff Complement",
-        "url": "https://selibeng.com/consultancy-to-conduct-an-independent-analysis-and-reorganisation-of-the-sadc-secretariat-structure-and-staff-complement/",
-        "source": "Selibeng",
-        "published": "Sat, 10 Oct 2026 12:26:58 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-02T13:45:50.521732+00:00",
-    "updatedAt": "2026-11-02T13:45:50.521732+00:00"
+    "lastAttempt": "2026-11-03T03:20:17.464585+00:00",
+    "updatedAt": "2026-11-03T03:20:17.464585+00:00"
   },
   "local_jobs": {
     "items": [
