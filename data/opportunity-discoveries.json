@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-03T12:57:00.662608+00:00",
+    "lastAttempt": "2026-11-04T13:12:30.302628+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,179 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-04T08:52:51.405199+00:00",
-    "updatedAt": "2026-11-04T08:52:51.405199+00:00"
+    "lastAttempt": "2026-11-04T13:12:30.302628+00:00",
+    "updatedAt": "2026-11-04T13:12:30.302628+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "c461f4a206cdb2dacb0e",
+        "title": "Design and Supervision Engineering Services for the Four Irrigation Schemes",
+        "url": "https://selibeng.com/design-and-supervision-engineering-services-for-the-four-irrigation-schemes/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 13:11:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4d5805ad59e3bb8da2e3",
+        "title": "Transaction Advisory Services Consultant – Facilitation and Brokering of Commercial Partnership Deals",
+        "url": "https://selibeng.com/transaction-advisory-services-consultant-facilitation-and-brokering-of-commercial-partnership-deals/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 13:08:40 +0000",
+        "deadline": null
+      },
+      {
+        "id": "945dbb9c1d7cf4b948a9",
+        "title": "Data Quality Review Services Consultant",
+        "url": "https://selibeng.com/data-quality-review-services-consultant/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 13:06:28 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0a6e401c74990f985c67",
+        "title": "Job Evaluation, Grading and Remuneration Framework Consultancy",
+        "url": "https://selibeng.com/job-evaluation-grading-and-remuneration-framework-consultancy/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 13:04:58 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9ae331eff7bf10fbaa26",
+        "title": "Head of Administration at Maseru Private Academy",
+        "url": "https://selibeng.com/head-of-administration-at-maseru-private-academy/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 12:49:47 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5071f2e289e433958445",
+        "title": "iiNdulge Coffee & Kitchen – Temporary Staff",
+        "url": "https://selibeng.com/iindulge-coffee-kitchen-temporary-staff/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 12:48:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "91c0fb2f6ae77bcfc289",
+        "title": "Retail Filling Station Cashier x2 at Maluti Energy",
+        "url": "https://selibeng.com/retail-filling-station-cashier-x2-at-maluti-energy/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 11:08:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e92e0e7ad2e903757d7c",
+        "title": "Contact Centre Team Leader at Metropolitan Lesotho",
+        "url": "https://selibeng.com/contact-centre-team-leader-at-metropolitan-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 09:13:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "729cd9e563512b533cdf",
+        "title": "Primary School Teachers at Good Foundation English Medium School",
+        "url": "https://selibeng.com/primary-school-teachers-at-good-foundation-english-medium-school/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 08:28:25 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6b999da443f4d3356f7c",
+        "title": "Petrol Attendant x10 at Maluti Energy",
+        "url": "https://selibeng.com/petrol-attendant-x10-at-maluti-energy/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 08:14:44 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6f19ef25f330c9a64c18",
+        "title": "Filling Station Supervisors x2 at Maluti Energy",
+        "url": "https://selibeng.com/filling-station-supervisors-x2-at-maluti-energy/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 08:13:49 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4bca2ed32e00205a5800",
+        "title": "Electricity Tariffs and Economic Regulation Expert",
+        "url": "https://selibeng.com/electricity-tariffs-and-economic-regulation-expert/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 06:34:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e2f9f86a4dc3ef5ddccb",
+        "title": "Front Desk Assistant at Special Gifts Gallery",
+        "url": "https://selibeng.com/front-desk-assistant-at-special-gifts-gallery/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 06:30:50 +0000",
+        "deadline": null
+      },
+      {
+        "id": "be6fbdb4b84b9ca82a33",
+        "title": "Shop Clerk / Food Service Assistant at The Ultimate Caterers",
+        "url": "https://selibeng.com/shop-clerk-food-service-assistant-at-the-ultimate-caterers/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 06:28:08 +0000",
+        "deadline": null
+      },
+      {
+        "id": "155cd92663940821d250",
+        "title": "Compliance and Legal Officer at Chaperone",
+        "url": "https://selibeng.com/compliance-and-legal-officer-at-chaperone/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 18:25:03 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1a0e06d69ce15177a1f1",
+        "title": "Project Manager, Lesotho – On-site",
+        "url": "https://selibeng.com/project-manager-lesotho-on-site-2/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 18:23:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "13ff4fa781c3f37126f7",
+        "title": "General Manager at Maluti Energy",
+        "url": "https://selibeng.com/general-manager-at-maluti-energy/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 18:22:44 +0000",
+        "deadline": null
+      },
+      {
+        "id": "57f90f369bd79ead9e2c",
+        "title": "Bakery Assistant at Jin Lin Supermarket",
+        "url": "https://selibeng.com/bakery-assistant-at-jin-lin-supermarket/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b4493e89b6b5374a90cb",
+        "title": "Baker at Jin Lin Supermarket",
+        "url": "https://selibeng.com/baker-at-jin-lin-supermarket/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2b793a9188e03133a40c",
+        "title": "Fridge Controller at Jin Lin Supermarket",
+        "url": "https://selibeng.com/fridge-controller-at-jin-lin-supermarket/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "98fd7ea723eaf331a88c",
+        "title": "Preschool Teacher – Baby Class (Grade 00)",
+        "url": "https://selibeng.com/preschool-teacher-baby-class-grade-00/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 13:10:00 +0000",
+        "deadline": null
+      },
       {
         "id": "120e2cd153e7908dff8f",
         "title": "Woman Driver (1.5 Ton Truck)",
@@ -565,178 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 02 Nov 2026 06:54:44 +0000",
         "deadline": null
-      },
-      {
-        "id": "7b7ca54b267491724dc5",
-        "title": "Urgent Vacancies at Royal Spring Guest House",
-        "url": "https://selibeng.com/urgent-vacancies-at-royal-spring-guest-house/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 06:51:44 +0000",
-        "deadline": null
-      },
-      {
-        "id": "16ab982cb98e1161873f",
-        "title": "Nail Technician & Eyelash Technician",
-        "url": "https://selibeng.com/nail-technician-eyelash-technician/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 06:40:28 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3d4e0d1931afe55b3f62",
-        "title": "Receptionist at Melvik Guest House",
-        "url": "https://selibeng.com/receptionist-at-melvik-guest-house/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 06:39:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7c246e8944d01f508d73",
-        "title": "E T Consultant at World Bank Lesotho",
-        "url": "https://selibeng.com/e-t-consultant-at-world-bank-lesotho/",
-        "source": "Selibeng",
-        "published": "Sun, 01 Nov 2026 08:03:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "bcf41dce7188a48f6e19",
-        "title": "Strategic Data Information Analyst, Lesotho Country Office",
-        "url": "https://selibeng.com/strategic-data-information-analyst-lesotho-country-office/",
-        "source": "Selibeng",
-        "published": "Sun, 01 Nov 2026 07:01:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3f7123c56ccb21a4f446",
-        "title": "Communications, Partnerships & Resource Mobilization Analyst, Lesotho Country Office",
-        "url": "https://selibeng.com/communications-partnerships-resource-mobilization-analyst-lesotho-country-office/",
-        "source": "Selibeng",
-        "published": "Sun, 01 Nov 2026 05:58:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "10d2cb9936512949fb3e",
-        "title": "Pre-School Assistant Teacher x4 at Annabelle Preschool and Daycare",
-        "url": "https://selibeng.com/pre-school-assistant-teacher-x4-at-annabelle-preschool-and-daycare/",
-        "source": "Selibeng",
-        "published": "Sat, 31 Oct 2026 14:16:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "23cc045dafc006d619b4",
-        "title": "Sales Consultant & Suit Model at Seasonal Fashion Home",
-        "url": "https://selibeng.com/sales-consultant-suit-model-at-seasonal-fashion-home/",
-        "source": "Selibeng",
-        "published": "Sat, 31 Oct 2026 11:13:49 +0000",
-        "deadline": null
-      },
-      {
-        "id": "872fa24ec7d0ebe4ef14",
-        "title": "Receptionist at Therapy Hub",
-        "url": "https://selibeng.com/receptionist-at-therapy-hub/",
-        "source": "Selibeng",
-        "published": "Sat, 31 Oct 2026 08:57:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a6caebfd55cf66ba8591",
-        "title": "Administrative Assistant at Shoeshoe ea Moshoeshoe",
-        "url": "https://selibeng.com/administrative-assistant-at-shoeshoe-ea-moshoeshoe/",
-        "source": "Selibeng",
-        "published": "Sat, 31 Oct 2026 08:25:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cac580ec71537b8dbfae",
-        "title": "Driver / Office Assistant at LNLVIP",
-        "url": "https://selibeng.com/driver-office-assistant-at-lnlvip/",
-        "source": "Selibeng",
-        "published": "Sat, 31 Oct 2026 07:07:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b0bf270cf61da6839c4b",
-        "title": "Barber at Urban Blends Barbershop",
-        "url": "https://selibeng.com/barber-at-urban-blends-barbershop/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 17:56:41 +0000",
-        "deadline": null
-      },
-      {
-        "id": "fd353412e2b82977954d",
-        "title": "Chef at Blue Mountain Inn",
-        "url": "https://selibeng.com/chef-at-blue-mountain-inn-2/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 17:48:19 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b3b3a3e61b78b90a2806",
-        "title": "Cleaning and Laundry Staff x2 at Comet Cleaning Services",
-        "url": "https://selibeng.com/cleaning-and-laundry-staff-x2-at-comet-cleaning-services/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 17:47:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d70290896c2ca22ed6fa",
-        "title": "Gardeners x4 at Comet Cleaning Services",
-        "url": "https://selibeng.com/gardeners-x4-at-comet-cleaning-services/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 17:46:43 +0000",
-        "deadline": null
-      },
-      {
-        "id": "005c0ca035680a88c64c",
-        "title": "Guest House Supervisor / Manager at Tribute Guest Houses",
-        "url": "https://selibeng.com/guest-house-supervisor-manager-at-tribute-guest-houses/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 11:37:37 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a22a12a1a63f0205d0e4",
-        "title": "Vacancies at Quantum Apparel",
-        "url": "https://selibeng.com/vacancies-at-quantum-apparel/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 11:35:54 +0000",
-        "deadline": null
-      },
-      {
-        "id": "067243c504e85a87ae6e",
-        "title": "Potable Water and Wastewater Supervisor at Letšeng Diamonds",
-        "url": "https://selibeng.com/potable-water-and-wastewater-supervisor-at-letseng-diamonds/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 08:20:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b5712e3384ccaae5201b",
-        "title": "Bakers x2 at Sefalana Shopper",
-        "url": "https://selibeng.com/bakers-x2-at-sefalana-shopper/",
-        "source": "Selibeng",
-        "published": "Fri, 30 Oct 2026 07:57:55 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c5b4cfb1c5b863c7001f",
-        "title": "Contract Engineer and Assistant Contract Engineer at SMEC",
-        "url": "https://selibeng.com/contract-engineer-and-assistant-contract-engineer-at-smec-2/",
-        "source": "Selibeng",
-        "published": "Thu, 29 Oct 2026 14:08:30 +0000",
-        "deadline": null
-      },
-      {
-        "id": "36761037220110092759",
-        "title": "Brick Layers x6 at Amazing Garden & Fountain Design",
-        "url": "https://selibeng.com/brick-layers-x6-at-amazing-garden-fountain-design/",
-        "source": "Selibeng",
-        "published": "Thu, 29 Oct 2026 11:22:02 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-03T12:57:00.662608+00:00",
-    "updatedAt": "2026-11-03T12:57:00.662608+00:00",
+    "lastAttempt": "2026-11-04T13:12:30.302628+00:00",
+    "updatedAt": "2026-11-04T13:12:30.302628+00:00",
     "status": "ok"
   }
 }
