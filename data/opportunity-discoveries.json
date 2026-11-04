@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "04f93f5dba46a792f89f",
+        "title": "EOI: Professional Fire Protection Engineering Design Services",
+        "url": "https://selibeng.com/eoi-professional-fire-protection-engineering-design-services/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 15:06:02 +0000",
+        "deadline": null
+      },
+      {
         "id": "62f7046befaff72bd589",
         "title": "Tender – Supply and Delivery of one Multifunctional Printer for SOS-CV",
         "url": "https://selibeng.com/tender-multifunctional-printer-sos/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Mon, 12 Oct 2026 10:44:24 +0000",
         "deadline": null
-      },
-      {
-        "id": "095f36089bc98cc58f95",
-        "title": "Procurement of Internet and Data Connectivity Service",
-        "url": "https://selibeng.com/procurement-of-internet-and-data-connectivity-service/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 08:43:01 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-03T12:57:00.662608+00:00",
-    "updatedAt": "2026-11-03T12:57:00.662608+00:00"
+    "lastAttempt": "2026-11-04T01:56:56.820256+00:00",
+    "updatedAt": "2026-11-04T01:56:56.820256+00:00"
   },
   "local_jobs": {
     "items": [
