@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-04T13:12:30.302628+00:00",
+    "lastAttempt": "2026-11-05T13:26:12.703877+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,99 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-05T02:01:30.932092+00:00",
-    "updatedAt": "2026-11-05T02:01:30.932092+00:00"
+    "lastAttempt": "2026-11-05T13:26:12.703877+00:00",
+    "updatedAt": "2026-11-05T13:26:12.703877+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "0b250da1c67fb50c0d55",
+        "title": "Consultancy for Strengthening the Education Inspectorate and Education System Perfomance Monitoring",
+        "url": "https://selibeng.com/consultancy-for-strengthening-the-education-inspectorate-and-education-system-perfomance-monitoring/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 12:27:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c52df707953a86b4aee2",
+        "title": "Receptionist at Mission Aviation Fellowship (MAF)",
+        "url": "https://selibeng.com/receptionist-at-mission-aviation-fellowship-maf/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 10:11:50 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a0dae31b1ea290705f87",
+        "title": "Convenience Store Officer at Maluti Energy",
+        "url": "https://selibeng.com/convenience-store-officer-at-maluti-energy/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 10:10:32 +0000",
+        "deadline": null
+      },
+      {
+        "id": "43eeb39b40288c0f1104",
+        "title": "Professional Counsellor at Botho University",
+        "url": "https://selibeng.com/professional-counsellor-at-botho-university/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 10:08:11 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a0ed69c7e2797076020e",
+        "title": "Driver at Ramela & Associates",
+        "url": "https://selibeng.com/driver-at-ramela-associates/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 10:06:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "96077a592b69fdff64ee",
+        "title": "Content Developer at Jonsson Workwear",
+        "url": "https://selibeng.com/content-developer-at-jonsson-workwear/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 09:17:47 +0000",
+        "deadline": null
+      },
+      {
+        "id": "70e285621b7e8d759de6",
+        "title": "Seamstresses x2 at THP Designers",
+        "url": "https://selibeng.com/seamstresses-x2-at-thp-designers/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 08:13:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "99cde69e1b340cae7ce4",
+        "title": "Assistant Librarian at Paray School of Nursing",
+        "url": "https://selibeng.com/assistant-librarian-at-paray-school-of-nursing-2/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 06:12:40 +0000",
+        "deadline": null
+      },
+      {
+        "id": "fb752372361cdbc240bd",
+        "title": "Driver at Kay’s Cleaning & Supplies",
+        "url": "https://selibeng.com/driver-at-kays-cleaning-supplies/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 18:53:56 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1897fdd3b557fdb65102",
+        "title": "Sales Assistant at Kay’s Cleaning & Supplies",
+        "url": "https://selibeng.com/sales-assistant-at-kays-cleaning-supplies/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 18:53:20 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9e46d7544f821867e1da",
+        "title": "Sales Officer at Kay’s Cleaning & Supplies",
+        "url": "https://selibeng.com/sales-officer-at-kays-cleaning-supplies/",
+        "source": "Selibeng",
+        "published": "Wed, 04 Nov 2026 18:52:31 +0000",
+        "deadline": null
+      },
       {
         "id": "c461f4a206cdb2dacb0e",
         "title": "Design and Supervision Engineering Services for the Four Irrigation Schemes",
@@ -511,14 +599,6 @@
         "deadline": null
       },
       {
-        "id": "57f90f369bd79ead9e2c",
-        "title": "Bakery Assistant at Jin Lin Supermarket",
-        "url": "https://selibeng.com/bakery-assistant-at-jin-lin-supermarket/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
-        "deadline": null
-      },
-      {
         "id": "b4493e89b6b5374a90cb",
         "title": "Baker at Jin Lin Supermarket",
         "url": "https://selibeng.com/baker-at-jin-lin-supermarket/",
@@ -530,6 +610,14 @@
         "id": "2b793a9188e03133a40c",
         "title": "Fridge Controller at Jin Lin Supermarket",
         "url": "https://selibeng.com/fridge-controller-at-jin-lin-supermarket/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "57f90f369bd79ead9e2c",
+        "title": "Bakery Assistant at Jin Lin Supermarket",
+        "url": "https://selibeng.com/bakery-assistant-at-jin-lin-supermarket/",
         "source": "Selibeng",
         "published": "Tue, 03 Nov 2026 16:27:00 +0000",
         "deadline": null
@@ -645,98 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 02 Nov 2026 11:03:24 +0000",
         "deadline": null
-      },
-      {
-        "id": "c7db5484026469438f78",
-        "title": "Customer Service Advisor at Incredible Connection",
-        "url": "https://selibeng.com/customer-service-advisor-at-incredible-connection/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 10:34:57 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b938415fff2d99d40638",
-        "title": "Caddy Master at Maseru Golf Club",
-        "url": "https://selibeng.com/caddy-master-at-maseru-golf-club/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 10:12:12 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1361ca5f9fbc95afc442",
-        "title": "Low Bed Truck Driver at UNIK Construction",
-        "url": "https://selibeng.com/low-bed-truck-driver-at-unik-construction/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 09:52:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1cdd4cf2e1d50f120527",
-        "title": "Crane Truck Driver at UNIK Construction",
-        "url": "https://selibeng.com/crane-truck-driver-at-unik-construction/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 08:27:39 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6b6f502356c192699186",
-        "title": "General Assistant at OK Furniture",
-        "url": "https://selibeng.com/general-assistant-at-ok-furniture-2/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 07:32:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0923edc3725fc1753a64",
-        "title": "Licensing and Compliance Manager at LCA",
-        "url": "https://selibeng.com/licensing-and-compliance-manager-at-lca/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 07:26:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "4c88caebadf7408d5598",
-        "title": "Sales Agents at Lenderu Lesotho",
-        "url": "https://selibeng.com/sales-agents-at-lenderu-lesotho-2/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 07:24:23 +0000",
-        "deadline": null
-      },
-      {
-        "id": "982db540afcca067ce09",
-        "title": "General Workers & Assistant Manager at Senqu Harvest",
-        "url": "https://selibeng.com/general-workers-assistant-manager-at-senqu-harvest/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 07:02:31 +0000",
-        "deadline": null
-      },
-      {
-        "id": "351f50ac90da2e22e102",
-        "title": "Consultancy Services for the Development of the PWDAC Strategic Plan 2027–2031",
-        "url": "https://selibeng.com/consultancy-services-for-the-development-of-the-pwdac-strategic-plan-2027-2031/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 06:59:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "092f13c8502181fbec77",
-        "title": "Lecturer in Accounting & Finance at NUL",
-        "url": "https://selibeng.com/lecturer-in-accounting-finance-at-nul-2/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 06:55:33 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3a703c998d5b0fbba274",
-        "title": "Lecturer – Business and Management Development – IEMS",
-        "url": "https://selibeng.com/lecturer-business-and-management-development-iems/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 06:54:44 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-04T13:12:30.302628+00:00",
-    "updatedAt": "2026-11-04T13:12:30.302628+00:00",
+    "lastAttempt": "2026-11-05T13:26:12.703877+00:00",
+    "updatedAt": "2026-11-05T13:26:12.703877+00:00",
     "status": "ok"
   }
 }
