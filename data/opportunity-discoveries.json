@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "0ebed79feaffa19e726e",
+        "title": "Call for Proposals: External Audit at Riders for Health",
+        "url": "https://selibeng.com/external-audit-riders/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 13:42:49 +0000",
+        "deadline": null
+      },
+      {
         "id": "04f93f5dba46a792f89f",
         "title": "EOI: Professional Fire Protection Engineering Design Services",
         "url": "https://selibeng.com/eoi-professional-fire-protection-engineering-design-services/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Mon, 12 Oct 2026 13:19:47 +0000",
         "deadline": null
-      },
-      {
-        "id": "a662c326dc86fcd05861",
-        "title": "Provision of ICT Support Services to SADC Secretariat",
-        "url": "https://selibeng.com/provision-of-ict-support-services-to-sadc-secretariat-2/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 10:44:24 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-05T13:26:12.703877+00:00",
-    "updatedAt": "2026-11-05T13:26:12.703877+00:00"
+    "lastAttempt": "2026-11-06T02:00:25.534138+00:00",
+    "updatedAt": "2026-11-06T02:00:25.534138+00:00"
   },
   "local_jobs": {
     "items": [
