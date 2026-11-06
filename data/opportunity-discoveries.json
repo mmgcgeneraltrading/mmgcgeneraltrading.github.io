@@ -2,12 +2,28 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-05T13:26:12.703877+00:00",
+    "lastAttempt": "2026-11-06T13:09:17.503620+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "59944a30c315a02f94df",
+        "title": "EOI: Comprehensive Geological Survey",
+        "url": "https://selibeng.com/eoi-comprehensive-geological-survey/",
+        "source": "Selibeng",
+        "published": "Fri, 06 Nov 2026 12:44:45 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1862dfddb35e9c25902e",
+        "title": "Request for Proposals – Job Grading, Role Clarity and Salary Structure Review",
+        "url": "https://selibeng.com/request-for-proposals-job-grading-role-clarity-and-salary-structure-review/",
+        "source": "Selibeng",
+        "published": "Fri, 06 Nov 2026 10:21:57 +0000",
+        "deadline": null
+      },
       {
         "id": "0ebed79feaffa19e726e",
         "title": "Call for Proposals: External Audit at Riders for Health",
@@ -351,29 +367,77 @@
         "source": "Selibeng",
         "published": "Mon, 12 Oct 2026 19:37:31 +0000",
         "deadline": null
-      },
-      {
-        "id": "7af5d7ddc6609b329d3f",
-        "title": "REOI – Consultancy Firm to Conduct Review of the National Agriculture Subsidy Policy",
-        "url": "https://selibeng.com/review-subsidy-sadp/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 15:02:39 +0000",
-        "deadline": null
-      },
-      {
-        "id": "52dd7a23d8e558f5be9d",
-        "title": "Consultancy to Revise and Update the SADC Harmonised Consumer Price Index Methods and Procedures",
-        "url": "https://selibeng.com/consultancy-to-revise-and-update-the-sadc-harmonised-consumer-price-index-methods-and-procedures/",
-        "source": "Selibeng",
-        "published": "Mon, 12 Oct 2026 13:19:47 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-06T02:00:25.534138+00:00",
-    "updatedAt": "2026-11-06T02:00:25.534138+00:00"
+    "lastAttempt": "2026-11-06T13:09:17.503620+00:00",
+    "updatedAt": "2026-11-06T13:09:17.503620+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "c46ffd1694b1fc578f63",
+        "title": "Key Populations Nurse – KP Project at Care for Basotho (CBA)",
+        "url": "https://selibeng.com/kp-nurse-c4b/",
+        "source": "Selibeng",
+        "published": "Fri, 06 Nov 2026 12:23:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b70eed117ec876ba7526",
+        "title": "Civil Engineer at Big Three Construction",
+        "url": "https://selibeng.com/civil-engineer-at-big-three-construction/",
+        "source": "Selibeng",
+        "published": "Fri, 06 Nov 2026 10:40:21 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b273bb83c1d3857a2c47",
+        "title": "Procurement Manager at Ministry of Finance and Development Planning – Project Management Unit (MOFDP-PMU)",
+        "url": "https://selibeng.com/procurement-manager-mofpmu/",
+        "source": "Selibeng",
+        "published": "Fri, 06 Nov 2026 10:10:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ff39965cc033505fcc20",
+        "title": "HR Manager at KFC Lesotho",
+        "url": "https://selibeng.com/hr-manager-at-kfc-lesotho/",
+        "source": "Selibeng",
+        "published": "Fri, 06 Nov 2026 06:21:03 +0000",
+        "deadline": null
+      },
+      {
+        "id": "74304a7ecc982e2775f1",
+        "title": "Campus Sales Representatives",
+        "url": "https://selibeng.com/campus-sales-representatives/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 18:56:03 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f08694fc4c2ef5f57d42",
+        "title": "Stores Controller at LEC",
+        "url": "https://selibeng.com/stores-controller-at-lec/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 18:32:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b543be34e959d2af08ce",
+        "title": "Promotions and Customer Education Officer at LEC",
+        "url": "https://selibeng.com/promotions-and-customer-education-officer-at-lec/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 18:31:57 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1653c3af8279623bcdd7",
+        "title": "Procurement Officers x2 at LEC",
+        "url": "https://selibeng.com/procurement-officers-x2-at-lec/",
+        "source": "Selibeng",
+        "published": "Thu, 05 Nov 2026 18:31:54 +0000",
+        "deadline": null
+      },
       {
         "id": "0b250da1c67fb50c0d55",
         "title": "Consultancy for Strengthening the Education Inspectorate and Education System Perfomance Monitoring",
@@ -599,14 +663,6 @@
         "deadline": null
       },
       {
-        "id": "b4493e89b6b5374a90cb",
-        "title": "Baker at Jin Lin Supermarket",
-        "url": "https://selibeng.com/baker-at-jin-lin-supermarket/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
-        "deadline": null
-      },
-      {
         "id": "2b793a9188e03133a40c",
         "title": "Fridge Controller at Jin Lin Supermarket",
         "url": "https://selibeng.com/fridge-controller-at-jin-lin-supermarket/",
@@ -618,6 +674,14 @@
         "id": "57f90f369bd79ead9e2c",
         "title": "Bakery Assistant at Jin Lin Supermarket",
         "url": "https://selibeng.com/bakery-assistant-at-jin-lin-supermarket/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b4493e89b6b5374a90cb",
+        "title": "Baker at Jin Lin Supermarket",
+        "url": "https://selibeng.com/baker-at-jin-lin-supermarket/",
         "source": "Selibeng",
         "published": "Tue, 03 Nov 2026 16:27:00 +0000",
         "deadline": null
@@ -669,74 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 02 Nov 2026 19:24:12 +0000",
         "deadline": null
-      },
-      {
-        "id": "55aea9c9312d4b26138f",
-        "title": "Senior Officer – Policy and Strategy at SADC",
-        "url": "https://selibeng.com/senior-officer-policy-and-strategy-at-sadc/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 19:23:18 +0000",
-        "deadline": null
-      },
-      {
-        "id": "77f059b4c19dbb313536",
-        "title": "Controller of Treasury and Budget at SADC",
-        "url": "https://selibeng.com/controller-of-treasury-and-budget-at-sadc/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 19:23:01 +0000",
-        "deadline": null
-      },
-      {
-        "id": "468b2d10e76a6ccc7fc3",
-        "title": "Cook at Roadside Food Stall",
-        "url": "https://selibeng.com/cook-at-roadside-food-stall/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 15:01:14 +0000",
-        "deadline": null
-      },
-      {
-        "id": "4360004d3c9449cb7599",
-        "title": "Plumber / VIP Sanitation Systems Technician",
-        "url": "https://selibeng.com/plumber-vip-sanitation-systems-technician/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 14:31:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "232226175822cbcd9589",
-        "title": "Driver at Formosa Textile",
-        "url": "https://selibeng.com/driver-at-formosa-textile/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 12:52:02 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9487173f008f18658173",
-        "title": "Marketing & Customer Care Intern at Super Organics",
-        "url": "https://selibeng.com/marketing-customer-care-intern-at-super-organics/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 12:25:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "8de9c5aabb9f8cdfd85d",
-        "title": "Trainee Accountants at Moores Rowland",
-        "url": "https://selibeng.com/trainee-accountants-at-moores-rowland/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 12:06:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "bb8b950e7bd739e4f443",
-        "title": "Barber, Nail Technician & Hair Dresser",
-        "url": "https://selibeng.com/barber-nail-technician-hair-dresser/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 11:03:24 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-05T13:26:12.703877+00:00",
-    "updatedAt": "2026-11-05T13:26:12.703877+00:00",
+    "lastAttempt": "2026-11-06T13:09:17.503620+00:00",
+    "updatedAt": "2026-11-06T13:09:17.503620+00:00",
     "status": "ok"
   }
 }
