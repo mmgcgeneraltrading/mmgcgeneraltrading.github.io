@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-06T13:09:17.503620+00:00",
+    "lastAttempt": "2026-11-07T11:52:50.194334+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,19 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-07T08:27:07.714770+00:00",
-    "updatedAt": "2026-11-07T08:27:07.714770+00:00"
+    "lastAttempt": "2026-11-07T11:52:50.194334+00:00",
+    "updatedAt": "2026-11-07T11:52:50.194334+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "907b2e7c71be13b75b04",
+        "title": "Electoral Security Officer at IEC",
+        "url": "https://selibeng.com/electoral-security-officer-at-iec/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 06:19:00 +0000",
+        "deadline": null
+      },
       {
         "id": "c46ffd1694b1fc578f63",
         "title": "Key Populations Nurse – KP Project at Care for Basotho (CBA)",
@@ -663,6 +671,14 @@
         "deadline": null
       },
       {
+        "id": "b4493e89b6b5374a90cb",
+        "title": "Baker at Jin Lin Supermarket",
+        "url": "https://selibeng.com/baker-at-jin-lin-supermarket/",
+        "source": "Selibeng",
+        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
+        "deadline": null
+      },
+      {
         "id": "2b793a9188e03133a40c",
         "title": "Fridge Controller at Jin Lin Supermarket",
         "url": "https://selibeng.com/fridge-controller-at-jin-lin-supermarket/",
@@ -674,14 +690,6 @@
         "id": "57f90f369bd79ead9e2c",
         "title": "Bakery Assistant at Jin Lin Supermarket",
         "url": "https://selibeng.com/bakery-assistant-at-jin-lin-supermarket/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b4493e89b6b5374a90cb",
-        "title": "Baker at Jin Lin Supermarket",
-        "url": "https://selibeng.com/baker-at-jin-lin-supermarket/",
         "source": "Selibeng",
         "published": "Tue, 03 Nov 2026 16:27:00 +0000",
         "deadline": null
@@ -725,18 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 02 Nov 2026 19:25:30 +0000",
         "deadline": null
-      },
-      {
-        "id": "ee3f1b74aa51e10de7d1",
-        "title": "Legal Counsel at SADC",
-        "url": "https://selibeng.com/legal-counsel-at-sadc/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 19:24:12 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-06T13:09:17.503620+00:00",
-    "updatedAt": "2026-11-06T13:09:17.503620+00:00",
+    "lastAttempt": "2026-11-07T11:52:50.194334+00:00",
+    "updatedAt": "2026-11-07T11:52:50.194334+00:00",
     "status": "ok"
   }
 }
