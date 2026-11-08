@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-07T11:52:50.194334+00:00",
+    "lastAttempt": "2026-11-08T12:06:15.946005+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,91 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-08T08:40:43.931419+00:00",
-    "updatedAt": "2026-11-08T08:40:43.931419+00:00"
+    "lastAttempt": "2026-11-08T12:06:15.946005+00:00",
+    "updatedAt": "2026-11-08T12:06:15.946005+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "40ee9de60a535402a606",
+        "title": "Sesotho and Religious Studies Teacher at St. Stephen’s Diocesan High School",
+        "url": "https://selibeng.com/sesotho-and-religious-studies-teacher-at-st-stephens-diocesan-high-school/",
+        "source": "Selibeng",
+        "published": "Sun, 08 Nov 2026 10:41:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2282d3ef98684ac686f5",
+        "title": "Chief Operations Officer at Maluti Adventist Hospital",
+        "url": "https://selibeng.com/chief-operations-officer-at-maluti-adventist-hospital/",
+        "source": "Selibeng",
+        "published": "Sun, 08 Nov 2026 07:47:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1975f4df5f07280beb18",
+        "title": "Sales Agents at Hlatsoane Fast Foods",
+        "url": "https://selibeng.com/sales-agents-at-hlatsoane-fast-foods/",
+        "source": "Selibeng",
+        "published": "Sun, 08 Nov 2026 05:20:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4b9cdf80e636a94ad3cd",
+        "title": "IT or Marketing Vacancies x5 at Intel Tech",
+        "url": "https://selibeng.com/it-or-marketing-vacancies-x5-at-intel-tech/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 17:51:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5de1125c9af5c51e9769",
+        "title": "Sales and Accounts Officer at Eagle",
+        "url": "https://selibeng.com/sales-and-accounts-officer-at-eagle/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 17:46:15 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7fd60bf2774599810c31",
+        "title": "Esther’s Hostel – Multiple Jobs",
+        "url": "https://selibeng.com/esthers-hostel-multiple-jobs/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 17:44:11 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d74af3589cc865a7eeec",
+        "title": "Female Graduate Accountant",
+        "url": "https://selibeng.com/female-graduate-accountant/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 17:38:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "40dee1d4895569d38b1b",
+        "title": "Forklift Drivers x2 at Rossmann Wholesale",
+        "url": "https://selibeng.com/forklift-drivers-x2-at-rossmann-wholesale/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 17:21:13 +0000",
+        "deadline": null
+      },
+      {
+        "id": "86914e6a1a0ccc744c13",
+        "title": "National Specialist: Teaching and Learning Policy at Food and Agriculture Organization (FAO)",
+        "url": "https://selibeng.com/national-specialist-teaching-and-learning-policy-at-food-and-agriculture-organization-fao/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 16:39:10 +0000",
+        "deadline": null
+      },
+      {
+        "id": "09bd2fd779a3b60c6636",
+        "title": "Legal Consultant – MIDAS Legal Assessment at International Organization for Migration (IOM)",
+        "url": "https://selibeng.com/legal-consultant-midas-legal-assessment-at-international-organization-for-migration-iom/",
+        "source": "Selibeng",
+        "published": "Sat, 07 Nov 2026 16:38:48 +0000",
+        "deadline": null
+      },
       {
         "id": "907b2e7c71be13b75b04",
         "title": "Electoral Security Officer at IEC",
@@ -653,90 +733,10 @@
         "source": "Selibeng",
         "published": "Tue, 03 Nov 2026 18:25:03 +0000",
         "deadline": null
-      },
-      {
-        "id": "1a0e06d69ce15177a1f1",
-        "title": "Project Manager, Lesotho – On-site",
-        "url": "https://selibeng.com/project-manager-lesotho-on-site-2/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 18:23:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "13ff4fa781c3f37126f7",
-        "title": "General Manager at Maluti Energy",
-        "url": "https://selibeng.com/general-manager-at-maluti-energy/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 18:22:44 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b4493e89b6b5374a90cb",
-        "title": "Baker at Jin Lin Supermarket",
-        "url": "https://selibeng.com/baker-at-jin-lin-supermarket/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2b793a9188e03133a40c",
-        "title": "Fridge Controller at Jin Lin Supermarket",
-        "url": "https://selibeng.com/fridge-controller-at-jin-lin-supermarket/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "57f90f369bd79ead9e2c",
-        "title": "Bakery Assistant at Jin Lin Supermarket",
-        "url": "https://selibeng.com/bakery-assistant-at-jin-lin-supermarket/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 16:27:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "98fd7ea723eaf331a88c",
-        "title": "Preschool Teacher – Baby Class (Grade 00)",
-        "url": "https://selibeng.com/preschool-teacher-baby-class-grade-00/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 13:10:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "120e2cd153e7908dff8f",
-        "title": "Woman Driver (1.5 Ton Truck)",
-        "url": "https://selibeng.com/woman-driver-1-5-ton-truck/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 11:07:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e91d6c3c9b1d04e171f1",
-        "title": "Digital Marketing & Brand Communications Officer at Ebet Sports Betting",
-        "url": "https://selibeng.com/digital-marketing-brand-communications-officer-at-ebet-sports-betting/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 08:42:29 +0000",
-        "deadline": null
-      },
-      {
-        "id": "920de2c50352eff40bfa",
-        "title": "Field Sales Agents / Foot Soldiers x4 at BWINNERS Lesotho",
-        "url": "https://selibeng.com/field-sales-agents-foot-soldiers-x4-at-bwinners-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 03 Nov 2026 07:01:26 +0000",
-        "deadline": null
-      },
-      {
-        "id": "886f23f0725bbbb5c738",
-        "title": "Controller of Accounting Services at SADC",
-        "url": "https://selibeng.com/controller-of-accounting-services-at-sadc/",
-        "source": "Selibeng",
-        "published": "Mon, 02 Nov 2026 19:25:30 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-07T11:52:50.194334+00:00",
-    "updatedAt": "2026-11-07T11:52:50.194334+00:00",
+    "lastAttempt": "2026-11-08T12:06:15.946005+00:00",
+    "updatedAt": "2026-11-08T12:06:15.946005+00:00",
     "status": "ok"
   }
 }
