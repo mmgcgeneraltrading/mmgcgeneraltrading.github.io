@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-10T13:42:18.204502+00:00",
+    "lastAttempt": "2026-11-11T12:54:06.540885+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,59 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-11T08:56:47.902628+00:00",
-    "updatedAt": "2026-11-11T08:56:47.902628+00:00"
+    "lastAttempt": "2026-11-11T12:54:06.540885+00:00",
+    "updatedAt": "2026-11-11T12:54:06.540885+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "ce56791f8dede6b761cd",
+        "title": "National Specialist – Development of LAC Strategic Plan",
+        "url": "https://selibeng.com/national-specialist-development-of-lac-strategic-plan/",
+        "source": "Selibeng",
+        "published": "Wed, 11 Nov 2026 08:07:33 +0000",
+        "deadline": null
+      },
+      {
+        "id": "dd5bdb31b02da2c48539",
+        "title": "Sewing Operators x2 at Que Technical Institute",
+        "url": "https://selibeng.com/sewing-operators-x2-at-que-technical-institute/",
+        "source": "Selibeng",
+        "published": "Tue, 10 Nov 2026 19:42:07 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0be2ab2b869e906ec144",
+        "title": "Administrative Assistant",
+        "url": "https://selibeng.com/administrative-assistant-25/",
+        "source": "Selibeng",
+        "published": "Tue, 10 Nov 2026 19:01:17 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ef1b763b94dab220ef86",
+        "title": "Marketing Manager at DoPE FM",
+        "url": "https://selibeng.com/marketing-manager-at-dope-fm/",
+        "source": "Selibeng",
+        "published": "Tue, 10 Nov 2026 18:56:03 +0000",
+        "deadline": null
+      },
+      {
+        "id": "37ec1b17643570fd5047",
+        "title": "Junior Accountant at IINdulge Coffee",
+        "url": "https://selibeng.com/junior-accountant-at-iindulge-coffee/",
+        "source": "Selibeng",
+        "published": "Tue, 10 Nov 2026 18:52:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7387959bf4d248a03799",
+        "title": "Multiple Vacancies at Monex Styles & Beauty Hub",
+        "url": "https://selibeng.com/multiple-vacancies-at-monex-styles-beauty-hub/",
+        "source": "Selibeng",
+        "published": "Tue, 10 Nov 2026 18:50:53 +0000",
+        "deadline": null
+      },
       {
         "id": "ce783133fdf00a6a26cd",
         "title": "Graphic Designer at TWGI",
@@ -685,58 +733,10 @@
         "source": "Selibeng",
         "published": "Sat, 07 Nov 2026 17:44:11 +0000",
         "deadline": null
-      },
-      {
-        "id": "d74af3589cc865a7eeec",
-        "title": "Female Graduate Accountant",
-        "url": "https://selibeng.com/female-graduate-accountant/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 17:38:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "40dee1d4895569d38b1b",
-        "title": "Forklift Drivers x2 at Rossmann Wholesale",
-        "url": "https://selibeng.com/forklift-drivers-x2-at-rossmann-wholesale/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 17:21:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "86914e6a1a0ccc744c13",
-        "title": "National Specialist: Teaching and Learning Policy at Food and Agriculture Organization (FAO)",
-        "url": "https://selibeng.com/national-specialist-teaching-and-learning-policy-at-food-and-agriculture-organization-fao/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 16:39:10 +0000",
-        "deadline": null
-      },
-      {
-        "id": "09bd2fd779a3b60c6636",
-        "title": "Legal Consultant – MIDAS Legal Assessment at International Organization for Migration (IOM)",
-        "url": "https://selibeng.com/legal-consultant-midas-legal-assessment-at-international-organization-for-migration-iom/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 16:38:48 +0000",
-        "deadline": null
-      },
-      {
-        "id": "907b2e7c71be13b75b04",
-        "title": "Electoral Security Officer at IEC",
-        "url": "https://selibeng.com/electoral-security-officer-at-iec/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 06:19:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c46ffd1694b1fc578f63",
-        "title": "Key Populations Nurse – KP Project at Care for Basotho (CBA)",
-        "url": "https://selibeng.com/kp-nurse-c4b/",
-        "source": "Selibeng",
-        "published": "Fri, 06 Nov 2026 12:23:06 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-10T13:42:18.204502+00:00",
-    "updatedAt": "2026-11-10T13:42:18.204502+00:00",
+    "lastAttempt": "2026-11-11T12:54:06.540885+00:00",
+    "updatedAt": "2026-11-11T12:54:06.540885+00:00",
     "status": "ok"
   }
 }
