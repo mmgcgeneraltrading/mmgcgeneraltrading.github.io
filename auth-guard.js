@@ -26,6 +26,8 @@ const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase
 const publicPages = new Set([
   'index.html','about.html','services.html','standard-services.html',
   'portfolio.html','industries.html','why-mmgc.html','tender-support.html',
+  'products.html','catalogue.html','smart-home.html','smart-security.html','smart-energy.html',
+  'smart-vehicle.html','smart-life.html','ai-tech.html','stationery.html',
   'auth.html'
 ]);
 const publicPage = publicPages.has(current);
