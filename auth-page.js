@@ -50,7 +50,7 @@ function errorText(err){
     return 'Phone account registration is not yet enabled by the MMGC administrator. Please use email for now.';
   }
   if(/email.*(not confirmed|confirmation)/i.test(msg)){
-    return 'Account confirmations are still required in MMGC authentication settings. The administrator must disable Confirm Email to enable immediate access.';
+    return 'Please check your email for the verification link, then sign in. If registration did not complete, contact MMGC support.';
   }
   return msg;
 }
@@ -121,7 +121,11 @@ $('signupForm').addEventListener('submit',async function(event){
       location.replace(next);
       return;
     }
-    message('Your registration was submitted, but the server still requires account confirmation. Ask MMGC to disable Confirm Email or Confirm Phone for instant signup.','error');
+    if(identity.email){
+      message('Please check your email to verify your account, then return to sign in. If it is not in your inbox, check your spam or junk folder.','success');
+    } else {
+      message('Your phone registration was received. Please follow any confirmation instructions sent to your phone before signing in.','success');
+    }
   }catch(err){message(errorText(err),'error');}
   finally{submitBusy('signupForm',false);}
 });
