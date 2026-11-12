@@ -68,3 +68,13 @@
  .mmgc-v4-header .mmgc-v4-nav{max-height:calc(100dvh - 62px)!important}
 }
 @media(prefers-reduced-motion:reduce){.mmgc-v4-header *{animation:none!important;transition:none!important}}
+
+/* Always-visible MMGC SuperPay and basket shortcuts. */
+.mmgc-v4-header .mmgc-superpay-shortcuts{display:flex;align-items:center;gap:6px;flex:none;order:0}
+.mmgc-v4-header .mmgc-superpay-shortcut{display:flex;align-items:center;background:#f4f2ff;border:1px solid #ddd6ff;border-radius:10px;padding:2px 7px;min-height:44px;text-decoration:none}
+.mmgc-v4-header .mmgc-superpay-shortcut img{width:136px;height:40px;object-fit:contain}
+.mmgc-v4-header .mmgc-cart-shortcut{display:grid;place-items:center;min-width:43px;height:44px;border:1px solid #d8e4ec;border-radius:10px;color:#182f54;text-decoration:none;background:#f7fbfd}
+.mmgc-v4-header .mmgc-superpay-shortcuts a:focus-visible{outline:3px solid #a48afe;outline-offset:2px}
+@media(max-width:1320px){.mmgc-v4-header .mmgc-superpay-shortcut img{width:105px}.mmgc-v4-header .mmgc-v4-brand{min-width:120px!important;max-width:140px!important}}
+@media(max-width:1110px){.mmgc-v4-header .mmgc-superpay-shortcuts{margin-left:auto}.mmgc-v4-header .mmgc-v4-hamburger{margin-left:0!important}}
+@media(max-width:480px){.mmgc-v4-header .mmgc-superpay-shortcut img{width:87px;height:33px}.mmgc-v4-header .mmgc-superpay-shortcut{min-height:37px;padding:2px 3px}.mmgc-v4-header .mmgc-cart-shortcut{min-width:37px;height:37px}.mmgc-v4-header .mmgc-superpay-shortcuts{gap:4px}.mmgc-v4-header .mmgc-v4-brand small{display:none!important}}
