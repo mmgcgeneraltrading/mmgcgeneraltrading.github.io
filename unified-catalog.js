@@ -13,7 +13,7 @@ const routes=[
 ];
 function catalogue(){
  const p=Array.isArray(window.MMGC_PRODUCTS)?window.MMGC_PRODUCTS:[];
- const items=p.map(x=>({id:String(x.id),type:'Product',category:x.category||'General Supplies',name:x.name||x.id,description:x.description||'',price:x.price||'',unit:x.unit||'',tags:x.tags||[],image:x.image||'',url:x.url||'products.html?search='+encodeURIComponent(x.name||'')+'#catalog'}));
+ const items=p.map(x=>({id:String(x.id),type:'Product',category:x.category||'General Supplies',name:x.name||x.id,description:x.description||'',price:x.price||'',unit:x.unit||'',tags:x.tags||[],image:x.image||'',url:x.url||'catalogue.html?q='+encodeURIComponent(x.name||'')}));
  return items.concat(routes);
 }
 function matches(query,item){
