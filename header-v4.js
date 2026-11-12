@@ -43,16 +43,19 @@ function init(){
  ['Business services','services.html','supply procurement printing IT'],
  ['Tender opportunities','tenders.html','bidding RFQ procurement'],
  ['Job opportunities','jobs.html','employment vacancies'],
+ ['Ask MMGC assistant','index.html#mmgc-assistant','ask mmgc help assistant questions chat'],
+ ['Business quotations and procurement','index.html#quote','quotations general trading tendering'],
  ['Contact MMGC for quotation','index.html#quote','enquiry contact quote']
  ];
  const shell=document.createElement('div');shell.className='mmgc-site-search';
+ const icon=document.createElement('button');icon.type='button';icon.className='mmgc-search-toggle';icon.setAttribute('aria-label','Search MMGC website');icon.setAttribute('aria-expanded','false');icon.textContent='⌕ Search';
  const input=document.createElement('input');input.type='search';input.placeholder='Search MMGC products & services';input.setAttribute('aria-label','Search MMGC website');input.setAttribute('autocomplete','off');input.setAttribute('aria-expanded','false');
  const popup=document.createElement('div');popup.className='mmgc-search-results';popup.setAttribute('role','listbox');
- shell.append(input,popup);
- const brand=header.querySelector('.mmgc-v4-brand');if(brand)brand.insertAdjacentElement('afterend',shell);
- const ideas=['EcoFlow','SuperPay','Drones','Cameras'];
+ shell.append(icon,input,popup);
+ const quote=header.querySelector('.mmgc-v4-quote');if(quote)quote.insertAdjacentElement('afterend',shell);else header.querySelector('.mmgc-v4-inner')?.append(shell);
+ const ideas=['EcoFlow','SuperPay','Agricultural drones','CCTV'];
  function render(){
-  const query=input.value.trim().toLowerCase(),terms=query.split(/\\s+/).filter(Boolean);
+  const query=input.value.trim().toLowerCase(),terms=query.split(/\s+/).filter(Boolean);
   let found=terms.length?pages.filter(p=>terms.every(t=>(p[0]+' '+p[2]).toLowerCase().includes(t))):pages.filter(p=>ideas.some(s=>p[0]===s||p[0].toLowerCase().startsWith(s.toLowerCase()))).slice(0,4);
   found=found.slice(0,7);
   popup.replaceChildren();
@@ -61,9 +64,10 @@ function init(){
   found.forEach(p=>{const a=document.createElement('a');a.href=new URL(p[1],root).href;a.textContent=p[0];a.setAttribute('role','option');popup.append(a)});
   popup.hidden=false;input.setAttribute('aria-expanded','true');
  }
+ icon.addEventListener('click',()=>{const opening=!shell.classList.contains('mmgc-search-open');shell.classList.toggle('mmgc-search-open',opening);icon.setAttribute('aria-expanded',String(opening));if(opening){input.focus();render()}else{popup.hidden=true;input.setAttribute('aria-expanded','false')}});
  input.addEventListener('focus',render);input.addEventListener('input',render);
- input.addEventListener('keydown',e=>{if(e.key==='Escape'){popup.hidden=true;input.setAttribute('aria-expanded','false');input.blur()}if(e.key==='Enter'){e.preventDefault();popup.querySelector('a')?.click()}});
- document.addEventListener('click',e=>{if(!shell.contains(e.target)){popup.hidden=true;input.setAttribute('aria-expanded','false')}});
+ input.addEventListener('keydown',e=>{if(e.key==='Escape'){popup.hidden=true;input.setAttribute('aria-expanded','false');input.blur();shell.classList.remove('mmgc-search-open');icon.setAttribute('aria-expanded','false')}if(e.key==='Enter'){e.preventDefault();popup.querySelector('a')?.click()}});
+ document.addEventListener('click',e=>{if(!shell.contains(e.target)){popup.hidden=true;input.setAttribute('aria-expanded','false');shell.classList.remove('mmgc-search-open');icon.setAttribute('aria-expanded','false')}});
  popup.hidden=true;
  }
 
