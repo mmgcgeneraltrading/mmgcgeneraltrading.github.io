@@ -54,7 +54,7 @@ body{background:linear-gradient(125deg,#eaf4ed,#f4f8fc);color:#17324d;margin:0;m
 <button type="submit">Sign In</button>
 </form>
 <form id="signupForm" class="auth-form" data-form="signup" hidden>
-<div class="auth-callout"><strong>No OTP or confirmation code on this form.</strong> Sign up using your email or mobile number and create a password. Registration depends on MMGC authentication settings.</div>
+<div class="auth-callout"><strong>No OTP or confirmation code on this form.</strong> Sign up using your email or mobile number and create a password. If you register with email, check your inbox for a verification link before signing in.</div>
 <label class="auth-field">Full name<input id="fullName" type="text" autocomplete="name" required maxlength="120" placeholder="Full name"></label>
 <label class="auth-field">Account type<select id="accountType" required><option value="individual">Individual</option><option value="company">Company / Organisation</option></select></label>
 <label class="auth-field" id="companyWrap" hidden>Company name<input id="companyName" type="text" maxlength="130" placeholder="Company or organisation"></label>
@@ -86,7 +86,7 @@ body{background:linear-gradient(125deg,#eaf4ed,#f4f8fc);color:#17324d;margin:0;m
 </form>
 <div class="auth-links"><button type="button" data-mode="forgot">Forgot password?</button><button type="button" data-mode="login">Back to Sign In</button></div>
 <p id="authMessage" class="auth-message" role="status" aria-live="polite"></p>
-<p class="auth-note">Your password is handled by the secure authentication provider over HTTPS, not emailed to MMGC. Phone and email ownership are not confirmed when verification is disabled. Never share passwords or one-time codes. For assistance: <a href="mailto:mmgcgeneraltrading@gmail.com">mmgcgeneraltrading@gmail.com</a>.</p>
+<p class="auth-note">Your password is handled by the secure authentication provider over HTTPS, not emailed to MMGC. Email or phone verification may be required before access is granted. Never share passwords or one-time codes. For assistance: <a href="mailto:mmgcgeneraltrading@gmail.com">mmgcgeneraltrading@gmail.com</a>.</p>
 </section></main>
 <script type="module" src="auth-page.js?v=2"></script>
 </body></html>
