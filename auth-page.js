@@ -106,7 +106,7 @@ $('signupForm').addEventListener('submit',async function(event){
   }catch(e){message(errorText(e),'error');return;}
   submitBusy('signupForm',true);
   try{
-    const options={data:{
+    const options={emailRedirectTo:location.origin+'/auth.html?mode=login&verified=1',data:{
       full_name:$('fullName').value.trim(),
       account_type:$('accountType').value,
       company_name:$('accountType').value==='company'?$('companyName').value.trim():'',
