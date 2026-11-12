@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-11T12:54:06.540885+00:00",
+    "lastAttempt": "2026-11-12T13:56:17.951816+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,59 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-12T02:43:48.082702+00:00",
-    "updatedAt": "2026-11-12T02:43:48.082702+00:00"
+    "lastAttempt": "2026-11-12T13:56:17.951816+00:00",
+    "updatedAt": "2026-11-12T13:56:17.951816+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "389234dca2e55872b69f",
+        "title": "Production Assistant at African Zombie Drafts",
+        "url": "https://selibeng.com/production-assistant-at-african-zombie-drafts/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 09:30:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "21990e51db65d7ec5665",
+        "title": "Maintenance Officer at Mmelesi Lodge",
+        "url": "https://selibeng.com/maintenance-officer-at-mmelesi-lodge/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 08:47:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9e06dea143c497c67bd2",
+        "title": "Seamstress & Patternmaker at Blueprint",
+        "url": "https://selibeng.com/seamstress-patternmaker-at-blueprint/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 08:30:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "dbb6b947ac25821b5823",
+        "title": "Driver at Roma College of Nursing",
+        "url": "https://selibeng.com/driver-at-roma-college-of-nursing/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 08:19:15 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d348fdfd6ac5ee58eef4",
+        "title": "Temporary Production Assistants at Multiplex Industries",
+        "url": "https://selibeng.com/temporary-production-assistants-at-multiplex-industries/",
+        "source": "Selibeng",
+        "published": "Wed, 11 Nov 2026 19:37:05 +0000",
+        "deadline": null
+      },
+      {
+        "id": "444a93b7f9062ae446ed",
+        "title": "Program Manager at Habitat for Humanity Lesotho",
+        "url": "https://selibeng.com/program-manager-at-habitat-for-humanity-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 11 Nov 2026 15:01:46 +0000",
+        "deadline": null
+      },
       {
         "id": "ce56791f8dede6b761cd",
         "title": "National Specialist – Development of LAC Strategic Plan",
@@ -685,58 +733,10 @@
         "source": "Selibeng",
         "published": "Sun, 08 Nov 2026 12:40:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "40ee9de60a535402a606",
-        "title": "Sesotho and Religious Studies Teacher at St. Stephen’s Diocesan High School",
-        "url": "https://selibeng.com/sesotho-and-religious-studies-teacher-at-st-stephens-diocesan-high-school/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 10:41:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2282d3ef98684ac686f5",
-        "title": "Chief Operations Officer at Maluti Adventist Hospital",
-        "url": "https://selibeng.com/chief-operations-officer-at-maluti-adventist-hospital/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 07:47:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1975f4df5f07280beb18",
-        "title": "Sales Agents at Hlatsoane Fast Foods",
-        "url": "https://selibeng.com/sales-agents-at-hlatsoane-fast-foods/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 05:20:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "4b9cdf80e636a94ad3cd",
-        "title": "IT or Marketing Vacancies x5 at Intel Tech",
-        "url": "https://selibeng.com/it-or-marketing-vacancies-x5-at-intel-tech/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 17:51:16 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5de1125c9af5c51e9769",
-        "title": "Sales and Accounts Officer at Eagle",
-        "url": "https://selibeng.com/sales-and-accounts-officer-at-eagle/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 17:46:15 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7fd60bf2774599810c31",
-        "title": "Esther’s Hostel – Multiple Jobs",
-        "url": "https://selibeng.com/esthers-hostel-multiple-jobs/",
-        "source": "Selibeng",
-        "published": "Sat, 07 Nov 2026 17:44:11 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-11T12:54:06.540885+00:00",
-    "updatedAt": "2026-11-11T12:54:06.540885+00:00",
+    "lastAttempt": "2026-11-12T13:56:17.951816+00:00",
+    "updatedAt": "2026-11-12T13:56:17.951816+00:00",
     "status": "ok"
   }
 }
