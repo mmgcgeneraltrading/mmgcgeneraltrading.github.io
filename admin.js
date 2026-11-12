@@ -66,7 +66,7 @@ function formField([name,label,type,required=false,values=[]],record){
  else{input=el('input');input.type=type;if(type==='number'){input.min='0';input.step='0.01';}}
  input.id='field-'+name;input.name=name;input.required=!!required;
  if(type==='checkbox')input.checked=Boolean(record?.[name]);
- else input.value=record?.[name]??(name==='issue_date'?today():name==='stock_status'?'enquiry':name==='authorization_status'?(editType==='products'?'unverified':'requested'):name==='currency'?'LSL':name==='status'?(editType==='enquiries'?'new':'draft'):'');
+ else input.value=record?.[name]??(name==='quote_number'?'MMGC-Q-'+today().replaceAll('-','')+'-'+Math.floor(Math.random()*9000+1000):name==='issue_date'?today():name==='stock_status'?'enquiry':name==='authorization_status'?(editType==='products'?'unverified':'requested'):name==='currency'?'LSL':name==='status'?(editType==='enquiries'?'new':'draft'):'');
  wrap.append(input);return wrap;
 }
 function quoteLines(record){
@@ -118,6 +118,9 @@ function formData(){
  if(editType==='quotes'){
  raw.subtotal=Math.round(raw.items.reduce((sum,x)=>sum+x.quantity*x.unit_price,0)*100)/100;
  raw.tax=Number(raw.tax||0);raw.total=Math.round((raw.subtotal+raw.tax)*100)/100;
+ }
+ if(editType==='suppliers'&&raw.authorization_status==='authorized'){
+  if(!raw.approval_reference||raw.approval_reference.trim().length<4||!raw.authorized_territory||raw.authorized_territory.trim().length<3)throw Error('Written approval reference and authorized territory are required before a supplier is marked authorized.');
  }
  if(editType==='products'&&raw.published){
  if(raw.authorization_status==='authorized'&&!raw.supplier)throw Error('Provide supplier information before claiming an authorized product.');
