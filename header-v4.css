@@ -92,3 +92,13 @@
 @media(max-width:1370px){.mmgc-v4-header .mmgc-site-search{flex-basis:145px;min-width:105px}.mmgc-v4-header .mmgc-site-search input{font-size:11px;padding:7px}}
 @media(max-width:1110px){.mmgc-v4-header .mmgc-site-search{margin-left:auto;flex:1 1 210px;max-width:340px}.mmgc-v4-header .mmgc-superpay-shortcuts{margin-left:0}}
 @media(max-width:650px){.mmgc-v4-header .mmgc-site-search{order:10;flex-basis:100%;max-width:100%;margin:0 0 7px}.mmgc-v4-header .mmgc-v4-inner{flex-wrap:wrap;padding-top:8px;padding-bottom:5px}.mmgc-v4-header .mmgc-search-results{width:100%}.mmgc-v4-header .mmgc-v4-hamburger{order:2}}
+
+/* 2026 header search is a clear toggle immediately following Get a Quote. */
+.mmgc-v4-header .mmgc-v4-actions{position:relative;flex-wrap:nowrap}
+.mmgc-v4-header .mmgc-site-search{position:relative;flex:0 0 auto;min-width:0;max-width:none;margin:0}
+.mmgc-v4-header .mmgc-search-toggle{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:43px;padding:9px 12px;color:#0b2f57;font-weight:800;font-size:13px;border:1px solid #b8d7dc;border-radius:10px;background:#eaf8f3;cursor:pointer;white-space:nowrap}
+.mmgc-v4-header .mmgc-site-search input{display:none;position:absolute;right:0;top:calc(100% + 9px);width:min(330px,80vw);height:45px;background:white;border:2px solid #168a70;box-shadow:0 10px 25px #0b2f5720;z-index:251}
+.mmgc-v4-header .mmgc-site-search.mmgc-search-open input{display:block}
+.mmgc-v4-header .mmgc-search-results{top:calc(100% + 59px);left:auto;right:0;width:min(330px,80vw)}
+@media(max-width:1110px){.mmgc-v4-header .mmgc-v4-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.mmgc-v4-header .mmgc-site-search{grid-row:1;grid-column:2;margin:0;max-width:none;min-width:0;flex:auto}.mmgc-v4-header .mmgc-search-toggle{width:100%;height:46px}.mmgc-v4-header .mmgc-v4-actions>.mmgc-v4-quote{grid-column:1;grid-row:1}}
+@media(max-width:650px){.mmgc-v4-header .mmgc-site-search{order:0;flex-basis:auto;max-width:none;margin:0}.mmgc-v4-header .mmgc-v4-inner{flex-wrap:wrap}.mmgc-v4-header .mmgc-search-results{width:min(330px,85vw)}.mmgc-v4-header .mmgc-site-search input{width:min(330px,85vw)}}
