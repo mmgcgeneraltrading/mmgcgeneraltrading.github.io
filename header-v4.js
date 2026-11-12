@@ -43,7 +43,7 @@ function init(){
  ['Business services','services.html','supply procurement printing IT'],
  ['Tender opportunities','tenders.html','bidding RFQ procurement'],
  ['Job opportunities','jobs.html','employment vacancies'],
- ['Ask MMGC assistant','index.html#mmgc-assistant','ask mmgc help assistant questions chat'],
+ ['Ask MMGC assistant','#ask-mmgc','ask mmgc help assistant questions chat'],
  ['Business quotations and procurement','index.html#quote','quotations general trading tendering'],
  ['Contact MMGC for quotation','index.html#quote','enquiry contact quote']
  ];
@@ -61,7 +61,7 @@ function init(){
   popup.replaceChildren();
   const title=document.createElement('div');title.className='mmgc-search-caption';title.textContent=query?'Matching website pages':'Popular searches';popup.append(title);
   if(!found.length){const empty=document.createElement('p');empty.textContent='No matches. Try EcoFlow, drones, SuperPay or cameras.';popup.append(empty)}
-  found.forEach(p=>{const a=document.createElement('a');a.href=new URL(p[1],root).href;a.textContent=p[0];a.setAttribute('role','option');popup.append(a)});
+  found.forEach(p=>{const a=document.createElement('a');a.href=p[1]==='#ask-mmgc'?'#ask-mmgc':new URL(p[1],root).href;a.textContent=p[0];a.setAttribute('role','option');if(p[1]==='#ask-mmgc'){a.addEventListener('click',e=>{e.preventDefault();popup.hidden=true;document.querySelector('.mmgc-assistant-launcher')?.click()})}popup.append(a)});
   popup.hidden=false;input.setAttribute('aria-expanded','true');
  }
  icon.addEventListener('click',()=>{const opening=!shell.classList.contains('mmgc-search-open');shell.classList.toggle('mmgc-search-open',opening);icon.setAttribute('aria-expanded',String(opening));if(opening){input.focus();render()}else{popup.hidden=true;input.setAttribute('aria-expanded','false')}});
@@ -69,6 +69,16 @@ function init(){
  input.addEventListener('keydown',e=>{if(e.key==='Escape'){popup.hidden=true;input.setAttribute('aria-expanded','false');input.blur();shell.classList.remove('mmgc-search-open');icon.setAttribute('aria-expanded','false')}if(e.key==='Enter'){e.preventDefault();popup.querySelector('a')?.click()}});
  document.addEventListener('click',e=>{if(!shell.contains(e.target)){popup.hidden=true;input.setAttribute('aria-expanded','false');shell.classList.remove('mmgc-search-open');icon.setAttribute('aria-expanded','false')}});
  popup.hidden=true;
+ // On small screens keep Search visible even while the navigation drawer is closed.
+ const positionSearch=()=>{
+  const quote=header.querySelector('.mmgc-v4-quote');
+  const inner=header.querySelector('.mmgc-v4-inner');
+  const hamburger=header.querySelector('.mmgc-v4-hamburger');
+  if(window.innerWidth<=1110&&inner&&hamburger){inner.insertBefore(shell,hamburger)}
+  else if(quote){quote.insertAdjacentElement('afterend',shell)}
+ };
+ positionSearch();
+ window.addEventListener('resize',positionSearch);
  }
 
  const toolsMenu=header.querySelector('.mmgc-v4-tools .mmgc-v4-dropdown');
