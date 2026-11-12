@@ -158,7 +158,7 @@ function printQuote(q){
 function wire(){
  document.querySelectorAll('[data-tab]').forEach(x=>x.onclick=()=>setTab(x.dataset.tab));
  document.querySelectorAll('[data-go]').forEach(x=>x.onclick=()=>setTab(x.dataset.go));
- ['product','enquiry','supplier','quote'].forEach(name=>{$('new-'+name).onclick=()=>openEditor(name==='quote'?'quotes':name+'s')});
+ ['product','enquiry','supplier','quote'].forEach(name=>{$('new-'+name).onclick=()=>openEditor(({product:'products',enquiry:'enquiries',supplier:'suppliers',quote:'quotes'})[name])});
  $('refresh').onclick=loadAll;$('product-filter').oninput=render;$('import-product').onclick=importFromCatalogue;
  const select=$('catalogue-import');(window.MMGC_PRODUCTS||[]).forEach(p=>{const o=el('option');o.value=p.id;o.textContent=p.name;select.append(o)});
  $('record-form').onsubmit=saveRecord;$('cancel').onclick=()=>$('editor').close();$('remove').onclick=deleteRecord;
