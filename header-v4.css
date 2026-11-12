@@ -78,3 +78,17 @@
 @media(max-width:1320px){.mmgc-v4-header .mmgc-superpay-shortcut img{width:105px}.mmgc-v4-header .mmgc-v4-brand{min-width:120px!important;max-width:140px!important}}
 @media(max-width:1110px){.mmgc-v4-header .mmgc-superpay-shortcuts{margin-left:auto}.mmgc-v4-header .mmgc-v4-hamburger{margin-left:0!important}}
 @media(max-width:480px){.mmgc-v4-header .mmgc-superpay-shortcut img{width:87px;height:33px}.mmgc-v4-header .mmgc-superpay-shortcut{min-height:37px;padding:2px 3px}.mmgc-v4-header .mmgc-cart-shortcut{min-width:37px;height:37px}.mmgc-v4-header .mmgc-superpay-shortcuts{gap:4px}.mmgc-v4-header .mmgc-v4-brand small{display:none!important}}
+
+/* Header search: compact on desktop, wider suggestions overlay. */
+.mmgc-v4-header .mmgc-site-search{position:relative;flex:0 1 205px;min-width:120px;max-width:245px}
+.mmgc-v4-header .mmgc-site-search input{box-sizing:border-box;width:100%;height:42px;border:1px solid #b9d3dc;border-radius:12px;background:#f5fafb;color:#123a50;padding:9px 11px;font:600 12px system-ui,sans-serif;outline-offset:2px}
+.mmgc-v4-header .mmgc-site-search input:focus{outline:2px solid #3eaa8c}
+.mmgc-v4-header .mmgc-search-results{position:absolute;top:calc(100% + 9px);left:0;width:min(340px,88vw);background:#fff;color:#18374a;padding:10px;box-shadow:0 18px 42px #0b2f5738;border:1px solid #d7e8e8;border-radius:14px;z-index:250;max-height:350px;overflow-y:auto}
+.mmgc-v4-header .mmgc-search-results[hidden]{display:none!important}
+.mmgc-v4-header .mmgc-search-results>a{display:block;padding:10px 12px;color:#153b53!important;text-decoration:none;font-size:13px;font-weight:700;border-radius:8px}
+.mmgc-v4-header .mmgc-search-results>a:hover,.mmgc-v4-header .mmgc-search-results>a:focus{background:#e9f7ef}
+.mmgc-v4-header .mmgc-search-caption{padding:5px 10px;color:#607884;font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+.mmgc-v4-header .mmgc-search-results p{padding:10px;font-size:13px}
+@media(max-width:1370px){.mmgc-v4-header .mmgc-site-search{flex-basis:145px;min-width:105px}.mmgc-v4-header .mmgc-site-search input{font-size:11px;padding:7px}}
+@media(max-width:1110px){.mmgc-v4-header .mmgc-site-search{margin-left:auto;flex:1 1 210px;max-width:340px}.mmgc-v4-header .mmgc-superpay-shortcuts{margin-left:0}}
+@media(max-width:650px){.mmgc-v4-header .mmgc-site-search{order:10;flex-basis:100%;max-width:100%;margin:0 0 7px}.mmgc-v4-header .mmgc-v4-inner{flex-wrap:wrap;padding-top:8px;padding-bottom:5px}.mmgc-v4-header .mmgc-search-results{width:100%}.mmgc-v4-header .mmgc-v4-hamburger{order:2}}
