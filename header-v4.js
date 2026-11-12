@@ -23,6 +23,50 @@ function init(){
   if(brand)brand.insertAdjacentElement('afterend',block);
  }
 
+
+ // Global site search: locally indexed pages and instant suggestions, no external tracking.
+ if(!header.querySelector('.mmgc-site-search')){
+ const root=new URL('header-v4.js',document.querySelector('script[src*="header-v4.js"]')?.src||location.href);
+ const pages=[
+ ['EcoFlow RIVER 3','ecoflow/','portable power battery UPS'],
+ ['EcoFlow DELTA 3 Plus','ecoflow/','backup UPS power station'],
+ ['EcoFlow DELTA Pro 3','ecoflow/','home energy backup'],
+ ['Solar generator kits','ecoflow/','solar panels charging ecoflow'],
+ ['EcoFlow energy solutions','ecoflow/','solar batteries power'],
+ ['MMGC SuperPay Gateway','superpay/','mpesa ecocash payment merchant API fintech'],
+ ['Merchant payment application','superpay/','merchant apply register gateway'],
+ ['Agricultural drones & DJI Agras T55','drone-services.html','drone spraying farming agriculture aerial'],
+ ['CCTV security cameras','smart-security.html','camera surveillance security monitoring'],
+ ['Alarm systems and smart sensors','smart-home.html','alarm security smart home sensors'],
+ ['Starlink and connected homes','smart-home.html','internet connectivity satellite wifi'],
+ ['Product catalogue and basket','products.html','shop products checkout cart'],
+ ['Business services','services.html','supply procurement printing IT'],
+ ['Tender opportunities','tenders.html','bidding RFQ procurement'],
+ ['Job opportunities','jobs.html','employment vacancies'],
+ ['Contact MMGC for quotation','index.html#quote','enquiry contact quote']
+ ];
+ const shell=document.createElement('div');shell.className='mmgc-site-search';
+ const input=document.createElement('input');input.type='search';input.placeholder='Search MMGC products & services';input.setAttribute('aria-label','Search MMGC website');input.setAttribute('autocomplete','off');input.setAttribute('aria-expanded','false');
+ const popup=document.createElement('div');popup.className='mmgc-search-results';popup.setAttribute('role','listbox');
+ shell.append(input,popup);
+ const brand=header.querySelector('.mmgc-v4-brand');if(brand)brand.insertAdjacentElement('afterend',shell);
+ const ideas=['EcoFlow','SuperPay','Drones','Cameras'];
+ function render(){
+  const query=input.value.trim().toLowerCase(),terms=query.split(/\\s+/).filter(Boolean);
+  let found=terms.length?pages.filter(p=>terms.every(t=>(p[0]+' '+p[2]).toLowerCase().includes(t))):pages.filter(p=>ideas.some(s=>p[0]===s||p[0].toLowerCase().startsWith(s.toLowerCase()))).slice(0,4);
+  found=found.slice(0,7);
+  popup.replaceChildren();
+  const title=document.createElement('div');title.className='mmgc-search-caption';title.textContent=query?'Matching website pages':'Popular searches';popup.append(title);
+  if(!found.length){const empty=document.createElement('p');empty.textContent='No matches. Try EcoFlow, drones, SuperPay or cameras.';popup.append(empty)}
+  found.forEach(p=>{const a=document.createElement('a');a.href=new URL(p[1],root).href;a.textContent=p[0];a.setAttribute('role','option');popup.append(a)});
+  popup.hidden=false;input.setAttribute('aria-expanded','true');
+ }
+ input.addEventListener('focus',render);input.addEventListener('input',render);
+ input.addEventListener('keydown',e=>{if(e.key==='Escape'){popup.hidden=true;input.setAttribute('aria-expanded','false');input.blur()}if(e.key==='Enter'){e.preventDefault();popup.querySelector('a')?.click()}});
+ document.addEventListener('click',e=>{if(!shell.contains(e.target)){popup.hidden=true;input.setAttribute('aria-expanded','false')}});
+ popup.hidden=true;
+ }
+
  const toolsMenu=header.querySelector('.mmgc-v4-tools .mmgc-v4-dropdown');
  if(toolsMenu&&!toolsMenu.querySelector('a[href="pos.html"]')){
   const posLink=document.createElement('a');posLink.href='pos.html';posLink.textContent='Shop POS · Point of Sale';toolsMenu.appendChild(posLink);
