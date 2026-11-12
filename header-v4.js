@@ -14,6 +14,15 @@ function init(){
  const header=document.querySelector('header.mmgc-v4-header');
  if(!header||header.dataset.navReady)return;
  header.dataset.navReady='1';
+ // Persistent gateway logo and enquiry-basket shortcut, visible outside the collapsed mobile menu.
+ if(!header.querySelector('.mmgc-superpay-shortcuts')){
+  const brand=header.querySelector('.mmgc-v4-brand');
+  const block=document.createElement('div');
+  block.className='mmgc-superpay-shortcuts';
+  block.innerHTML='<a class="mmgc-superpay-shortcut" href="superpay/" aria-label="SuperPay Gateway"><img src="assets/superpay-logo.svg" alt="SuperPay Gateway"></a><a class="mmgc-cart-shortcut" href="products.html#basket" title="Open MMGC quotation basket" aria-label="Open MMGC quotation basket"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 2h3l3 14h14l2-10H5"/></svg></a>';
+  if(brand)brand.insertAdjacentElement('afterend',block);
+ }
+
  const toolsMenu=header.querySelector('.mmgc-v4-tools .mmgc-v4-dropdown');
  if(toolsMenu&&!toolsMenu.querySelector('a[href="pos.html"]')){
   const posLink=document.createElement('a');posLink.href='pos.html';posLink.textContent='Shop POS · Point of Sale';toolsMenu.appendChild(posLink);
