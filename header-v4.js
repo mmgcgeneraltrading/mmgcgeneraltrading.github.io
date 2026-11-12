@@ -14,6 +14,14 @@ function init(){
  const header=document.querySelector('header.mmgc-v4-header');
  if(!header||header.dataset.navReady)return;
  header.dataset.navReady='1';
+ // Public access to the central product catalogue, including for visitors without accounts.
+ const primary=header.querySelector('.mmgc-v4-primary');
+ if(primary&&!primary.querySelector('a[href="catalogue.html"]')){
+   const entry=document.createElement('a');
+   entry.href='catalogue.html';entry.className='mmgc-v4-catalogue-link';entry.textContent='Catalogue';
+   const home=primary.querySelector('.mmgc-v4-home');
+   if(home)home.insertAdjacentElement('afterend',entry);else primary.prepend(entry);
+ }
  // Persistent gateway logo and enquiry-basket shortcut, visible outside the collapsed mobile menu.
  if(!header.querySelector('.mmgc-superpay-shortcuts')){
   const brand=header.querySelector('.mmgc-v4-brand');
