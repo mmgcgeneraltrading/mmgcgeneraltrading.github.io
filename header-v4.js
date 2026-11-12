@@ -24,7 +24,14 @@ function init(){
  }
 
 
- // Load the shared MMGC catalogue for comprehensive suggestions on every page.\n function loadOnce(src){if(document.querySelector('script[data-mmgc-catalogue="'+src+'"]'))return;const a=document.createElement('script');a.src=src;a.defer=true;a.dataset.mmgcCatalogue=src;document.head.append(a)}\n if(!window.MMGC_PRODUCTS)loadOnce('product-data.js');\n loadOnce('unified-catalog.js');\n // Global site search: locally indexed pages and instant suggestions, no external tracking.
+ // Load the shared MMGC catalogue for comprehensive suggestions on every page.
+ function loadOnce(src){
+   if(document.querySelector('script[data-mmgc-catalogue="'+src+'"]')||document.querySelector('script[src="'+src+'"]'))return;
+   const a=document.createElement('script');a.src=src;a.defer=true;a.dataset.mmgcCatalogue=src;document.head.append(a);
+ }
+ if(!window.MMGC_PRODUCTS)loadOnce('product-data.js');
+ loadOnce('unified-catalog.js');
+ // Global site search: locally indexed pages and instant suggestions, no external tracking.
  if(!header.querySelector('.mmgc-site-search')){
  const root=new URL('header-v4.js',document.querySelector('script[src*="header-v4.js"]')?.src||location.href);
  const pages=[
@@ -58,12 +65,12 @@ function init(){
   const query=input.value.trim().toLowerCase(),terms=query.split(/\s+/).filter(Boolean);
   let found=terms.length?pages.filter(p=>terms.every(t=>(p[0]+' '+p[2]).toLowerCase().includes(t))):pages.filter(p=>ideas.some(s=>p[0]===s||p[0].toLowerCase().startsWith(s.toLowerCase()))).slice(0,4);
   const catalogue=window.MMGC_CATALOGUE;
-  if(catalogue){const products=catalogue.search(query,12).map(p=>[p.name,p.url||'catalogue.html',p.description||'']);const combined=products.concat(pages.filter(p=>terms.length?terms.every(t=>(p[0]+' '+p[2]).toLowerCase().includes(t)):ideas.some(s=>p[0].toLowerCase().includes(s.toLowerCase()))));found=combined.filter((v,i,a)=>a.findIndex(x=>x[0]===v[0])===i).slice(0,7)}
+  if(catalogue){const products=(query?catalogue.search(query,12):catalogue.all().filter(p=>['EcoFlow RIVER 3 Portable Power Station','SuperPay Gateway demonstration','Agricultural drones and inspections','CCTV cameras and alarm systems'].includes(p.name))).map(p=>[p.name,p.url||'catalogue.html',p.description||'']);const combined=products.concat(pages.filter(p=>terms.length?terms.every(t=>(p[0]+' '+p[2]).toLowerCase().includes(t)):ideas.some(s=>p[0].toLowerCase().includes(s.toLowerCase()))));found=combined.filter((v,i,a)=>a.findIndex(x=>x[0]===v[0])===i).slice(0,7)}
   found=found.slice(0,7);
   popup.replaceChildren();
   const title=document.createElement('div');title.className='mmgc-search-caption';title.textContent=query?'Matching website pages':'Popular searches';popup.append(title);
   if(!found.length){const empty=document.createElement('p');empty.textContent='No matches. Try EcoFlow, drones, SuperPay or cameras.';popup.append(empty)}
-  found.forEach(p=>{const a=document.createElement('a');a.href=p[1]==='#ask-mmgc'?'#ask-mmgc':new URL(p[1],root).href;a.textContent=p[0];a.setAttribute('role','option');if(p[1]==='#ask-mmgc'){a.addEventListener('click',e=>{e.preventDefault();popup.hidden=true;document.querySelector('.mmgc-assistant-launcher')?.click()})}popup.append(a)});
+  found.forEach(p=>{const a=document.createElement('a');a.href=p[1]==='#ask-mmgc'?'#ask-mmgc':new URL(p[1],root).href;a.textContent=p[0];a.setAttribute('role','option');if(p[1]==='#ask-mmgc'){a.addEventListener('click',e=>{e.preventDefault();popup.hidden=true;document.querySelector('.mmgc-assistant-launcher, .mmgc-assistant-toggle, [data-mmgc-assistant-open]')?.click()})}popup.append(a)});
   popup.hidden=false;input.setAttribute('aria-expanded','true');
  }
  icon.addEventListener('click',()=>{const opening=!shell.classList.contains('mmgc-search-open');shell.classList.toggle('mmgc-search-open',opening);icon.setAttribute('aria-expanded',String(opening));if(opening){input.focus();render()}else{popup.hidden=true;input.setAttribute('aria-expanded','false')}});
