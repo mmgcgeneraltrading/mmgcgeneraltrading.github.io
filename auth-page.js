@@ -19,10 +19,12 @@ const safeNext=value=>{
 const next=safeNext(params.get('next'));
 let currentMode=params.get('mode')||'login';
 const productionOrigin='https://mmgcgeneraltrading.github.io';
+const hashParams=new URLSearchParams(location.hash.replace(/^#/,''));
 const passwordRecoveryLinkInProgress=Boolean(
   params.get('code') || params.get('token_hash') ||
-  /(?:^|[&#])(?:access_token|refresh_token|type=recovery)=/.test(location.hash)
+  hashParams.has('access_token') || hashParams.get('type')==='recovery'
 );
+const recoveryError=hashParams.get('error_code')||hashParams.get('error');
 let recoveryReady=false;
 function returnUrl(mode){
  return productionOrigin+'/auth.html?mode='+encodeURIComponent(mode);
@@ -46,7 +48,7 @@ function showMode(mode,preserveMessage=false){
   if(!preserveMessage)message('');
   // Never strip a recovery token, OAuth code, or PKCE exchange parameters
   // until Supabase has handled them; the auth client needs the original URL.
-  if(!passwordRecoveryLinkInProgress){
+  if(!passwordRecoveryLinkInProgress && !recoveryError){
     history.replaceState(null,'','auth.html?mode='+encodeURIComponent(mode)+'&next='+encodeURIComponent(next));
   }
 }
@@ -166,7 +168,7 @@ $('forgotForm').addEventListener('submit',async function(event){
   submitBusy('forgotForm',true);
   try{
     const {error}=await client.auth.resetPasswordForEmail($('forgotEmail').value.trim().toLowerCase(),{
-      redirectTo:returnUrl('reset')
+      redirectTo:productionOrigin+'/auth.html'
     });
     if(error)throw error;
     message('If the account exists, a reset link will be sent to the email address.','success');
@@ -201,6 +203,12 @@ client.auth.onAuthStateChange(event=>{
   }
 });
 async function finishRecoveryLink(){
+  if(recoveryError){
+    showMode('forgot',true);
+    message('The reset link has expired or is invalid. Request a new email and use the newest link.','error');
+    history.replaceState(null,'','auth.html?mode=forgot');
+    return;
+  }
   if(!passwordRecoveryLinkInProgress)return;
   try {
     const {data,error}=await client.auth.getSession();
