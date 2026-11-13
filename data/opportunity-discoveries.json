@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "2615235b6ad02dccb1c4",
+        "title": "Tender for Sale of Vehicles",
+        "url": "https://selibeng.com/tender-for-sale-of-vehicles/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 18:21:07 +0000",
+        "deadline": null
+      },
+      {
         "id": "f8ba8a91c6cb5342348f",
         "title": "RFP: Civil Society Mapping in Lesotho",
         "url": "https://selibeng.com/rfp-civil-society-mapping-in-lesotho/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Wed, 14 Oct 2026 07:43:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "76600588791e1f09e912",
-        "title": "Consultancy for The Assessment of The Extension of Assignment Allowance to Regionally Recruited Staff from Host Countries",
-        "url": "https://selibeng.com/consultancy-for-the-assessment-of-the-extension-of-assignment-allowance-to-regionally-recruited-staff-from-host-countries-2/",
-        "source": "Selibeng",
-        "published": "Tue, 13 Oct 2026 14:21:15 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-12T13:56:17.951816+00:00",
-    "updatedAt": "2026-11-12T13:56:17.951816+00:00"
+    "lastAttempt": "2026-11-13T02:26:46.634227+00:00",
+    "updatedAt": "2026-11-13T02:26:46.634227+00:00"
   },
   "local_jobs": {
     "items": [
