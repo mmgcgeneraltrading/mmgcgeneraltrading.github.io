@@ -181,6 +181,8 @@ $('resetForm').addEventListener('submit',async function(event){
   if(password.length<8){message('Choose a password with at least 8 characters.','error');return;}
   submitBusy('resetForm',true);
   try{
+    const {data:sessionData}=await client.auth.getSession();
+    if(!sessionData?.session)throw new Error('This reset link is expired or invalid. Please request a new reset email.');
     const {error}=await client.auth.updateUser({password});
     if(error)throw error;
     message('Password updated. Continue to your account.','success');
@@ -192,12 +194,37 @@ $('resetForm').addEventListener('submit',async function(event){
 });
 
 client.auth.onAuthStateChange(event=>{
-  if(event==='PASSWORD_RECOVERY')showMode('reset');
+  if(event==='PASSWORD_RECOVERY'){
+    recoveryReady=true;
+    showMode('reset',true);
+    message('Recovery link verified. Enter your new password below.','success');
+  }
 });
+async function finishRecoveryLink(){
+  if(!passwordRecoveryLinkInProgress)return;
+  try {
+    const {data,error}=await client.auth.getSession();
+    if(error)throw error;
+    if(data?.session){
+      recoveryReady=true;
+      showMode('reset',true);
+      message('Recovery link verified. Choose a new password.','success');
+    }else{
+      showMode('forgot',true);
+      message('Recovery link expired or invalid. Request a new password reset email.','error');
+    }
+  }catch(_){
+    showMode('forgot',true);
+    message('Unable to verify this recovery link. Please request another.','error');
+  }
+  // Do not retain URL tokens in browser history.
+  history.replaceState(null,'','auth.html?mode='+(recoveryReady?'reset':'forgot'));
+}
 
 refreshIdentityFields();
 accountTypeChanged();
 showMode(currentMode);
+finishRecoveryLink();
 if(params.get('verified'))message('You can sign in to your account.','success');
 client.auth.getUser().then(({data})=>{
   if(data?.user && currentMode!=='reset' && !passwordRecoveryLinkInProgress)location.replace(next);
