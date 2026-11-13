@@ -18,6 +18,15 @@ const safeNext=value=>{
 };
 const next=safeNext(params.get('next'));
 let currentMode=params.get('mode')||'login';
+const productionOrigin='https://mmgcgeneraltrading.github.io';
+const passwordRecoveryLinkInProgress=Boolean(
+  params.get('code') || params.get('token_hash') ||
+  /(?:^|[&#])(?:access_token|refresh_token|type=recovery)=/.test(location.hash)
+);
+let recoveryReady=false;
+function returnUrl(mode){
+ return productionOrigin+'/auth.html?mode='+encodeURIComponent(mode);
+}
 
 function message(value,type=''){
   const node=$('authMessage');
@@ -35,7 +44,11 @@ function showMode(mode,preserveMessage=false){
     mode==='forgot'?'Recover your password':
     mode==='reset'?'Set a new password':'Welcome back to MMGC';
   if(!preserveMessage)message('');
-  history.replaceState(null,'','auth.html?mode='+encodeURIComponent(mode)+'&next='+encodeURIComponent(next));
+  // Never strip a recovery token, OAuth code, or PKCE exchange parameters
+  // until Supabase has handled them; the auth client needs the original URL.
+  if(!passwordRecoveryLinkInProgress){
+    history.replaceState(null,'','auth.html?mode='+encodeURIComponent(mode)+'&next='+encodeURIComponent(next));
+  }
 }
 function submitBusy(formId,busy){
   const button=$(formId).querySelector('button[type="submit"]');
@@ -106,7 +119,7 @@ $('signupForm').addEventListener('submit',async function(event){
   }catch(e){message(errorText(e),'error');return;}
   submitBusy('signupForm',true);
   try{
-    const options={emailRedirectTo:location.origin+'/auth.html?mode=login&verified=1',data:{
+    const options={emailRedirectTo:returnUrl('login')+'&verified=1',data:{
       full_name:$('fullName').value.trim(),
       account_type:$('accountType').value,
       company_name:$('accountType').value==='company'?$('companyName').value.trim():'',
@@ -153,7 +166,7 @@ $('forgotForm').addEventListener('submit',async function(event){
   submitBusy('forgotForm',true);
   try{
     const {error}=await client.auth.resetPasswordForEmail($('forgotEmail').value.trim().toLowerCase(),{
-      redirectTo:location.origin+'/auth.html?mode=reset'
+      redirectTo:returnUrl('reset')
     });
     if(error)throw error;
     message('If the account exists, a reset link will be sent to the email address.','success');
@@ -187,5 +200,5 @@ accountTypeChanged();
 showMode(currentMode);
 if(params.get('verified'))message('You can sign in to your account.','success');
 client.auth.getUser().then(({data})=>{
-  if(data?.user && currentMode!=='reset')location.replace(next);
+  if(data?.user && currentMode!=='reset' && !passwordRecoveryLinkInProgress)location.replace(next);
 }).catch(()=>{});
