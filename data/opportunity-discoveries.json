@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-12T13:56:17.951816+00:00",
+    "lastAttempt": "2026-11-13T13:21:26.639617+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,99 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-13T02:26:46.634227+00:00",
-    "updatedAt": "2026-11-13T02:26:46.634227+00:00"
+    "lastAttempt": "2026-11-13T13:21:26.639617+00:00",
+    "updatedAt": "2026-11-13T13:21:26.639617+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "37a8ca5a0d79aa76b1f3",
+        "title": "Head of Employee Benefits – Maseru at Alliance Insurance Company",
+        "url": "https://selibeng.com/head-of-employee-benefits-maseru-at-alliance-insurance-company/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 12:26:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ba8a4a14b4e8546da15c",
+        "title": "RFP: External Debt Collection Agencies",
+        "url": "https://selibeng.com/rfp-external-debt-collection-agencies/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 12:10:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0f534867c2b2b9235c5a",
+        "title": "Facilitators : E-Commerce and Super Intelligence (SI) Training",
+        "url": "https://selibeng.com/facilitators-e-commerce-and-super-intelligence-si-training/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 11:14:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "13aa8b71effa69c68af0",
+        "title": "Somatologist / Beauty Therapist at Meraki Lesotho Spa",
+        "url": "https://selibeng.com/somatologist-beauty-therapist-at-meraki-lesotho-spa/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 07:43:28 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e0b0e65d742268bd1b3d",
+        "title": "Receptionist & Housekeeping at Lake View Guesthouse",
+        "url": "https://selibeng.com/receptionist-housekeeping-at-lake-view-guesthouse/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 07:42:17 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3f15773a3cec7dce092a",
+        "title": "Director Road Network Development (DRND) at Roads Directorate",
+        "url": "https://selibeng.com/director-road-network-development-drnd-at-roads-directorate/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 07:20:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "568dfe78217fec02800d",
+        "title": "Farm Helpers x2 at Roots Of Africa Preparatory School",
+        "url": "https://selibeng.com/farm-helpers-x2-at-roots-of-africa-preparatory-school/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 19:13:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "73882f99c5be0630a428",
+        "title": "General Workers at Econo Foods Lesotho",
+        "url": "https://selibeng.com/general-workers-at-econo-foods-lesotho/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 19:05:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "daeb5a224fd36ff52ac3",
+        "title": "Finance Manager at the Ministry of Local Government and Chieftainship",
+        "url": "https://selibeng.com/finance-manager-at-the-ministry-of-local-government-and-chieftainship/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 18:19:18 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6876b1249612cfb97f16",
+        "title": "Chief Economic Planner at the Ministry of Local Government and Chieftainship",
+        "url": "https://selibeng.com/chief-economic-planner-at-the-ministry-of-local-government-and-chieftainship/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 15:22:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "53c606ff60b309bdce38",
+        "title": "Store Merchandiser at BlackHair",
+        "url": "https://selibeng.com/store-merchandiser-at-blackhair/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 14:08:57 +0000",
+        "deadline": null
+      },
       {
         "id": "389234dca2e55872b69f",
         "title": "Production Assistant at African Zombie Drafts",
@@ -396,6 +484,30 @@
         "url": "https://selibeng.com/seamstress-patternmaker-at-blueprint/",
         "source": "Selibeng",
         "published": "Thu, 12 Nov 2026 08:30:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b0b2bc12d13160d200c5",
+        "title": "Assistant Human Resource Officer at IEC",
+        "url": "https://selibeng.com/assistant-human-resource-officer-at-iec/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 08:27:48 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9761b25fccc89f501c35",
+        "title": "Logistics Officer at IEC",
+        "url": "https://selibeng.com/logistics-officer-at-iec/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 08:26:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "36904d55342042bd5dd0",
+        "title": "Assistant Finance Officer at IEC",
+        "url": "https://selibeng.com/assistant-finance-officer-at-iec/",
+        "source": "Selibeng",
+        "published": "Thu, 12 Nov 2026 08:24:54 +0000",
         "deadline": null
       },
       {
@@ -621,122 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 09 Nov 2026 10:18:45 +0000",
         "deadline": null
-      },
-      {
-        "id": "1043073736df0c1505de",
-        "title": "Independent Sales Consultant – Qacha’s Nek at Metropolitan",
-        "url": "https://selibeng.com/independent-sales-consultant-qachas-nek-at-metropolitan/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 10:17:19 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3173a612ec26b6b03b5f",
-        "title": "Nurse / Nurse Assistant at Lifetime Medical Pharmacy",
-        "url": "https://selibeng.com/nurse-nurse-assistant-at-lifetime-medical-pharmacy/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 09:15:33 +0000",
-        "deadline": null
-      },
-      {
-        "id": "dcebf3000254975d9d1d",
-        "title": "Sales Consultants at Sentebale GAP Funeral Services",
-        "url": "https://selibeng.com/sales-consultants-at-sentebale-gap-funeral-services/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 07:24:18 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f34259f0944ae379d8ca",
-        "title": "Administrator at Task Force Guard (TFG)",
-        "url": "https://selibeng.com/administrator-at-task-force-guard-tfg/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 19:18:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "941bb2ee5ea3ce3e0089",
-        "title": "Security Officers at Task Force Guard (TFG)",
-        "url": "https://selibeng.com/security-officers-at-task-force-guard-tfg/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 19:17:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c657eb0250b96da64d45",
-        "title": "Office Cleaner at Task Force Guard (TFG)",
-        "url": "https://selibeng.com/office-cleaner-at-task-force-guard-tfg/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 19:17:08 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5e7b9a49aa8766d668a4",
-        "title": "Principal – Primary x40 at Ministry of Education and Training",
-        "url": "https://selibeng.com/principal-primary-x40-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 19:06:58 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c38831b8cb5f0da9b7a2",
-        "title": "Classroom Teachers – Primary x46 at Ministry of Education and Training",
-        "url": "https://selibeng.com/classroom-teachers-primary-x46-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 18:50:32 +0000",
-        "deadline": null
-      },
-      {
-        "id": "568a61d8c080735e8789",
-        "title": "Principal – Post Primary x4 at Ministry of Education and Training",
-        "url": "https://selibeng.com/principal-post-primary-x4-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 18:46:56 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6325c0d6911b2f96c430",
-        "title": "Deputy Principal – Primary at Ministry of Education and Training",
-        "url": "https://selibeng.com/deputy-principal-primary-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 18:45:38 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2efc53dd941b4b04df55",
-        "title": "Classroom Teachers – Post Primary x31 at Ministry of Education and Training",
-        "url": "https://selibeng.com/classroom-teachers-post-primary-x31-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 18:45:15 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3253fd03ec3a55e89c69",
-        "title": "Deputy Principal – Post Primary at Ministry of Education and Training",
-        "url": "https://selibeng.com/deputy-principal-post-primary-at-ministry-of-education-and-training-2/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 18:44:07 +0000",
-        "deadline": null
-      },
-      {
-        "id": "26d254cfaaa92f2bf11c",
-        "title": "Head of Department x3 at Ministry of Education and Training",
-        "url": "https://selibeng.com/head-of-department-x3-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 18:43:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "78f159a400d30f4f15d1",
-        "title": "Financial Officer at Plant One Tree (POT)",
-        "url": "https://selibeng.com/financial-officer-at-plant-one-tree-pot-2/",
-        "source": "Selibeng",
-        "published": "Sun, 08 Nov 2026 12:40:00 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-12T13:56:17.951816+00:00",
-    "updatedAt": "2026-11-12T13:56:17.951816+00:00",
+    "lastAttempt": "2026-11-13T13:21:26.639617+00:00",
+    "updatedAt": "2026-11-13T13:21:26.639617+00:00",
     "status": "ok"
   }
 }
