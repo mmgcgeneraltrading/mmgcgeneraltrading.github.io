@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "f5c0fae960d899881de3",
+        "title": "Tender – Supply and Installation of 150-Litre Geysers and Rhino Board Ceilings at SOS Children’s Villages Lesotho",
+        "url": "https://selibeng.com/tender-sos-geysers-ceilings/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 14:39:57 +0000",
+        "deadline": null
+      },
+      {
         "id": "2615235b6ad02dccb1c4",
         "title": "Tender for Sale of Vehicles",
         "url": "https://selibeng.com/tender-for-sale-of-vehicles/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Wed, 14 Oct 2026 11:42:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "485dbff724e6d86c33cf",
-        "title": "Consultant: Site Agent – Connector Roads",
-        "url": "https://selibeng.com/consultant-site-agent-connector-roads/",
-        "source": "Selibeng",
-        "published": "Wed, 14 Oct 2026 07:43:00 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-13T13:21:26.639617+00:00",
-    "updatedAt": "2026-11-13T13:21:26.639617+00:00"
+    "lastAttempt": "2026-11-14T01:59:20.246219+00:00",
+    "updatedAt": "2026-11-14T01:59:20.246219+00:00"
   },
   "local_jobs": {
     "items": [
