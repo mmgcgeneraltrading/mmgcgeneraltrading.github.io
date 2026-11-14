@@ -8,7 +8,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:21.764787+00:00",
+      "checkedAt": "2026-11-14T08:52:54.538518+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://centralbank.org.ls/careers/"
@@ -21,7 +21,7 @@
       ],
       "official": true,
       "notes": "Recruitment portal linked from the Bank’s careers page.",
-      "checkedAt": "2026-11-14T01:59:21.765389+00:00",
+      "checkedAt": "2026-11-14T08:52:54.539139+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://centralbankoflesotho.breezy.hr/"
@@ -34,7 +34,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:21.765806+00:00",
+      "checkedAt": "2026-11-14T08:52:54.539539+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://centralbank.org.ls/tenders/"
@@ -47,7 +47,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:21.766263+00:00",
+      "checkedAt": "2026-11-14T08:52:54.539864+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://finance.gov.ls/tenders"
@@ -60,7 +60,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:21.766937+00:00",
+      "checkedAt": "2026-11-14T08:52:54.543038+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://finance.gov.ls/vacancies"
@@ -73,7 +73,7 @@
       ],
       "official": true,
       "notes": "Ministry homepage; look for announcements and procurement notices.",
-      "checkedAt": "2026-11-14T01:59:21.770403+00:00",
+      "checkedAt": "2026-11-14T08:52:54.544140+00:00",
       "status": "unconfirmed",
       "error": "Automated access could not be confirmed; try opening the source directly."
     },
@@ -85,7 +85,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:22.251197+00:00",
+      "checkedAt": "2026-11-14T08:52:55.081134+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lca.org.ls/vacancies/"
@@ -98,7 +98,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:22.706100+00:00",
+      "checkedAt": "2026-11-14T08:52:55.576155+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lca.org.ls/tenders/"
@@ -111,7 +111,7 @@
       ],
       "official": true,
       "notes": "Historical advert: application text closed 11 September 2026 at noon. Use the vacancy index for current jobs.",
-      "checkedAt": "2026-11-14T01:59:23.033869+00:00",
+      "checkedAt": "2026-11-14T08:52:55.576614+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lca.org.ls/vacancy/vacancies-field-enumerators-data-collectors/"
@@ -124,7 +124,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:23.132300+00:00",
+      "checkedAt": "2026-11-14T08:52:55.690951+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lec.co.ls/tenders/"
@@ -137,7 +137,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:23.377774+00:00",
+      "checkedAt": "2026-11-14T08:52:55.714825+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lec.co.ls/tender-documents/"
@@ -150,7 +150,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:23.378419+00:00",
+      "checkedAt": "2026-11-14T08:52:55.924612+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lec.co.ls/careers/"
@@ -165,7 +165,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:23.704544+00:00",
+      "checkedAt": "2026-11-14T08:52:56.010193+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://nac.org.ls/opportunities/"
@@ -178,7 +178,7 @@
       ],
       "official": true,
       "notes": "Archive page links a 2021 PDF. Use the opportunities index for newer notices.",
-      "checkedAt": "2026-11-14T01:59:23.905078+00:00",
+      "checkedAt": "2026-11-14T08:52:56.353736+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://nac.org.ls/opportunities/chief-executive-job-advert/"
@@ -191,7 +191,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:23.905532+00:00",
+      "checkedAt": "2026-11-14T08:52:56.354921+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://rollproject.gov.ls/tenders"
@@ -204,7 +204,7 @@
       ],
       "official": true,
       "notes": "Homepage requires JavaScript; browse its announcements for opportunities.",
-      "checkedAt": "2026-11-14T01:59:25.464055+00:00",
+      "checkedAt": "2026-11-14T08:52:57.791459+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.examscouncil.org.ls/"
@@ -217,7 +217,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:26.030761+00:00",
+      "checkedAt": "2026-11-14T08:52:57.885344+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.gov.ls/documents/tenders/"
@@ -232,7 +232,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:26.171215+00:00",
+      "checkedAt": "2026-11-14T08:52:58.037336+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.gov.ls/download-category/opportunities/"
@@ -245,7 +245,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:26.662068+00:00",
+      "checkedAt": "2026-11-14T08:52:59.299413+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.gov.ls/jobs/"
@@ -258,7 +258,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:26.788595+00:00",
+      "checkedAt": "2026-11-14T08:53:02.478819+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.lhda.org.ls/home/careers"
@@ -271,7 +271,7 @@
       ],
       "official": true,
       "notes": "Recruitment portal embedded in LHDA’s careers page.",
-      "checkedAt": "2026-11-14T01:59:26.851642+00:00",
+      "checkedAt": "2026-11-14T08:53:02.852521+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lhda.gosmarthr.co.za/recruits/jobprofiles.aspx"
@@ -284,7 +284,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:28.636883+00:00",
+      "checkedAt": "2026-11-14T08:53:03.786452+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.lhda.org.ls/procurement/currentTenders"
@@ -297,7 +297,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:29.300084+00:00",
+      "checkedAt": "2026-11-14T08:53:04.079527+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/"
@@ -310,7 +310,7 @@
       ],
       "official": true,
       "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
-      "checkedAt": "2026-11-14T01:59:30.162812+00:00",
+      "checkedAt": "2026-11-14T08:53:04.871557+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/currentProcurement.aspx"
@@ -323,7 +323,7 @@
       ],
       "official": true,
       "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
-      "checkedAt": "2026-11-14T01:59:30.533059+00:00",
+      "checkedAt": "2026-11-14T08:53:05.343426+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/curentProcurement.aspx"
@@ -336,7 +336,7 @@
       ],
       "official": true,
       "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
-      "checkedAt": "2026-11-14T01:59:31.204605+00:00",
+      "checkedAt": "2026-11-14T08:53:05.343903+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/currentProcurrement.aspx"
@@ -349,7 +349,7 @@
       ],
       "official": true,
       "notes": "Path spelling follows the issuer’s own navigation. Confirm closing dates; the bulletin includes older records.",
-      "checkedAt": "2026-11-14T01:59:31.306770+00:00",
+      "checkedAt": "2026-11-14T08:53:06.220573+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.lhda.org.ls/tenderbulletin/curentProcurrement.aspx"
@@ -362,7 +362,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:32.102516+00:00",
+      "checkedAt": "2026-11-14T08:53:06.974274+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.mofpmu.org.ls/tenders/"
@@ -375,7 +375,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:32.107802+00:00",
+      "checkedAt": "2026-11-14T08:53:06.980971+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.mofpmu.org.ls/vacancies/"
@@ -388,7 +388,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:32.285994+00:00",
+      "checkedAt": "2026-11-14T08:53:07.540594+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.roadfund.org.ls/tenders/"
@@ -401,7 +401,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:32.742836+00:00",
+      "checkedAt": "2026-11-14T08:53:08.553171+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.roadfund.org.ls/careers/"
@@ -415,7 +415,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:32.744157+00:00",
+      "checkedAt": "2026-11-14T08:53:08.954515+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.rsl.org.ls/opportunities-jobs-tenders"
@@ -428,10 +428,9 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:33.511380+00:00",
-      "status": "reachable",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.wasco.co.ls/category/tenders/"
+      "checkedAt": "2026-11-14T08:53:12.527560+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
     },
     {
       "name": "WASCO — Vacancies",
@@ -441,10 +440,9 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:33.514178+00:00",
-      "status": "reachable",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.wasco.co.ls/vacancies-2/"
+      "checkedAt": "2026-11-14T08:53:15.810813+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
     },
     {
       "name": "Lesotho Public Procurement Authority — Careers",
@@ -454,7 +452,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:34.135103+00:00",
+      "checkedAt": "2026-11-14T08:53:18.086895+00:00",
       "status": "access_error",
       "httpStatus": 404,
       "error": "Source returned an HTTP error; try opening it directly."
@@ -467,10 +465,9 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:35.165197+00:00",
-      "status": "reachable",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.lewa.org.ls/tenders/"
+      "checkedAt": "2026-11-14T08:53:18.946360+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
     },
     {
       "name": "Lesotho Electricity and Water Authority — Vacancies",
@@ -480,10 +477,9 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:35.529739+00:00",
-      "status": "reachable",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.lewa.org.ls/vacancies/"
+      "checkedAt": "2026-11-14T08:53:19.119021+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
     },
     {
       "name": "Econet Telecom Lesotho — Tenders",
@@ -493,7 +489,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:35.765655+00:00",
+      "checkedAt": "2026-11-14T08:53:19.598928+00:00",
       "status": "access_error",
       "error": "Source returned an HTTP error; try opening it directly.",
       "httpStatus": 404
@@ -506,7 +502,7 @@
       ],
       "official": true,
       "notes": "",
-      "checkedAt": "2026-11-14T01:59:35.866160+00:00",
+      "checkedAt": "2026-11-14T08:53:21.628512+00:00",
       "status": "access_error",
       "error": "Source returned an HTTP error; try opening it directly.",
       "httpStatus": 404
@@ -519,7 +515,7 @@
       ],
       "official": false,
       "notes": "Independent opportunity publisher; confirm each advert with its employer.",
-      "checkedAt": "2026-11-14T01:59:35.969429+00:00",
+      "checkedAt": "2026-11-14T08:53:24.499785+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://selibeng.com/category/opportunities/jobs/"
@@ -532,7 +528,7 @@
       ],
       "official": false,
       "notes": "Independent opportunity publisher; confirm each notice with its issuer.",
-      "checkedAt": "2026-11-14T01:59:35.990745+00:00",
+      "checkedAt": "2026-11-14T08:53:25.153710+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://selibeng.com/category/opportunities/tenders/"
@@ -545,7 +541,7 @@
       ],
       "official": false,
       "notes": "Facebook may require sign-in. Posts are discovery leads, not employer confirmation.",
-      "checkedAt": "2026-11-14T01:59:36.995420+00:00",
+      "checkedAt": "2026-11-14T08:53:25.596745+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.facebook.com/Mohiriles"
@@ -560,7 +556,7 @@
       ],
       "official": false,
       "notes": "Facebook may require sign-in. Posts are discovery leads, not issuer confirmation.",
-      "checkedAt": "2026-11-14T01:59:37.122028+00:00",
+      "checkedAt": "2026-11-14T08:53:25.770963+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://www.facebook.com/selibengls"
@@ -575,10 +571,9 @@
       ],
       "official": true,
       "notes": "Opportunity index linked from the DCEO homepage.",
-      "checkedAt": "2026-11-14T01:59:37.298030+00:00",
-      "status": "reachable",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.dceo.org.ls/opportunities/"
+      "checkedAt": "2026-11-14T08:53:25.823875+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
     },
     {
       "name": "Lesotho Institute of Accountants — Careers",
@@ -588,10 +583,9 @@
       ],
       "official": true,
       "notes": "Careers page linked from the Institute’s homepage.",
-      "checkedAt": "2026-11-14T01:59:37.428466+00:00",
-      "status": "reachable",
-      "httpStatus": 200,
-      "resolvedUrl": "https://lia.org.ls/careers/"
+      "checkedAt": "2026-11-14T08:53:25.874289+00:00",
+      "status": "unconfirmed",
+      "error": "Automated access could not be confirmed; try opening the source directly."
     },
     {
       "name": "Lesotho Institute of Accountants — Opportunities",
@@ -601,11 +595,11 @@
       ],
       "official": true,
       "notes": "Opportunity index linked from the Institute’s homepage.",
-      "checkedAt": "2026-11-14T01:59:37.525094+00:00",
+      "checkedAt": "2026-11-14T08:53:39.921353+00:00",
       "status": "reachable",
       "httpStatus": 200,
       "resolvedUrl": "https://lia.org.ls/opportunities/"
     }
   ],
-  "checkedAt": "2026-11-14T01:59:43.607954+00:00"
+  "checkedAt": "2026-11-14T08:53:56.190189+00:00"
 }
