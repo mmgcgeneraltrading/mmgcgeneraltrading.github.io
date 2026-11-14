@@ -1,5 +1,227 @@
 window.MMGC_TENDERS = [
 {
+  "id": "unicef-education-inspectorate-2026",
+  "issuerKey": "unicef",
+  "issuer": "UNICEF Lesotho",
+  "title": "Consultancy to Strengthen the Education Inspectorate",
+  "ref": "LRFPS-2026-9206938",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting",
+    "education"
+  ],
+  "summary": "UNICEF is seeking a consulting firm to help the Ministry of Education and Training improve school inspection and education performance monitoring.",
+  "simple": "The assignment covers inspection policy guidelines, a framework for putting them into practice, a communication strategy and support for measuring school system performance.",
+  "deadline": "2026-11-18T02:00:00+02:00",
+  "deadlineLabel": "18 November 2026 · confirm the closing time with UNICEF",
+  "deadlineTimeUnconfirmed": true,
+  "published": "2 November 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "RFP and terms of reference available online"
+  },
+  "official": "https://www.ungm.org/Public/Notice/320881",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "addenda": [
+    "UNGM shows 02:00 Lesotho time. The UNICEF RFP says end of day on 18 November. Use the earlier time unless UNICEF confirms a different cutoff."
+  ],
+  "lots": [
+    {
+      "title": "Education inspection and performance monitoring",
+      "text": "Develop school inspection guidelines and an implementation framework, with support for monitoring and evaluation."
+    }
+  ],
+  "eligibility": [
+    "Consulting firms with a multidisciplinary team. See the terms of reference for the education governance, policy and specialist experience requirements."
+  ],
+  "requiredDocs": [
+    "Signed proposal form, technical proposal and CVs for the proposed team.",
+    "Separate financial proposal using the format in the RFP."
+  ],
+  "checklist": [
+    "Read the UNICEF RFP linked from the UNGM notice and check the terms of reference.",
+    "Confirm the exact cutoff with UNICEF. The RFP lists 15 November as the deadline for queries.",
+    "Use the separate technical and financial proposal email addresses in the RFP."
+  ]
+},
+{
+  "id": "cafi-deciduous-fruit-masterplan-2026",
+  "issuerKey": "cafi",
+  "issuer": "Ministry of Trade, Industry and Business Development (CAFI Project)",
+  "title": "Consultancy for a Deciduous Fruit Production and Commercialisation Master Plan",
+  "ref": "CAFI-WB-0092 / LS-MTI-564278-CS-CQS",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting",
+    "agriculture"
+  ],
+  "summary": "The CAFI Project seeks expressions of interest from firms to develop a master plan for expanding and commercialising deciduous fruit production in Lesotho.",
+  "simple": "Show that the firm has the agricultural and commercial planning experience required to develop the master plan.",
+  "deadline": "2026-11-20T16:00:00+02:00",
+  "deadlineLabel": "20 November 2026 · 16:00 (Lesotho time)",
+  "published": "5 November 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Public expression-of-interest notice. Obtain the terms of reference from CAFI."
+  },
+  "official": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479665",
+  "verification": "double",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Deciduous fruit master plan",
+      "text": "Consulting services to plan the expansion and commercialisation of fruit production in Lesotho."
+    }
+  ],
+  "eligibility": [
+    "Consulting firms are shortlisted on years in business, relevant assignments, technical and managerial capacity, and local or regional experience."
+  ],
+  "delivery": "Submit a written expression of interest to the CAFI Project Management Unit using the delivery or email instructions in the official notice.",
+  "checklist": [
+    "Obtain the terms of reference from CAFI.",
+    "Prepare evidence of relevant assignments and the firm’s technical and managerial capacity.",
+    "Quote reference CAFI-WB-0092 and follow the official labelling and submission instructions."
+  ]
+},
+{
+  "id": "lhda-c1399-network-modernisation-2026",
+  "issuerKey": "lhda",
+  "issuer": "Lesotho Highlands Development Authority (LHDA)",
+  "title": "Network Assessment, Redesign and Implementation",
+  "ref": "LHDA C1399",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting",
+    "ict"
+  ],
+  "summary": "LHDA has re-advertised its RFP for assessment, redesign and implementation of its network architecture and infrastructure.",
+  "simple": "The selected provider will assess LHDA’s existing network and carry out the agreed modernisation. The RFP requires separate technical and financial proposals.",
+  "deadline": "2026-11-30T12:00:00+02:00",
+  "deadlineLabel": "30 November 2026 · 12:00 (Lesotho time)",
+  "published": "16 October 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "RFP available on the LHDA website"
+  },
+  "preBid": {
+    "state": "passed",
+    "label": "Compulsory pre-proposal meeting was on 30 October 2026"
+  },
+  "official": "https://www.lhda.org.ls/Uploads/documents/Tenders/C1399/LHDA%20Network%20Modernisation%20RFP_151026.pdf",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Network modernisation",
+      "text": "Review the RFP terms of reference for the assessment, redesign, implementation and handover deliverables."
+    }
+  ],
+  "eligibility": [
+    "A single entity, joint venture or consortium may bid. Check the RFP for eligibility, key staff and evidence of pre-proposal meeting attendance."
+  ],
+  "requiredDocs": [
+    "Separate signed technical and financial proposals, each with one original, five copies and a PDF copy as specified.",
+    "Native MS Project work programme and the required Excel financial information."
+  ],
+  "delivery": "Deliver to the 7th floor of LHDA Tower, Kingsway Road, Maseru.",
+  "checklist": [
+    "Confirm compliance with the compulsory 30 October pre-proposal meeting requirement.",
+    "Check the LHDA tender page for clarifications and amendments.",
+    "Package the technical and financial proposals separately and include the required electronic formats."
+  ]
+},
+{
+  "id": "rsl-prisma-browser-2026",
+  "issuerKey": "rsl",
+  "issuer": "Revenue Services Lesotho (RSL)",
+  "title": "Installation and Configuration of Palo Alto Prisma Browser",
+  "ref": "RSL/BE/SCM/02/10/2026",
+  "type": "major",
+  "categories": [
+    "services",
+    "ict"
+  ],
+  "summary": "RSL is inviting licensed, experienced providers to install and configure a Palo Alto Prisma Browser solution.",
+  "simple": "The detailed RFP is available by request from RSL Supply Chain Management. The published RSL notice requires electronic submission.",
+  "deadline": "2026-12-02T12:00:00+02:00",
+  "deadlineLabel": "2 December 2026 · 12:00 (Lesotho time)",
+  "published": "16 October 2026 (RFP issue date)",
+  "documentFee": {
+    "state": "paid",
+    "label": "M500 non-refundable tender deposit"
+  },
+  "preBid": {
+    "state": "passed",
+    "label": "Virtual pre-bid meeting was on 10 November 2026"
+  },
+  "official": "https://selibeng.com/tender-installation-and-configuration-of-palo-alto-prisma-browser-solution-to-the-rsl-environment/",
+  "verification": "double",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Palo Alto Prisma Browser deployment",
+      "text": "Use the buyer’s detailed RFP for specifications and packaging requirements."
+    }
+  ],
+  "eligibility": [
+    "Providers must have a relevant licence and a proven track record."
+  ],
+  "requiredDocs": [
+    "Certified valid tax clearance, company registration licences, shareholding certificates and the latest annual financial statements."
+  ],
+  "delivery": "Submit electronically using the instructions in the detailed RFP. Quote in Maloti or Rand and include applicable taxes and duties.",
+  "checklist": [
+    "Read the RSL notice reproduced by Selibeng and request the detailed RFP from RSL.",
+    "Check the RFP for addenda, bid security and packaging instructions.",
+    "Attach the four minimum company documents and submit electronically before noon."
+  ]
+},
+{
+  "id": "llwdp3-hololo-hydrometric-station-2026",
+  "issuerKey": "llwdp3",
+  "issuer": "Ministry of Natural Resources, Department of Water (LLWDP III)",
+  "title": "Construction of a Hydrometric Station at Hololo Irrigation Scheme",
+  "ref": "LS-LLWDPIII-AF-20252-CW-OCBN",
+  "type": "major",
+  "categories": [
+    "works",
+    "construction",
+    "water"
+  ],
+  "summary": "The Department of Water seeks a contractor to build a hydrometric station and undertake related civil works in Botha-Bothe.",
+  "simple": "This national competitive bid covers one station at the Hololo Irrigation Scheme. The contract period is six months.",
+  "deadline": "2026-12-04T10:30:00+02:00",
+  "deadlineLabel": "4 December 2026 · 10:30 (Lesotho time)",
+  "published": "16 October 2026",
+  "documentFee": {
+    "state": "paid",
+    "label": "M500 non-refundable, payable by EFT"
+  },
+  "bidSecurity": {
+    "state": "declaration",
+    "label": "Signed bid-securing declaration from the bidding document"
+  },
+  "official": "https://www.afdb.org/en/documents/ifb-lesotho-construction-one-hydrometric-station-97552",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Hololo hydrometric station",
+      "text": "One station and associated civil works. Use the bidding document for drawings, specifications and quantities."
+    }
+  ],
+  "delivery": "Hand-deliver the sealed bid to the LLWDP III Project Manager at LNDC Development House, Block D, Level 6, Constitution Road, Maseru. Public opening is at 11:00 on 4 December.",
+  "checklist": [
+    "Submit a written request for the bidding document and verify the M500 EFT instructions with the issuing office.",
+    "Review the full bidding document for qualifications, site arrangements and any addenda.",
+    "Include the prescribed bid-securing declaration and hand-deliver the sealed bid."
+  ]
+},
+{
   "id": "lhda-4010a-feeder-road-5",
   "issuerKey": "lhda",
   "issuer": "Lesotho Highlands Development Authority (LHDA)",
@@ -788,4 +1010,4 @@ id:'moh-hvac-fridge-biosafety-maintenance-2026',issuerKey:'moh',issuer:'Ministry
   ]
 }
 ];
-window.MMGC_ISSUERS={sadc:{name:'Southern African Development Community (SADC) Secretariat',short:'SADC Secretariat',url:'https://www.sadc.int/procurement-opportunities'},finance:{name:'Ministry of Finance & Development Planning',short:'Ministry of Finance',url:'https://finance.gov.ls/tenders'},roadfund:{name:'Road Fund Lesotho',short:'Road Fund',url:'https://www.roadfund.org.ls/tenders/'},lhda:{name:'Lesotho Highlands Development Authority (LHDA)',short:'LHDA',url:'https://www.lhda.org.ls/procurement/currentTenders'},rsl:{name:'Revenue Services Lesotho (RSL)',short:'RSL',url:'https://www.rsl.org.ls/opportunities-jobs-tenders'},government:{name:'Government of Lesotho',short:'Government of Lesotho',url:'https://www.gov.ls/documents/tenders/'},lec:{name:'Lesotho Electricity Company (LEC)',short:'LEC',url:'https://lec.co.ls/tenders/'},roll:{name:'Regeneration of Landscapes and Livelihoods (ROLL)',short:'ROLL',url:'https://rollproject.gov.ls/tenders'},kkm:{name:'Kopano Ke Matla Joint Venture (KKM JV)',short:'KKM JV',url:'mailto:Tendering@kkm-jv.co.ls'},llwdp3:{name:'Lesotho Lowlands Water Development and Sanitation Project III (LLWDSP III)',short:'LLWDSP III',url:'mailto:ramaqelef@llwdp3.org.ls'},fhi360:{name:'FHI 360 Lesotho',short:'FHI 360',url:'mailto:procurement.lesotho@fhi360.org'},dceo:{name:'Directorate on Corruption and Economic Offences (DCEO)',short:'DCEO',url:'mailto:tmathias@dceo.org.ls'},sixty15:{name:'Sixty 15 Joint Venture',short:'Sixty15 JV',url:'mailto:tenders@sixty15.co.ls'},bbdc:{name:'Botha-Bothe District Council',short:'Botha-Bothe District Council',url:'mailto:bbdcprocurement@gmail.com'},moh:{name:'Ministry of Health / MOFDP Project Management Unit',short:'Ministry of Health',url:'https://www.mofpmu.org.ls/tenders/'}};
+window.MMGC_ISSUERS={unicef:{name:'UNICEF Lesotho',short:'UNICEF Lesotho',url:'https://www.ungm.org/Public/Notice/320881'},cafi:{name:'Competitiveness and Financial Inclusion Project (CAFI)',short:'CAFI Project',url:'https://www.cafi.org.ls/'},sadc:{name:'Southern African Development Community (SADC) Secretariat',short:'SADC Secretariat',url:'https://www.sadc.int/procurement-opportunities'},finance:{name:'Ministry of Finance & Development Planning',short:'Ministry of Finance',url:'https://finance.gov.ls/tenders'},roadfund:{name:'Road Fund Lesotho',short:'Road Fund',url:'https://www.roadfund.org.ls/tenders/'},lhda:{name:'Lesotho Highlands Development Authority (LHDA)',short:'LHDA',url:'https://www.lhda.org.ls/procurement/currentTenders'},rsl:{name:'Revenue Services Lesotho (RSL)',short:'RSL',url:'https://www.rsl.org.ls/opportunities-jobs-tenders'},government:{name:'Government of Lesotho',short:'Government of Lesotho',url:'https://www.gov.ls/documents/tenders/'},lec:{name:'Lesotho Electricity Company (LEC)',short:'LEC',url:'https://lec.co.ls/tenders/'},roll:{name:'Regeneration of Landscapes and Livelihoods (ROLL)',short:'ROLL',url:'https://rollproject.gov.ls/tenders'},kkm:{name:'Kopano Ke Matla Joint Venture (KKM JV)',short:'KKM JV',url:'mailto:Tendering@kkm-jv.co.ls'},llwdp3:{name:'Lesotho Lowlands Water Development and Sanitation Project III (LLWDSP III)',short:'LLWDSP III',url:'mailto:ramaqelef@llwdp3.org.ls'},fhi360:{name:'FHI 360 Lesotho',short:'FHI 360',url:'mailto:procurement.lesotho@fhi360.org'},dceo:{name:'Directorate on Corruption and Economic Offences (DCEO)',short:'DCEO',url:'mailto:tmathias@dceo.org.ls'},sixty15:{name:'Sixty 15 Joint Venture',short:'Sixty15 JV',url:'mailto:tenders@sixty15.co.ls'},bbdc:{name:'Botha-Bothe District Council',short:'Botha-Bothe District Council',url:'mailto:bbdcprocurement@gmail.com'},moh:{name:'Ministry of Health / MOFDP Project Management Unit',short:'Ministry of Health',url:'https://www.mofpmu.org.ls/tenders/'}};
