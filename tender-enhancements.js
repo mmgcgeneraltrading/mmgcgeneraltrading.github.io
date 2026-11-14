@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   });
   if((urgent.length||siteUrgent.length)&&!sessionStorage.getItem('mmgcUrgentTenderPopupSeen')){
     const formatTime=t=>{
+      if (t.deadlineTimeUnconfirmed) return 'Time to confirm';
       const ms=new Date(t.deadline)-now;
       const hrs=Math.max(1,Math.ceil(ms/3600000));
       return hrs<=24?`${hrs}h left`:`${Math.ceil(hrs/24)}d left`;

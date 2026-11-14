@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const daysRemaining = () => {
     if (msLeft === null) return 'VERIFY DATE';
     if (msLeft < 0) return 'CLOSED';
+    if (t.deadlineTimeUnconfirmed) return 'CHECK CLOSING TIME';
     const hours = Math.ceil(msLeft / 3600000);
     if (hours <= 24) return hours <= 1 ? '< 1 HOUR' : `${hours} HOURS`;
     const days = Math.ceil(msLeft / 86400000);
@@ -101,6 +102,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const calendar = document.getElementById('calendar-button');
+  if (t.deadlineTimeUnconfirmed) {
+    const heading = calendar?.closest('.detail-action-card')?.querySelector('h3');
+    if (heading) heading.textContent = 'Share this tender';
+    calendar?.remove();
+    return;
+  }
   calendar?.addEventListener('click', () => {
     if (!deadlineDate) { alert('MMGC has not recorded a confirmed closing date for this tender. Please verify the official notice first.'); return; }
     const end = new Date(deadlineDate.getTime()+30*60000);

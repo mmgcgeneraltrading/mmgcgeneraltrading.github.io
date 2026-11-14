@@ -1,5 +1,225 @@
 window.MMGC_TENDERS = [
 {
+  "id": "finance-bos-vehicle-hire-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance & Development Planning (Bureau of Statistics)",
+  "title": "Hire of 18 4x4 double-cab vehicles with canopies",
+  "type": "major",
+  "categories": [
+    "services",
+    "transport"
+  ],
+  "summary": "The Bureau of Statistics is hiring 18 double-cab 4x4 vehicles for the 2027 Lesotho Household Budget Survey.",
+  "simple": "The survey runs from January to December 2027. Providers supply a driver and cover servicing and fuel. Hire rates follow Ministry of Public Works External Circular No. 3 of 2026.",
+  "deadline": "2026-11-16T23:59:59+02:00",
+  "deadlineLabel": "16 November 2026 · time to confirm with the Procurement Unit",
+  "deadlineTimeUnconfirmed": true,
+  "published": "16 October 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Tender notice available from the Ministry"
+  },
+  "bidSecurity": {
+    "state": "unknown",
+    "label": "Confirm with the Procurement Unit"
+  },
+  "siteVisit": {
+    "state": "none",
+    "label": "Post-submission vehicle inspection · 30 November at 09:00"
+  },
+  "preBid": {
+    "state": "none",
+    "label": "Clarifications due 16 November"
+  },
+  "official": "https://finance.gov.ls/tenders",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "18 double-cab 4x4 vehicles",
+      "text": "Model year 2019 or newer, with lockable canopies. The Bureau will inspect shortlisted vehicles at its Maseru offices opposite the Disaster Management Authority."
+    }
+  ],
+  "eligibility": [
+    "Individuals and businesses may apply with qualifying vehicles and drivers. Leased vehicles require a certified lease endorsed by a legal practitioner."
+  ],
+  "requiredDocs": [
+    "Application letter with contact details, certified vehicle registration and valid certificate of fitness.",
+    "Valid driver’s licence and ID, certified owner or business identification, and valid tax clearance.",
+    "Certified third-party insurance from a Central Bank of Lesotho-accredited insurer."
+  ],
+  "delivery": "Submit to the Procurement Unit, Department of Planning, Africa House, Room 124, Maseru. The timetable lists 2 January 2027 as the start date.",
+  "checklist": [
+    "Open the vehicle-hire notice using Download on the Ministry’s Tenders page.",
+    "Confirm the submission time with the Procurement Unit and check the notice for the inspection equipment list.",
+    "Prepare the application and certified vehicle, driver and insurance documents."
+  ]
+},
+{
+  "id": "sadc-mhews-capacity-building-2026",
+  "issuerKey": "sadc",
+  "issuer": "SADC Secretariat",
+  "title": "Consultancy to strengthen multi-hazard early warning systems",
+  "ref": "SADC/3/5/2/474",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting"
+  ],
+  "summary": "SADC is seeking expressions of interest from consulting firms to address gaps in member states’ multi-hazard early warning systems.",
+  "simple": "The work includes technical assistance, training and sharing practices across Eastern and Southern Africa.",
+  "deadline": "2026-11-17T23:59:59+02:00",
+  "deadlineLabel": "17 November 2026 · confirm exact Botswana-time cutoff with SADC",
+  "deadlineTimeUnconfirmed": true,
+  "published": "28 October 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Official notice and terms of reference available online"
+  },
+  "official": "https://www.sadc.int/procurement-opportunities/consultancy-undertake-capacity-building-arising-identified-mhews-gaps-and",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Regional capacity-building consultancy",
+      "text": "Support member states with priority capacity gaps identified in their early-warning-system roadmaps."
+    }
+  ],
+  "eligibility": [
+    "Consulting firms should demonstrate relevant assignments and the technical and managerial capacity to deliver the work."
+  ],
+  "checklist": [
+    "Review the shortlisting criteria and terms of reference.",
+    "Confirm the cutoff with SADC. The page header and notice give different closing times.",
+    "Use the submission link on the SADC notice to upload the signed expression of interest."
+  ]
+},
+{
+  "id": "sadc-integrated-border-management-2026",
+  "issuerKey": "sadc",
+  "issuer": "SADC Secretariat",
+  "title": "Consultancy to Develop SADC Integrated Border Management Strategy",
+  "ref": "SADC/3/5/2/476",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting"
+  ],
+  "summary": "SADC invites individual consultants to submit an expression of interest to develop its regional integrated border management strategy.",
+  "simple": "The selected consultant will develop a regional strategy for coordinating border management across SADC member states.",
+  "deadline": "2026-11-19T00:00:00+02:00",
+  "deadlineLabel": "19 November 2026 · 00:00 (Botswana time, as listed by SADC)",
+  "published": "28 October 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from SADC"
+  },
+  "official": "https://www.sadc.int/procurement-opportunities/consultancy-develop-sadc-integrated-border-management-strategy",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Integrated border management strategy",
+      "text": "Use the SADC terms of reference for the scope and expected deliverables."
+    }
+  ],
+  "eligibility": [
+    "Individual consultants who meet the qualifications and experience requirements in the bidding document."
+  ],
+  "checklist": [
+    "Download the expression of interest and review the eligibility and submission instructions.",
+    "Use the electronic submission link in the bidding document."
+  ]
+},
+{
+  "id": "sadc-hashim-mbita-documentary-2026",
+  "issuerKey": "sadc",
+  "issuer": "SADC Secretariat",
+  "title": "Consultancy to produce the Hashim Mbita documentary",
+  "ref": "SADC/3/5/2/471",
+  "type": "major",
+  "categories": [
+    "services",
+    "consulting"
+  ],
+  "summary": "SADC invites firms to produce a documentary based on the Hashim Mbita publications about Southern Africa’s liberation struggles.",
+  "simple": "The bidding documents and Addendum 1 set out the production requirements, expert roles and evaluation criteria.",
+  "deadline": "2026-11-20T00:00:00+02:00",
+  "deadlineLabel": "20 November 2026 · bid documents specify 00:00 Botswana time",
+  "published": "21 October 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free download from SADC"
+  },
+  "official": "https://www.sadc.int/procurement-opportunities/consultancy-firm-produce-documentary-hashim-liberations-strugglesmbita",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "addenda": [
+    "Addendum 1 and responses to clarifications are available on the official page."
+  ],
+  "lots": [
+    {
+      "title": "Documentary production",
+      "text": "Review the terms of reference and updated team and scoring requirements in Addendum 1."
+    }
+  ],
+  "eligibility": [
+    "Firms established and operating in the SADC region that meet the bidding-document requirements."
+  ],
+  "checklist": [
+    "Read the bidding documents, Addendum 1 and the published clarifications.",
+    "Use the 00:00 Botswana-time deadline stated in the bidding documents or confirm it with SADC. The page header shows a different time.",
+    "Submit the proposal according to the bidding documents."
+  ]
+},
+{
+  "id": "finance-ict-servers-2026",
+  "issuerKey": "finance",
+  "issuer": "Ministry of Finance & Development Planning",
+  "title": "ICT Equipment (Servers)",
+  "ref": "ISPDEM/LES-G23/0003",
+  "type": "major",
+  "categories": [
+    "goods",
+    "ict"
+  ],
+  "summary": "The Ministry is procuring one server for the Public Debt Department and two for the Treasury Department under an African Development Bank-funded project.",
+  "simple": "This national competitive tender has two lots. Deliver the equipment to the Ministry within two months of signing the contract.",
+  "deadline": "2026-12-04T12:00:00+02:00",
+  "deadlineLabel": "4 December 2026 · 12:00 (Lesotho time)",
+  "published": "5 November 2026",
+  "documentFee": {
+    "state": "paid",
+    "label": "M1,500 non-refundable for the bidding document"
+  },
+  "bidSecurity": {
+    "state": "required",
+    "label": "Completed bid-securing declaration"
+  },
+  "official": "https://www.afdb.org/en/documents/spn-lesotho-ict-equipment-servers-institutional-98376",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Lot 1 · Public Debt Department",
+      "text": "Supply one server."
+    },
+    {
+      "title": "Lot 2 · Treasury Department",
+      "text": "Supply two servers."
+    }
+  ],
+  "requiredDocs": [
+    "Bidding document obtained from the Ministry and completed bid-securing declaration."
+  ],
+  "delivery": "Hand-deliver sealed bids to the Procurement Manager at the Government Complex on Kingsway Road, Maseru.",
+  "checklist": [
+    "Request the bidding document and verify the submission details with the Procurement Manager.",
+    "Check the specifications for the lots you intend to bid for.",
+    "Include the completed bid-securing declaration and hand-deliver the sealed bid before opening at 12:00."
+  ]
+},
+{
 id:'roadfund-promotional',issuerKey:'roadfund',issuer:'Road Fund Lesotho',title:'Supply & Delivery of 2027 Promotional Materials',ref:'',type:'major',categories:['goods','printing'],summary:'Supply and delivery of 2027 promotional materials. Road Fund has published Addendum 1.',simple:'Road Fund is procuring branded promotional materials. Use the latest tender document together with Addendum 1 for final specifications, quantities and submission requirements.',deadline:'2026-09-11T23:59:59+02:00',deadlineLabel:'11 September 2026 · exact time to verify',published:'',documentFee:{state:'unknown',label:'Check latest tender document'},bidSecurity:{state:'unknown',label:'Check latest tender document'},siteVisit:{state:'unknown',label:'No site visit confirmed by MMGC — verify'},preBid:{state:'unknown',label:'Verify latest notice'},official:'https://www.roadfund.org.ls/tenders/',verification:'official',verifiedAt:'10 September 2026',addenda:['Addendum 1 published by Road Fund'],lots:[{title:'Promotional Materials',text:'Use the latest Road Fund tender document and Addendum 1 for exact items, quantities, branding and delivery requirements.'}],checklist:['Download the tender and Addendum 1.','Confirm exact closing time.','Check samples/branding requirements.','Confirm bid security and mandatory forms.','Price goods, branding, packaging and delivery.']
 },
 {
@@ -499,4 +719,4 @@ id:'moh-hvac-fridge-biosafety-maintenance-2026',issuerKey:'moh',issuer:'Ministry
   ]
 }
 ];
-window.MMGC_ISSUERS={finance:{name:'Ministry of Finance & Development Planning',short:'Ministry of Finance',url:'https://finance.gov.ls/tenders'},roadfund:{name:'Road Fund Lesotho',short:'Road Fund',url:'https://www.roadfund.org.ls/tenders/'},lhda:{name:'Lesotho Highlands Development Authority (LHDA)',short:'LHDA',url:'https://www.lhda.org.ls/procurement/currentTenders'},rsl:{name:'Revenue Services Lesotho (RSL)',short:'RSL',url:'https://www.rsl.org.ls/opportunities-jobs-tenders'},government:{name:'Government of Lesotho',short:'Government of Lesotho',url:'https://www.gov.ls/documents/tenders/'},lec:{name:'Lesotho Electricity Company (LEC)',short:'LEC',url:'https://lec.co.ls/tenders/'},roll:{name:'Regeneration of Landscapes and Livelihoods (ROLL)',short:'ROLL',url:'https://rollproject.gov.ls/tenders'},kkm:{name:'Kopano Ke Matla Joint Venture (KKM JV)',short:'KKM JV',url:'mailto:Tendering@kkm-jv.co.ls'},llwdp3:{name:'Lesotho Lowlands Water Development and Sanitation Project III (LLWDSP III)',short:'LLWDSP III',url:'mailto:ramaqelef@llwdp3.org.ls'},fhi360:{name:'FHI 360 Lesotho',short:'FHI 360',url:'mailto:procurement.lesotho@fhi360.org'},dceo:{name:'Directorate on Corruption and Economic Offences (DCEO)',short:'DCEO',url:'mailto:tmathias@dceo.org.ls'},sixty15:{name:'Sixty 15 Joint Venture',short:'Sixty15 JV',url:'mailto:tenders@sixty15.co.ls'},bbdc:{name:'Botha-Bothe District Council',short:'Botha-Bothe District Council',url:'mailto:bbdcprocurement@gmail.com'},moh:{name:'Ministry of Health / MOFDP Project Management Unit',short:'Ministry of Health',url:'https://www.mofpmu.org.ls/tenders/'}};
+window.MMGC_ISSUERS={sadc:{name:'Southern African Development Community (SADC) Secretariat',short:'SADC Secretariat',url:'https://www.sadc.int/procurement-opportunities'},finance:{name:'Ministry of Finance & Development Planning',short:'Ministry of Finance',url:'https://finance.gov.ls/tenders'},roadfund:{name:'Road Fund Lesotho',short:'Road Fund',url:'https://www.roadfund.org.ls/tenders/'},lhda:{name:'Lesotho Highlands Development Authority (LHDA)',short:'LHDA',url:'https://www.lhda.org.ls/procurement/currentTenders'},rsl:{name:'Revenue Services Lesotho (RSL)',short:'RSL',url:'https://www.rsl.org.ls/opportunities-jobs-tenders'},government:{name:'Government of Lesotho',short:'Government of Lesotho',url:'https://www.gov.ls/documents/tenders/'},lec:{name:'Lesotho Electricity Company (LEC)',short:'LEC',url:'https://lec.co.ls/tenders/'},roll:{name:'Regeneration of Landscapes and Livelihoods (ROLL)',short:'ROLL',url:'https://rollproject.gov.ls/tenders'},kkm:{name:'Kopano Ke Matla Joint Venture (KKM JV)',short:'KKM JV',url:'mailto:Tendering@kkm-jv.co.ls'},llwdp3:{name:'Lesotho Lowlands Water Development and Sanitation Project III (LLWDSP III)',short:'LLWDSP III',url:'mailto:ramaqelef@llwdp3.org.ls'},fhi360:{name:'FHI 360 Lesotho',short:'FHI 360',url:'mailto:procurement.lesotho@fhi360.org'},dceo:{name:'Directorate on Corruption and Economic Offences (DCEO)',short:'DCEO',url:'mailto:tmathias@dceo.org.ls'},sixty15:{name:'Sixty 15 Joint Venture',short:'Sixty15 JV',url:'mailto:tenders@sixty15.co.ls'},bbdc:{name:'Botha-Bothe District Council',short:'Botha-Bothe District Council',url:'mailto:bbdcprocurement@gmail.com'},moh:{name:'Ministry of Health / MOFDP Project Management Unit',short:'Ministry of Health',url:'https://www.mofpmu.org.ls/tenders/'}};
