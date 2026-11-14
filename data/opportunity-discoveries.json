@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-13T13:21:26.639617+00:00",
+    "lastAttempt": "2026-11-14T12:25:35.947081+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "8e87cdc476892ef391ec",
+        "title": "Invitation for Bids: Supply and Delivery of Vehicles",
+        "url": "https://selibeng.com/invitation-for-bids-supply-and-delivery-of-vehicles/",
+        "source": "Selibeng",
+        "published": "Sat, 14 Nov 2026 08:52:56 +0000",
+        "deadline": null
+      },
       {
         "id": "f5c0fae960d899881de3",
         "title": "Tender – Supply and Installation of 150-Litre Geysers and Rhino Board Ceilings at SOS Children’s Villages Lesotho",
@@ -359,21 +367,45 @@
         "source": "Selibeng",
         "published": "Wed, 14 Oct 2026 12:53:35 +0000",
         "deadline": null
-      },
-      {
-        "id": "5f4c38284ff6c0d689ea",
-        "title": "Project Finance and Administration Consultant – Connector Roads",
-        "url": "https://selibeng.com/project-finance-and-administration-consultant-connector-roads/",
-        "source": "Selibeng",
-        "published": "Wed, 14 Oct 2026 11:42:00 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-14T08:52:53.364275+00:00",
-    "updatedAt": "2026-11-14T08:52:53.364275+00:00"
+    "lastAttempt": "2026-11-14T12:25:35.947081+00:00",
+    "updatedAt": "2026-11-14T12:25:35.947081+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "bbaa36938c84ee92a66a",
+        "title": "Chief Technical Advisor (CTA) at the Ministry of Agriculture, Food Security and Nutrition",
+        "url": "https://selibeng.com/chief-technical-advisor-cta-at-the-ministry-of-agriculture-food-security-and-nutrition/",
+        "source": "Selibeng",
+        "published": "Sat, 14 Nov 2026 08:52:31 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cb8627cf308e61e62921",
+        "title": "Radio Sales Representative x3 at Mohale FM",
+        "url": "https://selibeng.com/radio-sales-representative-x3-at-mohale-fm/",
+        "source": "Selibeng",
+        "published": "Sat, 14 Nov 2026 08:36:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cb3a96a5f89259a1a794",
+        "title": "Executive Head Marketing at Lesotho PostBank",
+        "url": "https://selibeng.com/executive-head-marketing-at-lesotho-postbank/",
+        "source": "Selibeng",
+        "published": "Sat, 14 Nov 2026 07:46:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "635500a0d3562948d1ae",
+        "title": "Tutors at Leading Business College",
+        "url": "https://selibeng.com/tutors-at-leading-business-college/",
+        "source": "Selibeng",
+        "published": "Fri, 13 Nov 2026 14:44:47 +0000",
+        "deadline": null
+      },
       {
         "id": "37a8ca5a0d79aa76b1f3",
         "title": "Head of Employee Benefits – Maseru at Alliance Insurance Company",
@@ -701,42 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 09 Nov 2026 12:53:04 +0000",
         "deadline": null
-      },
-      {
-        "id": "43c2e03c85a6b8d71c8b",
-        "title": "Marketer and Promoter at Mohmed Foods",
-        "url": "https://selibeng.com/marketer-and-promoter-at-mohmed-foods/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 12:21:43 +0000",
-        "deadline": null
-      },
-      {
-        "id": "97f8accf9e2871964bdc",
-        "title": "Technician at Blueprint Inc.",
-        "url": "https://selibeng.com/technician-at-blueprint-inc/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 12:14:22 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cd52c2c74c7771fc2864",
-        "title": "Cashiers x2 at Sephamo Liquor Store",
-        "url": "https://selibeng.com/cashiers-x2-at-sephamo-liquor-store/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 12:09:32 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d2c5d4cfe24d50491545",
-        "title": "Market Access Business Development Consultant at Metropolitan",
-        "url": "https://selibeng.com/market-access-business-development-consultant-at-metropolitan/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 10:18:45 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-13T13:21:26.639617+00:00",
-    "updatedAt": "2026-11-13T13:21:26.639617+00:00",
+    "lastAttempt": "2026-11-14T12:25:35.947081+00:00",
+    "updatedAt": "2026-11-14T12:25:35.947081+00:00",
     "status": "ok"
   }
 }
