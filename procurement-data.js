@@ -1,5 +1,74 @@
 window.MMGC_TENDERS = [
 {
+  "id": "lhda-4010a-feeder-road-5",
+  "issuerKey": "lhda",
+  "issuer": "Lesotho Highlands Development Authority (LHDA)",
+  "title": "Staged Construction of Feeder Road 5, Vehicle Bridge 8 Access Road and Platforms",
+  "ref": "LHDA 4010A",
+  "type": "major",
+  "categories": [
+    "works",
+    "construction",
+    "roads",
+    "bridges"
+  ],
+  "summary": "LHDA seeks a contractor for staged road and platform works around the Polihali Reservoir in Mokhotlong under Phase II of the Lesotho Highlands Water Project.",
+  "simple": "Build the formation and roadbed for Feeder Road 5, upgrade the construction access road to Vehicle Bridge 8, and prepare site-camp platforms for later contracts.",
+  "deadline": "2026-12-11T14:00:00+02:00",
+  "deadlineLabel": "11 December 2026 · 14:00 (Lesotho time)",
+  "published": "5 November 2026",
+  "documentFee": {
+    "state": "public",
+    "label": "Free online for registered users. The notice lists M1,000 for in-person collection."
+  },
+  "bidSecurity": {
+    "state": "required",
+    "label": "M4,000,000 tender security"
+  },
+  "siteVisit": {
+    "state": "required",
+    "label": "19 November 2026 at Polihali, after the mandatory meeting. A 4×4 is required."
+  },
+  "preBid": {
+    "state": "required",
+    "label": "19 November 2026, Polihali Operations Centre. Confirm start time and room."
+  },
+  "addenda": [
+    "The public notice gives 10:00 in the Boardroom. The Version 06 Tender Data Sheet gives 09:00 in the Auditorium. Confirm the controlling instruction with procurement@pemahn.com."
+  ],
+  "official": "https://www.lhda.org.ls/tenderbulletin/tenderInformation.aspx?ContractNumber=4010A",
+  "verification": "official",
+  "verifiedAt": "14 November 2026",
+  "lots": [
+    {
+      "title": "Feeder Road 5 formation",
+      "text": "Build the roadbed and formation and provide associated drainage, erosion protection and access works."
+    },
+    {
+      "title": "Vehicle Bridge 8 access road",
+      "text": "Upgrade the existing track for construction access, including a temporary crossing of the Senqu River."
+    },
+    {
+      "title": "Site-camp platforms",
+      "text": "Prepare platforms for the follow-on packages identified in the procurement notice and the scope of work."
+    }
+  ],
+  "eligibility": [
+    "Open to Lesotho and South African enterprises and joint ventures whose members meet those requirements. See the Tender Data Sheet and evaluation criteria for the detailed rules."
+  ],
+  "requiredDocs": [
+    "One original, six hard copies and one labelled USB with the tender in PDF. Include the priced Bill of Quantities in Excel on the USB.",
+    "Section 4 returnable schedules and forms, the original tender security and the attendance certificate signed at both the meeting and site visit."
+  ],
+  "delivery": "Submit to the LHWP Phase II Project Management Unit, 10th Floor, Lesotho Bank Tower, Kingsway, Maseru. Part III allows 548 days overall, with sectional milestones at 120 and 300 days.",
+  "checklist": [
+    "Download the current tender pack, returnables and drawings through the official LHDA contract page.",
+    "Confirm the compulsory meeting time and room with procurement@pemahn.com. The public notice gives 10:00 in the Boardroom. The Version 06 Tender Data Sheet gives 09:00 in the Auditorium.",
+    "Bring the tender documents, arrange a 4×4 for the site visit and obtain signatures on the attendance certificate at both sessions.",
+    "Check the road chainages and platform scope against the latest drawings and Bill of Quantities. Include the M4 million tender security and submit before 14:00 on 11 December."
+  ]
+},
+{
   "id": "finance-bos-vehicle-hire-2026",
   "issuerKey": "finance",
   "issuer": "Ministry of Finance & Development Planning (Bureau of Statistics)",
