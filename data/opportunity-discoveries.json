@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-14T12:25:35.947081+00:00",
+    "lastAttempt": "2026-11-15T12:54:39.214894+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,43 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-15T08:54:04.815629+00:00",
-    "updatedAt": "2026-11-15T08:54:04.815629+00:00"
+    "lastAttempt": "2026-11-15T12:54:39.214894+00:00",
+    "updatedAt": "2026-11-15T12:54:39.214894+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "2ef9143681b5e8d3195a",
+        "title": "Executive Head Retail at Lesotho PostBank",
+        "url": "https://selibeng.com/executive-head-retail-at-lesotho-postbank/",
+        "source": "Selibeng",
+        "published": "Sun, 15 Nov 2026 08:10:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "4171cfa83d41c36f8701",
+        "title": "Executive Head Information Technology at Lesotho PostBank",
+        "url": "https://selibeng.com/executive-head-information-technology-at-lesotho-postbank/",
+        "source": "Selibeng",
+        "published": "Sun, 15 Nov 2026 07:09:21 +0000",
+        "deadline": null
+      },
+      {
+        "id": "07a0257e65dbd0d86577",
+        "title": "Legal, Risk & Assurance Specialist at LEC Communications",
+        "url": "https://selibeng.com/legal-risk-assurance-specialist-at-lec-communications/",
+        "source": "Selibeng",
+        "published": "Sat, 14 Nov 2026 14:27:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "40fdb8eb41e88907d305",
+        "title": "Librarian at LCE",
+        "url": "https://selibeng.com/librarian-at-lce/",
+        "source": "Selibeng",
+        "published": "Sat, 14 Nov 2026 13:34:36 +0000",
+        "deadline": null
+      },
       {
         "id": "bbaa36938c84ee92a66a",
         "title": "Chief Technical Advisor (CTA) at the Ministry of Agriculture, Food Security and Nutrition",
@@ -701,42 +733,10 @@
         "source": "Selibeng",
         "published": "Tue, 10 Nov 2026 05:21:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "d51d321299e23d83d973",
-        "title": "Cleaner at Nala Butchery",
-        "url": "https://selibeng.com/cleaner-at-nala-butchery/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 05:12:12 +0000",
-        "deadline": null
-      },
-      {
-        "id": "5c5d09acd578cf3de874",
-        "title": "Driver at Nala Butchery",
-        "url": "https://selibeng.com/driver-at-nala-butchery-2/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 05:12:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3fddbe9da6547b621f96",
-        "title": "Fixed-Term Sales Consultant – Maseru at Metropolitan",
-        "url": "https://selibeng.com/fixed-term-sales-consultant-maseru-at-metropolitan/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 14:35:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c76d6fb014136cb508d9",
-        "title": "Lecturer – Mechanical Engineering x2 at Lerotholi Polytechnic",
-        "url": "https://selibeng.com/lecturer-mechanical-eng-lp-2/",
-        "source": "Selibeng",
-        "published": "Mon, 09 Nov 2026 12:53:04 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-14T12:25:35.947081+00:00",
-    "updatedAt": "2026-11-14T12:25:35.947081+00:00",
+    "lastAttempt": "2026-11-15T12:54:39.214894+00:00",
+    "updatedAt": "2026-11-15T12:54:39.214894+00:00",
     "status": "ok"
   }
 }
