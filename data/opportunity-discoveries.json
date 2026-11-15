@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "3d2a374be72a80a0904f",
+        "title": "Invitation for Bids: Provision of Medical Aid Services",
+        "url": "https://selibeng.com/invitation-for-bids-provision-of-medical-aid-services/",
+        "source": "Selibeng",
+        "published": "Sat, 14 Nov 2026 17:59:08 +0000",
+        "deadline": null
+      },
+      {
         "id": "8e87cdc476892ef391ec",
         "title": "Invitation for Bids: Supply and Delivery of Vehicles",
         "url": "https://selibeng.com/invitation-for-bids-supply-and-delivery-of-vehicles/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Fri, 16 Oct 2026 10:06:12 +0000",
         "deadline": null
-      },
-      {
-        "id": "7b42ab666d5415244afe",
-        "title": "Tender – Content Development for Licensing Examinations for Supply Chain Management in Malawi",
-        "url": "https://selibeng.com/tender-content-development-for-licensing-examinations-for-supply-chain-management-in-malawi/",
-        "source": "Selibeng",
-        "published": "Wed, 14 Oct 2026 12:53:35 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-14T12:25:35.947081+00:00",
-    "updatedAt": "2026-11-14T12:25:35.947081+00:00"
+    "lastAttempt": "2026-11-15T01:32:01.180137+00:00",
+    "updatedAt": "2026-11-15T01:32:01.180137+00:00"
   },
   "local_jobs": {
     "items": [
