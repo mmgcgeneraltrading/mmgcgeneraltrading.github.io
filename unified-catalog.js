@@ -21,7 +21,7 @@ function catalogue(){
  const replacementMap=new Map(publishedOverrides.filter(x=>x.source_id).map(x=>[x.source_id,x]));
  const items=p.map(x=>{
  const override=replacementMap.get(x.id);
- return override?fromPublished(override):{id:String(x.id),type:'Product',category:x.category||'General Supplies',name:x.name||x.id,description:x.description||'',price:x.price||'',unit:x.unit||'',tags:x.tags||[],image:x.image||'',url:x.url||'catalogue.html?q='+encodeURIComponent(x.name||'')};
+ return override?fromPublished(override):{id:String(x.id),type:'Product',category:x.category||'General Supplies',name:x.name||x.id,description:x.description||'',price:x.price||'',unit:x.unit||'',tags:x.tags||[],image:x.image||x.officialImage||'',url:x.url||'catalogue.html?q='+encodeURIComponent(x.name||'')};
  });
  const newItems=publishedOverrides.filter(x=>!x.source_id||!p.some(i=>i.id===x.source_id)).map(fromPublished);
  return items.concat(newItems,routes);

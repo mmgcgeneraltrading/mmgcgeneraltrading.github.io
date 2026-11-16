@@ -169,12 +169,15 @@
     return 'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(visual);
   }
   function resolve(p){
+    const officialImageUrl = p?.officialImage;
+    const hasImage = typeof officialImageUrl === 'string' &&
+      (/^https:\/\//i.test(officialImageUrl) || /^assets\/products\/[\w.-]+\.(png|webp|jpe?g)$/i.test(officialImageUrl));
     const hasOfficial= p && p.fixedManufacturer===true &&
-      typeof p.officialImage==='string' && /^https:\/\//i.test(p.officialImage) &&
+      hasImage &&
       Boolean(String(p.brand||'').trim()) && Boolean(String(p.model||'').trim());
     if(hasOfficial){
       return {
-        src:p.officialImage,
+        src:officialImageUrl,
         alt:p.brand+' '+p.model+' — official manufacturer product image',
         label:'Official image · '+p.brand+' '+p.model,
         official:true
