@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-15T12:54:39.214894+00:00",
+    "lastAttempt": "2026-11-16T13:55:07.614074+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,67 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-16T09:06:14.365667+00:00",
-    "updatedAt": "2026-11-16T09:06:14.365667+00:00"
+    "lastAttempt": "2026-11-16T13:55:07.614074+00:00",
+    "updatedAt": "2026-11-16T13:55:07.614074+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "f2648728527808d20494",
+        "title": "Assistant Lab Technician at NUL",
+        "url": "https://selibeng.com/assistant-lab-technician-at-nul/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 11:02:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "261a0d5261cfabfac332",
+        "title": "Clinical Supervisor at NUL",
+        "url": "https://selibeng.com/clinical-supervisor-at-nul-2/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 11:01:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d3bf4cddf23288155647",
+        "title": "Cleaning Supervisors x10 at Thejane Projects and Solutions",
+        "url": "https://selibeng.com/cleaning-supervisors-x10-at-thejane-projects-and-solutions/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 07:31:37 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c9a9e7a3a37a5095b20d",
+        "title": "Personal Assistant to Chief Executive Officer",
+        "url": "https://selibeng.com/personal-assistant-to-chief-executive-officer/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 07:27:21 +0000",
+        "deadline": null
+      },
+      {
+        "id": "16b381e88a77ce7749a8",
+        "title": "Communications Officer at Newtoro Books",
+        "url": "https://selibeng.com/communications-officer-at-newtoro-books-2/",
+        "source": "Selibeng",
+        "published": "Sun, 15 Nov 2026 17:18:30 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f84835f6c54a11e1d12e",
+        "title": "Monitoring and Evaluation Officer at Newtoro Books",
+        "url": "https://selibeng.com/monitoring-and-evaluation-officer-at-newtoro-books-2/",
+        "source": "Selibeng",
+        "published": "Sun, 15 Nov 2026 17:17:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b12f8613896282929f59",
+        "title": "Vice-Chancellor at NUL",
+        "url": "https://selibeng.com/vice-chancellor-at-nul-2/",
+        "source": "Selibeng",
+        "published": "Sun, 15 Nov 2026 14:31:26 +0000",
+        "deadline": null
+      },
       {
         "id": "2ef9143681b5e8d3195a",
         "title": "Executive Head Retail at Lesotho PostBank",
@@ -677,66 +733,10 @@
         "source": "Selibeng",
         "published": "Tue, 10 Nov 2026 10:35:53 +0000",
         "deadline": null
-      },
-      {
-        "id": "2b454d56bdbe53aaedf0",
-        "title": "Finance Assistant at LENEPWHA",
-        "url": "https://selibeng.com/finance-assistant-at-lenepwha/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 10:33:59 +0000",
-        "deadline": null
-      },
-      {
-        "id": "783aa65ba7a6f09c5012",
-        "title": "Finance Officer at LENEPWHA",
-        "url": "https://selibeng.com/finance-officer-at-lenepwha/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 10:33:32 +0000",
-        "deadline": null
-      },
-      {
-        "id": "221f61d1e16e304c7928",
-        "title": "Radio Presenters at DOPE FM",
-        "url": "https://selibeng.com/radio-presenters-at-dope-fm/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 10:16:10 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a1c4ef7f80e734ffca5d",
-        "title": "Financial Accountant at Lesotho PostBank",
-        "url": "https://selibeng.com/financial-accountant-at-lesotho-postbank/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 06:27:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e466716101e60b4d2429",
-        "title": "Cashier at Nala Butchery",
-        "url": "https://selibeng.com/cashier-at-nala-butchery/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 06:26:49 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f942082a9e60a8c3439e",
-        "title": "Braaimaster at Nala Butchery",
-        "url": "https://selibeng.com/braaimaster-at-nala-butchery-2/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 06:22:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "49ccc041c46260efd848",
-        "title": "Blockman at Nala Butchery",
-        "url": "https://selibeng.com/blockman-at-nala-butchery/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 05:21:00 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-15T12:54:39.214894+00:00",
-    "updatedAt": "2026-11-15T12:54:39.214894+00:00",
+    "lastAttempt": "2026-11-16T13:55:07.614074+00:00",
+    "updatedAt": "2026-11-16T13:55:07.614074+00:00",
     "status": "ok"
   }
 }
