@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "4bdf9908170e406b3bcd",
+        "title": "Tender: Supply and Delivery of Office and Dining Furniture",
+        "url": "https://selibeng.com/tender-supply-and-delivery-of-office-and-dining-furniture/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 18:08:24 +0000",
+        "deadline": null
+      },
+      {
         "id": "3d2a374be72a80a0904f",
         "title": "Invitation for Bids: Provision of Medical Aid Services",
         "url": "https://selibeng.com/invitation-for-bids-provision-of-medical-aid-services/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Fri, 16 Oct 2026 10:16:44 +0000",
         "deadline": null
-      },
-      {
-        "id": "10cf23b3a23afbb91072",
-        "title": "Invitation to Bidders: Supply and Delivery of Hospital Consumables",
-        "url": "https://selibeng.com/invitation-to-bidders-supply-and-delivery-of-hospital-consumables/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 10:06:12 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-16T13:55:07.614074+00:00",
-    "updatedAt": "2026-11-16T13:55:07.614074+00:00"
+    "lastAttempt": "2026-11-17T04:21:00.794902+00:00",
+    "updatedAt": "2026-11-17T04:21:00.794902+00:00"
   },
   "local_jobs": {
     "items": [
