@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-16T13:55:07.614074+00:00",
+    "lastAttempt": "2026-11-17T14:47:46.638691+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,115 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-17T04:21:00.794902+00:00",
-    "updatedAt": "2026-11-17T04:21:00.794902+00:00"
+    "lastAttempt": "2026-11-17T14:47:46.638691+00:00",
+    "updatedAt": "2026-11-17T14:47:46.638691+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "4743269307c344e7d8f7",
+        "title": "Car Wash Employees x3 at Elevation Car Wash",
+        "url": "https://selibeng.com/car-wash-employees-x3-at-elevation-car-wash/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 13:33:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "13f9ae3efdb30d8f6543",
+        "title": "Mechanic Assistant, Parts & Logistics Coordinator at Mission Aviation Fellowship (MAF) Lesotho",
+        "url": "https://selibeng.com/mechanic-assistant-parts-logistics-coordinator-at-mission-aviation-fellowship-maf-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 12:49:39 +0000",
+        "deadline": null
+      },
+      {
+        "id": "06d2655162b26687275a",
+        "title": "LSP Growth Engine Cohort 3 – 30 Graduate Opportunities",
+        "url": "https://selibeng.com/lsp-growth-engine-cohort-3-30-graduate-opportunities/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 08:49:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "588d0579ab9eb19014c9",
+        "title": "Monitoring and Evaluation Intern at Help Lesotho",
+        "url": "https://selibeng.com/monitoring-and-evaluation-intern-at-help-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 08:45:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9e877f1896dedeed200a",
+        "title": "Finance and Administration Intern at Help Lesotho",
+        "url": "https://selibeng.com/finance-and-administration-intern-at-help-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 08:44:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b19a99b2ad54358bd788",
+        "title": "Psychosocial Support Intern at Help Lesotho",
+        "url": "https://selibeng.com/psychosocial-support-intern-at-help-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 08:44:25 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d13f0b16b59195464181",
+        "title": "Centre Programming Intern at Help Lesotho",
+        "url": "https://selibeng.com/centre-programming-intern-at-help-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 08:44:08 +0000",
+        "deadline": null
+      },
+      {
+        "id": "be458707e9fae6abe7e4",
+        "title": "Photography and Videography Intern at Help Lesotho",
+        "url": "https://selibeng.com/photography-and-videography-intern-at-help-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 08:43:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "df0c822ca093514ec4b5",
+        "title": "Computer and IT Intern at Help Lesotho",
+        "url": "https://selibeng.com/computer-and-it-intern-at-help-lesotho/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 08:42:54 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7f51b0adaa66a7ce757b",
+        "title": "Content Creative Intern at Utopian Vision",
+        "url": "https://selibeng.com/content-creative-intern-at-utopian-vision/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 18:31:49 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e9932c1a8d95ce54e90d",
+        "title": "IT Auditor (Associate Auditor) at CGT Associates",
+        "url": "https://selibeng.com/it-auditor-associate-auditor-at-cgt-associates/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 17:56:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "25b7bc89c5991bd287fa",
+        "title": "Filmmaker & Video Editor at Mercy Tombstones",
+        "url": "https://selibeng.com/filmmaker-video-editor-at-mercy-tombstones/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 17:34:47 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7614de0e6951641bc1b5",
+        "title": "Office Administration Officer Intern at Meraka Civil Works",
+        "url": "https://selibeng.com/office-administration-officer-intern-at-meraka-civil-works/",
+        "source": "Selibeng",
+        "published": "Mon, 16 Nov 2026 17:31:25 +0000",
+        "deadline": null
+      },
       {
         "id": "f2648728527808d20494",
         "title": "Assistant Lab Technician at NUL",
@@ -629,114 +733,10 @@
         "source": "Selibeng",
         "published": "Thu, 12 Nov 2026 08:24:54 +0000",
         "deadline": null
-      },
-      {
-        "id": "dbb6b947ac25821b5823",
-        "title": "Driver at Roma College of Nursing",
-        "url": "https://selibeng.com/driver-at-roma-college-of-nursing/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 08:19:15 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d348fdfd6ac5ee58eef4",
-        "title": "Temporary Production Assistants at Multiplex Industries",
-        "url": "https://selibeng.com/temporary-production-assistants-at-multiplex-industries/",
-        "source": "Selibeng",
-        "published": "Wed, 11 Nov 2026 19:37:05 +0000",
-        "deadline": null
-      },
-      {
-        "id": "444a93b7f9062ae446ed",
-        "title": "Program Manager at Habitat for Humanity Lesotho",
-        "url": "https://selibeng.com/program-manager-at-habitat-for-humanity-lesotho/",
-        "source": "Selibeng",
-        "published": "Wed, 11 Nov 2026 15:01:46 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ce56791f8dede6b761cd",
-        "title": "National Specialist – Development of LAC Strategic Plan",
-        "url": "https://selibeng.com/national-specialist-development-of-lac-strategic-plan/",
-        "source": "Selibeng",
-        "published": "Wed, 11 Nov 2026 08:07:33 +0000",
-        "deadline": null
-      },
-      {
-        "id": "dd5bdb31b02da2c48539",
-        "title": "Sewing Operators x2 at Que Technical Institute",
-        "url": "https://selibeng.com/sewing-operators-x2-at-que-technical-institute/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 19:42:07 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0be2ab2b869e906ec144",
-        "title": "Administrative Assistant",
-        "url": "https://selibeng.com/administrative-assistant-25/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 19:01:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ef1b763b94dab220ef86",
-        "title": "Marketing Manager at DoPE FM",
-        "url": "https://selibeng.com/marketing-manager-at-dope-fm/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 18:56:03 +0000",
-        "deadline": null
-      },
-      {
-        "id": "37ec1b17643570fd5047",
-        "title": "Junior Accountant at IINdulge Coffee",
-        "url": "https://selibeng.com/junior-accountant-at-iindulge-coffee/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 18:52:16 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7387959bf4d248a03799",
-        "title": "Multiple Vacancies at Monex Styles & Beauty Hub",
-        "url": "https://selibeng.com/multiple-vacancies-at-monex-styles-beauty-hub/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 18:50:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ce783133fdf00a6a26cd",
-        "title": "Graphic Designer at TWGI",
-        "url": "https://selibeng.com/graphic-designer-at-twgi-2/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 12:48:47 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1e65812f37eab973d157",
-        "title": "Cashier x2 at Bohlokoa Supermarket",
-        "url": "https://selibeng.com/cashier-x2-at-bohlokoa-supermarket/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 12:47:49 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c5cb865474dbe32d3611",
-        "title": "Professional Hair Stylist x6 at BlackHair",
-        "url": "https://selibeng.com/professional-hair-stylist-x6-at-blackhair/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 10:36:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3817e8973a87e096a30c",
-        "title": "Office Supervisor at KR Holdings Company",
-        "url": "https://selibeng.com/office-supervisor-at-kr-holdings-company/",
-        "source": "Selibeng",
-        "published": "Tue, 10 Nov 2026 10:35:53 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-16T13:55:07.614074+00:00",
-    "updatedAt": "2026-11-16T13:55:07.614074+00:00",
+    "lastAttempt": "2026-11-17T14:47:46.638691+00:00",
+    "updatedAt": "2026-11-17T14:47:46.638691+00:00",
     "status": "ok"
   }
 }
