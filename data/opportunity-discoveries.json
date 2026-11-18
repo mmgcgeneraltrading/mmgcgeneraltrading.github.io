@@ -2,12 +2,28 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-17T14:47:46.638691+00:00",
+    "lastAttempt": "2026-11-18T14:27:46.730831+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "95869d80cf1a7faff502",
+        "title": "Consultancy to Assess and Implement TISSTAT for Trade in Services Data Pertaining to Statistical Data for 2 Member States in SADC",
+        "url": "https://selibeng.com/consultancy-to-assess-and-implement-tisstat-for-trade-in-services-data-pertaining-to-statistical-data-for-2-member-states-in-sadc/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 10:12:59 +0000",
+        "deadline": null
+      },
+      {
+        "id": "91c28d882fb8e003edd1",
+        "title": "Consultancy to Assess and Implement TiSSTAT for Trade in Services Pertaining to IT of 2 Member States in SADC",
+        "url": "https://selibeng.com/consultancy-to-assess-and-implement-tisstat-for-trade-in-services-pertaining-to-it-of-2-member-states-in-sadc/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 04:40:29 +0000",
+        "deadline": null
+      },
       {
         "id": "4bdf9908170e406b3bcd",
         "title": "Tender: Supply and Delivery of Office and Dining Furniture",
@@ -351,29 +367,109 @@
         "source": "Selibeng",
         "published": "Fri, 16 Oct 2026 12:52:52 +0000",
         "deadline": null
-      },
-      {
-        "id": "74aee8e00ecbc0c6c178",
-        "title": "Invitation for Expression of Interest (EOI): Restaurant Operator",
-        "url": "https://selibeng.com/invitation-for-expression-of-interest-eoi-restaurant-operator/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 10:20:10 +0000",
-        "deadline": null
-      },
-      {
-        "id": "12318ce8d1c614ae801d",
-        "title": "Remuneration Review Consultancy for the Petroleum Fund – Lesotho",
-        "url": "https://selibeng.com/remuneration-review-consultancy-for-the-petroleum-fund-lesotho/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 10:16:44 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-18T03:21:50.207332+00:00",
-    "updatedAt": "2026-11-18T03:21:50.207332+00:00"
+    "lastAttempt": "2026-11-18T14:27:46.730831+00:00",
+    "updatedAt": "2026-11-18T14:27:46.730831+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "a2a019bef92809f29afb",
+        "title": "Literacy Resource Teacher at Ministry of Education and Training",
+        "url": "https://selibeng.com/literacy-resource-teacher-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:22:30 +0000",
+        "deadline": null
+      },
+      {
+        "id": "656dce3696a6fc40f00c",
+        "title": "Technical Inspector – Home Economics/Consumer Science at Ministry of Education and Training",
+        "url": "https://selibeng.com/technical-inspector-home-economics-consumer-science-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:18:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1abaafcbf415a0488f16",
+        "title": "Human Resources Manager at Ministry of Education and Training",
+        "url": "https://selibeng.com/human-resources-manager-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:08:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9e168571e684e4356f85",
+        "title": "Subject Specialist – Mathematics at Ministry of Education and Training",
+        "url": "https://selibeng.com/subject-specialist-mathematics-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:06:40 +0000",
+        "deadline": null
+      },
+      {
+        "id": "bae7ae9233f730b3678a",
+        "title": "HIV and AIDS Coordinator at Ministry of Education and Training",
+        "url": "https://selibeng.com/hiv-and-aids-coordinator-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:05:30 +0000",
+        "deadline": null
+      },
+      {
+        "id": "edf49c58cbb7fb78de18",
+        "title": "Subject Specialist – Design and Technology at Ministry of Education and Training",
+        "url": "https://selibeng.com/subject-specialist-design-and-technology-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:02:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "037e1cf603ff3b20f51e",
+        "title": "Subject Specialist – Geography at Ministry of Education and Training",
+        "url": "https://selibeng.com/subject-specialist-geography-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:01:32 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f6044b730496cae8b1a2",
+        "title": "English and Sesotho Teacher at Faith English Medium High School",
+        "url": "https://selibeng.com/english-and-sesotho-teacher-at-faith-english-medium-high-school/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 09:07:46 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0336357860dbf12501c0",
+        "title": "Mathematics and Accounting Teacher at Faith English Medium High School",
+        "url": "https://selibeng.com/mathematics-and-accounting-teacher-at-faith-english-medium-high-school/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 09:07:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "bac5fa8b98d865b4d5c2",
+        "title": "Agriculture and Physical Science Teacher at Faith English Medium High School",
+        "url": "https://selibeng.com/agriculture-and-physical-science-teacher-at-faith-english-medium-high-school/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 09:07:21 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f4179fc12eac7bb8afce",
+        "title": "Mechanic at Thusong Tool and Equipment Hire & Repairs",
+        "url": "https://selibeng.com/mechanic-at-thusong-tool-and-equipment-hire-repairs/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 09:05:57 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e5ea0bd0fb4a39c58469",
+        "title": "Interns x3 at Thaka-Halifele Transport Services",
+        "url": "https://selibeng.com/interns-x3-at-thaka-halifele-transport-services/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 07:46:47 +0000",
+        "deadline": null
+      },
       {
         "id": "4743269307c344e7d8f7",
         "title": "Car Wash Employees x3 at Elevation Car Wash",
@@ -637,106 +733,10 @@
         "source": "Selibeng",
         "published": "Fri, 13 Nov 2026 07:42:17 +0000",
         "deadline": null
-      },
-      {
-        "id": "3f15773a3cec7dce092a",
-        "title": "Director Road Network Development (DRND) at Roads Directorate",
-        "url": "https://selibeng.com/director-road-network-development-drnd-at-roads-directorate/",
-        "source": "Selibeng",
-        "published": "Fri, 13 Nov 2026 07:20:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "568dfe78217fec02800d",
-        "title": "Farm Helpers x2 at Roots Of Africa Preparatory School",
-        "url": "https://selibeng.com/farm-helpers-x2-at-roots-of-africa-preparatory-school/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 19:13:23 +0000",
-        "deadline": null
-      },
-      {
-        "id": "73882f99c5be0630a428",
-        "title": "General Workers at Econo Foods Lesotho",
-        "url": "https://selibeng.com/general-workers-at-econo-foods-lesotho/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 19:05:23 +0000",
-        "deadline": null
-      },
-      {
-        "id": "daeb5a224fd36ff52ac3",
-        "title": "Finance Manager at the Ministry of Local Government and Chieftainship",
-        "url": "https://selibeng.com/finance-manager-at-the-ministry-of-local-government-and-chieftainship/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 18:19:18 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6876b1249612cfb97f16",
-        "title": "Chief Economic Planner at the Ministry of Local Government and Chieftainship",
-        "url": "https://selibeng.com/chief-economic-planner-at-the-ministry-of-local-government-and-chieftainship/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 15:22:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "53c606ff60b309bdce38",
-        "title": "Store Merchandiser at BlackHair",
-        "url": "https://selibeng.com/store-merchandiser-at-blackhair/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 14:08:57 +0000",
-        "deadline": null
-      },
-      {
-        "id": "389234dca2e55872b69f",
-        "title": "Production Assistant at African Zombie Drafts",
-        "url": "https://selibeng.com/production-assistant-at-african-zombie-drafts/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 09:30:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "21990e51db65d7ec5665",
-        "title": "Maintenance Officer at Mmelesi Lodge",
-        "url": "https://selibeng.com/maintenance-officer-at-mmelesi-lodge/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 08:47:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9e06dea143c497c67bd2",
-        "title": "Seamstress & Patternmaker at Blueprint",
-        "url": "https://selibeng.com/seamstress-patternmaker-at-blueprint/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 08:30:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b0b2bc12d13160d200c5",
-        "title": "Assistant Human Resource Officer at IEC",
-        "url": "https://selibeng.com/assistant-human-resource-officer-at-iec/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 08:27:48 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9761b25fccc89f501c35",
-        "title": "Logistics Officer at IEC",
-        "url": "https://selibeng.com/logistics-officer-at-iec/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 08:26:29 +0000",
-        "deadline": null
-      },
-      {
-        "id": "36904d55342042bd5dd0",
-        "title": "Assistant Finance Officer at IEC",
-        "url": "https://selibeng.com/assistant-finance-officer-at-iec/",
-        "source": "Selibeng",
-        "published": "Thu, 12 Nov 2026 08:24:54 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-17T14:47:46.638691+00:00",
-    "updatedAt": "2026-11-17T14:47:46.638691+00:00",
+    "lastAttempt": "2026-11-18T14:27:46.730831+00:00",
+    "updatedAt": "2026-11-18T14:27:46.730831+00:00",
     "status": "ok"
   }
 }
