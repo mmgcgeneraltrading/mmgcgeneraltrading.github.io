@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-18T14:27:46.730831+00:00",
+    "lastAttempt": "2026-11-19T14:38:18.967800+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "359c76945e68ec2865ba",
+        "title": "EOI: Provision of Ad Hoc Governance Consultancy Services",
+        "url": "https://selibeng.com/eoi-provision-of-ad-hoc-governance-consultancy-services/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 06:16:00 +0000",
+        "deadline": null
+      },
       {
         "id": "95869d80cf1a7faff502",
         "title": "Consultancy to Assess and Implement TISSTAT for Trade in Services Data Pertaining to Statistical Data for 2 Member States in SADC",
@@ -359,21 +367,165 @@
         "source": "Selibeng",
         "published": "Fri, 16 Oct 2026 18:47:16 +0000",
         "deadline": null
-      },
-      {
-        "id": "e76b30c9652759e6507d",
-        "title": "The Nature Conservancy (TNC) – Vendor prequalification 2027 – 2028",
-        "url": "https://selibeng.com/the-nature-conservancy-tnc-vendor-prequalification-2027-2028/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 12:52:52 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-19T02:57:01.822819+00:00",
-    "updatedAt": "2026-11-19T02:57:01.822819+00:00"
+    "lastAttempt": "2026-11-19T14:38:18.967800+00:00",
+    "updatedAt": "2026-11-19T14:38:18.967800+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "97dacbb70f19eba04f10",
+        "title": "Junior Communications & Translations Associate at Bloom Communications",
+        "url": "https://selibeng.com/junior-communications-translations-associate-at-bloom-communications/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 14:08:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0412f860758c01cba89e",
+        "title": "Business Development & Sales Agents at KIEE Consultancy",
+        "url": "https://selibeng.com/business-development-sales-agents-at-kiee-consultancy/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 12:59:41 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9659d8d8323c7aca9fc2",
+        "title": "Business Support Associates at KIEE Consultancy",
+        "url": "https://selibeng.com/business-support-associates-at-kiee-consultancy/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 12:59:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c7b50a74f146e90c63b9",
+        "title": "Graduate Trainees at KIEE Consultancy",
+        "url": "https://selibeng.com/graduate-trainees-at-kiee-consultancy/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 12:59:18 +0000",
+        "deadline": null
+      },
+      {
+        "id": "784856815617f6cd2be8",
+        "title": "Cleaning Team Member at CleanCore",
+        "url": "https://selibeng.com/cleaning-team-member-at-cleancore/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 09:39:13 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c81bd4baecfd8ace7bdd",
+        "title": "Barman, Barwoman & Mixologist at Headlines",
+        "url": "https://selibeng.com/barman-barwoman-mixologist-at-headlines/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 09:31:58 +0000",
+        "deadline": null
+      },
+      {
+        "id": "910c1712ec82057dfb17",
+        "title": "Chef at Lindi Guest House",
+        "url": "https://selibeng.com/chef-at-lindi-guest-house/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 09:02:05 +0000",
+        "deadline": null
+      },
+      {
+        "id": "fc03da1713389d272af0",
+        "title": "Massage Therapist at Lindi Guest House",
+        "url": "https://selibeng.com/message-therapist-at-lindi-guest-house/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 09:00:41 +0000",
+        "deadline": null
+      },
+      {
+        "id": "7e04e75f344320516e63",
+        "title": "Waiter / Waitress at Lindi Guest House",
+        "url": "https://selibeng.com/waiter-waitress-at-lindi-guest-house/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 08:59:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "38aa8ff54661f23ac6bc",
+        "title": "Regional Inspector – North at Ministry of Education and Training",
+        "url": "https://selibeng.com/regional-inspector-north-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 08:52:21 +0000",
+        "deadline": null
+      },
+      {
+        "id": "084c7eb18e6a46469423",
+        "title": "Inspector x3 at Ministry of Education and Training",
+        "url": "https://selibeng.com/inspector-x3-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 06:59:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "92afbf8db86419db689c",
+        "title": "NFE Manager at Ministry of Education and Training",
+        "url": "https://selibeng.com/nfe-manager-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 06:38:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9c3f02cf025bb792a4a9",
+        "title": "Technical Inspector – Tourism & Hospitality at Ministry of Education and Training",
+        "url": "https://selibeng.com/technical-inspector-tourism-hospitality-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 06:36:51 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ea362a2bb304bf1dfc74",
+        "title": "Procurement Assistant at Ministry of Education and Training",
+        "url": "https://selibeng.com/procurement-assistant-at-ministry-of-education-and-training-3/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 19:06:10 +0000",
+        "deadline": null
+      },
+      {
+        "id": "936ae7a948f0c9bc4049",
+        "title": "Inspector (Religion) at Ministry of Education and Training",
+        "url": "https://selibeng.com/inspector-religion-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 19:05:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "dcb2206dae1a8b7d1f8a",
+        "title": "Driver (Mohale’s Hoek) at Ministry of Education and Training",
+        "url": "https://selibeng.com/driver-mohales-hoek-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 19:00:47 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c84a1a9541c532941ef8",
+        "title": "Personal Secretary (Inspectorate) at Ministry of Education and Training",
+        "url": "https://selibeng.com/personal-secretary-inspectorate-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 19:00:02 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0b0452a06af523d9b3f1",
+        "title": "Non-Formal Education Officer at Ministry of Education and Training",
+        "url": "https://selibeng.com/non-formal-education-officer-at-ministry-of-education-and-training/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 18:55:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6c339d1a905dbfbcc311",
+        "title": "Assistant Personal Secretary at Ministry of Education and Training",
+        "url": "https://selibeng.com/assistant-personal-secretary-at-ministry-of-education-and-training-2/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 14:37:09 +0000",
+        "deadline": null
+      },
       {
         "id": "a2a019bef92809f29afb",
         "title": "Literacy Resource Teacher at Ministry of Education and Training",
@@ -428,6 +580,14 @@
         "url": "https://selibeng.com/subject-specialist-geography-at-ministry-of-education-and-training/",
         "source": "Selibeng",
         "published": "Wed, 18 Nov 2026 14:01:32 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c0659223f685538c42c3",
+        "title": "Butcher / Meat Cutter at Cornel Bright Meat Supply",
+        "url": "https://selibeng.com/butcher-meat-cutter-at-cornel-bright-meat-supply/",
+        "source": "Selibeng",
+        "published": "Wed, 18 Nov 2026 09:51:17 +0000",
         "deadline": null
       },
       {
@@ -573,170 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 16 Nov 2026 17:31:25 +0000",
         "deadline": null
-      },
-      {
-        "id": "f2648728527808d20494",
-        "title": "Assistant Lab Technician at NUL",
-        "url": "https://selibeng.com/assistant-lab-technician-at-nul/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 11:02:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "261a0d5261cfabfac332",
-        "title": "Clinical Supervisor at NUL",
-        "url": "https://selibeng.com/clinical-supervisor-at-nul-2/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 11:01:16 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d3bf4cddf23288155647",
-        "title": "Cleaning Supervisors x10 at Thejane Projects and Solutions",
-        "url": "https://selibeng.com/cleaning-supervisors-x10-at-thejane-projects-and-solutions/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 07:31:37 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c9a9e7a3a37a5095b20d",
-        "title": "Personal Assistant to Chief Executive Officer",
-        "url": "https://selibeng.com/personal-assistant-to-chief-executive-officer/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 07:27:21 +0000",
-        "deadline": null
-      },
-      {
-        "id": "16b381e88a77ce7749a8",
-        "title": "Communications Officer at Newtoro Books",
-        "url": "https://selibeng.com/communications-officer-at-newtoro-books-2/",
-        "source": "Selibeng",
-        "published": "Sun, 15 Nov 2026 17:18:30 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f84835f6c54a11e1d12e",
-        "title": "Monitoring and Evaluation Officer at Newtoro Books",
-        "url": "https://selibeng.com/monitoring-and-evaluation-officer-at-newtoro-books-2/",
-        "source": "Selibeng",
-        "published": "Sun, 15 Nov 2026 17:17:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b12f8613896282929f59",
-        "title": "Vice-Chancellor at NUL",
-        "url": "https://selibeng.com/vice-chancellor-at-nul-2/",
-        "source": "Selibeng",
-        "published": "Sun, 15 Nov 2026 14:31:26 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2ef9143681b5e8d3195a",
-        "title": "Executive Head Retail at Lesotho PostBank",
-        "url": "https://selibeng.com/executive-head-retail-at-lesotho-postbank/",
-        "source": "Selibeng",
-        "published": "Sun, 15 Nov 2026 08:10:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "4171cfa83d41c36f8701",
-        "title": "Executive Head Information Technology at Lesotho PostBank",
-        "url": "https://selibeng.com/executive-head-information-technology-at-lesotho-postbank/",
-        "source": "Selibeng",
-        "published": "Sun, 15 Nov 2026 07:09:21 +0000",
-        "deadline": null
-      },
-      {
-        "id": "07a0257e65dbd0d86577",
-        "title": "Legal, Risk & Assurance Specialist at LEC Communications",
-        "url": "https://selibeng.com/legal-risk-assurance-specialist-at-lec-communications/",
-        "source": "Selibeng",
-        "published": "Sat, 14 Nov 2026 14:27:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "40fdb8eb41e88907d305",
-        "title": "Librarian at LCE",
-        "url": "https://selibeng.com/librarian-at-lce/",
-        "source": "Selibeng",
-        "published": "Sat, 14 Nov 2026 13:34:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "bbaa36938c84ee92a66a",
-        "title": "Chief Technical Advisor (CTA) at the Ministry of Agriculture, Food Security and Nutrition",
-        "url": "https://selibeng.com/chief-technical-advisor-cta-at-the-ministry-of-agriculture-food-security-and-nutrition/",
-        "source": "Selibeng",
-        "published": "Sat, 14 Nov 2026 08:52:31 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cb8627cf308e61e62921",
-        "title": "Radio Sales Representative x3 at Mohale FM",
-        "url": "https://selibeng.com/radio-sales-representative-x3-at-mohale-fm/",
-        "source": "Selibeng",
-        "published": "Sat, 14 Nov 2026 08:36:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cb3a96a5f89259a1a794",
-        "title": "Executive Head Marketing at Lesotho PostBank",
-        "url": "https://selibeng.com/executive-head-marketing-at-lesotho-postbank/",
-        "source": "Selibeng",
-        "published": "Sat, 14 Nov 2026 07:46:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "635500a0d3562948d1ae",
-        "title": "Tutors at Leading Business College",
-        "url": "https://selibeng.com/tutors-at-leading-business-college/",
-        "source": "Selibeng",
-        "published": "Fri, 13 Nov 2026 14:44:47 +0000",
-        "deadline": null
-      },
-      {
-        "id": "37a8ca5a0d79aa76b1f3",
-        "title": "Head of Employee Benefits – Maseru at Alliance Insurance Company",
-        "url": "https://selibeng.com/head-of-employee-benefits-maseru-at-alliance-insurance-company/",
-        "source": "Selibeng",
-        "published": "Fri, 13 Nov 2026 12:26:12 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ba8a4a14b4e8546da15c",
-        "title": "RFP: External Debt Collection Agencies",
-        "url": "https://selibeng.com/rfp-external-debt-collection-agencies/",
-        "source": "Selibeng",
-        "published": "Fri, 13 Nov 2026 12:10:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0f534867c2b2b9235c5a",
-        "title": "Facilitators : E-Commerce and Super Intelligence (SI) Training",
-        "url": "https://selibeng.com/facilitators-e-commerce-and-super-intelligence-si-training/",
-        "source": "Selibeng",
-        "published": "Fri, 13 Nov 2026 11:14:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "13aa8b71effa69c68af0",
-        "title": "Somatologist / Beauty Therapist at Meraki Lesotho Spa",
-        "url": "https://selibeng.com/somatologist-beauty-therapist-at-meraki-lesotho-spa/",
-        "source": "Selibeng",
-        "published": "Fri, 13 Nov 2026 07:43:28 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e0b0e65d742268bd1b3d",
-        "title": "Receptionist & Housekeeping at Lake View Guesthouse",
-        "url": "https://selibeng.com/receptionist-housekeeping-at-lake-view-guesthouse/",
-        "source": "Selibeng",
-        "published": "Fri, 13 Nov 2026 07:42:17 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-18T14:27:46.730831+00:00",
-    "updatedAt": "2026-11-18T14:27:46.730831+00:00",
+    "lastAttempt": "2026-11-19T14:38:18.967800+00:00",
+    "updatedAt": "2026-11-19T14:38:18.967800+00:00",
     "status": "ok"
   }
 }
