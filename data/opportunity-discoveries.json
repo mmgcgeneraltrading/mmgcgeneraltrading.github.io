@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-19T14:38:18.967800+00:00",
+    "lastAttempt": "2026-11-20T14:16:20.575562+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -30,6 +30,14 @@
         "url": "https://selibeng.com/consultancy-to-assess-and-implement-tisstat-for-trade-in-services-pertaining-to-it-of-2-member-states-in-sadc/",
         "source": "Selibeng",
         "published": "Wed, 18 Nov 2026 04:40:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a72cc6ef5c9f3c05ed07",
+        "title": "Tender – Supply of Motor Vehicle",
+        "url": "https://selibeng.com/tender-supply-of-motor-vehicle/",
+        "source": "Selibeng",
+        "published": "Tue, 17 Nov 2026 09:38:30 +0000",
         "deadline": null
       },
       {
@@ -359,21 +367,93 @@
         "source": "Selibeng",
         "published": "Mon, 19 Oct 2026 09:21:15 +0000",
         "deadline": null
-      },
-      {
-        "id": "7162f3fcff22c0bcf880",
-        "title": "Request for Proposals: Financial and Risk Management Compliance Audits for Sub-Grantees",
-        "url": "https://selibeng.com/request-for-proposals-financial-and-risk-management-compliance-audits-for-sub-grantees/",
-        "source": "Selibeng",
-        "published": "Fri, 16 Oct 2026 18:47:16 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-20T02:52:08.214723+00:00",
-    "updatedAt": "2026-11-20T02:52:08.214723+00:00"
+    "lastAttempt": "2026-11-20T14:16:20.575562+00:00",
+    "updatedAt": "2026-11-20T14:16:20.575562+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "f336fc6b2a1357e15b1e",
+        "title": "Mechanical Engineer at UNIK Construction",
+        "url": "https://selibeng.com/mechanical-engineer-at-unik-construction-2/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 10:26:06 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a6a01e56b11cee81f096",
+        "title": "Teachers at Maseru Private Academy",
+        "url": "https://selibeng.com/teachers-at-maseru-private-academy-3/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 09:22:50 +0000",
+        "deadline": null
+      },
+      {
+        "id": "af467b0d3bdc3045415d",
+        "title": "Loan Assistant Officer at LB Micro Finance",
+        "url": "https://selibeng.com/loan-assistant-officer-at-lb-micro-finance/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 09:19:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "81776fe6580d48d548e6",
+        "title": "Maths and Physics Teacher at Holy Trinity High School",
+        "url": "https://selibeng.com/maths-and-physics-teacher-at-holy-trinity-high-school/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 09:12:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "79dcb9593320bf414244",
+        "title": "Shop Assistant at Purple Reign",
+        "url": "https://selibeng.com/shop-assistant-at-purple-reign/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 09:11:24 +0000",
+        "deadline": null
+      },
+      {
+        "id": "835ae397344dc420fcec",
+        "title": "Assistant Finance Manager at Ministry of Defence",
+        "url": "https://selibeng.com/assistant-finance-manager-at-ministry-of-defence/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 06:59:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9e2c8fc989706297c5dd",
+        "title": "Vacancies at Gracious Luxe Studio",
+        "url": "https://selibeng.com/vacancies-at-gracious-luxe-studio/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 17:54:39 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d2ff7e7718e367033e18",
+        "title": "Administration Manager at Bond Lifestyle",
+        "url": "https://selibeng.com/administration-manager-at-bond-lifestyle/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 17:49:09 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a650ccb64556a21af91d",
+        "title": "Manager at Bond Lifestyle",
+        "url": "https://selibeng.com/manager-at-bond-lifestyle/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 17:48:46 +0000",
+        "deadline": null
+      },
+      {
+        "id": "187d812d6866455f1e4d",
+        "title": "Junior Digital & Social Media Associate at Bloom Communications",
+        "url": "https://selibeng.com/junior-digital-social-media-associate-at-bloom-communications/",
+        "source": "Selibeng",
+        "published": "Thu, 19 Nov 2026 15:06:00 +0000",
+        "deadline": null
+      },
       {
         "id": "97dacbb70f19eba04f10",
         "title": "Junior Communications & Translations Associate at Bloom Communications",
@@ -653,90 +733,10 @@
         "source": "Selibeng",
         "published": "Tue, 17 Nov 2026 08:49:16 +0000",
         "deadline": null
-      },
-      {
-        "id": "588d0579ab9eb19014c9",
-        "title": "Monitoring and Evaluation Intern at Help Lesotho",
-        "url": "https://selibeng.com/monitoring-and-evaluation-intern-at-help-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 08:45:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9e877f1896dedeed200a",
-        "title": "Finance and Administration Intern at Help Lesotho",
-        "url": "https://selibeng.com/finance-and-administration-intern-at-help-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 08:44:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b19a99b2ad54358bd788",
-        "title": "Psychosocial Support Intern at Help Lesotho",
-        "url": "https://selibeng.com/psychosocial-support-intern-at-help-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 08:44:25 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d13f0b16b59195464181",
-        "title": "Centre Programming Intern at Help Lesotho",
-        "url": "https://selibeng.com/centre-programming-intern-at-help-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 08:44:08 +0000",
-        "deadline": null
-      },
-      {
-        "id": "be458707e9fae6abe7e4",
-        "title": "Photography and Videography Intern at Help Lesotho",
-        "url": "https://selibeng.com/photography-and-videography-intern-at-help-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 08:43:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "df0c822ca093514ec4b5",
-        "title": "Computer and IT Intern at Help Lesotho",
-        "url": "https://selibeng.com/computer-and-it-intern-at-help-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 08:42:54 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7f51b0adaa66a7ce757b",
-        "title": "Content Creative Intern at Utopian Vision",
-        "url": "https://selibeng.com/content-creative-intern-at-utopian-vision/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 18:31:49 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e9932c1a8d95ce54e90d",
-        "title": "IT Auditor (Associate Auditor) at CGT Associates",
-        "url": "https://selibeng.com/it-auditor-associate-auditor-at-cgt-associates/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 17:56:52 +0000",
-        "deadline": null
-      },
-      {
-        "id": "25b7bc89c5991bd287fa",
-        "title": "Filmmaker & Video Editor at Mercy Tombstones",
-        "url": "https://selibeng.com/filmmaker-video-editor-at-mercy-tombstones/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 17:34:47 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7614de0e6951641bc1b5",
-        "title": "Office Administration Officer Intern at Meraka Civil Works",
-        "url": "https://selibeng.com/office-administration-officer-intern-at-meraka-civil-works/",
-        "source": "Selibeng",
-        "published": "Mon, 16 Nov 2026 17:31:25 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-19T14:38:18.967800+00:00",
-    "updatedAt": "2026-11-19T14:38:18.967800+00:00",
+    "lastAttempt": "2026-11-20T14:16:20.575562+00:00",
+    "updatedAt": "2026-11-20T14:16:20.575562+00:00",
     "status": "ok"
   }
 }
