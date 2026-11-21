@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-20T14:16:20.575562+00:00",
+    "lastAttempt": "2026-11-21T13:39:19.442815+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "4a8a22385b857bf150af",
+        "title": "REOI: Provision of Recruitment Services",
+        "url": "https://selibeng.com/reoi-provision-of-recruitment-services/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 06:32:00 +0000",
+        "deadline": null
+      },
       {
         "id": "8677e4f9f34331f3eef8",
         "title": "Tender – Design, Supply, Installation and Maintenance of a Toll System",
@@ -359,21 +367,69 @@
         "source": "Selibeng",
         "published": "Wed, 21 Oct 2026 07:04:38 +0000",
         "deadline": null
-      },
-      {
-        "id": "d6b016d7324b55d55063",
-        "title": "REOI: Travel Management Companies",
-        "url": "https://selibeng.com/reoi-travel-management-companies/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 17:45:15 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-21T02:59:50.606205+00:00",
-    "updatedAt": "2026-11-21T02:59:50.606205+00:00"
+    "lastAttempt": "2026-11-21T13:39:19.442815+00:00",
+    "updatedAt": "2026-11-21T13:39:19.442815+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "f301701fbfcdaf879db0",
+        "title": "Administrative Associate, Lesotho Country Office",
+        "url": "https://selibeng.com/administrative-associate-lesotho-country-office/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 12:51:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "310f77bde4c019d8773b",
+        "title": "Driver at Feank Cutting & Edging",
+        "url": "https://selibeng.com/driver-at-feank-cutting-edging/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 10:43:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e37c272048832ca8aee5",
+        "title": "Chief Finance & Value Management Officer at Standard Lesotho Bank",
+        "url": "https://selibeng.com/chief-finance-value-management-officer-at-standard-lesotho-bank/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 18:34:18 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0f2ab59f69f959a80554",
+        "title": "Senior Financial Accountant – Projects  at Roads Directorate",
+        "url": "https://selibeng.com/senior-financial-accountant-projects-at-roads-directorate/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 18:34:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "384e6eefd4f5acc6611a",
+        "title": "Senior Procurement Officer (General Procurement) at Roads Directorate",
+        "url": "https://selibeng.com/senior-procurement-officer-general-procurement-at-roads-directorate/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 18:34:08 +0000",
+        "deadline": null
+      },
+      {
+        "id": "1b1b426fc2127aa6ecbb",
+        "title": "Finance Manager at Roads Directorate",
+        "url": "https://selibeng.com/finance-manager-at-roads-directorate/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 18:34:04 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ae9230180ae282476627",
+        "title": "Senior Procurement Officer (Civil Works) at Roads Directorate",
+        "url": "https://selibeng.com/senior-procurement-officer-civil-works-at-roads-directorate/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 18:33:53 +0000",
+        "deadline": null
+      },
       {
         "id": "f336fc6b2a1357e15b1e",
         "title": "Mechanical Engineer at UNIK Construction",
@@ -677,66 +733,10 @@
         "source": "Selibeng",
         "published": "Wed, 18 Nov 2026 09:07:46 +0000",
         "deadline": null
-      },
-      {
-        "id": "0336357860dbf12501c0",
-        "title": "Mathematics and Accounting Teacher at Faith English Medium High School",
-        "url": "https://selibeng.com/mathematics-and-accounting-teacher-at-faith-english-medium-high-school/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 09:07:38 +0000",
-        "deadline": null
-      },
-      {
-        "id": "bac5fa8b98d865b4d5c2",
-        "title": "Agriculture and Physical Science Teacher at Faith English Medium High School",
-        "url": "https://selibeng.com/agriculture-and-physical-science-teacher-at-faith-english-medium-high-school/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 09:07:21 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f4179fc12eac7bb8afce",
-        "title": "Mechanic at Thusong Tool and Equipment Hire & Repairs",
-        "url": "https://selibeng.com/mechanic-at-thusong-tool-and-equipment-hire-repairs/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 09:05:57 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e5ea0bd0fb4a39c58469",
-        "title": "Interns x3 at Thaka-Halifele Transport Services",
-        "url": "https://selibeng.com/interns-x3-at-thaka-halifele-transport-services/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 07:46:47 +0000",
-        "deadline": null
-      },
-      {
-        "id": "4743269307c344e7d8f7",
-        "title": "Car Wash Employees x3 at Elevation Car Wash",
-        "url": "https://selibeng.com/car-wash-employees-x3-at-elevation-car-wash/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 13:33:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "13f9ae3efdb30d8f6543",
-        "title": "Mechanic Assistant, Parts & Logistics Coordinator at Mission Aviation Fellowship (MAF) Lesotho",
-        "url": "https://selibeng.com/mechanic-assistant-parts-logistics-coordinator-at-mission-aviation-fellowship-maf-lesotho/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 12:49:39 +0000",
-        "deadline": null
-      },
-      {
-        "id": "06d2655162b26687275a",
-        "title": "LSP Growth Engine Cohort 3 – 30 Graduate Opportunities",
-        "url": "https://selibeng.com/lsp-growth-engine-cohort-3-30-graduate-opportunities/",
-        "source": "Selibeng",
-        "published": "Tue, 17 Nov 2026 08:49:16 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-20T14:16:20.575562+00:00",
-    "updatedAt": "2026-11-20T14:16:20.575562+00:00",
+    "lastAttempt": "2026-11-21T13:39:19.442815+00:00",
+    "updatedAt": "2026-11-21T13:39:19.442815+00:00",
     "status": "ok"
   }
 }
