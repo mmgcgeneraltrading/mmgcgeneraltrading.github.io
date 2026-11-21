@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "8677e4f9f34331f3eef8",
+        "title": "Tender – Design, Supply, Installation and Maintenance of a Toll System",
+        "url": "https://selibeng.com/tender-design-supply-installation-and-maintenance-of-a-toll-system/",
+        "source": "Selibeng",
+        "published": "Fri, 20 Nov 2026 18:34:33 +0000",
+        "deadline": null
+      },
+      {
         "id": "359c76945e68ec2865ba",
         "title": "EOI: Provision of Ad Hoc Governance Consultancy Services",
         "url": "https://selibeng.com/eoi-provision-of-ad-hoc-governance-consultancy-services/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Mon, 19 Oct 2026 17:45:15 +0000",
         "deadline": null
-      },
-      {
-        "id": "412f2f0224b4df1b62f9",
-        "title": "Invitation to Mandatory Site Inspection",
-        "url": "https://selibeng.com/invitation-to-mandatory-site-inspection/",
-        "source": "Selibeng",
-        "published": "Mon, 19 Oct 2026 09:21:15 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-20T14:16:20.575562+00:00",
-    "updatedAt": "2026-11-20T14:16:20.575562+00:00"
+    "lastAttempt": "2026-11-21T02:59:50.606205+00:00",
+    "updatedAt": "2026-11-21T02:59:50.606205+00:00"
   },
   "local_jobs": {
     "items": [
