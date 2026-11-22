@@ -9,6 +9,14 @@
     "status": "ok",
     "items": [
       {
+        "id": "afa04d77f8e3dfc197c3",
+        "title": "REOI – Engagement of a Recruitment Agent",
+        "url": "https://selibeng.com/reoi-engagement-of-a-recruitment-agent/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 06:34:00 +0000",
+        "deadline": null
+      },
+      {
         "id": "54e09a63c2c2120564e2",
         "title": "Proposed Construction Resurfacing of Driveway Road at The SADC Regional Peacekeeping Training Center",
         "url": "https://selibeng.com/proposed-construction-resurfacing-of-driveway-road-at-the-sadc-regional-peacekeeping-training-center/",
@@ -359,18 +367,10 @@
         "source": "Selibeng",
         "published": "Thu, 22 Oct 2026 07:03:05 +0000",
         "deadline": null
-      },
-      {
-        "id": "21f885a3c63eb432c09e",
-        "title": "Consultancy Firm to Produce a Documentary on The Hashim Mbita Publications on Southern Africa’s Liberations Struggle",
-        "url": "https://selibeng.com/consultancy-firm-to-produce-a-documentary-on-the-hashim-mbita-publications-on-southern-africas-liberations-struggle/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 05:21:37 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-22T01:56:20.321133+00:00",
-    "updatedAt": "2026-11-22T01:56:20.321133+00:00"
+    "lastAttempt": "2026-11-22T09:31:35.838399+00:00",
+    "updatedAt": "2026-11-22T09:31:35.838399+00:00"
   },
   "local_jobs": {
     "items": [
