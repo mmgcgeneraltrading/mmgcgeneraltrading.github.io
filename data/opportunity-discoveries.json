@@ -9,6 +9,22 @@
     "status": "ok",
     "items": [
       {
+        "id": "54e09a63c2c2120564e2",
+        "title": "Proposed Construction Resurfacing of Driveway Road at The SADC Regional Peacekeeping Training Center",
+        "url": "https://selibeng.com/proposed-construction-resurfacing-of-driveway-road-at-the-sadc-regional-peacekeeping-training-center/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 19:15:53 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e1ca4fa07a6d86c08500",
+        "title": "Tender – Removal of Security / Diamond Mesh Fence and Trees, and Replacement with All-Steel Hot-Dipped Galvanized Commercial Palisade Fencing to Cover 302 Metres",
+        "url": "https://selibeng.com/tender-removal-of-security-diamond-mesh-fence-and-trees-and-replacement-with-all-steel-hot-dipped-galvanized-commercial-palisade-fencing-to-cover-302-metres/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 18:25:05 +0000",
+        "deadline": null
+      },
+      {
         "id": "4a8a22385b857bf150af",
         "title": "REOI: Provision of Recruitment Services",
         "url": "https://selibeng.com/reoi-provision-of-recruitment-services/",
@@ -351,26 +367,10 @@
         "source": "Selibeng",
         "published": "Thu, 22 Oct 2026 05:21:37 +0000",
         "deadline": null
-      },
-      {
-        "id": "546eeaa20e78dbcfeef6",
-        "title": "Consultancy to Undertake Capacity Building on STATA in 5 SADC Member States as a Resource Person",
-        "url": "https://selibeng.com/consultancy-to-undertake-capacity-building-on-stata-in-5-sadc-member-states-as-a-resource-person/",
-        "source": "Selibeng",
-        "published": "Wed, 21 Oct 2026 18:47:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "b882f89069146ab2eaa9",
-        "title": "Tender: Installation and Configuration of Palo Alto Prisma Browser Solution to the RSL Environment",
-        "url": "https://selibeng.com/tender-installation-and-configuration-of-palo-alto-prisma-browser-solution-to-the-rsl-environment/",
-        "source": "Selibeng",
-        "published": "Wed, 21 Oct 2026 07:04:38 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-21T13:39:19.442815+00:00",
-    "updatedAt": "2026-11-21T13:39:19.442815+00:00"
+    "lastAttempt": "2026-11-22T01:56:20.321133+00:00",
+    "updatedAt": "2026-11-22T01:56:20.321133+00:00"
   },
   "local_jobs": {
     "items": [
