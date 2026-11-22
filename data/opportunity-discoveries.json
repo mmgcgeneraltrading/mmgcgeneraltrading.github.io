@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-21T13:39:19.442815+00:00",
+    "lastAttempt": "2026-11-22T13:31:58.953244+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,91 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-22T09:31:35.838399+00:00",
-    "updatedAt": "2026-11-22T09:31:35.838399+00:00"
+    "lastAttempt": "2026-11-22T13:31:58.953244+00:00",
+    "updatedAt": "2026-11-22T13:31:58.953244+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "49964e0da040a12a5c14",
+        "title": "Assistant Information Technology Officer at NDSO",
+        "url": "https://selibeng.com/assistant-information-technology-officer-at-ndso/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 10:04:47 +0000",
+        "deadline": null
+      },
+      {
+        "id": "41f6e57c66fa695da52d",
+        "title": "Registrar at Maluti Adventist College",
+        "url": "https://selibeng.com/registrar-at-maluti-adventist-college/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 09:05:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "04a345b7e2fd81dacc63",
+        "title": "Operations Manager at LEC",
+        "url": "https://selibeng.com/operations-manager-at-lec-2/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 08:07:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "d60bfdc985e987b309a2",
+        "title": "Cashiers x2 at Mokorotlong Cuisine & Lounge",
+        "url": "https://selibeng.com/cashiers-x2-at-mokorotlong-cuisine-lounge/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 19:19:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "245373921c430439fefd",
+        "title": "Receptionists x2 at Mokorotlong Cuisine & Lounge",
+        "url": "https://selibeng.com/receptionists-x2-at-mokorotlong-cuisine-lounge/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 19:18:43 +0000",
+        "deadline": null
+      },
+      {
+        "id": "63c4066c8a8ce59e8ce3",
+        "title": "Waitresses x10 at Mokorotlong Cuisine & Lounge",
+        "url": "https://selibeng.com/waitresses-x10-at-mokorotlong-cuisine-lounge/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 19:17:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2d61c3a3ee4a5b764a14",
+        "title": "Independent Sales Consultants x4 – Thaba-Tseka at Metropolitan",
+        "url": "https://selibeng.com/independent-sales-consultants-x4-thaba-tseka-at-metropolitan/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 18:57:25 +0000",
+        "deadline": null
+      },
+      {
+        "id": "087b5a1abfc47b806115",
+        "title": "Independent Sales Consultants x4  – Quthing at Metropolitan",
+        "url": "https://selibeng.com/independent-sales-consultants-x4-quthing-at-metropolitan/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 18:55:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "00d39af0acee1baf643a",
+        "title": "Sales Agents at Mount Everest Tutorial",
+        "url": "https://selibeng.com/sales-agents-at-mount-everest-tutorial/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 18:37:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e148426bd120b988245d",
+        "title": "Part-Time Positions at Royal Spring Guest House",
+        "url": "https://selibeng.com/part-time-positions-at-royal-spring-guest-house/",
+        "source": "Selibeng",
+        "published": "Sat, 21 Nov 2026 18:30:37 +0000",
+        "deadline": null
+      },
       {
         "id": "f301701fbfcdaf879db0",
         "title": "Administrative Associate, Lesotho Country Office",
@@ -653,90 +733,10 @@
         "source": "Selibeng",
         "published": "Wed, 18 Nov 2026 18:55:38 +0000",
         "deadline": null
-      },
-      {
-        "id": "6c339d1a905dbfbcc311",
-        "title": "Assistant Personal Secretary at Ministry of Education and Training",
-        "url": "https://selibeng.com/assistant-personal-secretary-at-ministry-of-education-and-training-2/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:37:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a2a019bef92809f29afb",
-        "title": "Literacy Resource Teacher at Ministry of Education and Training",
-        "url": "https://selibeng.com/literacy-resource-teacher-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:22:30 +0000",
-        "deadline": null
-      },
-      {
-        "id": "656dce3696a6fc40f00c",
-        "title": "Technical Inspector – Home Economics/Consumer Science at Ministry of Education and Training",
-        "url": "https://selibeng.com/technical-inspector-home-economics-consumer-science-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:18:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1abaafcbf415a0488f16",
-        "title": "Human Resources Manager at Ministry of Education and Training",
-        "url": "https://selibeng.com/human-resources-manager-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:08:29 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9e168571e684e4356f85",
-        "title": "Subject Specialist – Mathematics at Ministry of Education and Training",
-        "url": "https://selibeng.com/subject-specialist-mathematics-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:06:40 +0000",
-        "deadline": null
-      },
-      {
-        "id": "bae7ae9233f730b3678a",
-        "title": "HIV and AIDS Coordinator at Ministry of Education and Training",
-        "url": "https://selibeng.com/hiv-and-aids-coordinator-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:05:30 +0000",
-        "deadline": null
-      },
-      {
-        "id": "edf49c58cbb7fb78de18",
-        "title": "Subject Specialist – Design and Technology at Ministry of Education and Training",
-        "url": "https://selibeng.com/subject-specialist-design-and-technology-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:02:34 +0000",
-        "deadline": null
-      },
-      {
-        "id": "037e1cf603ff3b20f51e",
-        "title": "Subject Specialist – Geography at Ministry of Education and Training",
-        "url": "https://selibeng.com/subject-specialist-geography-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 14:01:32 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c0659223f685538c42c3",
-        "title": "Butcher / Meat Cutter at Cornel Bright Meat Supply",
-        "url": "https://selibeng.com/butcher-meat-cutter-at-cornel-bright-meat-supply/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 09:51:17 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f6044b730496cae8b1a2",
-        "title": "English and Sesotho Teacher at Faith English Medium High School",
-        "url": "https://selibeng.com/english-and-sesotho-teacher-at-faith-english-medium-high-school/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 09:07:46 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-21T13:39:19.442815+00:00",
-    "updatedAt": "2026-11-21T13:39:19.442815+00:00",
+    "lastAttempt": "2026-11-22T13:31:58.953244+00:00",
+    "updatedAt": "2026-11-22T13:31:58.953244+00:00",
     "status": "ok"
   }
 }
