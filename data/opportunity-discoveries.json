@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-22T13:31:58.953244+00:00",
+    "lastAttempt": "2026-11-23T16:21:59.978852+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,83 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-23T02:20:20.975456+00:00",
-    "updatedAt": "2026-11-23T02:20:20.975456+00:00"
+    "lastAttempt": "2026-11-23T16:21:59.978852+00:00",
+    "updatedAt": "2026-11-23T16:21:59.978852+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "1dd8704b2d843bdcf7ec",
+        "title": "Sign Writer & Welder at Excel High Academy Mafeteng",
+        "url": "https://selibeng.com/sign-writer-welder-at-excel-high-academy-mafeteng/",
+        "source": "Selibeng",
+        "published": "Mon, 23 Nov 2026 13:10:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a17622c65fd45889869d",
+        "title": "Primary School Teacher x2 at Toddlers Town School",
+        "url": "https://selibeng.com/primary-school-teacher-x2-at-toddlers-town-school/",
+        "source": "Selibeng",
+        "published": "Mon, 23 Nov 2026 12:31:20 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9a8f810164d20a43a03c",
+        "title": "Marketing Manager at Calisto’s Portuguese Restaurant",
+        "url": "https://selibeng.com/marketing-manager-at-calistos-portuguese-restaurant/",
+        "source": "Selibeng",
+        "published": "Mon, 23 Nov 2026 12:30:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f00b398ef2455bf81248",
+        "title": "Tender Assistant at UNIK Construction",
+        "url": "https://selibeng.com/tender-assistant-at-unik-construction/",
+        "source": "Selibeng",
+        "published": "Mon, 23 Nov 2026 07:09:42 +0000",
+        "deadline": null
+      },
+      {
+        "id": "04fcdd5e499200c58b9f",
+        "title": "Receptionist at Excel High Academy Mafeteng",
+        "url": "https://selibeng.com/receptionist-at-excel-high-academy-mafeteng/",
+        "source": "Selibeng",
+        "published": "Mon, 23 Nov 2026 06:17:57 +0000",
+        "deadline": null
+      },
+      {
+        "id": "71027e4220e8e6d73794",
+        "title": "Scullery Attendant at Global Guest House",
+        "url": "https://selibeng.com/scullery-attendant-at-global-guest-house/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 14:52:11 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3a2e9aa78206ae71c0a2",
+        "title": "Receptionist at Global Guest House",
+        "url": "https://selibeng.com/receptionist-at-global-guest-house/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 14:50:44 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6e0ad25eb33b29d5eb6f",
+        "title": "Security Personnel at Global Guest House",
+        "url": "https://selibeng.com/security-personnel-at-global-guest-house/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 14:49:56 +0000",
+        "deadline": null
+      },
+      {
+        "id": "97b571509ebb523688a0",
+        "title": "Waiter / Waitress at Global Guest House",
+        "url": "https://selibeng.com/waiter-waitress-at-global-guest-house/",
+        "source": "Selibeng",
+        "published": "Sun, 22 Nov 2026 14:48:36 +0000",
+        "deadline": null
+      },
       {
         "id": "49964e0da040a12a5c14",
         "title": "Assistant Information Technology Officer at NDSO",
@@ -661,82 +733,10 @@
         "source": "Selibeng",
         "published": "Thu, 19 Nov 2026 08:59:38 +0000",
         "deadline": null
-      },
-      {
-        "id": "38aa8ff54661f23ac6bc",
-        "title": "Regional Inspector – North at Ministry of Education and Training",
-        "url": "https://selibeng.com/regional-inspector-north-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 08:52:21 +0000",
-        "deadline": null
-      },
-      {
-        "id": "084c7eb18e6a46469423",
-        "title": "Inspector x3 at Ministry of Education and Training",
-        "url": "https://selibeng.com/inspector-x3-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 06:59:38 +0000",
-        "deadline": null
-      },
-      {
-        "id": "92afbf8db86419db689c",
-        "title": "NFE Manager at Ministry of Education and Training",
-        "url": "https://selibeng.com/nfe-manager-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 06:38:01 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9c3f02cf025bb792a4a9",
-        "title": "Technical Inspector – Tourism & Hospitality at Ministry of Education and Training",
-        "url": "https://selibeng.com/technical-inspector-tourism-hospitality-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 06:36:51 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ea362a2bb304bf1dfc74",
-        "title": "Procurement Assistant at Ministry of Education and Training",
-        "url": "https://selibeng.com/procurement-assistant-at-ministry-of-education-and-training-3/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 19:06:10 +0000",
-        "deadline": null
-      },
-      {
-        "id": "936ae7a948f0c9bc4049",
-        "title": "Inspector (Religion) at Ministry of Education and Training",
-        "url": "https://selibeng.com/inspector-religion-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 19:05:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "dcb2206dae1a8b7d1f8a",
-        "title": "Driver (Mohale’s Hoek) at Ministry of Education and Training",
-        "url": "https://selibeng.com/driver-mohales-hoek-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 19:00:47 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c84a1a9541c532941ef8",
-        "title": "Personal Secretary (Inspectorate) at Ministry of Education and Training",
-        "url": "https://selibeng.com/personal-secretary-inspectorate-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 19:00:02 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0b0452a06af523d9b3f1",
-        "title": "Non-Formal Education Officer at Ministry of Education and Training",
-        "url": "https://selibeng.com/non-formal-education-officer-at-ministry-of-education-and-training/",
-        "source": "Selibeng",
-        "published": "Wed, 18 Nov 2026 18:55:38 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-22T13:31:58.953244+00:00",
-    "updatedAt": "2026-11-22T13:31:58.953244+00:00",
+    "lastAttempt": "2026-11-23T16:21:59.978852+00:00",
+    "updatedAt": "2026-11-23T16:21:59.978852+00:00",
     "status": "ok"
   }
 }
