@@ -2,12 +2,28 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-23T16:21:59.978852+00:00",
+    "lastAttempt": "2026-11-24T16:11:10.968521+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "fd62945268f36872faaf",
+        "title": "Request For Quotations: Old Parliament Rehabilitation",
+        "url": "https://selibeng.com/request-for-quotations-old-parliament-rehabilitation/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 15:51:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6dad846376dec0048e2d",
+        "title": "EOI for Consultancy Services at Maseru City Council",
+        "url": "https://selibeng.com/eoi-for-consultancy-services-at-maseru-city-council/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 13:44:00 +0000",
+        "deadline": null
+      },
       {
         "id": "afa04d77f8e3dfc197c3",
         "title": "REOI – Engagement of a Recruitment Agent",
@@ -351,29 +367,85 @@
         "source": "Selibeng",
         "published": "Thu, 22 Oct 2026 08:24:34 +0000",
         "deadline": null
-      },
-      {
-        "id": "1b6515df268809cdb16b",
-        "title": "Tender – Provision of Pest Control Services",
-        "url": "https://selibeng.com/tender-provision-of-pest-control-services/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 07:10:38 +0000",
-        "deadline": null
-      },
-      {
-        "id": "4fb84c1423d929d0cf4a",
-        "title": "Consultant to Carry out National Training and Technical Assistance on Eurotrace to 4 SADC Member States",
-        "url": "https://selibeng.com/consultant-to-carry-out-national-training-and-technical-assistance-on-eurotrace-to-4-sadc-member-states/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 07:03:05 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-24T05:45:39.062002+00:00",
-    "updatedAt": "2026-11-24T05:45:39.062002+00:00"
+    "lastAttempt": "2026-11-24T16:11:10.968521+00:00",
+    "updatedAt": "2026-11-24T16:11:10.968521+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "421d586d49d125a83561",
+        "title": "Primary School Teacher at Bophelong Junior Primary School",
+        "url": "https://selibeng.com/primary-school-teacher-at-bophelong-junior-primary-school/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 16:10:25 +0000",
+        "deadline": null
+      },
+      {
+        "id": "599349a306ae302f7271",
+        "title": "Pre-School Teacher at Bophelong Junior Primary School",
+        "url": "https://selibeng.com/pre-school-teacher-at-bophelong-junior-primary-school/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 16:03:07 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c791a8ba476dc414fcbd",
+        "title": "Housekeeping Staff x3",
+        "url": "https://selibeng.com/housekeeping-staff-x3/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 14:09:12 +0000",
+        "deadline": null
+      },
+      {
+        "id": "da13ee0a83ae5b636592",
+        "title": "News Presenters at PC FM",
+        "url": "https://selibeng.com/news-presenters-at-pc-fm/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 13:28:19 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8aa7c0e0cdaf7c4c9dcc",
+        "title": "Assistant Administration and Finance Officer (AAFO) at Ministry of Agriculture, Food Security and Nutrition",
+        "url": "https://selibeng.com/assistant-administration-and-finance-officer-aafo-at-ministry-of-agriculture-food-security-and-nutrition/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 11:15:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b6428c84be076f6ac01f",
+        "title": "Principal at Mafube English Medium High School",
+        "url": "https://selibeng.com/principal-at-mafube-english-medium-high-school/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 08:21:32 +0000",
+        "deadline": null
+      },
+      {
+        "id": "02aaddf17a3d6f430641",
+        "title": "Deputy Principal at Floating Zoo Academy",
+        "url": "https://selibeng.com/deputy-principal-at-floating-zoo-academy/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 07:59:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b2856a12941d45478981",
+        "title": "Pharmacist Intern at Cosmetics World & Pharmacy",
+        "url": "https://selibeng.com/pharmacist-intern-at-cosmetics-world-pharmacy/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 07:58:38 +0000",
+        "deadline": null
+      },
+      {
+        "id": "6dc8a172c529390476f1",
+        "title": "Administrative Secretary at Bacha Re Bacha Youth Forum (BRB)",
+        "url": "https://selibeng.com/administrative-secretary-at-bacha-re-bacha-youth-forum-brb/",
+        "source": "Selibeng",
+        "published": "Mon, 23 Nov 2026 17:14:41 +0000",
+        "deadline": null
+      },
       {
         "id": "1dd8704b2d843bdcf7ec",
         "title": "Sign Writer & Welder at Excel High Academy Mafeteng",
@@ -661,82 +733,10 @@
         "source": "Selibeng",
         "published": "Thu, 19 Nov 2026 15:06:00 +0000",
         "deadline": null
-      },
-      {
-        "id": "97dacbb70f19eba04f10",
-        "title": "Junior Communications & Translations Associate at Bloom Communications",
-        "url": "https://selibeng.com/junior-communications-translations-associate-at-bloom-communications/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 14:08:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "0412f860758c01cba89e",
-        "title": "Business Development & Sales Agents at KIEE Consultancy",
-        "url": "https://selibeng.com/business-development-sales-agents-at-kiee-consultancy/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 12:59:41 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9659d8d8323c7aca9fc2",
-        "title": "Business Support Associates at KIEE Consultancy",
-        "url": "https://selibeng.com/business-support-associates-at-kiee-consultancy/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 12:59:22 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c7b50a74f146e90c63b9",
-        "title": "Graduate Trainees at KIEE Consultancy",
-        "url": "https://selibeng.com/graduate-trainees-at-kiee-consultancy/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 12:59:18 +0000",
-        "deadline": null
-      },
-      {
-        "id": "784856815617f6cd2be8",
-        "title": "Cleaning Team Member at CleanCore",
-        "url": "https://selibeng.com/cleaning-team-member-at-cleancore/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 09:39:13 +0000",
-        "deadline": null
-      },
-      {
-        "id": "c81bd4baecfd8ace7bdd",
-        "title": "Barman, Barwoman & Mixologist at Headlines",
-        "url": "https://selibeng.com/barman-barwoman-mixologist-at-headlines/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 09:31:58 +0000",
-        "deadline": null
-      },
-      {
-        "id": "910c1712ec82057dfb17",
-        "title": "Chef at Lindi Guest House",
-        "url": "https://selibeng.com/chef-at-lindi-guest-house/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 09:02:05 +0000",
-        "deadline": null
-      },
-      {
-        "id": "fc03da1713389d272af0",
-        "title": "Massage Therapist at Lindi Guest House",
-        "url": "https://selibeng.com/message-therapist-at-lindi-guest-house/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 09:00:41 +0000",
-        "deadline": null
-      },
-      {
-        "id": "7e04e75f344320516e63",
-        "title": "Waiter / Waitress at Lindi Guest House",
-        "url": "https://selibeng.com/waiter-waitress-at-lindi-guest-house/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 08:59:38 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-23T16:21:59.978852+00:00",
-    "updatedAt": "2026-11-23T16:21:59.978852+00:00",
+    "lastAttempt": "2026-11-24T16:11:10.968521+00:00",
+    "updatedAt": "2026-11-24T16:11:10.968521+00:00",
     "status": "ok"
   }
 }
