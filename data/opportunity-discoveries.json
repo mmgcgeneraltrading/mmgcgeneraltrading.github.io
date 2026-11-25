@@ -2,7 +2,7 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-24T16:11:10.968521+00:00",
+    "lastAttempt": "2026-11-25T15:55:49.318673+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
@@ -369,11 +369,123 @@
         "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-25T04:48:04.240603+00:00",
-    "updatedAt": "2026-11-25T04:48:04.240603+00:00"
+    "lastAttempt": "2026-11-25T15:55:49.318673+00:00",
+    "updatedAt": "2026-11-25T15:55:49.318673+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "5d2bca82804c5b915a17",
+        "title": "Enumerators / Data Collectors x30 at LENEPWHA",
+        "url": "https://selibeng.com/travel-assistant-at-unido/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 15:04:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "929644cdf7c61c179a08",
+        "title": "Assistant Research Coordinator at LENEPWHA",
+        "url": "https://selibeng.com/agribusiness-support-assistant-at-unido/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 14:07:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "404c72b551725df23c00",
+        "title": "Customer Service Advisor (Part-Time) at Incredible Connection",
+        "url": "https://selibeng.com/customer-service-advisor-part-time-at-incredible-connection-2/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 13:17:46 +0000",
+        "deadline": null
+      },
+      {
+        "id": "225b2b88f182ab2cdb58",
+        "title": "Marketing Trainee",
+        "url": "https://selibeng.com/marketing-trainee-2/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 13:04:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "ceaf16186239b8f3080f",
+        "title": "Procurement Officer at IDM Lesotho",
+        "url": "https://selibeng.com/procurement-officer-at-idm-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 10:45:34 +0000",
+        "deadline": null
+      },
+      {
+        "id": "624e4b9c124d3f0b3f26",
+        "title": "Finance Manager at IDM Lesotho",
+        "url": "https://selibeng.com/finance-manager-at-idm-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 09:56:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "49564991bda6d7f06142",
+        "title": "Senior Consultant – Business Development Unit at IDM Lesotho",
+        "url": "https://selibeng.com/senior-consultant-business-development-unit-at-idm-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 07:09:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "37e14e218c16d0a4dbee",
+        "title": "Chef at Refiloe Guest House",
+        "url": "https://selibeng.com/chef-at-refiloe-guest-house/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 06:38:16 +0000",
+        "deadline": null
+      },
+      {
+        "id": "0dd53addc736ae532a86",
+        "title": "Teaching Positions at Lefa Lerotholi Tutorials",
+        "url": "https://selibeng.com/teaching-positions-at-lefa-lerotholi-tutorials/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 06:34:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e35cff114b7a2f910778",
+        "title": "Barbers at The Hair Studio",
+        "url": "https://selibeng.com/barbers-at-the-hair-studio/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 06:27:57 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8f0636a7bf698ff5da3f",
+        "title": "Deputy Rector – Academic Services at IDM Lesotho",
+        "url": "https://selibeng.com/deputy-rector-academic-services-at-idm-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 06:26:54 +0000",
+        "deadline": null
+      },
+      {
+        "id": "eba8a2dc07d1c185c6d9",
+        "title": "District Technical Advisor at EGPAF",
+        "url": "https://selibeng.com/district-technical-advisor-at-egpaf-2/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 06:20:27 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9b66e749c0494b90630e",
+        "title": "Senior Human Resources Officer at IDM Lesotho",
+        "url": "https://selibeng.com/senior-human-resources-officer-at-idm-lesotho/",
+        "source": "Selibeng",
+        "published": "Wed, 25 Nov 2026 06:13:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "b0f0c263f388c91095b0",
+        "title": "Sales and Marketing Officer at TRM Fluid Control",
+        "url": "https://selibeng.com/sales-and-marketing-officer-at-trm-fluid-control/",
+        "source": "Selibeng",
+        "published": "Tue, 24 Nov 2026 16:18:03 +0000",
+        "deadline": null
+      },
       {
         "id": "421d586d49d125a83561",
         "title": "Primary School Teacher at Bophelong Junior Primary School",
@@ -621,122 +733,10 @@
         "source": "Selibeng",
         "published": "Fri, 20 Nov 2026 18:34:18 +0000",
         "deadline": null
-      },
-      {
-        "id": "0f2ab59f69f959a80554",
-        "title": "Senior Financial Accountant – Projects  at Roads Directorate",
-        "url": "https://selibeng.com/senior-financial-accountant-projects-at-roads-directorate/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 18:34:12 +0000",
-        "deadline": null
-      },
-      {
-        "id": "384e6eefd4f5acc6611a",
-        "title": "Senior Procurement Officer (General Procurement) at Roads Directorate",
-        "url": "https://selibeng.com/senior-procurement-officer-general-procurement-at-roads-directorate/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 18:34:08 +0000",
-        "deadline": null
-      },
-      {
-        "id": "1b1b426fc2127aa6ecbb",
-        "title": "Finance Manager at Roads Directorate",
-        "url": "https://selibeng.com/finance-manager-at-roads-directorate/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 18:34:04 +0000",
-        "deadline": null
-      },
-      {
-        "id": "ae9230180ae282476627",
-        "title": "Senior Procurement Officer (Civil Works) at Roads Directorate",
-        "url": "https://selibeng.com/senior-procurement-officer-civil-works-at-roads-directorate/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 18:33:53 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f336fc6b2a1357e15b1e",
-        "title": "Mechanical Engineer at UNIK Construction",
-        "url": "https://selibeng.com/mechanical-engineer-at-unik-construction-2/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 10:26:06 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a6a01e56b11cee81f096",
-        "title": "Teachers at Maseru Private Academy",
-        "url": "https://selibeng.com/teachers-at-maseru-private-academy-3/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 09:22:50 +0000",
-        "deadline": null
-      },
-      {
-        "id": "af467b0d3bdc3045415d",
-        "title": "Loan Assistant Officer at LB Micro Finance",
-        "url": "https://selibeng.com/loan-assistant-officer-at-lb-micro-finance/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 09:19:22 +0000",
-        "deadline": null
-      },
-      {
-        "id": "81776fe6580d48d548e6",
-        "title": "Maths and Physics Teacher at Holy Trinity High School",
-        "url": "https://selibeng.com/maths-and-physics-teacher-at-holy-trinity-high-school/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 09:12:38 +0000",
-        "deadline": null
-      },
-      {
-        "id": "79dcb9593320bf414244",
-        "title": "Shop Assistant at Purple Reign",
-        "url": "https://selibeng.com/shop-assistant-at-purple-reign/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 09:11:24 +0000",
-        "deadline": null
-      },
-      {
-        "id": "835ae397344dc420fcec",
-        "title": "Assistant Finance Manager at Ministry of Defence",
-        "url": "https://selibeng.com/assistant-finance-manager-at-ministry-of-defence/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 06:59:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "9e2c8fc989706297c5dd",
-        "title": "Vacancies at Gracious Luxe Studio",
-        "url": "https://selibeng.com/vacancies-at-gracious-luxe-studio/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 17:54:39 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d2ff7e7718e367033e18",
-        "title": "Administration Manager at Bond Lifestyle",
-        "url": "https://selibeng.com/administration-manager-at-bond-lifestyle/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 17:49:09 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a650ccb64556a21af91d",
-        "title": "Manager at Bond Lifestyle",
-        "url": "https://selibeng.com/manager-at-bond-lifestyle/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 17:48:46 +0000",
-        "deadline": null
-      },
-      {
-        "id": "187d812d6866455f1e4d",
-        "title": "Junior Digital & Social Media Associate at Bloom Communications",
-        "url": "https://selibeng.com/junior-digital-social-media-associate-at-bloom-communications/",
-        "source": "Selibeng",
-        "published": "Thu, 19 Nov 2026 15:06:00 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-24T16:11:10.968521+00:00",
-    "updatedAt": "2026-11-24T16:11:10.968521+00:00",
+    "lastAttempt": "2026-11-25T15:55:49.318673+00:00",
+    "updatedAt": "2026-11-25T15:55:49.318673+00:00",
     "status": "ok"
   }
 }
