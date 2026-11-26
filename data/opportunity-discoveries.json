@@ -2,12 +2,20 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-25T15:55:49.318673+00:00",
+    "lastAttempt": "2026-11-26T15:37:36.378252+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "46bd34bd2d9607633283",
+        "title": "Tender For Catering Services",
+        "url": "https://selibeng.com/national-ecosystem-coordination-expert-at-unido/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 14:14:49 +0000",
+        "deadline": null
+      },
       {
         "id": "fd62945268f36872faaf",
         "title": "Request For Quotations: Old Parliament Rehabilitation",
@@ -359,21 +367,85 @@
         "source": "Selibeng",
         "published": "Thu, 22 Oct 2026 08:26:18 +0000",
         "deadline": null
-      },
-      {
-        "id": "0de50073efb747044ece",
-        "title": "Consultancy: Development and Operationalisation of the National MPDSR System",
-        "url": "https://selibeng.com/consultancy-development-and-operationalisation-of-the-national-mpdsr-system/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 08:24:34 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-26T03:58:20.113109+00:00",
-    "updatedAt": "2026-11-26T03:58:20.113109+00:00"
+    "lastAttempt": "2026-11-26T15:37:36.378252+00:00",
+    "updatedAt": "2026-11-26T15:37:36.378252+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "5d6d97c76b9b21c7892d",
+        "title": "Invigilators x15 at LCE",
+        "url": "https://selibeng.com/invigilators-x15-at-lce/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 15:11:05 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8b75fd2f61a23f8c90d9",
+        "title": "Insurance Sales Agents at TransAfrica Life",
+        "url": "https://selibeng.com/insurance-sales-agents-at-transafrica-life/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 15:09:14 +0000",
+        "deadline": null
+      },
+      {
+        "id": "42e96c812473f2858695",
+        "title": "Restaurant Floor Manager at The Market",
+        "url": "https://selibeng.com/restaurant-floor-manager-at-the-market/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 14:49:01 +0000",
+        "deadline": null
+      },
+      {
+        "id": "557a1b5f97736ec5f523",
+        "title": "General Assistant at OK Furniture",
+        "url": "https://selibeng.com/general-assistant-at-ok-furniture-3/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 09:51:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "9d121d0aabf5e275193d",
+        "title": "Venue Management and Marketing at The Balcony Sunsets",
+        "url": "https://selibeng.com/venue-management-and-marketing-at-the-balcony-sunsets/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 09:00:08 +0000",
+        "deadline": null
+      },
+      {
+        "id": "8f1127f650dd6290e2ad",
+        "title": "Junior Natural Hair Stylist at Terra Naturals",
+        "url": "https://selibeng.com/junior-natural-hair-stylist-at-terra-naturals/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 08:49:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "bc9121fa6dbc9c52b8f7",
+        "title": "Teachers at Ntlhakeng High School",
+        "url": "https://selibeng.com/teachers-at-ntlhakeng-high-school/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 08:32:07 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a4a75ef4441f210a9f95",
+        "title": "Chef at Tsebo",
+        "url": "https://selibeng.com/chef-at-tsebo-2/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 07:37:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "58b2840e289cee9afa98",
+        "title": "Project Director at BCMCF – Lesotho",
+        "url": "https://selibeng.com/project-director-bcmcfl/",
+        "source": "Selibeng",
+        "published": "Thu, 26 Nov 2026 07:21:28 +0000",
+        "deadline": null
+      },
       {
         "id": "5d2bca82804c5b915a17",
         "title": "Enumerators / Data Collectors x30 at LENEPWHA",
@@ -661,82 +733,10 @@
         "source": "Selibeng",
         "published": "Sat, 21 Nov 2026 19:19:27 +0000",
         "deadline": null
-      },
-      {
-        "id": "245373921c430439fefd",
-        "title": "Receptionists x2 at Mokorotlong Cuisine & Lounge",
-        "url": "https://selibeng.com/receptionists-x2-at-mokorotlong-cuisine-lounge/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 19:18:43 +0000",
-        "deadline": null
-      },
-      {
-        "id": "63c4066c8a8ce59e8ce3",
-        "title": "Waitresses x10 at Mokorotlong Cuisine & Lounge",
-        "url": "https://selibeng.com/waitresses-x10-at-mokorotlong-cuisine-lounge/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 19:17:38 +0000",
-        "deadline": null
-      },
-      {
-        "id": "2d61c3a3ee4a5b764a14",
-        "title": "Independent Sales Consultants x4 – Thaba-Tseka at Metropolitan",
-        "url": "https://selibeng.com/independent-sales-consultants-x4-thaba-tseka-at-metropolitan/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 18:57:25 +0000",
-        "deadline": null
-      },
-      {
-        "id": "087b5a1abfc47b806115",
-        "title": "Independent Sales Consultants x4  – Quthing at Metropolitan",
-        "url": "https://selibeng.com/independent-sales-consultants-x4-quthing-at-metropolitan/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 18:55:27 +0000",
-        "deadline": null
-      },
-      {
-        "id": "00d39af0acee1baf643a",
-        "title": "Sales Agents at Mount Everest Tutorial",
-        "url": "https://selibeng.com/sales-agents-at-mount-everest-tutorial/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 18:37:38 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e148426bd120b988245d",
-        "title": "Part-Time Positions at Royal Spring Guest House",
-        "url": "https://selibeng.com/part-time-positions-at-royal-spring-guest-house/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 18:30:37 +0000",
-        "deadline": null
-      },
-      {
-        "id": "f301701fbfcdaf879db0",
-        "title": "Administrative Associate, Lesotho Country Office",
-        "url": "https://selibeng.com/administrative-associate-lesotho-country-office/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 12:51:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "310f77bde4c019d8773b",
-        "title": "Driver at Feank Cutting & Edging",
-        "url": "https://selibeng.com/driver-at-feank-cutting-edging/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 10:43:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "e37c272048832ca8aee5",
-        "title": "Chief Finance & Value Management Officer at Standard Lesotho Bank",
-        "url": "https://selibeng.com/chief-finance-value-management-officer-at-standard-lesotho-bank/",
-        "source": "Selibeng",
-        "published": "Fri, 20 Nov 2026 18:34:18 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-25T15:55:49.318673+00:00",
-    "updatedAt": "2026-11-25T15:55:49.318673+00:00",
+    "lastAttempt": "2026-11-26T15:37:36.378252+00:00",
+    "updatedAt": "2026-11-26T15:37:36.378252+00:00",
     "status": "ok"
   }
 }
