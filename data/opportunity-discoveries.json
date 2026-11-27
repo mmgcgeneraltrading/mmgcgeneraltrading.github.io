@@ -2,12 +2,36 @@
   "jobs": {
     "status": "error",
     "items": [],
-    "lastAttempt": "2026-11-26T15:37:36.378252+00:00",
+    "lastAttempt": "2026-11-27T15:28:28.554080+00:00",
     "error": "Refresh failed; previous results retained. Check source access and API configuration."
   },
   "tenders": {
     "status": "ok",
     "items": [
+      {
+        "id": "7acf103aa523cf143781",
+        "title": "Tender: Supply of Orthotics, Prosthetics and Associated Devices",
+        "url": "https://selibeng.com/tender-supply-of-orthotics-prosthetics-and-associated-devices/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 13:49:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "2d598efacbe4132715fd",
+        "title": "Tender: Supply, Delivery, Installation, Configuration and Commissioning of ICT Network Equipment to SADC RPTC",
+        "url": "https://selibeng.com/tender-supply-delivery-installation-configuration-and-commissioning-of-ict-network-equipment-to-sadc-rptc/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 10:03:00 +0000",
+        "deadline": null
+      },
+      {
+        "id": "5f8377ca18ca22abb953",
+        "title": "Consultancy for The External Evaluation and Project Completion Report for The Macroeconomic Stability and Financial Intergration Project in SADC",
+        "url": "https://selibeng.com/consultancy-for-the-external-evaluation-and-project-completion-report-for-the-macroeconomic-stability-and-financial-intergration-project-in-sadc/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 09:27:00 +0000",
+        "deadline": null
+      },
       {
         "id": "46bd34bd2d9607633283",
         "title": "Tender For Catering Services",
@@ -343,37 +367,85 @@
         "source": "Selibeng",
         "published": "Thu, 29 Oct 2026 09:30:48 +0000",
         "deadline": null
-      },
-      {
-        "id": "450df4e85960aba59d04",
-        "title": "RFP: Supply and Delivery of Katse Luxury Cruise Boat with Associated Infrastructure",
-        "url": "https://selibeng.com/rfp-supply-and-delivery-of-katse-luxury-cruise-boat-with-associated-infrastructure/",
-        "source": "Selibeng",
-        "published": "Tue, 27 Oct 2026 09:59:41 +0000",
-        "deadline": null
-      },
-      {
-        "id": "a77c22e5010ca59eaa7e",
-        "title": "Consultancy for The Development of National Multi-Hazard Early Warning Systems (MHEWS) Roadmaps",
-        "url": "https://selibeng.com/consultancy-for-the-development-of-national-multi-hazard-early-warning-systems-mhews-roadmaps/",
-        "source": "Selibeng",
-        "published": "Fri, 23 Oct 2026 13:50:54 +0000",
-        "deadline": null
-      },
-      {
-        "id": "cb2e9bb19e66ba689d1c",
-        "title": "Consultancy: Raise SRHR Project Coordinator",
-        "url": "https://selibeng.com/consultancy-raise-srhr-project-coordinator/",
-        "source": "Selibeng",
-        "published": "Thu, 22 Oct 2026 08:26:18 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-27T03:57:44.966445+00:00",
-    "updatedAt": "2026-11-27T03:57:44.966445+00:00"
+    "lastAttempt": "2026-11-27T15:28:28.554080+00:00",
+    "updatedAt": "2026-11-27T15:28:28.554080+00:00"
   },
   "local_jobs": {
     "items": [
+      {
+        "id": "4dd76f8ed52230a59540",
+        "title": "Monitoring and Evaluation Manager at IEC",
+        "url": "https://selibeng.com/monitoring-and-evaluation-manager-at-iec/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 14:45:23 +0000",
+        "deadline": null
+      },
+      {
+        "id": "cad7996390db186768f4",
+        "title": "Procurement Manager at IEC",
+        "url": "https://selibeng.com/procurement-manager-at-iec/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 14:44:07 +0000",
+        "deadline": null
+      },
+      {
+        "id": "3b0c2b6d6686e663d696",
+        "title": "Frontal Installation & Styling Specialist",
+        "url": "https://selibeng.com/frontal-installation-styling-specialist/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 14:39:46 +0000",
+        "deadline": null
+      },
+      {
+        "id": "a24adc92f715b84e70bc",
+        "title": "General Manager at Mokorotlong Cuisine & Lounge",
+        "url": "https://selibeng.com/general-manager-at-mokorotlong-cuisine-lounge/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 14:37:29 +0000",
+        "deadline": null
+      },
+      {
+        "id": "37be64ae7ba3b20a5454",
+        "title": "Wool Sorters and Classers (Temporary)",
+        "url": "https://selibeng.com/wool-sorters-and-classers-temporary/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 09:18:52 +0000",
+        "deadline": null
+      },
+      {
+        "id": "e44d93ee819cf504cc20",
+        "title": "Economist – MFD at Central Bank of Lesotho",
+        "url": "https://selibeng.com/economist-mfd-at-central-bank-of-lesotho/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 09:15:46 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f4d055fbd74a18e4ee2e",
+        "title": "Economist – BOP at Central Bank of Lesotho",
+        "url": "https://selibeng.com/economist-bop-at-central-bank-of-lesotho/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 09:13:22 +0000",
+        "deadline": null
+      },
+      {
+        "id": "f45538e9228642b6d647",
+        "title": "Digital Health Expert to support to Africa CDC for the Digital Enablement of the Ebola Response",
+        "url": "https://selibeng.com/digital-health-expert-to-support-to-africa-cdc-for-the-digital-enablement-of-the-ebola-response/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 08:32:45 +0000",
+        "deadline": null
+      },
+      {
+        "id": "c0c27b757944687423f4",
+        "title": "Project Lead – Lesotho",
+        "url": "https://selibeng.com/project-lea-lesotho/",
+        "source": "Selibeng",
+        "published": "Fri, 27 Nov 2026 07:02:22 +0000",
+        "deadline": null
+      },
       {
         "id": "5d6d97c76b9b21c7892d",
         "title": "Invigilators x15 at LCE",
@@ -661,82 +733,10 @@
         "source": "Selibeng",
         "published": "Mon, 23 Nov 2026 07:09:42 +0000",
         "deadline": null
-      },
-      {
-        "id": "04fcdd5e499200c58b9f",
-        "title": "Receptionist at Excel High Academy Mafeteng",
-        "url": "https://selibeng.com/receptionist-at-excel-high-academy-mafeteng/",
-        "source": "Selibeng",
-        "published": "Mon, 23 Nov 2026 06:17:57 +0000",
-        "deadline": null
-      },
-      {
-        "id": "71027e4220e8e6d73794",
-        "title": "Scullery Attendant at Global Guest House",
-        "url": "https://selibeng.com/scullery-attendant-at-global-guest-house/",
-        "source": "Selibeng",
-        "published": "Sun, 22 Nov 2026 14:52:11 +0000",
-        "deadline": null
-      },
-      {
-        "id": "3a2e9aa78206ae71c0a2",
-        "title": "Receptionist at Global Guest House",
-        "url": "https://selibeng.com/receptionist-at-global-guest-house/",
-        "source": "Selibeng",
-        "published": "Sun, 22 Nov 2026 14:50:44 +0000",
-        "deadline": null
-      },
-      {
-        "id": "6e0ad25eb33b29d5eb6f",
-        "title": "Security Personnel at Global Guest House",
-        "url": "https://selibeng.com/security-personnel-at-global-guest-house/",
-        "source": "Selibeng",
-        "published": "Sun, 22 Nov 2026 14:49:56 +0000",
-        "deadline": null
-      },
-      {
-        "id": "97b571509ebb523688a0",
-        "title": "Waiter / Waitress at Global Guest House",
-        "url": "https://selibeng.com/waiter-waitress-at-global-guest-house/",
-        "source": "Selibeng",
-        "published": "Sun, 22 Nov 2026 14:48:36 +0000",
-        "deadline": null
-      },
-      {
-        "id": "49964e0da040a12a5c14",
-        "title": "Assistant Information Technology Officer at NDSO",
-        "url": "https://selibeng.com/assistant-information-technology-officer-at-ndso/",
-        "source": "Selibeng",
-        "published": "Sun, 22 Nov 2026 10:04:47 +0000",
-        "deadline": null
-      },
-      {
-        "id": "41f6e57c66fa695da52d",
-        "title": "Registrar at Maluti Adventist College",
-        "url": "https://selibeng.com/registrar-at-maluti-adventist-college/",
-        "source": "Selibeng",
-        "published": "Sun, 22 Nov 2026 09:05:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "04a345b7e2fd81dacc63",
-        "title": "Operations Manager at LEC",
-        "url": "https://selibeng.com/operations-manager-at-lec-2/",
-        "source": "Selibeng",
-        "published": "Sun, 22 Nov 2026 08:07:00 +0000",
-        "deadline": null
-      },
-      {
-        "id": "d60bfdc985e987b309a2",
-        "title": "Cashiers x2 at Mokorotlong Cuisine & Lounge",
-        "url": "https://selibeng.com/cashiers-x2-at-mokorotlong-cuisine-lounge/",
-        "source": "Selibeng",
-        "published": "Sat, 21 Nov 2026 19:19:27 +0000",
-        "deadline": null
       }
     ],
-    "lastAttempt": "2026-11-26T15:37:36.378252+00:00",
-    "updatedAt": "2026-11-26T15:37:36.378252+00:00",
+    "lastAttempt": "2026-11-27T15:28:28.554080+00:00",
+    "updatedAt": "2026-11-27T15:28:28.554080+00:00",
     "status": "ok"
   }
 }
